@@ -3,7 +3,6 @@ import styles from './homeImage.module.css'
 
 export default function HomeImage() {
   return <>
-    <div className={styles.homeImage}>
       <div className={styles.homeContainer}>
         <div className={styles.headerText}>
           <h1 className={styles.ukName}>Prof. Dr. Ulrich Kaiser</h1>
@@ -47,6 +46,6 @@ export default function HomeImage() {
           </div>
         </div>
       </div>
-    </div>
+
   </>
 } 
