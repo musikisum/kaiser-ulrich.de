@@ -23,7 +23,7 @@ export default function Home() {
               <h2 className='hmtm'>Hochschule für Musik und Theater München</h2>
             </div>
             <div className='homeImageContainer'>
-              <img id="homeImage" src="/home.svg"></img>
+              <img id="homeImage" src="/home2.svg"></img>
               <div className='homeGrid'>
                 <div className='_d1 box'>
                   <Link className='window' href='/'>Lehre</Link>
