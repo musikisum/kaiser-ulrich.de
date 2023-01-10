@@ -7,8 +7,7 @@
 }  
 
 .headerText {
-  margin-top: 2em;
-  padding-top: 4em;
+  padding-top: 6%;
   height: 200px; 
   font-style: italic;
 } 
@@ -130,4 +129,31 @@ a.big:hover {
 ._ur {
   grid-column: 11/17;
   grid-row: 17/19;
+}
+
+  /* Mobile */
+  @media (max-width: 700px) {  
+    /* Hier kommt noch ein Handy-Layout hin */
+  }
+  
+  /* Tablet */
+  @media (min-width: 701px) and (max-width: 1120px) {
+    .headerText {
+      margin-top: 0;
+    }
+  }
+
+ /* Smaller Desktop */
+
+ @media (min-width: 1121px) {
+  .headerText {
+    margin-top: 80px;
+  }
+}
+
+  /* DT Displays */
+@media (min-width: 1920px) {
+  .headerText {
+    margin-top: 120px;
+  }
 }

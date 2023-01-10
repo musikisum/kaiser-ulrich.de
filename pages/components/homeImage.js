@@ -13,7 +13,7 @@ export default function HomeImage() {
           <img className={styles.image100} src="/images/home1200oF.svg"></img>
           <div className={styles.homeGrid}>
             <div className={styles._d1}>
-              <Link className={styles.window} href='/'>Lehre</Link>
+              <Link className={styles.window} href='/'>Projekte</Link>
             </div>
             <div className={styles._11}>
               <Link className={styles.window} href='/wissenschaft/articles'>Wissenschaft</Link>
@@ -22,7 +22,7 @@ export default function HomeImage() {
               <Link className={styles.window} href='/'>Publikationen</Link>
             </div>
             <div className={styles._21}>
-              <Link className={styles.window} href='/'>Projekte</Link>
+              <Link className={styles.window} href='/'>Lehre</Link>
             </div>
             <div className={styles._22}>
               <Link className={styles.window} href='/'>Vita</Link>
@@ -35,12 +35,12 @@ export default function HomeImage() {
             </div>
             <div className={styles._ul}>
               <Link className={styles.window} href='/'>
-                <img className={styles.image100} src="/images/homeFenster.svg"></img>
+                <img className={styles.image100} src="/images/homeFenster2.svg"></img>
               </Link>
             </div>
             <div className={styles._ur}>
               <Link className={styles.window} href='/'>
-                <img className={styles.image100} src="/images/homeFenster.svg"></img>
+                <img className={styles.image100} src="/images/homeFenster2.svg"></img>
               </Link>
             </div>
           </div>

@@ -73,10 +73,15 @@
   }
 } */
 
+body {
+  background-color: rgb(216, 255, 216);
+}
+
 main {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  background-color: white;
 } 
 
   /* Enable hover only on non-touch devices */
@@ -102,20 +107,13 @@ main {
   }
   
   /* Mobile */
-  @media (max-width: 700px) {
-    
-  
-    
-  }
+  @media (max-width: 700px) { }
   
   /* Tablet and Smaller Desktop */
-  @media (min-width: 701px) and (max-width: 1120px) {
-    
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    
-  } 
+  @media (min-width: 701px) and (max-width: 1120px) { }
+
+  /* DT Displays */
+  @media (min-width: 1120px) { }
   
   * {
     box-sizing: border-box;

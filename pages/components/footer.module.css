@@ -3,7 +3,6 @@
     width: 100%;
     height: 60px;
     display: flex;
-    background-color: aqua;
     justify-content: center;
     align-items: center;
 }
@@ -11,4 +10,9 @@
 .link {
     display: block;
     margin-right: 20px;
+    color: inherit;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
 }
