@@ -1,0 +1,48 @@
+[{
+    "title": "Die Notenbücher der Mozarts als Grundlage der Analyse von W. A. Mozarts Kompositionen 1761−1767",
+    "details": "Kassel 2007",
+    "image": "/images/books/kaiser_mozart.png",
+    "link": "https://mozartforschung.de/"
+  },{
+    "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse. Ein Lehrgang mit historischen Beispiele",
+    "details": "Grundkurs, Bärenreiter Studienbücher Musik Bd. 10 (= BSM 10), mit Audio-CD, Kassel 1998",
+    "image": "/images/books/kaiser_gehoerbildung-1.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1159/"
+  },
+  {
+    "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse. Ein Lehrgang mit historischen Beispielen.",
+    "details": "Aufbaukurs, mit einem Formkapitel von Hartmut Fladt, Bärenreiter Studienbücher Musik Bd. 11 (= BSM 11), mit Audio-CD, Kassel 1998",
+    "image": "/images/books/kaiser_gehoerbildung-2.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1160/"
+  },
+  {
+    "title": "Der vierstimmige Satz. Kantionalsatz und Choralsatz",
+    "details": "Bärenreiter Studienbücher Musik Bd. 12 (= BSM 12), mit CD-ROM, Kassel 2002",
+    "image": "/images/books/kaiser_4Satz-de.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1478/"
+  },
+  {
+    "title": "Il corale. Nello stile di Heinrich Schütz e Johann Sebastian Bach",
+    "details": "Milano 2007 (ital. Übersetzung)",
+    "image": "/images/books/kaiser_4Satz-it.png",
+    "link": null
+  },
+  {
+    "title": "Arrangieren und Instrumentieren. Barock bis Pop",
+    "details": "Bärenreiter Studienbücher Musik Bd. 14 (= BSM 14), mit CD, Kassel 2005 (zusammen mit Carsten Gerlitz)",
+    "image": "/images/books/kaiser_arrangieren.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1662/"
+  },
+  {
+    "title": "Lamentobass. Ein musikalischer Topos von Monteverdi bis zu den Eagles",
+    "details": "(= Applaus 24), mit Audio-CD, Leipzig 2006",
+    "image": "/images/books/kaiser_lamentobass.png",
+    "link": null
+  },
+  {
+    "title": "Sonatenspiele. Musikmachen im Klassenverband",
+    "details": "(= Applaus 17), unter Mitarbeit von Hans-Ulrich Schäfer-Lembeck, mit CD-ROM/Audio-CD, Leipzig 2003",
+    "image": "/images/books/kaiser_sonatenspiele.png",
+    "link": null
+  }
+]

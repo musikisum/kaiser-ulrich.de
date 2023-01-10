@@ -9,15 +9,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Prof. Dr. Ulrich Kaiser</title>
         <meta name="description" content="Homepage von Prof. Dr. Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/images/icon.png" />
       </Head>
-      <main>
-        <HomeImage />
-      </main>      
-      <Footer style={{ marginTop: 'auto' }} />
+      className=''
+      <div className='mainContainer'>      
+        <main className='main'>
+          <HomeImage />
+        </main>
+        <div style={{ backgroundColor: '#d8ffd8', width: '100%' }} >
+          <Footer className='footer'  />
+        </div>       
+        <div className='green'></div>
+      </div>
     </>
   )
 }
