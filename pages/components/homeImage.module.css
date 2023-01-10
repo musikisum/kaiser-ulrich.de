@@ -8,10 +8,13 @@
   margin: 0;
 }
 .hmtmFunctions { 
-  margin-top: 10px; 
+  margin-top: 15px; 
+  margin-bottom: 0;
+  font-weight: lighter;
 }
 .hmtm { 
-  margin-top: 10px;
+  margin-top: 0;  
+  font-weight: lighter;
 }
   
 

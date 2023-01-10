@@ -5,7 +5,7 @@ export default function HomeImage() {
   return <>
     <div className={styles.headerText}>
       <h1 className={styles.ukName}>Prof. Dr. Ulrich Kaiser</h1>
-      <h2 className={styles.hmtmFunctions}>Musiktheorie / OER / Multimedia</h2>
+      <h2 className={styles.hmtmFunctions}>OER / Musiktheorie / Multimedia</h2>
       <h2 className={styles.hmtm}>Hochschule für Musik und Theater München</h2>
     </div>
     <div className={styles.homeImageContainer}>
@@ -21,10 +21,10 @@ export default function HomeImage() {
           <Link className={styles.window} href='/publikationen'>Publikationen</Link>
         </div>
         <div className={styles._21}>
-          <Link className={styles.window} href='/unterricht'>Lehre</Link>
+          <Link className={styles.window} href='/unterricht'>Fortbildungen</Link>
         </div>
         <div className={styles._22}>
-          <Link className={styles.window} href='/'>Fortbildungen</Link>
+          <Link className={styles.window} href='/'>Lehre</Link>
         </div>
         <div className={styles._31}>
           <Link className={styles.window} href='/'>Gesang</Link>

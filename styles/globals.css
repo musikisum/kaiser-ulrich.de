@@ -117,10 +117,14 @@ main {
   margin-bottom: 20px;
 }
 
+.footerContainer {
+  background-color: rgb(188, 183, 172);
+  width: 100%;
+}
 .green {
   flex: 1 0 auto;
   align-self: stretch;
-  background-color: rgb(216, 255, 216);
+  background-color: #defcde;
 }
 
 /* Enable hover only on non-touch devices */

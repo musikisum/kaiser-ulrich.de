@@ -14,12 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      className=''
       <div className='mainContainer'>      
         <main className='main'>
           <HomeImage />
         </main>
-        <div style={{ backgroundColor: '#d8ffd8', width: '100%' }} >
+        <div className='footerContainer' >
           <Footer className='footer'  />
         </div>       
         <div className='green'></div>
