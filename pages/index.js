@@ -18,10 +18,7 @@ export default function Home() {
         <main className='main'>
           <HomeImage />
         </main>
-        <div className='footerContainer' >
-          <Footer className='footer'  />
-        </div>       
-        <div className='green'></div>
+        <Footer className='footer'  />    
       </div>
     </>
   )

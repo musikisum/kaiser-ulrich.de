@@ -1,5 +1,4 @@
 .headerText {
-  height: 200px; 
   font-style: italic;
   text-align: center;
 } 
@@ -54,6 +53,7 @@ a.window {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -6%;
 }
 a.window:hover {
   border-color: gray;
@@ -77,17 +77,17 @@ a.big:hover {
 
 ._d1 {
   grid-column: 18/22;
-  grid-row: 5/7;
+  grid-row: 6/8;
   margin-left: 10%;
 }
 ._11 {
   grid-column: 11/17;
-  grid-row: 8/10;
+  grid-row: 9/11;
   margin-right: 6%;
 }
 ._12 {
   grid-column: 11/17;
-  grid-row: 11/13;
+  grid-row: 12/14;
   margin-right: 6%;
 }
 ._13 {
@@ -98,22 +98,22 @@ a.big:hover {
 }
 ._21 {
   grid-column: 18/22;
-  grid-row: 8/10;
+  grid-row: 9/11;
   margin-left: 10%;
 }
 ._22 {
   grid-column: 18/22;
-  grid-row: 11/13;
+  grid-row: 12/14;
   margin-left: 10%;
 }
 ._31 {
   grid-column: 24/30;
-  grid-row: 8/10;
+  grid-row: 9/11;
   margin-right: 6%;
 }
 ._32 {
   grid-column: 24/30;
-  grid-row: 11/13;
+  grid-row: 12/14;
   margin-right: 6%;
 }
 ._33 {
@@ -140,21 +140,46 @@ a.big:hover {
   /* Tablet */
   @media (min-width: 701px) and (max-width: 1120px) {
     .headerText {
-      margin-top: 0;
+      margin-top: 20px;
+      height: 100px;
+    }
+    .ukName { 
+      font-size: 2em; 
+    }
+    .hmtmFunctions { 
+      font-size: 1em;
+      font-weight: 50em;
+    }
+    .hmtm { 
+      font-size: 1em;
+      font-weight: 50em;
     }
   }
 
  /* Smaller Desktop */
 
  @media (min-width: 1121px) {
-  .headerText {
-    margin-top: 80px;
+    .headerText {
+      margin-top: 40px;
+      height: 120px;
+    }
+    .ukName { 
+      font-size: 2em; 
+    }
+    .hmtmFunctions { 
+      font-size: 1.5em;
+      font-weight: 50em;
+    }
+    .hmtm { 
+      font-size: 1.5em;
+      font-weight: 50em;
+    }
   }
-}
 
   /* DT Displays */
 @media (min-width: 1920px) {
   .headerText {
-    margin-top: 120px;
+    margin-top: 80px;
+    height: 180px;
   }
 }
