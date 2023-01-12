@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from './homeImage.module.css'
 
 export default function HomeImage() {
@@ -34,7 +35,7 @@ export default function HomeImage() {
         </div>
         <div className={styles._ul}>
           <Link className={styles.window} href='/'>
-            <img className={styles.image100} src="/images/homeFenster2.svg"></img>
+            <img className={styles.image100} src="/images/homeFenster2.svg" />
           </Link>
         </div>
         <div className={styles._ur}>
