@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from './homeImage.module.css'
 
 export default function HomeImage() {
+
+
   return <>
     <div className={styles.headerText}>
       <h1 className={styles.ukName}>Prof. Dr. Ulrich Kaiser</h1>
@@ -10,7 +12,8 @@ export default function HomeImage() {
       <h2 className={styles.hmtm}>Hochschule für Musik und Theater München</h2>
     </div>
     <div className={styles.homeImageContainer}>
-      <img className={styles.image100} src="/images/home1200oF.svg"></img>
+      <img className={styles.homeWoImage} src="/images/home1200oF.svg"></img>
+      <img className={styles.homeWImage} src="/images/home1200mF.svg"></img>
       <div className={styles.homeGrid}>
         <div className={styles._d1}>
           <Link className={styles.window} href='/'>Projekte</Link>
@@ -34,14 +37,16 @@ export default function HomeImage() {
           <Link className={styles.window} href='/'>Chorleitung</Link>
         </div>
         <div className={styles._ul}>
-          <Link className={styles.window} href='/'>
-            <img className={styles.image100} src="/images/homeFenster2.svg" />
+          <Link className={styles.windowULeft} href='/'>
+            <img className={styles.windowULeftImage} src="/images/homeFenster2.svg" />            
           </Link>
+          <Link className={styles.windowULeftText} href='/'>Vita</Link>
         </div>
         <div className={styles._ur}>
-          <Link className={styles.window} href='/'>
-            <img className={styles.image100} src="/images/homeFenster2.svg"></img>
+          <Link className={styles.windowURight} href='/'>
+            <img className={styles.windowURightImage} src="/images/homeFenster2.svg"></img>            
           </Link>
+          <Link className={styles.windowURightText} href='/'>zur Person</Link>
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 .headerText {
   font-style: italic;
   text-align: center;
+  margin-top: 100px;
+  height: 200px;
 } 
 .ukName { 
   font-weight: 300em; 
@@ -14,15 +16,18 @@
 .hmtm { 
   margin-top: 0;  
   font-weight: lighter;
-}
-  
-
+}  
 .homeImageContainer {
   width: 100%;
   position: relative;
 }
-.image100 {
+.homeWImage {
   width: 100%;
+  display: none;
+}
+.homeWoImage {
+  width: 100%;
+  display: block;
 }
 
 .homeGrid {
@@ -36,7 +41,7 @@
   grid-template-rows: repeat(20, 1fr);
 }
 
-a.window {
+a.window, a.windowULeft, a.windowURight {
   display: block;
   width: 100%;
   height: 100%;
@@ -55,25 +60,28 @@ a.window {
   align-items: center;
   margin-top: -6%;
 }
-a.window:hover {
+a.window:hover, a.windowULeft:hover, a.windowURight:hover {
   border-color: gray;
   background-color: rgb(255, 249, 214);
   transition-delay: 0s;
   color: black;
   font-weight: bolder;
 }
-a.big {
+a.windowULeftImage, .windowURightImage {
+  max-width: 100%;
   background-color: transparent;
   border: 0;
-  color: transparent
+  display: relative !important;
 }
-a.big:hover {
-  height: 120%;
-  width: 102%;
-  margin-top: -4%;
-  background-color: rgb(255, 249, 214, 0.8);
-  color: black;
+a.windowULeftText, a.windowURightText {
+  display: block;
+  padding-top: 6px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black
 }
+
 
 ._d1 {
   grid-column: 18/22;
@@ -132,54 +140,106 @@ a.big:hover {
   grid-row: 17/19;
 }
 
-  /* Mobile */
-  @media (max-width: 700px) {  
-    /* Hier kommt noch ein Handy-Layout hin */
-  }
-  
-  /* Tablet */
-  @media (min-width: 701px) and (max-width: 1120px) {
-    .headerText {
-      margin-top: 20px;
-      height: 100px;
-    }
-    .ukName { 
-      font-size: 2em; 
-    }
-    .hmtmFunctions { 
-      font-size: 1em;
-      font-weight: 50em;
-    }
-    .hmtm { 
-      font-size: 1em;
-      font-weight: 50em;
-    }
-  }
-
- /* Smaller Desktop */
-
- @media (min-width: 1121px) {
-    .headerText {
-      margin-top: 40px;
-      height: 120px;
-    }
-    .ukName { 
-      font-size: 2em; 
-    }
-    .hmtmFunctions { 
-      font-size: 1.5em;
-      font-weight: 50em;
-    }
-    .hmtm { 
-      font-size: 1.5em;
-      font-weight: 50em;
-    }
-  }
-
-  /* DT Displays */
-@media (min-width: 1920px) {
+/* DT Displays */
+@media (max-width: 1920px) {
   .headerText {
     margin-top: 80px;
     height: 180px;
+  }
+}
+
+/* Smaller Desktop */
+@media (max-width: 1121px) {
+  .headerText {
+    margin-top: 40px;
+    height: 120px;
+  }
+  .hmtmFunctions { 
+    font-size: 1.5em;
+  }
+  .hmtm { 
+    font-size: 1.5em;
+  }
+  .window {
+    font-size: 1em !important;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1120px) {
+  .headerText {
+    margin-top: 20px;
+    height: 100px;
+  }
+  .ukName { 
+    font-size: 2em; 
+  }
+  .hmtmFunctions { 
+    font-size: 1em;
+    font-weight: 50em;
+  }
+  .hmtm { 
+    font-size: 1em;
+    font-weight: 50em;
+  }
+  .window {
+    font-size: 0.9em !important;
+  }
+}
+
+/* queries for smaller home image links  */
+@media (max-width: 999px) {
+  .window {
+    font-size: 0.8em !important;
+  }
+}
+@media (max-width: 900px) {
+  .window {
+    font-size: 0.7em !important;
+  }
+}
+@media (max-width: 800px) {
+  .window {
+    font-size: 0.6em !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {  
+  .homeWoImage {
+    display: none;
+  }
+  .homeWImage {
+    display: block;
+  }
+  .homeGrid {
+    position: static;
+    padding: 36px 16% 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .homeGrid > div {
+    margin: 0;
+    border: solid 1px gray;
+    width: 100%;
+  }
+  a.window, a.windowULeftText, a.windowURightText {
+    margin: 0;
+    border: 0;
+    height: 3em;
+    font-size: 1em !important;
+  }
+  a.windowULeftText, a.windowURightText {
+    padding-top: 10px;
+  }
+  a.windowULeftText:hover, .windowURightText:hover {
+    border-color: gray;
+    background-color: rgb(255, 249, 214);
+    transition-delay: 0s;
+    color: black;
+    font-weight: bolder;
+  }
+  .windowULeft, .windowURight {
+    display: none !important;
   }
 }
