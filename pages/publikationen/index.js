@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Footer from '../components/footer'
 import dateFormat from 'dateformat'
+import Footer from '../components/footer'
 import ShortUniqueId from 'short-unique-id'
 import { Container, Breadcrumb, Header, Button, Icon, Grid } from 'semantic-ui-react'
 
@@ -13,6 +13,7 @@ import articleData from '../../data/articles.json'
 import musikanalyseNet from '../../data/summary.json'
 
 const uid = new ShortUniqueId();
+const url = 'https://musikanalyse.net'
 
 function CompareDates(date1, date2) {
   const d1 = Date.parse(date1)
@@ -35,14 +36,19 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      <div>
-        
+      <div className={style.handyBackButton}>
+        <Button animated as='a' href='/'>
+          <Button.Content visible>zurück</Button.Content>
+          <Button.Content hidden>
+            <Icon name='arrow left' />
+          </Button.Content>
+        </Button>
       </div>
       <div className={style.main}>
         <Container>
           <Header as='h1'>Publikationsliste</Header>
           <Container>
-            Auf dieser Seite finden Sie eine (hoffentlich) vollständige Liste der Publikationen von Ulrich Kaiser. In der Publikationsliste finden Sie sowohl die selbständigen Publikationen und Artikel, die in Verlagen Publiziert worden sind, als auch Veröffentlichungen, die nach 2013 ohne eine Bindung an Verlage veröffentlicht worden sind. Noch nicht in die Liste aufgenommen, jedoch geplant ist auch eine Übersicht über veröffentlichte Videobeiträge.    
+            Auf dieser Seite finden Sie eine (hoffentlich) vollständige Liste meiner Publikationen. In der Publikationsliste finden Sie sowohl die selbständigen Publikationen und Artikel, die in Verlagen Publiziert worden sind, als auch Veröffentlichungen, die nach 2013 ohne eine Bindung an Verlage veröffentlicht worden sind. Noch nicht in die Liste aufgenommen, jedoch geplant ist auch eine Übersicht über veröffentlichte Videobeiträge.    
           </Container>
           <Container textAlign='right' className={style.backButton}>
             <Button animated as='a' href='/'>
@@ -53,7 +59,7 @@ export default function Index() {
             </Button>
           </Container>
           <div className={style.searchOptions}>
-            <div className={style.searchOptionsText}>Oder suchen Sie nur nach:</div>
+            <div className={style.searchOptionsText}>Oder suchen Sie nur nach</div>
             <Breadcrumb>
               <Breadcrumb.Section link><Link href="/publikationen/buecher">Büchern</Link></Breadcrumb.Section>
               <Breadcrumb.Divider />
@@ -142,10 +148,10 @@ export default function Index() {
               musikanalyseNet.tutorials.sort((d1, d2) => CompareDates(d1, d2)).map(tutorial => {
                 return <Grid.Row columns={2} key={uid.seq()}>
                   <Grid.Column width={2}>
-                    <Link href={tutorial.link}><Icon name='globe' size='big' /></Link>
+                    <Link href={url + tutorial.link}><Icon name='globe' size='big' /></Link>
                   </Grid.Column>
                   <Grid.Column width={14}>
-                    <Link href={tutorial.link}><i>{tutorial.title}</i></Link>, <span>{tutorial.abstract}<br/>
+                    <Link href={url + tutorial.link}><i>{tutorial.title}</i></Link>, <span>{tutorial.abstract}<br/>
                       Quelle: <Link href='https://musikanalyse.net'>musikanalyse.net</Link></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
                   </Grid.Column>
                 </Grid.Row>

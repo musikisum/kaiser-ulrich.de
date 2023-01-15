@@ -1,9 +1,25 @@
 [{
+  "title": "Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt. Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft",
+  "parent": "ZGMTH/Proceedings",
+  "additional": "(im Review, erscheint demnächst)",
+  "issue": "",
+  "details": "",
+  "image": "/images/articles-blank.svg",
+  "link": ""
+  },{
   "title": "Blended Learning im Musiktheorieunterricht",
   "parent": "ZGMTH/Proceedings",
-  "additional": "erscheinen demnächst",
+  "additional": "(erscheinen demnächst)",
   "issue": "",
-  "details": "2022",
+  "details": "",
+  "image": "/images/articles-blank.svg",
+  "link": ""
+},{
+  "title": "The ›Prinner‹ and the 4–1 (fa–ut) Model",
+  "parent": "Music Theory Spectrum",
+  "additional": "(erscheinen in Kürze)",
+  "issue": "",
+  "details": "(45) 2023",
   "image": "/images/articles-blank.svg",
   "link": ""
 },{

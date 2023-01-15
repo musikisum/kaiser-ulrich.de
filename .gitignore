@@ -16,7 +16,7 @@
 /build
 
 # data
-/public/files
+/public/files/
 
 # misc
 .DS_Store

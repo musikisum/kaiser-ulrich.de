@@ -23,6 +23,9 @@
   position: absolute;
   top: 1.8em;
 }
+.handyBackButton {
+  display: none;
+}
 
 .entryTypeWrapper {
   height: 120px;
@@ -50,4 +53,28 @@
 
 .footerLine {
   margin-top: 2em;
+}
+
+
+@media (max-width: 800px) {
+  .handyBackButton {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .backButton {
+    display: none !important;
+  }
+  .searchOptions {
+    margin-top: 2em;
+  }
+}
+
+@media (max-width: 550px) {
+  .searchOptionsText {
+    display: none;
+  }
+  .searchOptionsQuestionmark {
+    display: none;
+  }
 }

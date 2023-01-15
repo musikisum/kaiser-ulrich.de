@@ -11,11 +11,13 @@
 .hmtmFunctions { 
   margin-top: 15px; 
   margin-bottom: 0;
-  font-weight: lighter;
+  font-size: 1.4em;
+  color: rgb(81, 81, 81);
 }
 .hmtm { 
   margin-top: 0;  
-  font-weight: lighter;
+  font-size: 1.4em;
+  color: rgb(81, 81, 81);
 }  
 
 .homeImageContainer {

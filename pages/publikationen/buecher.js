@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '../components/footer'
 import ShortUniqueId from 'short-unique-id'
-import { Container, Image, Table, Breadcrumb, Header, Icon } from 'semantic-ui-react'
+import { Container, Image, Table, Breadcrumb, Header, Icon, Button } from 'semantic-ui-react'
 
 import style from './index.module.css'
 
@@ -17,22 +17,28 @@ export default function Buecher() {
     <>
       <Head>
         <title>Publikationen</title>
-        <meta name="description" content="Publikationsliste | Ulrich Kaiser" />
+        <meta name="description" content="Artikel in Zeitschriften | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <div className={style.main}>
         <Container>
           <Header as='h1'>Selbständige Publikationen</Header>
-          <div className='bcs'>
-            <Breadcrumb>
-              <Breadcrumb.Section link><Link href="/">Home</Link></Breadcrumb.Section>
-              <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
-              <Breadcrumb.Divider />
-              <Breadcrumb.Section active>Bücher</Breadcrumb.Section>
-            </Breadcrumb>
-          </div>
+          <Container textAlign='right' className={style.backButton}>
+            <Button animated as='a' href='/publikationen/'>
+              <Button.Content visible>zurück</Button.Content>
+              <Button.Content hidden>
+                <Icon name='arrow left' />
+              </Button.Content>
+            </Button>
+          </Container>
+          <Breadcrumb>
+            <Breadcrumb.Section link><Link href="/">Home</Link></Breadcrumb.Section>
+            <Breadcrumb.Divider />
+            <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
+            <Breadcrumb.Divider />
+            <Breadcrumb.Section active>Bücher</Breadcrumb.Section>
+          </Breadcrumb>          
 
           <div className={style.entryTypeWrapper}>
             <Header as='h2' className={style.entryType}>
