@@ -44,19 +44,19 @@
   grid-template-rows: repeat(20, 1fr);
 }
 ._d1 {
-  grid-column: 18/22;
+  grid-column: 18/23;
   grid-row: 6/8;
-  margin-left: 10%;
+  margin: -2% 15% 2% 10%;
 }
 ._11 {
-  grid-column: 11/17;
+  grid-column: 10/17;
   grid-row: 9/11;
-  margin-right: 6%;
+  margin: 0 10%;
 }
 ._12 {
-  grid-column: 11/17;
+  grid-column: 10/17;
   grid-row: 12/14;
-  margin-right: 6%;
+  margin: 0 10%;
 }
 ._13 {
   grid-column: 11/17;
@@ -65,31 +65,24 @@
   margin-bottom: 5%;
 }
 ._21 {
-  grid-column: 18/22;
+  grid-column: 18/23;
   grid-row: 9/11;
-  margin-left: 10%;
+  margin: -2% 15% 2% 10%;
 }
 ._22 {
-  grid-column: 18/22;
+  grid-column: 18/23;
   grid-row: 12/14;
-  margin-left: 10%;
+  margin: -2% 15% 2% 10%;
 }
 ._31 {
-  grid-column: 24/30;
+  grid-column: 24/31;
   grid-row: 9/11;
-  margin-right: 6%;
+  margin: 0 13% 0 8%;
 }
 ._32 {
-  grid-column: 24/30;
+  grid-column: 24/31;
   grid-row: 12/14;
-  margin-right: 6%;
-}
-._33 {
-  grid-column: 23/30;
-  grid-row: 16/18;
-  margin-bottom: 4%;
-  margin-left: 4%;
-  width: 90%;
+  margin: 0 13% 0 8%;
 }
 ._ul {
   grid-column: 24/30;
