@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      <div className='mainContainer'>      
+      <div className='pageContainer'>      
         <main className='main'>
           <HomeImage />
         </main>

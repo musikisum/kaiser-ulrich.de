@@ -1,4 +1,35 @@
+.main {
+    margin-top: 6em;
+}
+
 .content {
     max-width: 1200px;
-    margin: 6em;
+    margin: 6em auto;
+}
+
+.bcsTop {
+  margin-bottom: 6px;
+}
+.bcsBottom {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px; 
+  margin-bottom: 20px;
+}
+
+.backButton {
+   position: relative;
+}
+.backButton > a {
+    position: absolute;
+    top: 1.8em;
+}
+.entryType {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    background-color: rgb(220, 255, 225);
+    padding: 10px !important;
+}
+
+.footerLine {
+    margin-top: 2em;
 }

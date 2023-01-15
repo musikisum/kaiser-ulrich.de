@@ -33,10 +33,7 @@ export default function Openbooks() {
                       {!article.link && <Image src={article.image} />}
                       {article.link && <Image as='a' src={article.image} href={article.link} target='_blank' />}
                     </Table.Cell>
-                    <Table.Cell>&raquo;{article.title}&laquo;, in: <i>{article.parent}</i>
-                      {article.additional ? ' ' + article.additional : ''}
-                      {article.issue ? ' ' + article.issue + '' : ''}
-                      {', ' + article.details}.
+                    <Table.Cell>
                     </Table.Cell>                
                   </Table.Row>
                 )

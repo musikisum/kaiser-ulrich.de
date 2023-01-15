@@ -1,48 +1,161 @@
-[{
-    "title": "Die Notenbücher der Mozarts als Grundlage der Analyse von W. A. Mozarts Kompositionen 1761−1767",
-    "details": "Kassel 2007",
-    "image": "/images/books/kaiser_mozart.png",
-    "link": "https://mozartforschung.de/"
-  },{
-    "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse. Ein Lehrgang mit historischen Beispiele",
-    "details": "Grundkurs, Bärenreiter Studienbücher Musik Bd. 10 (= BSM 10), mit Audio-CD, Kassel 1998",
+[
+  {
+    "head": "Gehörbildung. Satzlehre, Improvisation, Höranalyse. Ein Lehrgang mit historischen Beispiele",
+    "tail": "Grundkurs, Bärenreiter Studienbücher Musik Bd. 10 (= BSM 10), mit Audio-CD",
+    "location": "Kassel",
+    "year": 1998,
     "image": "/images/books/kaiser_gehoerbildung-1.png",
     "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1159/"
   },
   {
-    "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse. Ein Lehrgang mit historischen Beispielen.",
-    "details": "Aufbaukurs, mit einem Formkapitel von Hartmut Fladt, Bärenreiter Studienbücher Musik Bd. 11 (= BSM 11), mit Audio-CD, Kassel 1998",
+    "head": "Gehörbildung. Satzlehre, Improvisation, Höranalyse. Ein Lehrgang mit historischen Beispielen.",
+    "tail": "Aufbaukurs, mit einem Formkapitel von Hartmut Fladt, Bärenreiter Studienbücher Musik Bd. 11 (= BSM 11), mit Audio-CD",
+    "location": "Kassel",
+    "year": 1998,
     "image": "/images/books/kaiser_gehoerbildung-2.png",
     "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1160/"
   },
   {
-    "title": "Der vierstimmige Satz. Kantionalsatz und Choralsatz",
-    "details": "Bärenreiter Studienbücher Musik Bd. 12 (= BSM 12), mit CD-ROM, Kassel 2002",
+    "head": "Der vierstimmige Satz. Kantionalsatz und Choralsatz",
+    "tail": "Bärenreiter Studienbücher Musik Bd. 12 (= BSM 12), mit CD-ROM",
+    "location": "Kassel",
+    "year": 2002,
     "image": "/images/books/kaiser_4Satz-de.png",
     "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1478/"
   },
   {
-    "title": "Il corale. Nello stile di Heinrich Schütz e Johann Sebastian Bach",
-    "details": "Milano 2007 (ital. Übersetzung)",
+    "head": "Il corale. Nello stile di Heinrich Schütz e Johann Sebastian Bach",
+    "tail": "(ital. Übersetzung)",
+    "location": "Milano",
+    "year": 2007,
     "image": "/images/books/kaiser_4Satz-it.png",
-    "link": null
+    "link": ""
   },
   {
-    "title": "Arrangieren und Instrumentieren. Barock bis Pop",
-    "details": "Bärenreiter Studienbücher Musik Bd. 14 (= BSM 14), mit CD, Kassel 2005 (zusammen mit Carsten Gerlitz)",
+    "head": "Arrangieren und Instrumentieren. Barock bis Pop",
+    "tail": "Bärenreiter Studienbücher Musik Bd. 14 (= BSM 14), mit CD, zus. mit Carsten Gerlitz",
+    "location": "Kassel",
+    "year": 2005,
     "image": "/images/books/kaiser_arrangieren.png",
     "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1662/"
   },
   {
-    "title": "Lamentobass. Ein musikalischer Topos von Monteverdi bis zu den Eagles",
-    "details": "(= Applaus 24), mit Audio-CD, Leipzig 2006",
-    "image": "/images/books/kaiser_lamentobass.png",
-    "link": null
+    "head": "Sonatenspiele. Musikmachen im Klassenverband",
+    "tail": "(= Applaus 17), unter Mitarbeit von Hans-Ulrich Schäfer-Lembeck, mit CD-ROM/Audio-CD",
+    "location": "Leipzig",
+    "year": 2003,
+    "image": "/images/books/kaiser_sonatenspiele.png",
+    "link": ""
   },
   {
-    "title": "Sonatenspiele. Musikmachen im Klassenverband",
-    "details": "(= Applaus 17), unter Mitarbeit von Hans-Ulrich Schäfer-Lembeck, mit CD-ROM/Audio-CD, Leipzig 2003",
-    "image": "/images/books/kaiser_sonatenspiele.png",
-    "link": null
+    "head": "Lamentobass. Ein musikalischer Topos von Monteverdi bis zu den Eagles",
+    "tail": "(= Applaus 24), mit Audio-CD",
+    "location": "Leipzig",
+    "year": 2005,
+    "image": "/images/books/kaiser_lamentobass.png",
+    "link": ""
+  },{
+    "head": "Die Notenbücher der Mozarts als Grundlage der Analyse von W. A. Mozarts Kompositionen 1761−1767",
+    "tail": "",
+    "location": "Kassel",
+    "year": 2007,
+    "image": "/images/books/kaiser_mozart.png",
+    "link": "https://mozartforschung.de/"
+  },
+  {
+    "head": "Sonate und Sinfonie. Ein altes Thema auf neuen Wegen",
+    "tail": "Materialien für den Unterricht an allgemeinbildenden Schulen (= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger)",
+    "location": "Karlsfeld",
+    "year": 2009,
+    "image": "/images/openbooks/kaiser_openbookSonate.png",
+    "link": "https://oer-musik.de/oer-sonate-und-sinfonie-ein-altes-thema-auf-neuen-wegen"
+  },
+  {
+    "head": "Johann Sebastian Bach. Ein Superstar gestern und heute",
+    "tail": "Materialien für den Unterricht an allgemeinbildenden Schulen (= OpenBook 2), Unterrichtsheft, Kommentarheft und Medien (inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser)",
+    "location": "Karlsfeld",
+    "year": 2011,
+    "image": "/images/openbooks/kaiser_openbookBach.png",
+    "link": "https://oer-musik.de/oer-johann-sebastian-bach-ein-superstar-gestern-und-heute"
+  },
+  {
+    "head": "Intervalle und Akkorde",
+    "tail": "(= Musiktheorie Now! OpenBook 3)",
+    "location": "Karlsfeld",
+    "year": 2012,
+    "image": "/images/openbooks/kaiser_openbookIntervalleUndAkkorde.png",
+    "link": "https://oer-musik.de/oer-intervalle-und-akkorde"
+  },
+  {
+    "head": "Praktische Harmonielehre: Sequenzen (für Kinder)",
+    "tail": "(= OpenBook 4), Unterrichtsheft und Kommentarheft",
+    "location": "Karlsfeld",
+    "year": 2012,
+    "image": "/images/openbooks/kaiser_openbookIntervalleUndAkkorde.png",
+    "link": "https://oer-musik.de/oer-praktische-harmonielehre-sequenzen-fuer-kinder"
+  },
+  {
+    "head": "Lamentobass",
+    "tail": "Musik aus vier Jahrhunderten. Materialien für den Unterricht an allgemeinbildenden Schulen (= OpenBook 5), 2. vollst. überarb. Aufl. der Klett-Publikation Lamentobass. Ein musikalischer Topos von Monteverdi bis zu den Eagles, Leipzig 2006, inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser",
+    "location": "Karlsfeld",
+    "year": 2013,
+    "image": "/images/openbooks/kaiser_openBookLamentobass.png",
+    "link": "https://oer-musik.de/oer-lamentobass-musik-aus-vier-jahrhunderten"
+  },
+  {
+    "head": "Ludwig van Beethoven. Die 5. Sinfonie",
+    "tail": "Materialien für den Unterricht an allgemeinbildenden Schulen (= OpenBook 6), Unterrichtsheft, inkl. Materialien, Software und Videos",
+    "location": "Karlsfeld",
+    "year": 2014,
+    "image": "/images/openbooks/kaiser_ob-beethoven5.png",
+    "link": "https://oer-musik.de/oer-ludwig-van-beethoven-die-fuenfte-sinfonie"
+  },
+  {
+    "head": "Kostenlose Software für den Musikunterricht",
+    "tail": "Materialien für den Unterricht an allgemeinbildenden Schulen (= OpenBook 7), Arbeitsheft, inkl. Materialien, Software und Videos",
+    "location": "Karlsfeld",
+    "year": 2014,
+    "image": "/images/openbooks/kaiser_openBookFreieSoftware.png",
+    "link": "https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht"
+  },
+  {
+    "head": "Band-Impulse. Heft 4: Gehörbildung und Musiklehre",
+    "tail": "Übungen in Dur (= OpenBook 9 / Heft 4)",
+    "location": "Karlsfeld",
+    "year": 2016,
+    "image": "/images/openbooks/kaiser_openBookBandImpulse-4.jpg",
+    "link": "https://oer-musik.de/oer-band-impulse-heft-4-gehoerbildung-und-musiklehre"
+  },
+  {
+    "head": "Harmonielehre #reloaded. Eine praktische Anleitung für Musikerinnen und Musiker",
+    "tail": "(= OpenBook 12)",
+    "location": "Karlsfeld",
+    "year": 2016,
+    "image": "/images/openbooks/kaiser_openbookHarmonielehre.jpg",
+    "link": "https://oer-musik.de/oer-harmonielehre-reloaded-eine-praktische-anleitung-fuer-musikerinnen-und-musiker"
+  },
+  {
+    "head": "Orchesterinstrumente. Transponierende Instrumente",
+    "tail": "(= OpenBook 16)",
+    "location": "Karlsfeld",
+    "year": 2016,
+    "image": "/images/openbooks/kaiser_openbookTransponierende-instrumente2.jpg",
+    "link": "https://oer-musik.de/oer-orchesterinstrumente-transponierende-instrumente"
+  },
+  {
+    "head": "Formenlehre der Musik",
+    "tail": "(= OpenBook 13)",
+    "location": "Karlsfeld",
+    "year": 2019,
+    "image": "/images/openbooks/kaiser_openBookFormenlehre.jpg",
+    "link": "https://oer-musik.de/oer-formenlehre-der-musik"
+  },
+  {
+    "head": "Filmmusik",
+    "tail": "(= OpenBook 15)",
+    "location": "Karlsfeld",
+    "year": 2020,
+    "image": "/images/openbooks/kaiser_openbookFilmmusik.jpg",
+    "link": "https://oer-musik.de/oer-filmmusik"
   }
 ]

@@ -1,9 +1,7 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import styles from './homeImage.module.css'
 
 export default function HomeImage() {
-
 
   return <>
     <div className={styles.headerText}>
