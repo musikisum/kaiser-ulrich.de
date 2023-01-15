@@ -1,0 +1,90 @@
+[
+  {
+    "head": "George Bizet. Carmen",
+    "tail": "zu einer Suite arrangiert von Ulrich Kaiser (= OpenBook 18/2)",
+    "location": "Karlsfeld",
+    "year": 2017,
+    "image": "/images/musik/kaiser_openBookLcarmensuite.jpg",
+    "link": "https://oer-musik.de/oer-george-bizet-carmen-suite-arrangiert-von-ulrich-kaiser"
+  },
+  {
+    "head": "Johannes Brahms. Ungarischer Tanz Nr. 5",
+    "tail": "arrangiert und mit einer Einleitung versehen von Ulrich Kaiser (= OpenBook 18/1)",
+    "location": "Karlsfeld",
+    "year": 2017,
+    "image": "/images/musik/kaiser_openbook-brahms5.jpg",
+    "link": "https://oer-musik.de/oer-johannes-brahms-ungarischer-tanz-5"
+  },
+  {
+    "head": "Kanon und 8 Variationen über Happy Birthday To You für vierstimmig gemischten Chor",
+    "tail": "(= OpenBook 14/2)",
+    "location": "Karlsfeld",
+    "year": 2017,
+    "image": "/images/musik/kaiser_openbook-happyfortchoir.jpg",
+    "link": "https://oer-musik.de/oer-kanon-und-8-variationen-ueber-happy-birthday-to-you-fuer-vierstimmig-gemischten-chor"
+  },
+  {
+    "head": "Thema und 12 Variationen über Happy Birthday To You",
+    "tail": "(= OpenBook 14/1)",
+    "location": "Karlsfeld",
+    "year": 2017,
+    "image": "/images/musik/kaiser_openbook-happyfortwo.jpg",
+    "link": "https://oer-musik.de/oer-thema-und-12-variationen-ueber-happy-birthday-to-you"
+  },
+  {
+    "head": "Das Kinderhauslied",
+    "tail": "(= OpenBook 10)",
+    "location": "Karlsfeld",
+    "year": 2015,
+    "image": "/images/musik/kaiser_openBookKinderhauslied.png",
+    "link": "https://oer-musik.de/oer-das-kinderhauslied"
+  },
+  {
+    "head": "Inventionen plus One. Kammermusik mit Johann Sebastian Bach",
+    "tail": "(= OpenBook 11)",
+    "location": "Karlsfeld",
+    "year": 2015,
+    "image": "/images/musik/kaiser_openBookBandImpulse-2.png",
+    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black"
+  },
+  {
+    "head": "Band-Impulse. Heft 3: Pattern und Styles 1",
+    "tail": "(= OpenBook 9 / Heft 3)",
+    "location": "Karlsfeld",
+    "year": 2015,
+    "image": "/images/musik/kaiser_openBookBandImpulse-2.png",
+    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black"
+  },
+  {
+    "head": "Band-Impulse. Heft 2: Elise In Black",
+    "tail": "(= OpenBook 9 / Heft 2)",
+    "location": "Karlsfeld",
+    "year": 2015,
+    "image": "/images/musik/kaiser_openBookBandImpulse-2.png",
+    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black"
+  },
+  {
+    "head": "Band-Impulse. Heft 1: That Image",
+    "tail": "(= OpenBook 9 / Heft 1)",
+    "location": "Karlsfeld",
+    "year": 2015,
+    "image": "/images/musik/kaiser_openBookBandImpulse-1.png",
+    "link": "https://oer-musik.de/oer-band-impulse-heft-1-that-image"
+  },
+  {
+    "head": "The Lullaby Choirbook, International Eveningsongs for Mixed Choir",
+    "tail": "(zusammen mit Carsten Gerlitz)",
+    "location": "Mainz",
+    "year": 2005,
+    "image": "/images/musik/kaiser_lullaby.gif",
+    "link": "https://www.schott-music.com/de/the-lullaby-choirbook-no214579.html"
+  },
+  {
+    "head": "Thema und 12 Variationen über ›Happy Birthday to You‹ für zwei beliebige Melodieinstrumente",
+    "tail": "(im Breitkopf-Verlag erhältlich)",
+    "location": "Aarau",
+    "year": 2002,
+    "image": "/images/musik/kaiser_openBookBandImpulse-1.png",
+    "link": "https://www.breitkopf.com/work/8989/thema-und-12-variationen-uber-happy-birthday"
+  }  
+]

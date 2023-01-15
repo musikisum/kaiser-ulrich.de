@@ -1,8 +1,12 @@
 import Link from 'next/link'
-import bookData from '../../data/articles.json'
+import ShortUniqueId from 'short-unique-id'
 import { Image, Table, Breadcrumb } from 'semantic-ui-react'
 
 import styles from './index.module.css'
+
+import bookData from '../../data/articles.json'
+
+const uid = new ShortUniqueId();
 
 export default function Openbooks() {
   return (
@@ -27,16 +31,16 @@ export default function Openbooks() {
             </Table.Header>
             <Table.Body>
               {
-                bookData.map((article, index) =>
-                  <Table.Row key={index}>
+                bookData.map(article => {
+                  return <Table.Row key={uid.seq()}>
                     <Table.Cell>
-                      {!article.link && <Image src={article.image} />}
-                      {article.link && <Image as='a' src={article.image} href={article.link} target='_blank' />}
+                      {!article.link && <Image src={article.image} />}                      
                     </Table.Cell>
                     <Table.Cell>
+                      {article.link && <Image as='a' src={article.image} href={article.link} target='_blank' />}
                     </Table.Cell>                
                   </Table.Row>
-                )
+                })
               }
             </Table.Body>
           </Table>
