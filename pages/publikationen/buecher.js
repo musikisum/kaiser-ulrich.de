@@ -37,7 +37,7 @@ export default function Buecher() {
             <Breadcrumb.Divider />
             <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
             <Breadcrumb.Divider />
-            <Breadcrumb.Section active>Bücher</Breadcrumb.Section>
+            <Breadcrumb.Section active>Bücher & Hefte</Breadcrumb.Section>
           </Breadcrumb>          
 
           <div className={style.entryTypeWrapper}>

@@ -69,7 +69,7 @@ export default function Index() {
               <Breadcrumb.Divider />
               <Breadcrumb.Section link><Link href="/publikationen/musik">Musik</Link></Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen/verschiedenes">Gelegenheiten</Link></Breadcrumb.Section>              
+              <Breadcrumb.Section link><Link href="/publikationen/online">Gelegenheiten (online)</Link></Breadcrumb.Section>              
             </Breadcrumb> 
             <div className={style.searchOptionsQuestionmark}>?</div>    
           </div>
