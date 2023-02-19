@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Footer from '../components/footer'
 import ShortUniqueId from 'short-unique-id'
 import { Container, Image, Table, Breadcrumb, Header, Icon, Button } from 'semantic-ui-react'
@@ -10,8 +9,7 @@ import books from '../../data/books.json'
 
 const uid = new ShortUniqueId()
 const oer = books.filter(book => book.type === 'OER')
-const publisher = books.filter(book => book.type === 'publisher')
-const br = <br /> 
+const publisher = books.filter(book => book.type === 'publisher') 
 
 export default function Buecher() {
   return (
@@ -34,9 +32,9 @@ export default function Buecher() {
             </Button>
           </Container>
           <Breadcrumb>
-            <Breadcrumb.Section link><Link href="/">Home</Link></Breadcrumb.Section>
+            <Breadcrumb.Section href='/'>Home</Breadcrumb.Section>
             <Breadcrumb.Divider />
-            <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
+            <Breadcrumb.Section href='/publikationen'>Publikationen</Breadcrumb.Section>
             <Breadcrumb.Divider />
             <Breadcrumb.Section active>Bücher & Hefte</Breadcrumb.Section>
           </Breadcrumb>          

@@ -9,6 +9,7 @@ import style from './index.module.css'
 
 import booksData from '../../data/books.json'
 import musicData from '../../data/music.json'
+import onlineData from '../../data/online.json'
 import articleData from '../../data/articles.json'
 import musikanalyseNet from '../../data/summary.json'
 
@@ -61,15 +62,15 @@ export default function Index() {
           <div className={style.searchOptions}>
             <div className={style.searchOptionsText}>Oder suchen Sie speziell: </div>
             <Breadcrumb>
-              <Breadcrumb.Section link><Link href="/publikationen/buecher">Bücher & Hefte</Link></Breadcrumb.Section>
+              <Breadcrumb.Section href='/publikationen/buecher'>Bücher & Hefte</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen/artikel">Artikel</Link></Breadcrumb.Section>
+              <Breadcrumb.Section href='/publikationen/artikel'>Artikel</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen/tutorials">Tutorials</Link></Breadcrumb.Section>
+              <Breadcrumb.Section href='/publikationen/tutorials'>Tutorials</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen/musik">Musik</Link></Breadcrumb.Section>
+              <Breadcrumb.Section href='/publikationen/musik'>Musik</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen/online">Gelegenheiten (online)</Link></Breadcrumb.Section>              
+              <Breadcrumb.Section href='/publikationen/online'>Gelegenheiten (online)</Breadcrumb.Section>              
             </Breadcrumb> 
             <div className={style.searchOptionsQuestionmark}>?</div>    
           </div>
@@ -128,12 +129,38 @@ export default function Index() {
           <Grid divided='vertically'>
             {
               musicData.map(sheet => {
+                const devider = sheet.details[0] !== '(' ? ', ' : ' '
                 return <Grid.Row columns={2} key={uid.seq()}>
                   <Grid.Column width={2}>
                     <Link href={sheet.link}><Icon name='music' size='big' /></Link>
                   </Grid.Column>
                   <Grid.Column width={14}>
-                    <Link href={sheet.link}><i>{sheet.head}</i></Link>, <span>{sheet.tail}</span>, <span>{sheet.location}</span> <span>{sheet.year}</span>.
+                    <Link href={sheet.link}><i>{sheet.title}{sheet.subtitle && '. ' + sheet.subtitle}</i></Link>
+                    <span>{devider + sheet.details + ', ' + sheet.location + ' ' + sheet.year}</span>.
+                  </Grid.Column>
+                </Grid.Row>
+              })
+            }
+          </Grid>
+
+          <div className={style.entryTypeWrapper}>
+            <Header as='h2' className={style.entryType}>
+              <Icon name='file alternate outline' size='big' /> Artikel (Gelegenheiten)
+            </Header>
+          </div>
+          <Grid divided='vertically'>
+            {
+              onlineData.map(article => {
+                return <Grid.Row columns={2} key={uid.seq()}>
+                  <Grid.Column width={2}>
+                    {article.link ? <Link href={article.link}><Icon name='file alternate outline' size='big' /></Link> : <Icon name='file alternate outline' size='big' />}
+                  </Grid.Column>
+                  <Grid.Column width={14}>
+                    {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
+                    <span>, in:</span> <i>{article.parent}</i>
+                    {article.additional ? ' ' + article.additional : ''}
+                    {article.issue ? ' ' + article.issue + '' : ''}
+                    {article.details ? article.details : ''}
                   </Grid.Column>
                 </Grid.Row>
               })

@@ -17,7 +17,7 @@ export default function HomeImage() {
           <Link className={styles.window} href='/'>Projekte</Link>
         </div>
         <div className={styles._11}>
-          <Link className={styles.window} href='/wissenschaft/articles'>Wissenschaft</Link>
+          <Link className={styles.window} href='/wissenschaft/'>Wissenschaft</Link>
         </div>
         <div className={styles._12}>
           <Link className={styles.window} href='/publikationen'>Publikationen</Link>

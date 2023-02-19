@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import onlineData from '../../data/online.json'
-import { Image, Table, Breadcrumb, Container, Button, Header, Icon } from 'semantic-ui-react'
-import { wikimedia1, wikimedia2 } from '../../data/variables.js'
+import { Table, Breadcrumb, Container, Button, Header, Icon } from 'semantic-ui-react'
 
 import style from './index.module.css'
 
@@ -19,9 +18,9 @@ export default function Online() {
           </Button>
         </Container>
         <Breadcrumb>
-          <Breadcrumb.Section link><Link href="/">Home</Link></Breadcrumb.Section>
+          <Breadcrumb.Section href='/'>Home</Breadcrumb.Section>
           <Breadcrumb.Divider />
-          <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
+          <Breadcrumb.Section href='/publikationen'>Publikationen</Breadcrumb.Section>
           <Breadcrumb.Divider />
           <Breadcrumb.Section active>Gelegenheiten (online)</Breadcrumb.Section>
         </Breadcrumb>
@@ -50,16 +49,8 @@ export default function Online() {
               )
             }
           </Table.Body>
-          <Table.Footer>
-            <Table.Row>
-              <Table.HeaderCell colSpan='2'>         
-                <p dangerouslySetInnerHTML={{ __html: wikimedia1 + wikimedia2 }} />
-              </Table.HeaderCell>
-            </Table.Row>
-          </Table.Footer>
         </Table>      
       </Container >
     </div>
-
   )
 }

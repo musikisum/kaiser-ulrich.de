@@ -36,9 +36,9 @@ export default function Tutorials() {
           </Button>
         </Container>
         <Breadcrumb>
-          <Breadcrumb.Section link><Link href="/">Home</Link></Breadcrumb.Section>
+          <Breadcrumb.Section href='/'>Home</Breadcrumb.Section>
           <Breadcrumb.Divider />
-          <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
+          <Breadcrumb.Section href='/publikationen'>Publikationen</Breadcrumb.Section>
           <Breadcrumb.Divider />
           <Breadcrumb.Section active>Tutorials</Breadcrumb.Section>
         </Breadcrumb>

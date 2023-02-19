@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ShortUniqueId from 'short-unique-id'
-import { Container, Header, Grid, Breadcrumb, Icon, Button } from 'semantic-ui-react'
+import { Container, Header, Grid, Breadcrumb, Icon, Image, Button } from 'semantic-ui-react'
 
 import style from './index.module.css'
 
@@ -23,9 +23,9 @@ export default function Musik() {
           </Button>
         </Container>
         <Breadcrumb>
-          <Breadcrumb.Section link><Link href="/">Home</Link></Breadcrumb.Section>
+          <Breadcrumb.Section href='/'>Home</Breadcrumb.Section>
           <Breadcrumb.Divider />
-          <Breadcrumb.Section link><Link href="/publikationen">Publikationen</Link></Breadcrumb.Section>
+          <Breadcrumb.Section href='/publikationen'>Publikationen</Breadcrumb.Section>
           <Breadcrumb.Divider />
           <Breadcrumb.Section active>Musik</Breadcrumb.Section>
         </Breadcrumb>
@@ -39,10 +39,15 @@ export default function Musik() {
             musicData.map(sheet => {
               return <Grid.Row columns={2} key={uid.seq()}>
                 <Grid.Column width={2}>
-                  <Link href={sheet.link}><Icon name='music' size='big' /></Link>
+                  {!sheet.link && <Image src={sheet.image} />}
+                  {sheet.link && <Image as='a' src={sheet.image} href={sheet.link} target='_blank' />}
                 </Grid.Column>
                 <Grid.Column width={14}>
-                  <Link href={sheet.link}><i>{sheet.head}</i></Link>, <span>{sheet.tail}</span>, <span>{sheet.location}</span> <span>{sheet.year}</span>.
+                  <div><b>Titel:</b> <i>{sheet.title}</i></div>
+                  {sheet.subtitle && <div><b>Untertitel:</b> <i>{sheet.subtitle}</i></div>}
+                  {sheet.details && <div><b>Zusätze:</b> {sheet.details}</div>}
+                  <div><b>Ort:</b> {sheet.location}</div>
+                  <div><b>Jahr:</b> {sheet.year}</div>  
                 </Grid.Column>
               </Grid.Row>
             })
