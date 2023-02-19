@@ -1,38 +1,32 @@
 [{
   "title": "Wahnsinn!",
   "details": "Kombinatorik und Spiel. Wege musikalischen Denkens. Festschrift für Stefan Prey, hg. von Thomas Fesefeldt, Andreas Ickstadt, Ariane Jeßulat, Kilian Sprau, Katja Steinhäuser, Berthold Tuercke , Lilia Ushakova, Emmanouil Vlitakis, unter Mitarbeit von Ferdinand Kiesner und Gabriel Pech, Berlin 2022.",
-  "image": "/images/articles-small.svg",
   "link": "https://opus4.kobv.de/opus4-udk/frontdoor/deliver/index/docId/1824/file/Kaiser_Ulrich_Wahnsinn.pdf",
   "html": false
   },{
   "title": "OER und Musik",
   "details": "Forum Neue Medien in der Lehre Austria (= fnma) Magazin 2/2022",
-  "image": "/images/articles-small.svg",
   "link": "/files/kaiser_fnma-magazin_2022-2_oer-und-musik.pdf",
   "html": false
   },{
   "title": "Digitale Innovation in der Lehre",
   "details": "Online-Publikation (2019)",
-  "image": "/images/articles-small.svg",
   "link": "/files/Kaiser_Digitale-Innovation-in-der-Lehre.pdf",
   "html": false
   },{
   "title": "Elmu. Eine Plattform für digitale musikalische Bildung",
   "details": "Auftakt. Zeitschrift der Hochschule für Musik und Theater München, Ausg. 21 (3/2019), S. 10−11.",
-  "image": "/images/articles-small.svg",
   "link": "/files/kaiser-elmu.pdf",
   "html": false
   },{
   "title": "Von einem, der auszog, das Fürchten zu lernen",
   "details": "Blockbeitrag zur Einführung sogenannter Upload-Filter im Rahmen der aktuellen EU-Urheberrechtsreform (2018) für Wikimedia Deutschland",
-  "image": "/images/articles-small.svg",
   "link": "/publikationen/online/wikimedia",
   "html": true
   },{
   "title": "Freiheit der Lehre und das Urheberrecht",
   "details": "Online-Publikation",
-  "image": "/images/articles-small.svg",
   "link": "/publikationen/online/freiheitlehreurheberrecht",
-  "html": false
+  "html": true
   }
 ]

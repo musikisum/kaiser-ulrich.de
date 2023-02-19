@@ -37,10 +37,14 @@ export default function Online() {
               onlineData.map((article, index) =>
                 <Table.Row key={index}>
                   <Table.Cell>
-                    <Image as='a' src={article.image} href={article.link} />
+                    {article.link ? <Link href={article.link}><Icon name='file alternate outline' size='big' /></Link> : <Icon name='file alternate outline' size='big' />}
                   </Table.Cell>
                   <Table.Cell>
-                    &raquo;<i>{article.title}</i>&laquo;, {article.details}.
+                    {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
+                    <span>, in:</span> <i>{article.parent}</i>
+                    {article.additional ? ' ' + article.additional : ''}
+                    {article.issue ? ' ' + article.issue + '' : ''}
+                    {article.details ? ', ' + article.details : ''}
                   </Table.Cell>                
                 </Table.Row>
               )

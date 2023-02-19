@@ -59,11 +59,11 @@ export default function Index() {
             </Button>
           </Container>
           <div className={style.searchOptions}>
-            <div className={style.searchOptionsText}>Oder suchen Sie nur nach</div>
+            <div className={style.searchOptionsText}>Oder suchen Sie speziell: </div>
             <Breadcrumb>
-              <Breadcrumb.Section link><Link href="/publikationen/buecher">Büchern</Link></Breadcrumb.Section>
+              <Breadcrumb.Section link><Link href="/publikationen/buecher">Bücher & Hefte</Link></Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section link><Link href="/publikationen/artikel">Artikeln</Link></Breadcrumb.Section>
+              <Breadcrumb.Section link><Link href="/publikationen/artikel">Artikel</Link></Breadcrumb.Section>
               <Breadcrumb.Divider />
               <Breadcrumb.Section link><Link href="/publikationen/tutorials">Tutorials</Link></Breadcrumb.Section>
               <Breadcrumb.Divider />
@@ -82,12 +82,14 @@ export default function Index() {
           <Grid divided='vertically'>
             {
               booksData.map(book => {
+                const devider = book.details[0] !== '(' ? ', ' : ' '
                 return <Grid.Row columns={2} key={uid.seq()}>
                   <Grid.Column width={2}>
                     <Link href={book.link}><Icon name='book' size='big' /></Link>
                   </Grid.Column>
                   <Grid.Column width={14}>
-                    <Link href={book.link}><i>{book.head}</i></Link>, <span>{book.tail}</span>, <span>{book.location}</span> <span>{book.year}</span>.
+                    <Link href={book.link}><i>{book.title}{book.subtitle && '. ' + book.subtitle}</i></Link>
+                    <span>{devider + book.details + ', ' + book.location + ' ' + book.year}</span>.
                   </Grid.Column>
                 </Grid.Row>
               })

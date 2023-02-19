@@ -8,9 +8,10 @@ import style from './index.module.css'
 
 import books from '../../data/books.json'
 
-const uid = new ShortUniqueId();
+const uid = new ShortUniqueId()
 const oer = books.filter(book => book.type === 'OER')
-const publisher = books.filter(book => book.type === 'publisher') 
+const publisher = books.filter(book => book.type === 'publisher')
+const br = <br /> 
 
 export default function Buecher() {
   return (
@@ -60,9 +61,12 @@ export default function Buecher() {
                       {!book.link && <Image src={book.image} />}
                       {book.link && <Image as='a' src={book.image} href={book.link} target='_blank' />}
                     </Table.Cell>
-                    <Table.Cell><i>{book.head}</i>
-                      {book.tail ? '. ' + book.tail : ''}
-                      {', ' + book.location + ' ' + book.year}.
+                    <Table.Cell>
+                      <div><b>Titel:</b> <i>{book.title}</i></div>
+                      {book.subtitle && <div><b>Untertitel:</b> <i>{book.subtitle}</i></div>}
+                      {book.details && <div><b>Zusätze:</b> {book.details}</div>}
+                      <div><b>Ort:</b> {book.location}</div>
+                      <div><b>Jahr:</b> {book.year}</div>  
                     </Table.Cell>
                   </Table.Row>
                 })
@@ -90,9 +94,12 @@ export default function Buecher() {
                       {!book.link && <Image src={book.image} />}
                       {book.link && <Image as='a' src={book.image} href={book.link} target='_blank' />}
                     </Table.Cell>
-                    <Table.Cell><i>{book.head}</i>
-                      {book.tail ? '. ' + book.tail : ''}
-                      {', ' + book.location + ' ' + book.year}.
+                    <Table.Cell>
+                      <div><b>Titel:</b> <i>{book.title}</i></div>
+                      {book.subtitle && <div><b>Untertitel:</b> <i>{book.subtitle}</i></div>}
+                      {book.details && <div><b>Zusätze:</b> {book.details}</div>}
+                      <div><b>Ort:</b> {book.location}</div>
+                      <div><b>Jahr:</b> {book.year}</div>                      
                     </Table.Cell>
                   </Table.Row>
                 })
