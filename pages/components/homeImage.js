@@ -35,16 +35,16 @@ export default function HomeImage() {
           <Link className={styles.window} href='/'>Chorleitung</Link>
         </div>
         <div className={styles._ul}>
-          <Link className={styles.windowULeft} href='/'>
+          <Link className={styles.windowULeft} href='/vita'>
             <img className={styles.windowULeftImage} src="/images/homeFenster2.svg" />            
           </Link>
-          <Link className={styles.windowULeftText} href='/'>Vita</Link>
+          <Link className={styles.windowULeftText} href='/vita'>Vita</Link>
         </div>
         <div className={styles._ur}>
-          <Link className={styles.windowURight} href='/'>
+          <Link className={styles.windowURight} href='/person'>
             <img className={styles.windowURightImage} src="/images/homeFenster2.svg"></img>            
           </Link>
-          <Link className={styles.windowURightText} href='/'>zur Person</Link>
+          <Link className={styles.windowURightText} href='/person'>zur Person</Link>
         </div>
       </div>
     </div>

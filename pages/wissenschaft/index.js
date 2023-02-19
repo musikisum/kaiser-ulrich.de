@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Footer from '../components/footer'
 import { Container, Breadcrumb, Header, Button, Icon, Card, Image } from 'semantic-ui-react'
 
@@ -26,7 +25,7 @@ export default function Index() {
         <Container>
           <Header as='h1'>Wissenschaft</Header>
           <Container>
-            Auf dieser Seite finden Sie Links zu Informationen zur institutionellen Musiktheorie, zu meinem Wissenschaftsverständnis, zu den von mir betreuten wissenschaftlichen Arbeiten sowie zu meiner Forschungstätigkeit. Darüber hinaus werden hier Machwuchswissenschaftler:innen Hilfsmittel zum wissenschaftlichen Arbeiten angeboten.    
+            Auf dieser Seite finden Sie Links zu Informationen zur institutionellen Musiktheorie, zu meinem Wissenschaftsverständnis, zu den von mir betreuten wissenschaftlichen Arbeiten sowie zu meiner Forschungstätigkeit. Darüber hinaus werden hier Nachwuchswissenschaftler:innen Hilfsmittel zum wissenschaftlichen Arbeiten angeboten.    
           </Container>
           <Container textAlign='right' className={style.backButton}>
             <Button animated as='a' href='/'>
