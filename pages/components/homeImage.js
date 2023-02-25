@@ -26,13 +26,13 @@ export default function HomeImage() {
           <Link className={styles.window} href='/unterricht'>Fortbildungen</Link>
         </div>
         <div className={styles._22}>
-          <Link className={styles.window} href='/'>Lehre</Link>
+          <Link className={styles.window} href='/lehre'>Lehre</Link>
         </div>
         <div className={styles._31}>
-          <Link className={styles.window} href='/'>Gesang</Link>
+          <Link className={styles.window} href='/gesang'>Gesang</Link>
         </div>
         <div className={styles._32}>
-          <Link className={styles.window} href='/'>Chorleitung</Link>
+          <Link className={styles.window} href='/chorleitung'>Chorleitung</Link>
         </div>
         <div className={styles._ul}>
           <Link className={styles.windowULeft} href='/vita'>

@@ -23,7 +23,7 @@ function vitaTableReducer(state, action) {
     }
 }
 
-export default function Vita() {
+export default function Unterricht() {
   
   const [state, dispatch] = useReducer(vitaTableReducer, { column: null, data: vitaData, direction: null })
   const { column, data, direction } = state
