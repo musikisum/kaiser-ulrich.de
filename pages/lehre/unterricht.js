@@ -6,6 +6,10 @@ import { Container, Breadcrumb, Header, Button, Icon, Accordion, Popup } from 's
 import testdata from '../../data/unterricht.json'
 import styles from '../index.module.css'
 
+function handleClick(index, activeIndex, setActiveIndex) {
+  index === activeIndex ? setActiveIndex(-1) : setActiveIndex(index)
+}
+
 export default function Index() {
 
   const [activeIndex, setActiveIndex] = useState(-1)
@@ -57,7 +61,7 @@ export default function Index() {
                     <Accordion.Title
                       active={index === activeIndex}
                       index={index}
-                      onClick={() => { index === activeIndex ? setActiveIndex(-1) : setActiveIndex(index) }}
+                      onClick={() => handleClick(index, activeIndex, setActiveIndex) }
                     >
                     <Icon name='dropdown' />
                     {lehre.semester}
@@ -65,7 +69,7 @@ export default function Index() {
                     <Accordion.Title
                       active={index === activeIndex}
                       index={index}
-                      onClick={() => { index === activeIndex ? setActiveIndex(-1) : setActiveIndex(index) }}
+                      onClick={() => handleClick(index, activeIndex, setActiveIndex) }
                     >
                       <Icon name='dropdown' />
                       {lehre.semester}
