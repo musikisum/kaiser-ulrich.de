@@ -1,97 +1,92 @@
-import _ from 'lodash'
 import Head from 'next/head'
-import { useReducer } from "react"
-import Footer from './components/footer'
-import { Container, Breadcrumb, Header, Button, Icon, Table } from 'semantic-ui-react'
+import { useState } from 'react'
+import Footer from '../components/footer'
+import { Container, Breadcrumb, Header, Button, Icon, Accordion, Popup } from 'semantic-ui-react'
 
-import vitaData from '../data/vita.json'
-import style from './index.module.css'
+import testdata from '../../data/unterricht.json'
+import styles from '../index.module.css'
 
-function vitaTableReducer(state, action) {
-    if (state.column === action.column) {
-      return {
-        ...state,
-        data: state.data.slice().reverse(),
-        direction:
-          state.direction === 'ascending' ? 'descending' : 'ascending',
-      }
-    }
-    return {
-      column: action.column,
-      data: _.sortBy(state.data, [action.column]),
-      direction: 'ascending',
-    }
-}
+export default function Index() {
 
-export default function Unterricht() {
-  
-  const [state, dispatch] = useReducer(vitaTableReducer, { column: null, data: vitaData, direction: null })
-  const { column, data, direction } = state
+  const [activeIndex, setActiveIndex] = useState(-1)
 
   return (
     <>
       <Head>
-        <title>Vita</title>
-        <meta name="description" content="Vita | Ulrich Kaiser" />
+        <title>Unterricht</title>
+        <meta name="description" content="Unterricht | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      <div className={style.handyBackButton}>
-        <Button animated as='a' href='/'>
+      <div className={styles.handyBackButton}>
+        <Button animated as='a' href='/lehre'>
           <Button.Content visible>zurück</Button.Content>
           <Button.Content hidden>
             <Icon name='arrow left' />
           </Button.Content>
         </Button>
       </div>
-      <div className={style.main}>
+      <div className={styles.main}>
         <Container>
-          <Header as='h1'>Vita</Header>
+          <Header as='h1'>Unterricht</Header>
           <Container>
-            Lebenslauf
+            Auf dieser Seite finden Sie Informationen zu meinen Lehrveranstaltungen an der <a href='https://hmtm.de/' target='blank'>Hochschule für Musik und Theater München</a> (seit 2008).
           </Container>
-          <Container textAlign='right' className={style.backButton}>
-            <Button animated as='a' href='/'>
+          <Container textAlign='right' className={styles.backButton}>
+            <Button animated as='a' href='/lehre'>
               <Button.Content visible>zurück</Button.Content>
               <Button.Content hidden>
                 <Icon name='arrow left' />
               </Button.Content>
             </Button>
           </Container>
-          <div className={style.searchOptions}>
+          <div className={styles.searchOptions}>
             <Breadcrumb>
               <Breadcrumb.Section href='/'>Home</Breadcrumb.Section>
               <Breadcrumb.Divider />
-              <Breadcrumb.Section>Vita</Breadcrumb.Section>
+              <Breadcrumb.Section href='/lehre'>Lehre</Breadcrumb.Section>
+              <Breadcrumb.Divider />
+              <Breadcrumb.Section>Unterricht</Breadcrumb.Section>
             </Breadcrumb>
           </div>
+          <Container>
+            <Accordion fluid styled>
+              {testdata.map((lehre, index) => {
+                return <div key={index}>
+                  {lehre.annotations ? <Popup content={lehre.annotations} trigger={
+                    <Accordion.Title
+                      active={index === activeIndex}
+                      index={index}
+                      onClick={() => { index === activeIndex ? setActiveIndex(-1) : setActiveIndex(index) }}
+                    >
+                    <Icon name='dropdown' />
+                    {lehre.semester}
+                    </Accordion.Title>} /> :
+                    <Accordion.Title
+                      active={index === activeIndex}
+                      index={index}
+                      onClick={() => { index === activeIndex ? setActiveIndex(-1) : setActiveIndex(index) }}
+                    >
+                      <Icon name='dropdown' />
+                      {lehre.semester}
+                    </Accordion.Title>}
+                    <Accordion.Content active={index === activeIndex} className={styles.accordionContent}>
+                      {lehre.unterricht.map((course, courseIndex) => {
+                        return <div key={courseIndex} className={styles.courseContainer}>
+                          <p className={styles.courseTitle}>{course.Title + ', ' + course.DayOfWeek + ' ' + course.Time}</p>
+                          <p className={styles.courseDescription}>{course.Description}</p>
+                        </div>
+                      })}
+                    </Accordion.Content>
+                  </div>
+              })}
+            </Accordion>
+          </Container>
+
+          <hr className={styles.footerLine} />
+          <Footer className='footer' />
+
         </Container>
-        <Container>
-          <Table sortable celled collapsing>
-            <Table.Header>
-              <Table.Row>
-                <Table.HeaderCell
-                  sorted={column === 'id' ? direction : null}
-                  onClick={() => dispatch({ column: 'id' })}
-                >                  
-                  Jahr
-                </Table.HeaderCell>
-                <Table.HeaderCell>
-                  Ereignis
-                </Table.HeaderCell>
-              </Table.Row>
-            </Table.Header>
-            <Table.Body>
-              {data.map(({ id, year, item }) => (
-                <Table.Row key={id}>
-                  <Table.Cell>{year}</Table.Cell>
-                  <Table.Cell>{item}</Table.Cell>
-                </Table.Row>
-              ))}
-            </Table.Body>
-          </Table>
-        </Container>
-        <Footer />
       </div>
     </>
   )

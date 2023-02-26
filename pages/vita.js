@@ -12,8 +12,7 @@ function vitaTableReducer(state, action) {
       return {
         ...state,
         data: state.data.slice().reverse(),
-        direction:
-          state.direction === 'ascending' ? 'descending' : 'ascending',
+        direction: state.direction === 'ascending' ? 'descending' : 'ascending',
       }
     }
     return {

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Head from 'next/head'
 import Footer from '../../components/footer'
 import { Breadcrumb, Container, Header, Button, Icon, Image, Message, List } from 'semantic-ui-react'

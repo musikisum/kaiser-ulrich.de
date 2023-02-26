@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Footer from '../../components/footer'
 import { Breadcrumb, Container, Header, Button, Icon } from 'semantic-ui-react'
 
-import { wikimedia1, wikimedia2 } from '../../../data/variables.js'
+import { wikimedia1, wikimedia2 } from '../../../data/wikivars.js'
 import style from '../index.module.css'
 
 export default function Wikimedia() {

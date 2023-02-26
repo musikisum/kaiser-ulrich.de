@@ -1,16 +1,17 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import { useState } from 'react'
 import Footer from '../components/footer'
-import { Container, Breadcrumb, Header, Button, Icon, Card, Image } from 'semantic-ui-react'
+import { Container, Breadcrumb, Header, Button, Icon } from 'semantic-ui-react'
 
-import testdata from '../../data/seminare/2018-ws.json'
 import style from '../index.module.css'
 
 export default function Index() {
-
+  
   return (
     <>
       <Head>
-        <title>Wissenschaft</title>
+        <title>Lehre</title>
         <meta name="description" content="Lehre | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
@@ -25,7 +26,7 @@ export default function Index() {
       </div>
       <div className={style.main}>
         <Container>
-          <Header as='h1'>Lehre</Header>
+          <Header as='h1'>Hallo Lehre</Header>
           <Container>
             Auf dieser Seite finden Sie Links zu Informationen zur Lehre.    
           </Container>
@@ -45,13 +46,7 @@ export default function Index() {
             </Breadcrumb>
           </div>
           <Container>
-            <h2>{testdata.semester}</h2>
-              {testdata.unterricht.map(seminar => {
-                return <div key={seminar.Id} style={{ 'marginTop': '20px' }}>
-                  <p style={{ 'fontWeight': 'bold', 'fontSize': '1.5em' }}><span>{seminar.Title + ', ' + seminar.DayOfWeek + ', ' + seminar.Time}</span></p>
-                  <p><b>Beschreibung: </b>{seminar.Description}</p>
-                </div>              
-              })}
+           <Link href='/lehre/unterricht'>Zum Unterricht</Link>
           </Container>
           
           <hr className={style.footerLine} />

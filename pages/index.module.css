@@ -39,6 +39,21 @@
   margin-top: 2em;
 }
 
+.accordionContent {
+  padding-left: 50px !important;
+}
+.courseContainer {
+  margin-top: 10px;  
+}
+.courseTitle {
+  font-size: 1;
+  font-weight: bold;
+}
+.courseDescription {
+  font-style: italic;
+  margin: 0 10px;  
+}
+
 
 @media (max-width: 800px) {
   .handyBackButton {
