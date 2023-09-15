@@ -1,11 +1,12 @@
 .headerText {
   font-style: italic;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 40px;
   height: 200px;
 } 
 .ukName { 
   font-weight: 300em; 
+  font-size: 2em;
   margin: 0;
 }
 .hmtmFunctions { 
@@ -122,6 +123,8 @@ a.window:hover, a.windowULeft:hover, a.windowURight:hover {
 a.windowULeftText, a.windowURightText {
   display: block;
   padding-top: 6px;
+  font-size: 1em;
+  font-weight: 500;
   width: 100%;
   text-align: center;
   text-decoration: none;
@@ -138,7 +141,6 @@ img.windowULeftImage, img.windowURightImage {
 /* DT Displays */
 @media (max-width: 1920px) {
   .headerText {
-    margin-top: 80px;
     height: 180px;
   }
 }
@@ -146,7 +148,8 @@ img.windowULeftImage, img.windowURightImage {
 /* Smaller Desktop */
 @media (max-width: 1121px) {
   .headerText {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 120px;
   }
   .hmtmFunctions { 
@@ -163,11 +166,7 @@ img.windowULeftImage, img.windowURightImage {
 /* Tablet */
 @media (max-width: 1120px) {
   .headerText {
-    margin-top: 20px;
     height: 100px;
-  }
-  .ukName { 
-    font-size: 2em; 
   }
   .hmtmFunctions { 
     font-size: 1em;

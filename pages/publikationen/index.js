@@ -1,20 +1,24 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import dateFormat from 'dateformat'
-import Footer from '../components/footer'
-import ShortUniqueId from 'short-unique-id'
-import { Container, Breadcrumb, Header, Button, Icon, Grid } from 'semantic-ui-react'
+import Link from 'next/link';
+import Head from 'next/head';
+import Layout from '../components/layout';
+import PageHeader from '../components/pagehaeder';
+import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
+import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
 
-import style from './index.module.css'
+import style from './index.module.css';
 
-import booksData from '../../data/books.json'
-import musicData from '../../data/music.json'
-import onlineData from '../../data/online.json'
-import articleData from '../../data/articles.json'
-import musikanalyseNet from '../../data/summary.json'
+import sitemap from "../../data/sitemap.json";
 
-const uid = new ShortUniqueId();
-const url = 'https://musikanalyse.net'
+const options = {
+  title: 'Publikationen',
+  description: 'Hier finden Sie eine thematische Ordnung meiner Publikationen, z.B. eigenständige Publikationen in Verlagen, Artikel in Zeitschriften und Broschüren, OpenBooks, Open Educational Resources (Text, Bild, Video), Interviews usw.',
+  filter: 'publikationen'
+}
+
+// import musicData from '../../data/musik.json';
+// import booksData from '../../data/verlage.json';
+// import musikanalyseNet from '../../data/summary.json';
+// import onlineData from '../../data/gelegenheiten.json';
 
 function CompareDates(date1, date2) {
   const d1 = Date.parse(date1)
@@ -28,171 +32,28 @@ function CompareDates(date1, date2) {
   }
 }
 
-export default function Index() {
+const Index = () => {
   return (
     <>
       <Head>
         <title>Publikationen</title>
-        <meta name="description" content="Publikationsliste | Ulrich Kaiser" />
+        <meta name="description" content="Publikationen | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/icon.png" />
       </Head>
-      <div className={style.handyBackButton}>
-        <Button animated as='a' href='/'>
-          <Button.Content visible>zurück</Button.Content>
-          <Button.Content hidden>
-            <Icon name='arrow left' />
-          </Button.Content>
-        </Button>
-      </div>
-      <div className={style.main}>
-        <Container>
-          <Header as='h1'>Publikationsliste</Header>
-          <Container>
-            Auf dieser Seite finden Sie eine (hoffentlich) vollständige Liste meiner Publikationen. In der Publikationsliste finden Sie sowohl die selbständigen Publikationen und Artikel, die in Verlagen Publiziert worden sind, als auch Veröffentlichungen, die nach 2013 ohne eine Bindung an Verlage veröffentlicht worden sind. Noch nicht in die Liste aufgenommen, jedoch geplant ist auch eine Übersicht über veröffentlichte Videobeiträge.    
-          </Container>
-          <Container textAlign='right' className={style.backButton}>
-            <Button animated as='a' href='/'>
-              <Button.Content visible>zurück</Button.Content>
-              <Button.Content hidden>
-                <Icon name='arrow left' />
-              </Button.Content>
-            </Button>
-          </Container>
-          <div className={style.searchOptions}>
-            <div className={style.searchOptionsText}>Oder suchen Sie speziell: </div>
-            <Breadcrumb>
-              <Breadcrumb.Section href='/publikationen/buecher'>Bücher & Hefte</Breadcrumb.Section>
-              <Breadcrumb.Divider />
-              <Breadcrumb.Section href='/publikationen/artikel'>Artikel</Breadcrumb.Section>
-              <Breadcrumb.Divider />
-              <Breadcrumb.Section href='/publikationen/tutorials'>Tutorials</Breadcrumb.Section>
-              <Breadcrumb.Divider />
-              <Breadcrumb.Section href='/publikationen/musik'>Musik</Breadcrumb.Section>
-              <Breadcrumb.Divider />
-              <Breadcrumb.Section href='/publikationen/online'>Gelegenheiten (online)</Breadcrumb.Section>              
-            </Breadcrumb> 
-            <div className={style.searchOptionsQuestionmark}>?</div>    
-          </div>
-
-          <div className={style.entryTypeWrapper}>
-            <Header as='h2' className={style.entryType}>
-              <Icon name='book' size='big' /> Bücher & Hefte
-            </Header>
-          </div>
-          <Grid divided='vertically'>
-            {
-              booksData.map(book => {
-                const devider = book.details[0] !== '(' ? ', ' : ' '
-                return <Grid.Row columns={2} key={uid.seq()}>
-                  <Grid.Column width={2}>
-                    <Link href={book.link}><Icon name='book' size='big' /></Link>
-                  </Grid.Column>
-                  <Grid.Column width={14}>
-                    <Link href={book.link}><i>{book.title}{book.subtitle && '. ' + book.subtitle}</i></Link>
-                    <span>{devider + book.details + ', ' + book.location + ' ' + book.year}</span>.
-                  </Grid.Column>
-                </Grid.Row>
-              })
-            }
-          </Grid>
-          
-          <div className={style.entryTypeWrapper}>
-            <Header as='h2' className={style.entryType}>
-            <Icon name='file alternate outline' size='big' /> Artikel
-            </Header>
-          </div>
-          <Grid divided='vertically'>
-            {
-              articleData.map(article => {
-                return <Grid.Row columns={2} key={uid.seq()}>
-                  <Grid.Column width={2}>
-                    {article.link ? <Link href={article.link}><Icon name='file alternate outline' size='big' /></Link> : <Icon name='file alternate outline' size='big' />}
-                  </Grid.Column>
-                  <Grid.Column width={14}>
-                    {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
-                    <span>, in:</span> <i>{article.parent}</i>
-                    {article.additional ? ' ' + article.additional : ''}
-                    {article.issue ? ' ' + article.issue + '' : ''}
-                    {', ' + article.details}
-                  </Grid.Column>
-                </Grid.Row>
-              })
-            }
-          </Grid>
-
-          <div className={style.entryTypeWrapper}>
-            <Header as='h2' className={style.entryType}>
-              <Icon name='music' size='big' /> Musik
-            </Header>
-          </div>         
-          <Grid divided='vertically'>
-            {
-              musicData.map(sheet => {
-                const devider = sheet.details[0] !== '(' ? ', ' : ' '
-                return <Grid.Row columns={2} key={uid.seq()}>
-                  <Grid.Column width={2}>
-                    <Link href={sheet.link}><Icon name='music' size='big' /></Link>
-                  </Grid.Column>
-                  <Grid.Column width={14}>
-                    <Link href={sheet.link}><i>{sheet.title}{sheet.subtitle && '. ' + sheet.subtitle}</i></Link>
-                    <span>{devider + sheet.details + ', ' + sheet.location + ' ' + sheet.year}</span>.
-                  </Grid.Column>
-                </Grid.Row>
-              })
-            }
-          </Grid>
-
-          <div className={style.entryTypeWrapper}>
-            <Header as='h2' className={style.entryType}>
-              <Icon name='file alternate outline' size='big' /> Artikel (Gelegenheiten)
-            </Header>
-          </div>
-          <Grid divided='vertically'>
-            {
-              onlineData.map(article => {
-                return <Grid.Row columns={2} key={uid.seq()}>
-                  <Grid.Column width={2}>
-                    {article.link ? <Link href={article.link}><Icon name='file alternate outline' size='big' /></Link> : <Icon name='file alternate outline' size='big' />}
-                  </Grid.Column>
-                  <Grid.Column width={14}>
-                    {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
-                    <span>, in:</span> <i>{article.parent}</i>
-                    {article.additional ? ' ' + article.additional : ''}
-                    {article.issue ? ' ' + article.issue + '' : ''}
-                    {article.details ? article.details : ''}
-                  </Grid.Column>
-                </Grid.Row>
-              })
-            }
-          </Grid>
-
-          <div className={style.entryTypeWrapper}>
-            <Header as='h2' className={style.entryType}>
-              <Icon name='globe' size='big' /> Tutorials (online)
-            </Header>
-          </div>
-          <Grid divided='vertically'>
-            {
-              musikanalyseNet.tutorials.sort((d1, d2) => CompareDates(d1, d2)).map(tutorial => {
-                return <Grid.Row columns={2} key={uid.seq()}>
-                  <Grid.Column width={2}>
-                    <Link href={url + tutorial.link}><Icon name='globe' size='big' /></Link>
-                  </Grid.Column>
-                  <Grid.Column width={14}>
-                    <Link href={url + tutorial.link}><i>{tutorial.title}</i></Link>, <span>{tutorial.abstract}<br/>
-                      Quelle: <Link href='https://musikanalyse.net'>musikanalyse.net</Link></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
-                  </Grid.Column>
-                </Grid.Row>
-              })
-            }
-          </Grid>
-          
-          <hr className={style.footerLine} />
-          <Footer className='footer' />  
-
-        </Container>
+      <PageHeader options={ options } />
+      <div>
+        <Heading>Hallo Publikationen!</Heading>
       </div>
     </>
   )
 }
+
+Index.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      {page}
+    </Layout>
+  )
+}
+
+export default Index;

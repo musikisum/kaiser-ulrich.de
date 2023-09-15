@@ -1,11 +1,14 @@
+import { ChakraProvider } from '@chakra-ui/react';
 import '../styles/globals.css'
-import 'semantic-ui-css/semantic.min.css'
-import { ChakraProvider } from '@chakra-ui/react'
+
 
 export default function App({ Component, pageProps }) {
-  return (
+
+  const getLayout = Component.getLayout || ((page) => page);
+
+  return getLayout(
     <ChakraProvider>
       <Component {...pageProps} />
     </ChakraProvider>
-  )
+  );
 }

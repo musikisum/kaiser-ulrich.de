@@ -1,0 +1,22 @@
+import Navigation from './navigation';
+import { Heading, Text, Box, Divider } from '@chakra-ui/react';
+
+import style from './pagehaeder.module.css';
+
+export default function PageHeader ({ options }) {
+  
+  return (
+    <>
+      <div className={style.header}>
+        <Heading>{options.title}</Heading>
+        <div className={style.navContainer}>
+          <Navigation bg='white' filter={ options.filter } />
+        </div>
+        <Box w='100%'>
+          <Text fontSize='2xl'>{options.description}</Text>
+        </Box> 
+      </div>
+      <Divider mt='60px' mb='60px' h='4px' bg='#6d8bb1' />
+    </>
+  )
+}

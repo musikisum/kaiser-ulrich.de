@@ -1,10 +1,9 @@
 import Link from 'next/link'
-import styles from './footer.module.css'
 
 export default function Footer() {
     return <>
-        <div className={styles.footerDiv}>
-            <Link className={styles.link} href='???'>Impressum & Datenschutz</Link>
+        <div className='footerDiv'>
+            <Link className='footerLink' href='???'>Impressum & Datenschutz</Link>
         </div>
     </>
 }

@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from './homeImage.module.css'
+import Link from 'next/link';
+import styles from './homeImage.module.css';
 
 export default function HomeImage() {
 
@@ -10,8 +10,8 @@ export default function HomeImage() {
       <h2 className={styles.hmtm}>Hochschule für Musik und Theater München</h2>
     </div>
     <div className={styles.homeImageContainer}>
-      <img className={styles.homeWoImage} src="/images/home1200oF.svg"></img>
-      <img className={styles.homeWImage} src="/images/home1200mF.svg"></img>
+      <img className={styles.homeWoImage} src="/images/home1200oF.svg" alt="Hausabbildung auf der Landing-Page" />
+      <img className={styles.homeWImage} src="/images/home1200mF.svg" alt="Hausabbildung auf der Landing-Page" />
       <div className={styles.homeGrid}>
         <div className={styles._d1}>
           <Link className={styles.window} href='/'>Projekte</Link>
@@ -20,13 +20,13 @@ export default function HomeImage() {
           <Link className={styles.window} href='/wissenschaft/'>Wissenschaft</Link>
         </div>
         <div className={styles._12}>
-          <Link className={styles.window} href='/publikationen'>Publikationen</Link>
+          <Link className={styles.window} href='/publikationen/'>Publikationen</Link>
         </div>
         <div className={styles._21}>
-          <Link className={styles.window} href='/unterricht'>Kurse</Link>
+          <Link className={styles.window} href='/angebote/'>Angebote</Link>
         </div>
         <div className={styles._22}>
-          <Link className={styles.window} href='/lehre'>Unterricht</Link>
+          <Link className={styles.window} href='/unterricht/'>Unterricht</Link>
         </div>
         <div className={styles._31}>
           <Link className={styles.window} href='/gesang'>Gesang</Link>

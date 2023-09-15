@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Die Notenbücher der Mozarts als Grundlage der Analyse von W. A. Mozarts Kompositionen 1761−1767",
+    "subtitle": "",
+    "details": "",
+    "location": "Kassel",
+    "year": 2007,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_mozart.png",
+    "link": "https://mozartforschung.de/"
+  },
+  {
+    "title": "Lamentobass",
+    "subtitle": "Ein musikalischer Topos von Monteverdi bis zu den Eagles",
+    "details": "(= Applaus 24), mit Audio-CD",
+    "location": "Leipzig",
+    "year": 2005,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_lamentobass.png",
+    "link": ""
+  },
+  {
+    "title": "Sonatenspiele",
+    "subtitle": "Musikmachen im Klassenverband",
+    "details": "(= Applaus 17), unter Mitarbeit von Hans-Ulrich Schäfer-Lembeck, mit CD-ROM/Audio-CD",
+    "location": "Leipzig",
+    "year": 2003,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_sonatenspiele.png",
+    "link": ""
+  },
+  {
+    "title": "Arrangieren und Instrumentieren",
+    "subtitle": "Barock bis Pop",
+    "details": "(= Bärenreiter Studienbücher Musik 14), mit CD, zus. mit Carsten Gerlitz",
+    "location": "Kassel",
+    "year": 2005,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_arrangieren.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/dedetailss/BVK1662/"
+  },
+  {
+    "title": "Il corale. Nello stile di Heinrich Schütz e Johann Sebastian Bach",
+    "subtitle": "",
+    "details": "(ital. Übersetzung)",
+    "location": "Milano",
+    "year": 2007,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_4Satz-it.png",
+    "link": ""
+  },
+  {
+    "title": "Der vierstimmige Satz",
+    "subtitle": "Kantionalsatz und Choralsatz",
+    "details": "(= Bärenreiter Studienbücher Musik 12), mit CD-ROM",
+    "location": "Kassel",
+    "year": 2002,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_4Satz-de.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/dedetailss/BVK1478/"
+  },
+  {
+    "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse",
+    "subtitle": "Ein Lehrgang mit historischen Beispielen",
+    "details": "Aufbaukurs, mit einem Formkapitel von Hartmut Fladt (= Bärenreiter Studienbücher Musik 11), mit Audio-CD",
+    "location": "Kassel",
+    "year": 1998,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_gehoerbildung-2.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/dedetailss/BVK1160/"
+  },
+  {
+    "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse",
+    "subtitle": "Ein Lehrgang mit historischen Beispielen",
+    "details": "Grundkurs (= Bärenreiter Studienbücher Musik 10), mit Audio-CD",
+    "location": "Kassel",
+    "year": 1998,
+    "type": "publisher",
+    "image": "/images/buecher/kaiser_gehoerbildung-1.png",
+    "link": "https://www.baerenreiter.com/shop/produkt/dedetailss/BVK1159/"
+  }
+]

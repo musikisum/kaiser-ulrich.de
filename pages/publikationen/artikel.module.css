@@ -1,0 +1,6 @@
+.articleEntry {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px 20px 20px;
+  font-size: 20px;
+}

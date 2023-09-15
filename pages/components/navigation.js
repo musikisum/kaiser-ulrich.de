@@ -1,0 +1,63 @@
+
+import Link from 'next/link';
+import ShortUniqueId from 'short-unique-id';
+import { HamburgerIcon } from '@chakra-ui/icons';
+import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, IconButton } from '@chakra-ui/react';
+
+
+import sitemap from "../../data/sitemap.json";
+import sitemapDictionary from "../../data/sitemapDictionary.json";
+import style from './navigation.module.css';
+
+const uid = new ShortUniqueId();
+
+function getUrls(filter) {
+  const urls = sitemap.pages.reduce((akku, current) => {
+    for (const [key, value] of Object.entries(current)) {
+      if (key === '/' + filter) {
+        akku.push(key);
+        for (const index in value) {
+          akku.push(key + value[index]);
+        }
+      }     
+    }
+    return akku;
+  }, []);
+  return [...new Set(urls)];;
+}
+
+export default function Navigation({ filter }) {
+  const urls = getUrls(filter);
+  const theme = urls[0];
+  const themeLinks = urls.slice(1);
+
+  console.log('theme', theme);
+  console.log('themeLinks', themeLinks);
+
+  return (
+    <Menu>
+      <MenuButton as={ IconButton } aria-label='Options' icon={ <HamburgerIcon /> } variant='outline' />
+      <MenuList>
+        <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem>
+        <MenuDivider />
+        {
+           themeLinks.map(url => {
+            return <MenuItem key={uid.seq()} ml='10px' as='a' href={url}>{sitemapDictionary[url]}</MenuItem>
+           })
+        }
+        <MenuDivider />
+        <MenuItem ml='4px' as='a' href='/'><b>Home</b></MenuItem>
+      </MenuList>
+    </Menu>
+  )
+}
+
+// {
+//   getUrls().map(entry => {
+//     return (
+//       <ListItem key={uid.seq()}>
+//         <Text>{entry}</Text>
+//       </ListItem>
+//     )
+//   })
+// } 

@@ -1,64 +1,24 @@
-.main {
-    margin-top: 6em;
+.cardImg {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+}
+.cardBodyMl {
+  margin-left: 20px;
+}
+.cardButtonSize {
+  margin-left: 0 !important;
+  width: 400px;
+  height: 300px;
 }
 
-.content {
-    max-width: 1200px;
-    margin: 6em auto;
-}
-
-.backButton {
-   position: relative;
-}
-.backButton > a {
-  position: absolute;
-  top: 1.8em;
-}
-.handyBackButton {
-  display: none;
-}
-
-.entryTypeWrapper {
-  height: 120px;
-  margin: 2em 0;
-  display: flex;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  justify-content: left;
-  align-items: center;
-}
-
-.searchOptions {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 60px;
-}
-
-.footerLine {
-  margin-top: 2em;
-}
-
-
-@media (max-width: 800px) {
-  .handyBackButton {
-    display: block;
-    margin-top: 20px;
-    margin-left: 20px;
+@media (max-width: 768px) {
+  .cardImg {
+    width: 90%;
+    height: 90%;
   }
-  .backButton {
-    display: none !important;
-  }
-  .searchOptions {
-    margin-top: 2em;
-  }
-}
-
-@media (max-width: 550px) {
-  .searchOptionsText {
-    display: none;
-  }
-  .searchOptionsQuestionmark {
-    display: none;
+  .cardButtonSize {
+    width: 100%;
+    height: 200px;
   }
 }
