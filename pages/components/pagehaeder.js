@@ -16,7 +16,7 @@ export default function PageHeader ({ options }) {
           <Text fontSize='2xl'>{options.description}</Text>
         </Box> 
       </div>
-      <Divider mt='60px' mb='60px' h='4px' bg='#6d8bb1' />
+      <Divider mt='60px' mb='60px' h='4px' bg='#FFD4D0' />
     </>
   )
 }

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Heaven from "./components/heaven";
 import Layout from './components/layout';
 import HomeImage from './components/homeImage';
 
@@ -10,7 +11,6 @@ const Home = () => {
         <meta name="description" content="Homepage von Prof. Dr. Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      
       <HomeImage />   
     </>
   )
@@ -18,7 +18,7 @@ const Home = () => {
 
 Home.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout text=''>
       {page}
     </Layout>
   )
