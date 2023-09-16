@@ -26,20 +26,22 @@ function getUrls(filter) {
   return [...new Set(urls)];;
 }
 
-export default function Navigation({ filter }) {
+export default function Navigation({ filter, slug }) {
   const urls = getUrls(filter);
   const theme = urls[0];
   const themeLinks = urls.slice(1);
-
-  console.log('theme', theme);
-  console.log('themeLinks', themeLinks);
+  const hasTheme = theme !== slug;
 
   return (
     <Menu>
       <MenuButton as={ IconButton } aria-label='Options' icon={ <HamburgerIcon /> } variant='outline' />
       <MenuList>
-        <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem>
-        <MenuDivider />
+        {
+          hasTheme && <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem>
+        }
+        {
+          hasTheme && <MenuDivider />
+        }        
         {
            themeLinks.map(url => {
             return <MenuItem key={uid.seq()} ml='10px' as='a' href={url}>{sitemapDictionary[url]}</MenuItem>

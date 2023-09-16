@@ -12,7 +12,8 @@ import sitemap from "../../data/sitemap.json";
 const options = {
   title: 'Publikationen',
   description: 'Hier finden Sie eine thematische Ordnung meiner Publikationen, z.B. eigenständige Publikationen in Verlagen, Artikel in Zeitschriften und Broschüren, OpenBooks, Open Educational Resources (Text, Bild, Video), Interviews usw.',
-  filter: 'publikationen'
+  filter: 'publikationen',
+  slug: '/publikationen'
 }
 
 // import musicData from '../../data/musik.json';

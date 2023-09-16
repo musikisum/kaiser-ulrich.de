@@ -10,7 +10,7 @@ export default function PageHeader ({ options }) {
       <div className={style.header}>
         <Heading>{options.title}</Heading>
         <div className={style.navContainer}>
-          <Navigation bg='white' filter={ options.filter } />
+          <Navigation bg='white' filter={ options.filter } slug={ options.slug } />
         </div>
         <Box w='100%'>
           <Text fontSize='2xl'>{options.description}</Text>
