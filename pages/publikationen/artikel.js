@@ -14,8 +14,9 @@ const uid = new ShortUniqueId();
 
 const options = {
   title: 'Artikel',
-  description: 'Hier finden Sie Publikationen, die in Zeitschriften und Broschüren seit 1992 gedruckt worden sind.',
-  filter: 'publikationen'
+  description: 'Hier finden Sie Publikationen, die seit 1992 in Zeitschriften und Broschüren veröffentlicht worden sind.',
+  filter: 'publikationen',
+  slug: '/publikationen/artikel'
 }
 
 const Artikel = () => {
