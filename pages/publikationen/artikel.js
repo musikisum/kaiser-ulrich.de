@@ -56,7 +56,7 @@ const Artikel = () => {
 
 Artikel.getLayout = function getLayout(page) {
   return (
-    <Layout text='Prof. Dr. Ulrich Kaiser – OER / Musiktheorie / Multimedia'>
+    <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
       {page}
     </Layout>
   )

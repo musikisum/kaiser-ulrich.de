@@ -1,116 +1,183 @@
 [{
-    "title": "J. Brahms. Walzer aus Op. 39 arrangiert für 2 Violinenusik",
-    "details": "(= OpenBook 17, Heft 1), Karlsfeld 2020",
+    "title": "J. Brahms",
+    "subtitle": "Walzer aus Op. 39 arrangiert für 2 Violinen",
+    "details": "(= OpenBook 17, Heft 1)",
     "image": "/images/openbooks/kaiser_openbook-brahms-2vl.jpg",
-    "link": "https://oer-musik.de/oer-walzer-von-brahms-arrangiert-fuer-zwei-violinen/"
+    "link": "https://oer-musik.de/oer-walzer-von-brahms-arrangiert-fuer-zwei-violinen/",
+    "location": "Karlsfeld",
+    "year": "2020"
   },{
     "title": "Filmmusik",
-    "details": "(= OpenBook 15), Karlsfeld 2020",
+    "subtitle": "",
+    "details": "(= OpenBook 15)",
     "image": "/images/openbooks/kaiser_openbookFilmmusik.jpg",
-    "link": "https://oer-musik.de/oer-filmmusik"
+    "link": "https://oer-musik.de/oer-filmmusik",
+    "location": "Karlsfeld",
+    "year": "2020"
   },{
     "title": "Formenlehre der Musik",
-    "details": "(= OpenBook 13), Karlsfeld 2019",
+    "subtitle": "",
+    "details": "(= OpenBook 13)",
     "image": "/images/openbooks/kaiser_openBookFormenlehre.jpg",
-    "link": "https://oer-musik.de/oer-formenlehre-der-musik/"
+    "link": "https://oer-musik.de/oer-formenlehre-der-musik/",
+    "location": "Karlsfeld",
+    "year": "2019"
   },{
-    "title": "George Bizet. Carmen zu einer Suite arrangiert von Ulrich Kaiser",
-    "details": "(= OpenBook 18, Heft 2), Karlsfeld 2017",
+    "title": "George Bizet",
+    "subtitle": "Carmen zu einer Suite arrangiert von Ulrich Kaiser",
+    "details": "(= OpenBook 18, Heft 2)",
     "image": "/images/openbooks/kaiser_openBookLcarmensuite.jpg",
-    "link": "https://oer-musik.de/oer-george-bizet-carmen-suite-arrangiert-von-ulrich-kaiser/"
+    "link": "https://oer-musik.de/oer-george-bizet-carmen-suite-arrangiert-von-ulrich-kaiser/",
+    "location": "Karlsfeld",
+    "year": "2017"
   },{
-    "title": "Johannes Brahms. Ungarischer Tanz Nr. 5 arrangiert und mit einer Einleitung versehen von Ulrich Kaiser",
-    "details": "(= OpenBook 18, Heft 1), Karlsfeld 2017",
-    "image": "/images/openbooks/kaiser_openbook-brahms5.jpg",
-    "link": "https://oer-musik.de/oer-johannes-brahms-ungarischer-tanz-5/"
+    "title": "Johannes Brahms",
+    "subtitle": "Ungarischer Tanz Nr. 5 arrangiert und mit einer Einleitung versehen von Ulrich Kaiser",
+    "details": "(= OpenBook 18, Heft 1)",
+    "image": "/images/openbooks/kaiser_openbookBrahms5.jpg",
+    "link": "https://oer-musik.de/oer-johannes-brahms-ungarischer-tanz-5/",
+    "location": "Karlsfeld",
+    "year": "2017"
   },{
     "title": "Kanon und 8 Variationen über Happy Birthday To You für vierstimmig gemischten Chor",
-    "details": "(= OpenBook 14, Heft 1), Karlsfeld 2016",
+    "subtitle": "",
+    "details": "(= OpenBook 14, Heft 1)",
     "image": "/images/openbooks/kaiser_openbook-happyfortchoir.jpg",
-    "link": "https://oer-musik.de/oer-kanon-und-8-variationen-ueber-happy-birthday-to-you-fuer-vierstimmig-gemischten-chor/"
+    "link": "https://oer-musik.de/oer-kanon-und-8-variationen-ueber-happy-birthday-to-you-fuer-vierstimmig-gemischten-chor/",
+    "location": "Karlsfeld",
+    "year": "2016"
   },{
     "title": "Thema und 12 Variationen über Happy Birthday To You",
-    "details": "(= OpenBook 14, Heft 2), Karlsfeld 2016",
+    "subtitle": "",
+    "details": "(= OpenBook 14, Heft 2)",
     "image": "/images/openbooks/kaiser_openbook-happyfortwo.jpg",
-    "link": "https://oer-musik.de/oer-thema-und-12-variationen-ueber-happy-birthday-to-you/"
+    "link": "https://oer-musik.de/oer-thema-und-12-variationen-ueber-happy-birthday-to-you/",
+    "location": "Karlsfeld",
+    "year": "2016"
   },{
-    "title": "Harmonielehre #reloaded. Eine praktische Anleitung für Musikerinnen und Musiker",
-    "details": "(= OpenBook 12), Karlsfeld 2016",
+    "title": "Harmonielehre #reloaded",
+    "subtitle": "Eine praktische Anleitung für Musikerinnen und Musiker",
+    "details": "(= OpenBook 12)",
     "image": "/images/openbooks/kaiser_openbookHarmonielehre.jpg",
-    "link": "https://oer-musik.de/oer-harmonielehre-reloaded-eine-praktische-anleitung-fuer-musikerinnen-und-musiker/"
+    "link": "https://oer-musik.de/oer-harmonielehre-reloaded-eine-praktische-anleitung-fuer-musikerinnen-und-musiker/",
+    "location": "Karlsfeld",
+    "year": "2016"
   },{
-    "title": "Orchesterinstrumente. Transponierende Instrumente",
-    "details": "(= OpenBook 16), Karlsfeld 2016",
+    "title": "Orchesterinstrumente",
+    "subtitle": "Transponierende Instrumente",
+    "details": "(= OpenBook 16)",
     "image": "/images/openbooks/kaiser_openbookTransponierende-instrumente2.jpg",
-    "link": "https://oer-musik.de/oer-orchesterinstrumente-transponierende-instrumente/"
+    "link": "https://oer-musik.de/oer-orchesterinstrumente-transponierende-instrumente/",
+    "location": "Karlsfeld",
+    "year": "2016"
   },{
-    "title": "Band-Impulse. Heft 4: Gehörbildung und Musiklehre. Übungen in Dur. Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9), Karlsfeld 2016",
+    "title": "Band-Impulse. Heft 4: Gehörbildung und Musiklehre",
+    "subtitle": "Übungen in Dur. Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
+    "details": "(= OpenBook 9)",
     "image": "/images/openbooks/kaiser_openBookBandImpulse-4.jpg",
-    "link": "https://oer-musik.de/oer-band-impulse-heft-4-gehoerbildung-und-musiklehre/"
+    "link": "https://oer-musik.de/oer-band-impulse-heft-4-gehoerbildung-und-musiklehre/",
+    "location": "Karlsfeld",
+    "year": "2016"
   },{
-    "title": "Band-Impulse. Heft 3: Pattern und Styles 1 (Am-Em/E7-A7/Rap/Pop). Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9, Pattern & Styles 1), Karlsfeld 2015",
+    "title": "Band-Impulse. Heft 3: Pattern und Styles 1 (Am-Em/E7-A7/Rap/Pop)",
+    "subtitle": "Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
+    "details": "(= OpenBook 9, Pattern & Styles 1)",
     "image": "/images/openbooks/kaiser_openBookBandImpulse-3.jpg",
-    "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/"
+    "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/",
+    "location": "Karlsfeld",
+    "year": "2015"
   },{
-    "title": "Band-Impulse. Heft 2: Elise In Black. Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9), Karlsfeld 2015",
+    "title": "Band-Impulse. Heft 2: Elise In Black",
+    "subtitle": "Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
+    "details": "(= OpenBook 9)",
     "image": "/images/openbooks/kaiser_openBookBandImpulse-1.png",
-    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black/"
+    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black/",
+    "location": "Karlsfeld",
+    "year": "2015"
   },{
-    "title": "Band-Impulse. Heft 1: That Image. Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9), Karlsfeld 2015",
+    "title": "Band-Impulse. Heft 1: That Image",
+    "subtitle": "Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
+    "details": "(= OpenBook 9)",
     "image": "/images/openbooks/kaiser_openBookBandImpulse-2.png",
-    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black/"
+    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black/",
+    "location": "Karlsfeld",
+    "year": "2015"
   },{
     "title": "Harmonielehre. Harmonie und Form für Kompositionen in Dur",
-    "details": "(= OpenBook 8), Karlsfeld 2015",
+    "subtitle": "",
+    "details": "(= OpenBook 8)",
     "image": "/images/openbooks/kaiser_ob-harmonieundform-Cover.jpg",
-    "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/"
+    "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/",
+    "location": "Karlsfeld",
+    "year": "2015"
   },{
-    "title": "Inventionen plus One. Kammermusik mit Johann Sebastian Bach. Materialien für den Musikunterricht an Musikschulen",
-    "details": "(= OpenBook 11), Karlsfeld 2015",
+    "title": "Inventionen plus One",
+    "subtitle": "Kammermusik mit Johann Sebastian Bach. Materialien für den Musikunterricht an Musikschulen",
+    "details": "(= OpenBook 11)",
     "image": "/images/openbooks/kaiser_openbookInventionen.jpg",
-    "link": "https://oer-musik.de/oer-inventionen-plus-one-kammermusik-mit-johann-sebastian-bach/"
+    "link": "https://oer-musik.de/oer-inventionen-plus-one-kammermusik-mit-johann-sebastian-bach/",
+    "location": "Karlsfeld",
+    "year": "2015"
   },{
-    "title": "Das Kinderhauslied. Ein Lied für Kinder und verschiedene Instrumente",
-    "details": "(= OpenBook 10), Karlsfeld 2015",
+    "title": "Das Kinderhauslied",
+    "subtitle": "Ein Lied für Kinder und verschiedene Instrumente",
+    "details": "(= OpenBook 10)",
     "image": "/images/openbooks/kaiser_openBookKinderhauslied.png",
-    "link": "https://oer-musik.de/oer-das-kinderhauslied/"
+    "link": "https://oer-musik.de/oer-das-kinderhauslied/",
+    "location": "Karlsfeld",
+    "year": "2015"
   },{
-    "title": "Ludwig van Beethoven. Die 5. Sinfonie. Materialien für den Unterricht an allgemeinbildenden Schulen",
-    "details": "(= OpenBook 6), inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser, Karlsfeld 2014",
+    "title": "Ludwig van Beethoven. Die 5. Sinfonie",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 6), inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser",
     "image": "/images/openbooks/kaiser_ob-beethoven5.png",
-    "link": "https://oer-musik.de/oer-ludwig-van-beethoven-die-fuenfte-sinfonie/"
+    "link": "https://oer-musik.de/oer-ludwig-van-beethoven-die-fuenfte-sinfonie/",
+    "location": "Karlsfeld",
+    "year": "2014"
   },{
     "title": "Kostenlose Software für den Musikunterricht",
-    "details": "(= OpenBook 7), Arbeitsheft, inkl. Materialien, Software und Videos, Karlsfeld 2014, 2. korr. Aufl. 2016",
+    "subtitle": "",
+    "details": "(= OpenBook 7), Arbeitsheft, inkl. Materialien, Software und Videos, 2. korr. Aufl. 2016",
     "image": "/images/openbooks/kaiser_openBookFreieSoftware.png",
-    "link": "https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht/"
+    "link": "https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht/",
+    "location": "Karlsfeld",
+    "year": "2014"
   },{
-    "title": "Lamentobass. Musik aus vier Jahrhunderten. Materialien für den Unterricht an allgemeinbildenden Schulen",
-    "details": "(= OpenBook 5), inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser, Leipzig 2006, 2. vollst. überarb. Aufl. Karlsfeld 2013",
+    "title": "Lamentobass. Musik aus vier Jahrhunderten",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 5), inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser, Leipzig 2006, 2. vollst. überarb. Aufl. 2013",
     "image": "/images/openbooks/kaiser_openBookLamentobass.png",
-    "link": "https://oer-musik.de/oer-lamentobass-musik-aus-vier-jahrhunderten/"
+    "link": "https://oer-musik.de/oer-lamentobass-musik-aus-vier-jahrhunderten/",
+    "location": "Karlsfeld",
+    "year": "2012"
   },{
     "title": "Praktische Harmonielehre: Sequenzen (für Kinder)",
-    "details": "(= OpenBook 4), Karlsfeld 2012",
+    "subtitle": "",
+    "details": "(= OpenBook 4)",
     "image": "/images/openbooks/kaiser_harmonielehresequenzenforkids.png",
-    "link": "https://oer-musik.de/oer-praktische-harmonielehre-sequenzen-fuer-kinder/"
+    "link": "https://oer-musik.de/oer-praktische-harmonielehre-sequenzen-fuer-kinder/",
+    "location": "Karlsfeld",
+    "year": "2012"
   },{
-    "title": "Intervalle und Akkorde. Grundlagen für den Musiktheorieunterricht",
-    "details": "(= OpenBook 3), Karlsfeld 2012",
+    "title": "Intervalle und Akkorde",
+    "subtitle": "Grundlagen für den Musiktheorieunterricht",
+    "details": "(= OpenBook 3)",
     "image": "/images/openbooks/kaiser_openbookIntervalleUndAkkorde.png",
-    "link": "https://oer-musik.de/oer-intervalle-und-akkorde/"
+    "link": "https://oer-musik.de/oer-intervalle-und-akkorde/",
+    "location": "Karlsfeld",
+    "year": "2011"
   },{
-    "title": "Johann Sebastian Bach. Ein Superstar gestern und heute. Materialien für den Unterricht an allgemeinbildenden Schulen",
-    "details": "(= OpenBook 2), Unterrichtsheft, Kommentarheft und Medien (inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser), Karlsfeld 2011",
+    "title": "Johann Sebastian Bach. Ein Superstar gestern und heute",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 2), Unterrichtsheft, Kommentarheft und Medien (inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser)",
     "image": "/images/openbooks/kaiser_openbookBach.png",
-    "link": "https://oer-musik.de/oer-johann-sebastian-bach-ein-superstar-gestern-und-heute/"
+    "link": "https://oer-musik.de/oer-johann-sebastian-bach-ein-superstar-gestern-und-heute/",
+    "location": "Karlsfeld",
+    "year": "2009"
   },{
-    "title": "Sonate & Sinfonie. Ein altes Thema auf neuen Wegen, Materialien für den Unterricht an allgemeinbildenden Schulen",
-    "details": "(= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger), Karlsfeld 2009, 2. Aufl. 2012",
+    "title": "Sonate & Sinfonie. Ein altes Thema auf neuen Wegen",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger), 2. Aufl. 2012",
     "image": "/images/openbooks/kaiser_openbookSonate.png",
     "link": "https://oer-musik.de/oer-sonate-und-sinfonie-ein-altes-thema-auf-neuen-wegen/"
   }
