@@ -15,11 +15,11 @@ const options = {
   slug: '/publikationen/openbooks'
 }
 
-const Verlage = () => {
+const OpenBooks = () => {
   return (
     <>
       <Head>
-        <title>Verlage</title>
+        <title>OpenBooks</title>
         <meta name="description" content="OpenBooks | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
@@ -37,25 +37,23 @@ const Verlage = () => {
           <Tbody>
             {
               books.map(book => {
-                return <>
-                  <Tr>
-                    <Td>
-                      {book.link ?
-                        <a href={book.link} target='_blank'><img src={book.image} /></a> :
-                        <img src={book.image} />
-                      }
-                    </Td>
-                    <Td>
-                      <i>
-                        {book.title}
-                        {book.subtitle ? '. ' + book.subtitle : ''}
-                      </i>
-                        {book.details ? ' ' + book.details + ', ' : ', '}
-                        {book.location + ' ' + book.year + '.'}
-                      <span>{ }</span>
-                    </Td>
-                  </Tr>
-                </>
+                return <Tr key={uid.seq()}>
+                  <Td>
+                    {book.link ?
+                      <a href={book.link} target='_blank'><img src={book.image} /></a> :
+                      <img src={book.image} />
+                    }
+                  </Td>
+                  <Td>
+                    <i>
+                      {book.title}
+                      {book.subtitle ? '. ' + book.subtitle : ''}
+                    </i>
+                      {book.details ? ' ' + book.details + ', ' : ', '}
+                      {book.location + ' ' + book.year + '.'}
+                    <span>{ }</span>
+                  </Td>
+                </Tr>
               })
             }
           </Tbody>
@@ -65,7 +63,7 @@ const Verlage = () => {
   )
 }
 
-Verlage.getLayout = function getLayout(page) {
+OpenBooks.getLayout = function getLayout(page) {
   return (
     <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
       {page}
@@ -73,4 +71,4 @@ Verlage.getLayout = function getLayout(page) {
   )
 }
 
-export default Verlage;
+export default OpenBooks;

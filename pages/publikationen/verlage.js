@@ -4,7 +4,7 @@ import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Text } from '@chakra-ui/react'
 
-import books from '../../data/verlage.json'
+import books from '../../data/verlage.json';
 
 import style from "./index.module.css";
 
@@ -39,26 +39,26 @@ const Verlage = () => {
           <Tbody>
            {
             books.map(book => {
-              return <>
-                <Tr>
+              return <Tr key={uid.seq()}>
                   <Td>
                     { book.link ?
-                      <a href={book.link} target='_blank'><img src={book.image} /></a> :
+                      <a href={book.link} target='_blank'>
+                        <img src={book.image} />
+                      </a> :
                       <img src={book.image} />
                     }
                   </Td>  
                   <Td> 
-                    <div className={style.biblio}>               
+                    <div className={style.biblio}>
                       <i>
                         {book.title}
                         {book.subtitle ? '. ' + book.subtitle : ''}                   
                       </i>
                       {book.details ? ' ' + book.details + ', ' : ', '}
                       {book.location + ' ' + book.year + '.'}
-                    </div>                          
+                    </div>
                   </Td>
-                </Tr>
-              </>
+                </Tr>         
              })
             }
           </Tbody>
