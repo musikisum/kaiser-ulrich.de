@@ -7,8 +7,6 @@ import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
-import sitemap from "../../data/sitemap.json";
-
 const options = {
   title: 'Publikationen',
   description: 'Hier finden Sie eine thematische Ordnung meiner Publikationen, z.B. eigenständige Publikationen in Verlagen, Artikel in Zeitschriften und Broschüren, OpenBooks, Open Educational Resources (Text, Bild, Video), Interviews usw.',
@@ -51,7 +49,7 @@ const Index = () => {
 
 Index.getLayout = function getLayout(page) {
   return (
-    <Layout text='Prof. Dr. Ulrich Kaiser – OER / Musiktheorie / Multimedia'>
+    <Layout>
       {page}
     </Layout>
   )

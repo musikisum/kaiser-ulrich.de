@@ -4,7 +4,7 @@ import Heaven from './heaven';
 export default function Layout({ children, text }) {
   return (
     <>
-      <Heaven text={text} />
+      <Heaven />
       <div className={styles.contentContainer}>
         {children}
       </div>

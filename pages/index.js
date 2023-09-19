@@ -17,7 +17,7 @@ const Home = () => {
 
 Home.getLayout = function getLayout(page) {
   return (
-    <Layout text=''>
+    <Layout>
       {page}
     </Layout>
   )

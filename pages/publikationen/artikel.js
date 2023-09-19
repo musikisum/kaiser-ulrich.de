@@ -1,12 +1,11 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
-import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
+import { List, ListItem, ListIcon } from '@chakra-ui/react';
+import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 
-import style from './artikel.module.css';
+import style from './index.module.css';
 
 import articleData from '../../data/artikel.json';
 
@@ -52,12 +51,12 @@ const Artikel = () => {
         }
       </List>
     </>
-  );
+  )
 }
 
 Artikel.getLayout = function getLayout(page) {
   return (
-    <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
+    <Layout>
       {page}
     </Layout>
   )

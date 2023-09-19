@@ -30,12 +30,12 @@ const Wissenschaft = () => {
           />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading>Wissenschaft</Heading>
-            <Text fontSize='2xl'>
+            <Heading fontSize='xl'>Wissenschaft</Heading>
+            <Text fontSize='l'>
               Auf dieser Seite finden Sie Links zu Informationen zu meinem Wissenschaftsverständnis, zu meiner Forschungstätigkeit und zu den von mir betreuten wissenschaftlichen Arbeiten (Bachelor- und Masterarbeiten sowie Promotionen). Darüber hinaus werden hier für Nachwuchswissenschaftler:innen Hilfsmittel zum wissenschaftlichen Arbeiten angeboten.
             </Text>
             <CardFooter pl='0'>
-              <Button variant='solid' colorScheme='blue' className={style.cardButtonSize}>
+              <Button variant='solid' className={style.cardButtonSize}>
                 Zur Wissenschaft ...
               </Button>
             </CardFooter>
@@ -46,16 +46,17 @@ const Wissenschaft = () => {
       <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
         <Image
             src='/images/card-images/card-images-Seite002.jpg'
-            alt='Green double couch with wooden legs'
+            alt='Abbildung zur Wissenschaft'
+            className={style.cardImg}
           />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading>Wissenschaft</Heading>
-            <Text fontSize='2xl'>
-              Auf dieser Seite finden Sie Links zu Informationen zur institutionellen Musiktheorie, zu meinem Wissenschaftsverständnis, zu den von mir betreuten wissenschaftlichen Arbeiten sowie zu meiner Forschungstätigkeit. Darüber hinaus werden hier Nachwuchswissenschaftler:innen Hilfsmittel zum wissenschaftlichen Arbeiten angeboten.
+            <Heading fontSize='xl'>Wissenschaft</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Links zu Informationen zur institutionellen Musiktheorie und zu meinem Verständnis als Fachwissenschaftler.
             </Text>
-            <CardFooter>
-              <Button variant='solid' colorScheme='blue' className={style.cardButtonSize}>
+            <CardFooter pl='0'>
+              <Button variant='solid' className={style.cardButtonSize}>
                 Zur Wissenschaft ...
               </Button>
             </CardFooter>

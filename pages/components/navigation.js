@@ -33,7 +33,7 @@ export default function Navigation({ filter, slug }) {
 
   return (
     <Menu>
-      <MenuButton as={ Button } rightIcon={<ChevronDownIcon />} >Andere Auswahl?</MenuButton>
+      <MenuButton as={ Button } rightIcon={<ChevronDownIcon />} >Andere Publikationsform?</MenuButton>
       <MenuList>
         { hasTheme && <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem> }
         { hasTheme && <MenuDivider /> }        
@@ -48,13 +48,3 @@ export default function Navigation({ filter, slug }) {
     </Menu>
   )
 }
-
-// {
-//   getUrls().map(entry => {
-//     return (
-//       <ListItem key={uid.seq()}>
-//         <Text>{entry}</Text>
-//       </ListItem>
-//     )
-//   })
-// } 

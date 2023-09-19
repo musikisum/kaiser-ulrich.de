@@ -70,7 +70,7 @@ const Verlage = () => {
 
 Verlage.getLayout = function getLayout(page) {
   return (
-    <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
+    <Layout>
       {page}
     </Layout>
   )

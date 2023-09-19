@@ -1,6 +1,6 @@
 .cardImg {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   margin: 20px auto;
 }
 .cardBodyMl {
@@ -9,13 +9,12 @@
 .cardButtonSize {
   margin-left: 0 !important;
   width: 400px;
-  height: 300px;
 }
 
 @media (max-width: 768px) {
   .cardImg {
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 60%;
   }
   .cardButtonSize {
     width: 100%;

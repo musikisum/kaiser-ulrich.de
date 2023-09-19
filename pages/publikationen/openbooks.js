@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from "../components/layout";
 import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
-import { Table, Thead, Tbody, Tfoot, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
+import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
 
 import books from '../../data/openbooks.json';
 
@@ -65,7 +65,7 @@ const OpenBooks = () => {
 
 OpenBooks.getLayout = function getLayout(page) {
   return (
-    <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
+    <Layout>
       {page}
     </Layout>
   )

@@ -6,7 +6,7 @@ import PageHeader from '../components/pagehaeder';
 import { CheckCircleIcon } from '@chakra-ui/icons'
 import { List, ListItem, ListIcon, Heading } from '@chakra-ui/react';
 
-import style from './tutorials.module.css'
+import style from './index.module.css';
 
 import musikanalyseNet from '../../data/summary.json'
 
@@ -51,7 +51,7 @@ const Tutorials = () => {
 
 Tutorials.getLayout = function getLayout(page) {
   return (
-    <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
+    <Layout>
       {page}
     </Layout>
   )
