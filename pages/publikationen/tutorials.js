@@ -1,68 +1,60 @@
-import Link from 'next/link'
+import Head from 'next/head';
 import dateFormat from 'dateformat'
-import ShortUniqueId from 'short-unique-id'
-import { Container, Header, Grid, Breadcrumb, Icon, Button } from 'semantic-ui-react'
+import Layout from '../components/layout';
+import ShortUniqueId from 'short-unique-id';
+import PageHeader from '../components/pagehaeder';
+import { CheckCircleIcon } from '@chakra-ui/icons'
+import { List, ListItem, ListIcon, Heading } from '@chakra-ui/react';
 
-import style from './index.module.css'
+import style from './tutorials.module.css'
 
 import musikanalyseNet from '../../data/summary.json'
 
 const uid = new ShortUniqueId();
-const url = 'https://musikanalyse.net'
+const url = 'https://musikanalyse.net';
 
-function CompareDates(date1, date2) {
-  const d1 = Date.parse(date1)
-  const d2 = Date.parse(date2)
-  if (d1 > d2) {
-    return 1
-  } else if (d2 > d1) {
-    return -1
-  } else {
-    return 0
-  }
+const options = {
+  title: 'Tutorials',
+  description: 'Hier finden Sie Online-Tutorials, die auf der Domain musikanalyse.net veröffentlicht worden sind. Alle Tutorials werden auf der Open Music Academy als Open Educational Resource (OER) für die kollaborative Zusammenarbeit freigegeben.',
+  filter: 'publikationen',
+  slug: '/publikationen/tutorials'
 }
 
-export default function Tutorials() {
-  return (<>
-    <div className={style.main}>
-      <Container>
-        <Header as='h1'>Tutorials (online)</Header>
-        <Container textAlign='right' className={style.backButton}>
-          <Button animated as='a' href='/publikationen/'>
-            <Button.Content visible>zurück</Button.Content>
-            <Button.Content hidden>
-              <Icon name='arrow left' />
-            </Button.Content>
-          </Button>
-        </Container>
-        <Breadcrumb>
-          <Breadcrumb.Section href='/'>Home</Breadcrumb.Section>
-          <Breadcrumb.Divider />
-          <Breadcrumb.Section href='/publikationen'>Publikationen</Breadcrumb.Section>
-          <Breadcrumb.Divider />
-          <Breadcrumb.Section active>Tutorials</Breadcrumb.Section>
-        </Breadcrumb>
-        <div className={style.entryTypeWrapper}>
-          <Header as='h2' className={style.entryType}>
-            <Icon name='globe' size='big' /> Tutorials (online)
-          </Header>
-        </div>
-        <Grid divided='vertically'>
-          {
-            musikanalyseNet.tutorials.sort((d1, d2) => CompareDates(d1, d2)).map(tutorial => {
-              return <Grid.Row columns={2} key={uid.seq()}>
-                <Grid.Column width={2}>
-                  <Link href={url + tutorial.link}><Icon name='globe' size='big' /></Link>
-                </Grid.Column>
-                <Grid.Column width={14}>
-                  <Link href={url + tutorial.link}><i>{tutorial.title}</i></Link>, <span>{tutorial.abstract}<br />
-                    Quelle: <Link href='https://musikanalyse.net'>musikanalyse.net</Link></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
-                </Grid.Column>
-              </Grid.Row>
-            })
-          }
-        </Grid>
-      </Container>
-    </div>
-  </>);
+const Tutorials = () => {
+  return (
+    <>
+      <Head>
+        <title>Tutorials</title>
+        <meta name="description" content="Tutorials | Ulrich Kaiser" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <PageHeader options={options} />
+      <List m='12px' spacing={3}>
+        {
+          musikanalyseNet.tutorials.sort((a, b) => { return new Date(b.modified) - new Date(a.modified) }).map(tutorial => {
+            return (
+              <ListItem key={uid.seq()}>
+                <div className={style.tutorialEntry}>
+                  { <a href={tutorial.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> }
+                  <div>
+                    <a href={url + tutorial.link}><i>{tutorial.title}</i></a>, <span>{tutorial.abstract}<br /> 
+                    Quelle: <a href='https://musikanalyse.net'>musikanalyse.net</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
+                  </div>
+                </div>
+              </ListItem>)
+          })
+        }
+      </List>
+    </>
+  );
 }
+
+Tutorials.getLayout = function getLayout(page) {
+  return (
+    <Layout text='Prof. Dr. Ulrich Kaiser – Open Educational Resources / Multimedia / Musiktheorie'>
+      {page}
+    </Layout>
+  )
+}
+
+export default Tutorials;

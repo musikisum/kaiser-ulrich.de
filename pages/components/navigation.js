@@ -1,7 +1,7 @@
 
 import ShortUniqueId from 'short-unique-id';
-import { HamburgerIcon } from '@chakra-ui/icons';
-import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, IconButton } from '@chakra-ui/react';
+import { ChevronDownIcon } from '@chakra-ui/icons';
+import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, Button } from '@chakra-ui/react';
 
 
 import sitemap from "../../data/sitemap.json";
@@ -33,7 +33,7 @@ export default function Navigation({ filter, slug }) {
 
   return (
     <Menu>
-      <MenuButton as={ IconButton } aria-label='Options' icon={ <HamburgerIcon /> } variant='outline' />
+      <MenuButton as={ Button } rightIcon={<ChevronDownIcon />} >Andere Auswahl?</MenuButton>
       <MenuList>
         { hasTheme && <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem> }
         { hasTheme && <MenuDivider /> }        

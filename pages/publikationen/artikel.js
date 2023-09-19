@@ -33,12 +33,13 @@ const Artikel = () => {
           articleData.map(article => {
             return (
             <ListItem key={uid.seq()}>
-              <div key={uid.seq()} className={style.articleEntry}>                  
+              <div className={style.articleEntry}>                  
                 {article.link ? 
-                  <Link key={uid.seq()} href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></Link> : 
-                  <ListIcon key={uid.seq()} mt='1' as={NotAllowedIcon} color='red.500' />}
-                <div key={uid.seq()}>
-                  {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
+                  <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> : 
+                  <ListIcon mt='1' as={NotAllowedIcon} color='red.500' /> 
+                }
+                <div>
+                  {article.link ? <a href={article.link}>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
                   <span>, in:</span> <i>{article.parent}</i>
                   {article.additional ? ' ' + article.additional : ''}
                   {article.issue ? ' ' + article.issue + '' : ''}

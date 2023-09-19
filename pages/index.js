@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Heaven from "./components/heaven";
 import Layout from './components/layout';
 import HomeImage from './components/homeImage';
 

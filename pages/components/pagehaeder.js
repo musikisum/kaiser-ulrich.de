@@ -13,10 +13,10 @@ export default function PageHeader ({ options }) {
           <Navigation bg='white' filter={ options.filter } slug={ options.slug } />
         </div>
         <Box w='100%'>
-          <Text fontSize='xl'>{options.description}</Text>
+          <Text fontSize='l'>{options.description}</Text>
         </Box> 
       </div>
-      <Divider mt='60px' mb='60px' h='4px' bg='#FFD4D0' />
+      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
     </>
   )
 }
