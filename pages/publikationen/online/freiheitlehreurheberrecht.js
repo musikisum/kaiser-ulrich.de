@@ -3,8 +3,6 @@ import Layout from '../../components/layout';
 import PageHeader from '../../components/pagehaeder';
 import { Heading, List, ListItem, Text, Alert, AlertIcon, AlertTitle, AlertDescription } from '@chakra-ui/react';
 
-import style from '../index.module.css'
-
 const options = {
   title: 'Freiheit der Lehre und das Urheberrecht',
   description: '',
@@ -21,7 +19,7 @@ const Freiheitlehreurheberrecht = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      {/* <h2>Freiheit der Lehre und das Urheberrecht</h2> */}
+
       <Text mb='6px'>
         Das Urheberrecht soll in dem Interessenskonflikt vermitteln, der zwischen den Rechten von Urhebern auf der einen Seite sowie dem Interesse der Allgemeinheit an freiem Umgang mit Inhalten auf der anderen Seite besteht. Ich finde es beschämend, dass die Politik meines Landes maßgeblich mit dafür verantwortlich ist, dass sich in der EU das Recht für den freien Umgang mit Wissen und Kultur sowie die Freiheit der Lehre fest in der Umklammerung des Urheberrechts befindet.<br />
         Maßgeblich dafür verantwortlich sind die Länge der Schutzfristen. Selbstverständlich ist eine künstlerische Leistungen angemessen zu schützen. Doch die derzeitige Schutzfrist von 70 Jahren nach dem Tod des Urhebers schützt den Urheber natürlich nur bis zum Tod, anschließend werden die Erben über mehrer Generationen sowie die Rechteverwerter wie Notenverlage, Tonträgerhersteller usw. geschützt.
@@ -32,11 +30,13 @@ const Freiheitlehreurheberrecht = () => {
       <Text mb='6px'>
         Lange Schutzfristen ließen sich rechtfertigen, gäbe es im europäischen Urheberrecht eine Fair-Use-Schranke, die es erlauben würde, jegliches Material in nicht kommerziellen und/oder gemeinnützigen Projekten (wie z.B. dem Unterricht an allgemeinbildenden Schulen und Musikhochschulen) kostenlos und unter Angabe von Quellen verwenden zu dürfen. Doch wie die jüngsten Reformen des Urheberrechts zeigen, wird eine solche Schranke durch Lobbyismus und Individualinteressen derzeit noch verhindert.
       </Text>
-      {/* <h3>Probleme mit Musikdateien auf <b>YouTube</b></h3> */}
+
+      <Heading as='h2' fontSize='md' mt='24px' mb='12px'>Probleme mit Musikdateien auf <b>YouTube</b></Heading>
       <Text mb='6px'>
         YouTube (Google) setzt mit dem ›Content-ID‹ einen Upload-Filter ein, der aufgrund der umstrittenen Urheberrechtsreform der Normalfall für ›Content Provider‹ werden wird. Dem gewünschten Ziel (Abwendung von Rechtsverstößen) stehen jedoch nicht nur Bedenken gegenüber (Datenschutz, Internetzensur), sondern es werden, wie die nachstehenden Fälle zeigen, auch legale Verwendungsweisen von Bild- und Tonmaterial durch Upload-Filter erschwert bzw. verhindert (darüber hinaus laden solche Techniken zu schwer kontrollierbarem Missbrauch ein). Derzeit können automatisierte Scans z.B. nicht zwischen einem Urheberrechtsverstoß und einem gesetzlich erlaubten Zitat im musikwissenschaftlichen Kontext unterscheiden, was die Vermittlung von musikalischem Fachwissen und meine Bereitstellung von Open Educational Resources auf YouTube schon jetzt negativ beeinträchtigt. Hierzu ein paar Beispiele:
       </Text>
-      <List m='12px' spacing={3}>
+
+      <List mt='24px' mb='24px' ml='48px' mr='48px' p='36px' backgroundColor='#E8E8E8' spacing={3}>
         <ListItem>
           <Text mb='6px'>Content-ID Anspruch von Kontor New Media Mudic (Jaap ter Linden-Symphony No. 19 in E-Flat Major, K. 132: I. Allegro und Allegro con brio - Friedrich Gulda). Der Anspruch Allegro con brio - Friedrich Gulda wurde nach dem Einspruch fallengelassen.</Text>
         </ListItem>
@@ -74,11 +74,12 @@ const Freiheitlehreurheberrecht = () => {
       <Text mb='6px'>
         Die zurückgezogenen Ansprüche (und auch die nicht zurückgezogenen von UMG/Deutsche Grammophon) legen die Vermutung nahe, dass die Content-ID-Datenbank von YouTube/Google mit Titeln gefüllt wird, an denen die Labels keine Rechte mehr haben (vgl. hierzu die Entwicklungen des UrhG zum Leistungsschutz). Über den Support von Google wollte ich hierrüber informieren und die Streitfälle klären. Doch Mails an den Support von YouTube/Google werden »leider nicht gelesen und zur Kenntnis genommen«, eine menschliche Rückmeldungen von YouTube/Google darf man derzeit nur erwarten, wenn eine Urheberrechtsverletzung melden möchte.
       </Text>
-      <Heading fontSize='2xl'>Bestätigung der Fehlerhaftigkeit des Content-ID-Systems</Heading>
+
+      <Heading as='h2' fontSize='md' mt='24px' mb='12px'>Bestätigung der Fehlerhaftigkeit des Content-ID-Systems</Heading>
       <Text mb='6px'>
         Eine Reaktion auf meinen Beitrag für die Wikimedia Foundation erhielt ich eine sehr freundliche Rückmeldung eines Publishing Directors:
       </Text>
-      <Alert status='success'>
+      <Alert status='success' mt='24px' mb='24px' ml='48px' mr='48px' style={{ 'width': 'auto' }} p='36px'>
         <Text mb='6px'>
           »I was interested to read your article in Arstechnica about YouTube misidentifying public domain classical recordings. As a music publisher and record label a lot of [...] content features on YouTube and also on television stations around the world. We find that YouTube also misidentifies our own recordings of classical works, but it rarely makes mistakes with our pop songs and other genres of music. We believe that this is because two different recordings of a Beethoven symphony still ›sound‹ very similar - particularly to the Content ID technology. Whereas two different recordings of a Beatles song will sound much more distinct, and will be able to be identified correctly by Content ID. Until the technology can be improved to distinguish subtle differences in tempo, pitch, timbre and even acoustics/reverb, it will continue to misidentify classical recordings. This is nothing to do with over-zealous claims or other publishers and labels deliberately claiming rights over your public domain recordings, simply to shortcomings in technology. Thanks again for your interesting article, and best wishes«
         </Text>
@@ -86,7 +87,8 @@ const Freiheitlehreurheberrecht = () => {
       <Text mb='6px'>
         Diese Rückmeldung zeigt, dass ein Wissen um die Fehlerhaftigkeit der Scans bei Insidern durchaus vorhanden ist, dass jedoch klassische Musik als Kollateralschaden in Kauf genommen wird, weil die Filter dort, wo derzeit Geld verdient wird (also im Bereich der Popmusik), recht zuverlässig funktionieren. Darüber hinaus zeigt diese Rückmeldung, dass es unter den Publishers und Labels sowohl einen korrekten Umgang mit der Content-ID-Datenbank zu geben scheint, als auch ein illegales Verhalten, welches gemeinfreie Aufnahmen mit Rechtsansprüchen belegt. In der Diskussion um illegales Verhalten auf YouTube ist das illegale Verhalten durch Labels bisher leider noch nicht thematisiert worden.
       </Text>
-      {/* <h3>Erfahrungen mit eigenen Aufnahmen</h3> */}
+
+      <Heading as='h2' fontSize='md' mt='24px' mb='12px'>Erfahrungen mit eigenen Aufnahmen</Heading>
       <Text mb='6px'>
         Meine von dem Publishing Director bestätigten Erfahrungen gipfelten in einem Erlebnis, das ich mit meinem Chormusik-Kanal auf YouTube hatte, auf dem ich eine nicht mehr im Handel befindliche Brahms-CD des von mir gegründeten Ensemberlino Vocale auf YouTube zur Verfügung stellen wollte. An dieser Aufnahme halte ich alle Rechte, der Chor sang seinerzeit unter meiner Leitung, die CD wurde von mir privat finanziert und der Vertrieb (Pool Music) ist schon vor Jahren in Konkurs gegangen.<br/>
         Zu meinem Erstaunen wurde ich nach dem Upload umgehend von YouTube benachrichtigt, dass die von mir dirigierte und von meinem ehemaligen Chor gesungene Aufnahme gar nicht von uns sei. Denn in ›Wirklichkeit‹ wäre Wolf-Dieter Haunschild der Dirigent der Aufnahme und die Rechte daran lägen deshalb bei Naxos of America.<br/>

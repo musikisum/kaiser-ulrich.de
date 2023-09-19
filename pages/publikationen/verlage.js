@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from "../components/layout";
 import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
-import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Text } from '@chakra-ui/react'
+import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
 
 import books from '../../data/verlage.json';
 

@@ -42,7 +42,7 @@ const Gelegenheiten = () => {
                   {article.link && !article.html ? <a href={article.link} target='_blank'>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
                   {article.details ? ', ' + article.details : ''}
                   {'. '}
-                  {article.html && <Link href={article.link}>Zum Artikel ...</Link>}
+                  {article.html && <Link href={article.link} style={{ 'color': '#494949', 'fontWeight': 'bold'}}>Zum Artikel ...</Link>}
                 </div>
               </div>
             </ListItem>)
