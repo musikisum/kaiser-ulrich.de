@@ -17,7 +17,7 @@ const Home = () => {
 
 Home.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={true}>
       {page}
     </Layout>
   )

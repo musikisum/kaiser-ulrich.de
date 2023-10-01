@@ -67,7 +67,7 @@ const Wissenschaft = () => {
 
 Wissenschaft.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={false}>
       {page}
     </Layout>
   )
