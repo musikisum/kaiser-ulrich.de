@@ -2,8 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
-import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
+import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -13,24 +12,6 @@ const options = {
   filter: 'publikationen',
   slug: '/publikationen'
 }
-
-// import musicData from '../../data/musik.json';
-// import booksData from '../../data/verlage.json';
-// import musikanalyseNet from '../../data/summary.json';
-// import onlineData from '../../data/gelegenheiten.json';
-
-function CompareDates(date1, date2) {
-  const d1 = Date.parse(date1)
-  const d2 = Date.parse(date2)
-  if(d1 > d2) {
-    return 1
-  } else if(d2 > d1) {
-    return -1
-  } else {
-    return 0
-  }
-}
-
 const Index = () => {
   return (
     <>
@@ -40,9 +21,29 @@ const Index = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      <div>
-        <Heading>Hallo Publikationen!</Heading>
-      </div>
+
+      <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/publikationen-Seite001.jpg'
+          alt='Abbildung zur Wissenschaft'          
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>Bücher & Hefte</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zu meinen selbstständigen Publikationen, die zwischen 1998 und 2007 in Verlagen (Bärenreiter, Klett) erschienen sind.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/publikationen/verlage'>
+                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                  Zu den Büchern & Heften ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card>
     </>
   )
 }

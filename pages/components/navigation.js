@@ -1,6 +1,6 @@
 
 import ShortUniqueId from 'short-unique-id';
-import { ChevronDownIcon } from '@chakra-ui/icons';
+import { HamburgerIcon } from '@chakra-ui/icons';
 import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, Button, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Text } from '@chakra-ui/react';
 
 import sitemap from "../../data/sitemap.json";
@@ -33,34 +33,47 @@ export default function Navigation({ filter, slug }) {
   const themeLinks = urls.slice(1);
 
   return (
-    <Menu>
-      <MenuButton as={ Button } rightIcon={<ChevronDownIcon />} >Andere Auswahl?</MenuButton>
-      <MenuList>
-        { hasTheme && <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem> }
-        { hasTheme && <MenuDivider /> }        
+    <>
+      <div className={style.menuIsVisible}>
+        <Menu>
+          <MenuButton as={Button} rightIcon={<HamburgerIcon />} >Menu</MenuButton>
+          <MenuList>
+            {
+              hasTheme && theme !== slug ? 
+              <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem> :
+              <MenuItem isDisabled ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem>
+            }
+            { hasTheme && <MenuDivider /> }        
+            {
+               themeLinks.map(url => {
+                let item = url !== slug ? 
+                <MenuItem key={uid.seq()} ml='10px' as='a' href={url}>{sitemapDictionary[url]}</MenuItem> :
+                <MenuItem isDisabled key={uid.seq()} ml='10px' as='a' href={url}>{sitemapDictionary[url]}</MenuItem>
+                return item;
+               })
+            }
+            <MenuDivider />
+            <MenuItem ml='4px' as='a' href='/'><b>Home</b></MenuItem>
+          </MenuList>
+        </Menu>
+      </div>
+      <div className={style.breadcrumbIsVisible}>
+        <Breadcrumb className={style.breadcrumbIsVisible}>
+        <BreadcrumbItem><BreadcrumbLink href={home}>Home</BreadcrumbLink></BreadcrumbItem>
         {
-           themeLinks.map(url => {
-            return <MenuItem key={uid.seq()} ml='10px' as='a' href={url}>{sitemapDictionary[url]}</MenuItem>
-           })
+          theme !== slug ?
+          <BreadcrumbItem><BreadcrumbLink href={theme}>{sitemapDictionary[theme]}</BreadcrumbLink></BreadcrumbItem> : 
+          <BreadcrumbItem isCurrentPage><BreadcrumbLink href={theme}><Text color='green'>{sitemapDictionary[theme]}</Text></BreadcrumbLink></BreadcrumbItem>
         }
-        <MenuDivider />
-        <MenuItem ml='4px' as='a' href='/'><b>Home</b></MenuItem>
-      </MenuList>
-    </Menu>
-    // <Breadcrumb>
-    //   <BreadcrumbItem><BreadcrumbLink href={home}>Home</BreadcrumbLink></BreadcrumbItem>
-    //   {
-    //     theme !== slug ?
-    //     <BreadcrumbItem><BreadcrumbLink href={theme}>{sitemapDictionary[theme]}</BreadcrumbLink></BreadcrumbItem> : 
-    //     <BreadcrumbItem isCurrentPage><BreadcrumbLink href={theme}><Text color='green'>{sitemapDictionary[theme]}</Text></BreadcrumbLink></BreadcrumbItem>
-    //   }
-    //   {
-    //     themeLinks.map(url => {
-    //       return url !== slug ? 
-    //       <BreadcrumbItem key={uid.seq()}><BreadcrumbLink href={url}>{ sitemapDictionary[url] }</BreadcrumbLink></BreadcrumbItem> :
-    //       <BreadcrumbItem isCurrentPage key={uid.seq()}><BreadcrumbLink href={url}><Text color='green'>{sitemapDictionary[url]}</Text></BreadcrumbLink></BreadcrumbItem>
-    //     })
-    //   }
-    // </Breadcrumb>
+        {
+          themeLinks.map(url => {
+            return url !== slug ? 
+            <BreadcrumbItem key={uid.seq()}><BreadcrumbLink href={url}>{ sitemapDictionary[url] }</BreadcrumbLink></BreadcrumbItem> :
+            <BreadcrumbItem isCurrentPage key={uid.seq()}><BreadcrumbLink href={url}><Text color='green'>{sitemapDictionary[url]}</Text></BreadcrumbLink></BreadcrumbItem>
+          })
+        }
+        </Breadcrumb>
+      </div>
+    </>
   )
 }

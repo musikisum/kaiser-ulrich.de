@@ -1,12 +1,27 @@
-.articleEntry {
-  display: flex;
-  border-bottom: 1px solid gray;
-  padding: 10px 20px 20px;
-  font-size: 1em;
+.cardImg {
+  width: 200px;
+  margin: 20px auto;
 }
-.tutorialEntry {
-  display: flex;
-  border-bottom: 1px solid gray;
-  padding: 10px 20px 20px;
-  font-size: 1em;
+.cardBodyMl {
+  margin-left: 20px;
+}
+.cardButtonSize {
+  margin-left: 0 !important;
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .cardImg {
+    width: 300px;
+  }
+  .cardButtonSize {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cardImg {
+    width: 100%;
+  }
 }
