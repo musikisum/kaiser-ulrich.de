@@ -32,7 +32,7 @@ const Artikel = () => {
           articleData.map(article => {
             return (
             <ListItem key={uid.seq()}>
-              <div className={style.articleEntry}>                  
+              <div className={style.listItemEntry}>                  
                 {article.link ? 
                   <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> : 
                   <ListIcon mt='1' as={NotAllowedIcon} color='red.500' /> 

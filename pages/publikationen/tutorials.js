@@ -34,7 +34,7 @@ const Tutorials = () => {
           musikanalyseNet.tutorials.sort((a, b) => { return new Date(b.modified) - new Date(a.modified) }).map(tutorial => {
             return (
               <ListItem key={uid.seq()}>
-                <div className={style.tutorialEntry}>
+                <div className={style.listItemEntry}>
                   { <a href={tutorial.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> }
                   <div>
                     <a href={url + tutorial.link}><i>{tutorial.title}</i></a>, <span>{tutorial.abstract}<br /> 
