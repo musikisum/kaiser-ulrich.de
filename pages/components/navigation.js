@@ -8,6 +8,7 @@ import sitemapDictionary from "../../data/sitemapDictionary.json";
 
 import style from './navigation.module.css';
 
+const color = '#F2727F';
 const uid = new ShortUniqueId();
 
 function getUrls(filter) {
@@ -26,6 +27,7 @@ function getUrls(filter) {
 }
 
 export default function Navigation({ filter, slug }) {
+
   const home = '/';
   const urls = getUrls(filter);
   const theme = urls[0];
@@ -63,13 +65,13 @@ export default function Navigation({ filter, slug }) {
         {
           theme !== slug ?
           <BreadcrumbItem><BreadcrumbLink href={theme}>{sitemapDictionary[theme]}</BreadcrumbLink></BreadcrumbItem> : 
-          <BreadcrumbItem isCurrentPage><BreadcrumbLink href={theme}><Text color='green'>{sitemapDictionary[theme]}</Text></BreadcrumbLink></BreadcrumbItem>
+          <BreadcrumbItem isCurrentPage><BreadcrumbLink href={theme}><Text color={color}>{sitemapDictionary[theme]}</Text></BreadcrumbLink></BreadcrumbItem>
         }
         {
           themeLinks.map(url => {
             return url !== slug ? 
             <BreadcrumbItem key={uid.seq()}><BreadcrumbLink href={url}>{ sitemapDictionary[url] }</BreadcrumbLink></BreadcrumbItem> :
-            <BreadcrumbItem isCurrentPage key={uid.seq()}><BreadcrumbLink href={url}><Text color='green'>{sitemapDictionary[url]}</Text></BreadcrumbLink></BreadcrumbItem>
+            <BreadcrumbItem isCurrentPage key={uid.seq()}><BreadcrumbLink href={url}><Text color={color}>{sitemapDictionary[url]}</Text></BreadcrumbLink></BreadcrumbItem>
           })
         }
         </Breadcrumb>

@@ -1,3 +1,4 @@
+import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
@@ -6,10 +7,10 @@ import { List, ListItem, ListIcon } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 
 import style from './index.module.css';
-
 import articleData from '../../data/artikel.json';
 
 const uid = new ShortUniqueId();
+const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 const options = {
   title: 'Artikel',
@@ -19,6 +20,9 @@ const options = {
 }
 
 const Artikel = () => {
+
+  const { data, error } = useSWR('/data/newArticles.json', fetcher);
+
   return (
     <>
       <Head>
@@ -28,6 +32,28 @@ const Artikel = () => {
       </Head>
       <PageHeader options={ options } />
       <List m='12px' spacing={3}>
+        {
+          data ? data.map(article => {
+            return (
+              <ListItem key={uid.seq()}>
+                <div className={style.listItemEntry}>
+                  {article.link ?
+                    <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> :
+                    <ListIcon mt='1' as={NotAllowedIcon} color='red.500' />
+                  }
+                  <div>
+                    {article.link ? <a href={article.link}>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
+                    <span>, in:</span> <i>{article.parent}</i>
+                    {article.additional ? ' ' + article.additional : ''}
+                    {article.issue ? ' ' + article.issue + '' : ''}
+                    {article.details ? ', ' + article.details : ''}
+                    {'.'}
+                  </div>
+                </div>
+              </ListItem>
+            )
+          }) : <p>Loading fail ...</p>
+        } 
         {
           articleData.map(article => {
             return (
@@ -47,7 +73,7 @@ const Artikel = () => {
                 </div>
               </div>
             </ListItem>)
-          })
+          })          
         }
       </List>
     </>

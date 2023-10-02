@@ -12,7 +12,9 @@ const options = {
   filter: 'publikationen',
   slug: '/publikationen'
 }
+
 const Index = () => {
+
   return (
     <>
       <Head>
@@ -36,7 +38,7 @@ const Index = () => {
             </Text>
             <CardFooter pl='0'>
               <Link href='/publikationen/verlage/'>
-                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                <Button variant='solid' className={style.cardButtonSize} >
                   Zu den Büchern & Heften ...
                 </Button>
               </Link>
@@ -53,13 +55,13 @@ const Index = () => {
         />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading fontSize='xl'>Bücher & Hefte</Heading>
+            <Heading fontSize='xl'>Artikel</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu meinen selbstständigen Publikationen, die zwischen 1998 und 2007 in Verlagen (Bärenreiter, Klett) erschienen sind.
+              Auf dieser Seite finden Sie Informationen zu meinen Aufsätzen, die seit 1992 in Zeitschriften und Broschüren publiziert worden sind.
             </Text>
             <CardFooter pl='0'>
               <Link href='/publikationen/artikel/'>
-                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                <Button variant='solid' className={style.cardButtonSize} >
                   Zu den Artikeln ...
                 </Button>
               </Link>

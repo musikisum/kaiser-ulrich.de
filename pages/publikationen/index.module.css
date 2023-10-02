@@ -12,6 +12,8 @@
 .cardButtonSize {
   margin-left: 0 !important;
   width: 400px;
+  background-color: #E0F1F4 !important;
+  color: rgb(73, 73, 73) !important;
 }
 
 @media (max-width: 768px) {
