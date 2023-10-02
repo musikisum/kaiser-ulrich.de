@@ -1,12 +1,4 @@
 [{
-    "title": "J. Brahms",
-    "subtitle": "Walzer aus Op. 39 arrangiert für 2 Violinen",
-    "details": "(= OpenBook 17, Heft 1)",
-    "image": "/images/openbooks/kaiser_openbook-brahms-2vl.jpg",
-    "link": "https://oer-musik.de/oer-walzer-von-brahms-arrangiert-fuer-zwei-violinen/",
-    "location": "Karlsfeld",
-    "year": "2020"
-  },{
     "title": "Filmmusik",
     "subtitle": "",
     "details": "(= OpenBook 15)",
@@ -22,38 +14,6 @@
     "link": "https://oer-musik.de/oer-formenlehre-der-musik/",
     "location": "Karlsfeld",
     "year": "2019"
-  },{
-    "title": "George Bizet",
-    "subtitle": "Carmen zu einer Suite arrangiert von Ulrich Kaiser",
-    "details": "(= OpenBook 18, Heft 2)",
-    "image": "/images/openbooks/kaiser_openBookLcarmensuite.jpg",
-    "link": "https://oer-musik.de/oer-george-bizet-carmen-suite-arrangiert-von-ulrich-kaiser/",
-    "location": "Karlsfeld",
-    "year": "2017"
-  },{
-    "title": "Johannes Brahms",
-    "subtitle": "Ungarischer Tanz Nr. 5 arrangiert und mit einer Einleitung versehen von Ulrich Kaiser",
-    "details": "(= OpenBook 18, Heft 1)",
-    "image": "/images/openbooks/kaiser_openbookBrahms5.jpg",
-    "link": "https://oer-musik.de/oer-johannes-brahms-ungarischer-tanz-5/",
-    "location": "Karlsfeld",
-    "year": "2017"
-  },{
-    "title": "Kanon und 8 Variationen über Happy Birthday To You für vierstimmig gemischten Chor",
-    "subtitle": "",
-    "details": "(= OpenBook 14, Heft 1)",
-    "image": "/images/openbooks/kaiser_openbook-happyfortchoir.jpg",
-    "link": "https://oer-musik.de/oer-kanon-und-8-variationen-ueber-happy-birthday-to-you-fuer-vierstimmig-gemischten-chor/",
-    "location": "Karlsfeld",
-    "year": "2016"
-  },{
-    "title": "Thema und 12 Variationen über Happy Birthday To You",
-    "subtitle": "",
-    "details": "(= OpenBook 14, Heft 2)",
-    "image": "/images/openbooks/kaiser_openbook-happyfortwo.jpg",
-    "link": "https://oer-musik.de/oer-thema-und-12-variationen-ueber-happy-birthday-to-you/",
-    "location": "Karlsfeld",
-    "year": "2016"
   },{
     "title": "Harmonielehre #reloaded",
     "subtitle": "Eine praktische Anleitung für Musikerinnen und Musiker",
@@ -79,51 +39,11 @@
     "location": "Karlsfeld",
     "year": "2016"
   },{
-    "title": "Band-Impulse. Heft 3: Pattern und Styles 1 (Am-Em/E7-A7/Rap/Pop)",
-    "subtitle": "Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9, Pattern & Styles 1)",
-    "image": "/images/openbooks/kaiser_openBookBandImpulse-3.jpg",
-    "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/",
-    "location": "Karlsfeld",
-    "year": "2015"
-  },{
-    "title": "Band-Impulse. Heft 2: Elise In Black",
-    "subtitle": "Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9)",
-    "image": "/images/openbooks/kaiser_openBookBandImpulse-1.png",
-    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black/",
-    "location": "Karlsfeld",
-    "year": "2015"
-  },{
-    "title": "Band-Impulse. Heft 1: That Image",
-    "subtitle": "Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
-    "details": "(= OpenBook 9)",
-    "image": "/images/openbooks/kaiser_openBookBandImpulse-2.png",
-    "link": "https://oer-musik.de/oer-band-impulse-heft-2-elise-in-black/",
-    "location": "Karlsfeld",
-    "year": "2015"
-  },{
     "title": "Harmonielehre. Harmonie und Form für Kompositionen in Dur",
     "subtitle": "",
     "details": "(= OpenBook 8)",
     "image": "/images/openbooks/kaiser_ob-harmonieundform-Cover.jpg",
     "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/",
-    "location": "Karlsfeld",
-    "year": "2015"
-  },{
-    "title": "Inventionen plus One",
-    "subtitle": "Kammermusik mit Johann Sebastian Bach. Materialien für den Musikunterricht an Musikschulen",
-    "details": "(= OpenBook 11)",
-    "image": "/images/openbooks/kaiser_openbookInventionen.jpg",
-    "link": "https://oer-musik.de/oer-inventionen-plus-one-kammermusik-mit-johann-sebastian-bach/",
-    "location": "Karlsfeld",
-    "year": "2015"
-  },{
-    "title": "Das Kinderhauslied",
-    "subtitle": "Ein Lied für Kinder und verschiedene Instrumente",
-    "details": "(= OpenBook 10)",
-    "image": "/images/openbooks/kaiser_openBookKinderhauslied.png",
-    "link": "https://oer-musik.de/oer-das-kinderhauslied/",
     "location": "Karlsfeld",
     "year": "2015"
   },{
@@ -173,12 +93,14 @@
     "image": "/images/openbooks/kaiser_openbookBach.png",
     "link": "https://oer-musik.de/oer-johann-sebastian-bach-ein-superstar-gestern-und-heute/",
     "location": "Karlsfeld",
-    "year": "2009"
+    "year": "2011"
   },{
     "title": "Sonate & Sinfonie. Ein altes Thema auf neuen Wegen",
     "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
-    "details": "(= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger), 2. Aufl. 2012",
+    "details": "(= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger)",
     "image": "/images/openbooks/kaiser_openbookSonate.png",
-    "link": "https://oer-musik.de/oer-sonate-und-sinfonie-ein-altes-thema-auf-neuen-wegen/"
+    "link": "https://oer-musik.de/oer-sonate-und-sinfonie-ein-altes-thema-auf-neuen-wegen/",
+    "location": "Karlsfeld",
+    "year": "2009"
   }
 ]

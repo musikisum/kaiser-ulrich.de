@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button } from '@chakra-ui/react';
+import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Divider } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -21,11 +21,11 @@ const Index = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-
-      <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
+      
+      <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
         <Image
           src='/images/card-images/publikationen-Seite001.jpg'
-          alt='Abbildung zur Wissenschaft'          
+          alt='Abbildung zu Büchern und Heften'          
           className={style.cardImg}
         />
         <CardBody className={style.cardBodyMl}>
@@ -35,9 +35,55 @@ const Index = () => {
               Auf dieser Seite finden Sie Informationen zu meinen selbstständigen Publikationen, die zwischen 1998 und 2007 in Verlagen (Bärenreiter, Klett) erschienen sind.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/publikationen/verlage'>
+              <Link href='/publikationen/verlage/'>
                 <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
                   Zu den Büchern & Heften ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card>
+
+      <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/publikationen-Seite003.jpg'
+          alt='Abbildung zu Artikeln'          
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>Bücher & Hefte</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zu meinen selbstständigen Publikationen, die zwischen 1998 und 2007 in Verlagen (Bärenreiter, Klett) erschienen sind.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/publikationen/artikel/'>
+                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                  Zu den Artikeln ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card>
+
+      <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/publikationen-Seite002.jpg'
+          alt='Abbildung zu OpenBooks'          
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>OpenBooks</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zu meinen OpenBooks, die seit 2009 veröffentliche.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/publikationen/openbooks/'>
+                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                  Zu den OpenBooks ...
                 </Button>
               </Link>
             </CardFooter>
