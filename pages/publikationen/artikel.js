@@ -3,14 +3,14 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { List, ListItem, ListIcon } from '@chakra-ui/react';
+import { List, ListItem, ListIcon, Text } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 
 import style from './index.module.css';
 import articleData from '../../data/artikel.json';
 
 const uid = new ShortUniqueId();
-const fetcher = (...args) => fetch(...args).then((res) => res.json())
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const options = {
   title: 'Artikel',
@@ -31,6 +31,7 @@ const Artikel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
+      <Text mb='10' ml='4'>Es wurden { articleData.length } Artikel veröffentlicht:</Text>
       <List m='12px' spacing={3}>
         {
           data ? data.map(article => {
@@ -52,17 +53,17 @@ const Artikel = () => {
                 </div>
               </ListItem>
             )
-          }) : <p>Loading fail ...</p>
+          }) : <p>Loading failed ...</p>
         } 
         {
           articleData.map(article => {
             return (
             <ListItem key={uid.seq()}>
-              <div className={style.listItemEntry}>                  
-                {article.link ? 
-                  <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> : 
-                  <ListIcon mt='1' as={NotAllowedIcon} color='red.500' /> 
-                }
+              <div className={style.listItemEntry}>                
+                  {article.link ?                  
+                    <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> : 
+                    <ListIcon mt='1' as={NotAllowedIcon} color='red.500' />                  
+                  }
                 <div>
                   {article.link ? <a href={article.link}>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
                   <span>, in:</span> <i>{article.parent}</i>

@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import { CheckCircleIcon } from '@chakra-ui/icons'
-import { List, ListItem, ListIcon, Heading } from '@chakra-ui/react';
+import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -29,6 +29,7 @@ const Tutorials = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={options} />
+      <Text mb='10'>Es wurden { musikanalyseNet.tutorials.length } Tutorials auf der Domain musikanalyse.net veröffentlicht:</Text>
       <List m='12px' spacing={3}>
         {
           musikanalyseNet.tutorials.sort((a, b) => { return new Date(b.modified) - new Date(a.modified) }).map(tutorial => {
