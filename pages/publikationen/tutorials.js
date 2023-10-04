@@ -15,7 +15,7 @@ const url = 'https://musikanalyse.net';
 
 const options = {
   title: 'Tutorials',
-  description: 'Hier finden Sie Online-Tutorials, die auf der Domain musikanalyse.net veröffentlicht worden sind. Alle Tutorials werden auf der Open Music Academy als Open Educational Resource (OER) für die kollaborative Zusammenarbeit freigegeben.',
+  description: 'Hier finden Sie Online-Tutorials, die bis 2021 auf der Domain musikanalyse.net veröffentlicht worden sind. Die Tutorials auf dieser Domain werden nach und nach auf der Open Music Academy als Open Educational Resource (OER) für die kollaborative Zusammenarbeit freigegeben.',
   filter: 'publikationen',
   slug: '/publikationen/tutorials'
 }
@@ -29,7 +29,7 @@ const Tutorials = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={options} />
-      <Text mb='10'>Es wurden { musikanalyseNet.tutorials.length } Tutorials auf der Domain musikanalyse.net veröffentlicht:</Text>
+      <Text mb='10'>Bis 2021 wurden { musikanalyseNet.tutorials.length } Tutorials auf der Domain musikanalyse.net veröffentlicht.</Text>
       <List m='12px' spacing={3}>
         {
           musikanalyseNet.tutorials.sort((a, b) => { return new Date(b.modified) - new Date(a.modified) }).map(tutorial => {

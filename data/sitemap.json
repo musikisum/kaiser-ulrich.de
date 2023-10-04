@@ -5,7 +5,7 @@
     { "/wissenschaft": [ "/profil", "/betreuungen", "/hilfsmittel" ] },
     { "/wissenschaft/hilfsmittel": ["/wissenschaftstheorie", "/herausgeber", "/recherche", "/zitieren", "/webwizi", "/urheberrecht" ] },
     { "/publikationen": [ "/verlage", "/artikel", "/openbooks", "/tutorials", "/musik", "/gelegenheiten"] },
-    { "/projekte": [ "/elmu/", "/openmusicacademy" ] },
+    { "/projekte": [ "/elmu", "/openmusicacademy" ] },
     { "/angebote": [ "/vortraege", "/workshops", "/fortbildungen", "/webdoc" ] },
     { "/unterricht": [ "/aktuelles", "/vergangenes", "/evaluation" ] },
     { "/gesang": [ "/choere", "/ausbildung", "/aufnahmen" ] },

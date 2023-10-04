@@ -14,7 +14,7 @@ const uid = new ShortUniqueId()
 
 const options = {
   title: 'Gelegenheiten',
-  description: 'Hier finden Sie Online-Publikationen, für die sich eine Gelegenheit ergab, die jedoch nie in einer gedruckten Form erschienen sind.',
+  description: 'Hier finden Sie Online-Publikationen, für die sich eine Gelegenheit ergeben hat ...',
   filter: 'publikationen',
   slug: '/publikationen/gelegenheiten'
 }

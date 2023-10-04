@@ -138,6 +138,29 @@ const Index = () => {
           </Stack>
         </CardBody>
       </Card>
+
+      <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/publikationen-Seite006.jpg'
+          alt='Abbildung zu Gelegenheiten'          
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>Gelegenheiten</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zu kleineren Publikationen, die sich als Gelegenheit hier und da ergeben haben.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/publikationen/gelegenheiten/'>
+                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                  Zu den Gelegenheiten ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card>
     </>
   )
 }
