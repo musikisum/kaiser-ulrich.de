@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from "../components/layout";
 import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
-import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
+import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Link, Text } from '@chakra-ui/react'
 
 import books from '../../data/musik.json';
 
@@ -40,7 +40,7 @@ const Musik = () => {
                 return <Tr key={uid.seq()}>
                   <Td>
                     {musik.link ?
-                      <a href={musik.link} target='_blank'><img src={musik.image} /></a> :
+                      <Link href={musik.link} isExternal><img src={musik.image} /></Link> :
                       <img src={musik.image} />
                     }
                   </Td>
@@ -56,6 +56,52 @@ const Musik = () => {
                 </Tr>
               })
             }
+            <Tr>
+              <Td style={{ 'verticalAlign': 'top' }}>
+              <Link href='' isExternal><img src='/images/musik/brahms-cd-kaiser-sm.jpg' /></Link>
+              </Td>
+              <Td>
+                <Text mb='6'>Johannes Brahms. Liebesliederwalzer und andere Werke. Ensemberlino Vocale, Ltg: Ulrich Kaiser (1992−1994). Lizenz: CC BY-SA.</Text>
+                <Text>                  
+                <b>Liebesliederwalzer op. 52</b><br/>
+                  Rede, Mädchen, allzu liebes<br/>
+                  Am Gesteine rauscht die Flut<br/>
+                  O die Frauen<br/>
+                  Wie des Abends schöne Röte<br/>
+                  Die grüne Hopfenranke<br/>
+                  Ein kleiner, hübscher Vogel<br/>
+                  Wohl schön bewandt war es<br/>
+                  Wenn so lindt dein Auge mir<br/>
+                  Am Donaustrande<br/>
+                  O wie sanft die Quelle<br/>
+                  Nein, es ist nicht auszukommen<br/>
+                  Schlosser auf, und mache Schlösser<br/>
+                  Vögelein durchrauscht die Luft<br/>
+                  Sieh, wie ist die Quelle klar<br/>
+                  Nachtigall, sie singt so schön<br/>
+                  Ein dunkler Schacht ist Liebe<br/>
+                  Nicht wandle, mein Licht<br/>
+                  Es bebet das Gesträuche<br/><br/>
+                  <b>Drei Gesänge op. 42</b><br/>
+                  Abendständchen<br/>
+                  Vineta<br/>
+                  Darthulas Grabgesang<br/><br/>
+                  <b>Lieder und Romanzen op. 93a</b><br/>
+                  Der bucklichte Fiedler<br/>
+                  Das Mädchen<br/>
+                  O süßer Mai<br/>
+                  Fahr wohl<br/>
+                  Der Falke<br/>
+                  Beherzigung<br/><br/>
+                  <b>Fünf Gesänge op. 104</b><br/>
+                  Nachtwache I<br/>
+                  Nachtwache II<br/>
+                  Letztes Glück<br/>
+                  Verlorene Jugend<br/>
+                  Im Herbst
+                </Text>
+              </Td>
+            </Tr>
           </Tbody>
         </Table>
       </TableContainer>

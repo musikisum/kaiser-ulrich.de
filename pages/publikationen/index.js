@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Divider } from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -80,12 +80,58 @@ const Index = () => {
           <Stack>
             <Heading fontSize='xl'>OpenBooks</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu meinen OpenBooks, die seit 2009 veröffentliche.
+              Auf dieser Seite finden Sie Informationen zu meinen <Link href='https://oer-musik.de' isExternal>OpenBooks <ExternalLinkIcon mx='2px' /></Link>, die seit 2009 veröffentliche.
             </Text>
             <CardFooter pl='0'>
               <Link href='/publikationen/openbooks/'>
                 <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
                   Zu den OpenBooks ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card> 
+      
+      <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/publikationen-Seite004.jpg'
+          alt='Abbildung zu Tutorials'          
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>Tutorials</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zu Tutorials, die ich zuerst auf <Link href='https://musikanalyse.net' isExternal>Musikanalyse .Net <ExternalLinkIcon mx='2px' /></Link> und seit 2022 auf der <Link href='https://openmusic.academy' isExternal>Open Music Academy <ExternalLinkIcon mx='2px' /></Link>.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/publikationen/tutorials/'>
+                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                  Zu den Tutorials ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card>
+
+      <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/publikationen-Seite005.jpg'
+          alt='Abbildung zu Musikpublikationen'          
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>Musik</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zu Kompositionen, Arraangements und Aufnahmen, die ich seit 1994 veröffentlicht habe.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/publikationen/musik/'>
+                <Button variant='solid' colorScheme="green" className={style.cardButtonSize} >
+                  Zur Musik ...
                 </Button>
               </Link>
             </CardFooter>

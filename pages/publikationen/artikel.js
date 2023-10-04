@@ -3,8 +3,8 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { List, ListItem, ListIcon, Text } from '@chakra-ui/react';
-import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
+import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
+import { CheckCircleIcon, NotAllowedIcon, ExternalLinkIcon} from '@chakra-ui/icons';
 
 import style from './index.module.css';
 import articleData from '../../data/artikel.json';
@@ -39,11 +39,11 @@ const Artikel = () => {
               <ListItem key={uid.seq()}>
                 <div className={style.listItemEntry}>
                   {article.link ?
-                    <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> :
+                    <Link href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></Link> :
                     <ListIcon mt='1' as={NotAllowedIcon} color='red.500' />
                   }
                   <div>
-                    {article.link ? <a href={article.link}>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
+                    {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
                     <span>, in:</span> <i>{article.parent}</i>
                     {article.additional ? ' ' + article.additional : ''}
                     {article.issue ? ' ' + article.issue + '' : ''}
@@ -61,11 +61,11 @@ const Artikel = () => {
             <ListItem key={uid.seq()}>
               <div className={style.listItemEntry}>                
                   {article.link ?                  
-                    <a href={article.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> : 
+                    <Link href={article.link} isExternal><ListIcon as={CheckCircleIcon} color='green.500' /></Link> : 
                     <ListIcon mt='1' as={NotAllowedIcon} color='red.500' />                  
                   }
                 <div>
-                  {article.link ? <a href={article.link}>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
+                  {article.link ? <Link href={article.link} isExternal>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
                   <span>, in:</span> <i>{article.parent}</i>
                   {article.additional ? ' ' + article.additional : ''}
                   {article.issue ? ' ' + article.issue + '' : ''}

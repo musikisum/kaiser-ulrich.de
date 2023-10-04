@@ -3,8 +3,8 @@ import dateFormat from 'dateformat'
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { CheckCircleIcon } from '@chakra-ui/icons'
-import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
+import { CheckCircleIcon, ExternalLinkIcon } from '@chakra-ui/icons'
+import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -36,9 +36,9 @@ const Tutorials = () => {
             return (
               <ListItem key={uid.seq()}>
                 <div className={style.listItemEntry}>
-                  { <a href={tutorial.link}><ListIcon as={CheckCircleIcon} color='green.500' /></a> }
+                  { <Link href={tutorial.link} isExternal><ListIcon as={CheckCircleIcon} color='green.500' /></Link> }
                   <div>
-                    <a href={url + tutorial.link}><i>{tutorial.title}</i></a>, <span>{tutorial.abstract}<br /> 
+                    <Link href={url + tutorial.link} isExternal><i>{tutorial.title}</i> <ExternalLinkIcon /></Link>, <span>{tutorial.abstract}<br /> 
                     Quelle: <a href='https://musikanalyse.net'>musikanalyse.net</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
                   </div>
                 </div>
