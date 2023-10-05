@@ -3,8 +3,8 @@ import ShortUniqueId from 'short-unique-id';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, Button, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Text } from '@chakra-ui/react';
 
-import sitemap from "../../data/sitemap.json";
-import sitemapDictionary from "../../data/sitemapDictionary.json";
+import { sitemap, sitemapDictionary } from "../../data/sitemap";
+// import sitemapDictionary from "../../data/sitemapDictionary.json";
 
 import style from './navigation.module.css';
 

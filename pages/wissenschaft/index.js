@@ -25,7 +25,7 @@ const Wissenschaft = () => {
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/card-images-Seite001.jpg'
+          src='/images/card-images/wissenschaft-Seite001.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}           
         />
@@ -48,7 +48,7 @@ const Wissenschaft = () => {
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/card-images-Seite002.jpg'
+          src='/images/card-images/wissenschaft-Seite002.jpg'
           alt='Abbildung zu den Betreuungen'
           className={style.cardImg}
         />
@@ -71,8 +71,8 @@ const Wissenschaft = () => {
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/card-images-Seite002.jpg'
-          alt='Abbildung zur Wissenschaft'
+        src='/images/card-images/wissenschaft-Seite003.jpg'
+          alt='Abbildung zu den Hilfsmitteln'
           className={style.cardImg}
         />
       <CardBody className={style.cardBodyMl}>

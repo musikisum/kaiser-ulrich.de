@@ -10,7 +10,7 @@ const options = {
   title: 'Betreuungen',
   description: 'Auf dieser Seite finden Sie Informationen zu den Hilfsmittel, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.',
   filter: 'wissenschaft/hilfsmittel',
-  slug: '/wissenschaft/hilfsmittel/wissenschaftstheorie'
+  slug: '/wissenschaft/hilfsmittel/kommunikation'
 }
 
 export default function Hilfsmittel() {
