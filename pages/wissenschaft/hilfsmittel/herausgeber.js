@@ -8,9 +8,9 @@ import style from '../index.module.css'
 
 const options = {
   title: 'Betreuungen',
-  description: 'Auf dieser Seite finden zu den Hilfsmittel, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.',
+  description: 'Auf dieser Seite finden Sie Informationen zu den Hilfsmittel, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.',
   filter: 'wissenschaft/hilfsmittel',
-  slug: '/wissenschaft/hilfsmittel'
+  slug: '/wissenschaft/hilfsmittel/herausgeber'
 }
 
 export default function Hilfsmittel() {

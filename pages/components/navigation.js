@@ -38,7 +38,7 @@ export default function Navigation({ filter, slug }) {
     <>
       <div className={style.menuIsVisible}>
         <Menu>
-          <MenuButton as={Button} rightIcon={<HamburgerIcon />} >Menu</MenuButton>
+          <MenuButton as={Button} rightIcon={<HamburgerIcon />}>Menu</MenuButton>
           <MenuList>
             {
               hasTheme && theme !== slug ? 
@@ -55,6 +55,9 @@ export default function Navigation({ filter, slug }) {
                })
             }
             <MenuDivider />
+            {
+              filter === 'wissenschaft/hilfsmittel' && <MenuItem href='/wissenschaft' as='a' ml='4px'><b>Wissenschaft</b></MenuItem>
+            }
             <MenuItem ml='4px' as='a' href='/'><b>Home</b></MenuItem>
           </MenuList>
         </Menu>
@@ -62,6 +65,9 @@ export default function Navigation({ filter, slug }) {
       <div className={style.breadcrumbIsVisible}>
         <Breadcrumb className={style.breadcrumbIsVisible}>
         <BreadcrumbItem><BreadcrumbLink href={home}>Home</BreadcrumbLink></BreadcrumbItem>
+        { 
+          filter === 'wissenschaft/hilfsmittel' && <BreadcrumbItem><BreadcrumbLink href='/wissenschaft'>Wissenschaft</BreadcrumbLink></BreadcrumbItem>
+        }
         {
           theme !== slug ?
           <BreadcrumbItem><BreadcrumbLink href={theme}>{sitemapDictionary[theme]}</BreadcrumbLink></BreadcrumbItem> : 
