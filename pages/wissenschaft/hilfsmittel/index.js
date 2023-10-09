@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Layout from '../../components/layout';
 import PageHeader from '../../components/pagehaeder';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
 import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link } from '@chakra-ui/react';
 
 import style from '../index.module.css'
@@ -55,12 +54,35 @@ export default function Hilfsmittel() {
         />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading fontSize='xl'>Profil</Heading>
+            <Heading fontSize='xl'>Herausgeberinnen & Herausgeber</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu meinem Wissenschaftsverständnis und meinen Forschungsschwerpunkten.
+              Auf dieser Seite finden Sie meine Meinung zur Angabe einer Herausgeberschaft.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/profil'>
+              <Link href='/wissenschaft/herausgeber'>
+                <Button variant='solid' className={style.cardButtonSize}>
+                  Zu meinen Gedanken ...
+                </Button>
+              </Link>
+            </CardFooter>
+          </Stack>
+        </CardBody>
+      </Card>
+
+      <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
+        <Image
+          src='/images/card-images/hilfsmittel-Seite001.jpg'
+          alt='Abbildung zur Wissenschaft'
+          className={style.cardImg}
+        />
+        <CardBody className={style.cardBodyMl}>
+          <Stack>
+            <Heading fontSize='xl'>Recherchieren</Heading>
+            <Text fontSize='l'>
+              Auf dieser Seite finden Sie Informationen zum Recherchieren im Rahmen des wissenschaftlichen Arbeitens.
+            </Text>
+            <CardFooter pl='0'>
+              <Link href='/wissenschaft/recherche'>
                 <Button variant='solid' className={style.cardButtonSize}>
                   Zum wissenschaftlichen Profil ...
                 </Button>
@@ -78,14 +100,14 @@ export default function Hilfsmittel() {
         />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading fontSize='xl'>Profil</Heading>
+            <Heading fontSize='xl'>Zitationsstile</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu meinem Wissenschaftsverständnis und meinen Forschungsschwerpunkten.
+              Auf dieser Seite finden Sie Informationen zu verschiedenen Zitationsstilen.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/profil'>
+              <Link href='/wissenschaft/zitieren'>
                 <Button variant='solid' className={style.cardButtonSize}>
-                  Zum wissenschaftlichen Profil ...
+                  Zu den Zitationsstilen ...
                 </Button>
               </Link>
             </CardFooter>
@@ -101,14 +123,14 @@ export default function Hilfsmittel() {
         />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading fontSize='xl'>Profil</Heading>
+            <Heading fontSize='xl'>WebWiZi</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu meinem Wissenschaftsverständnis und meinen Forschungsschwerpunkten.
+              Auf dieser Seite finden Sie ein Tool, um die Formatierungen der Zitierstile besser zu verstehen.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/profil'>
+              <Link href='/wissenschaft/webwizi'>
                 <Button variant='solid' className={style.cardButtonSize}>
-                  Zum wissenschaftlichen Profil ...
+                  Zum Tool (WebWiZi) ...
                 </Button>
               </Link>
             </CardFooter>
@@ -124,14 +146,14 @@ export default function Hilfsmittel() {
         />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading fontSize='xl'>Profil</Heading>
+            <Heading fontSize='xl'>Wissenschaft & Urheberrecht</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu meinem Wissenschaftsverständnis und meinen Forschungsschwerpunkten.
+              Auf dieser Seite finden Sie Informationen zum Urheberrecht.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/profil'>
+              <Link href='/wissenschaft/urheberrecht'>
                 <Button variant='solid' className={style.cardButtonSize}>
-                  Zum wissenschaftlichen Profil ...
+                  Zum Thema Urheberrecht ...
                 </Button>
               </Link>
             </CardFooter>

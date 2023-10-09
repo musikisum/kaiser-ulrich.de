@@ -10,7 +10,7 @@ import style from './index.module.css';
 import articleData from '../../data/artikel.json';
 
 const uid = new ShortUniqueId();
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Artikel',

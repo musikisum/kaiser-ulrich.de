@@ -42,7 +42,7 @@ export default function Betreuungen() {
         Betreut werden von mir Zulassungsarbeiten (Lehramt) zu Themen, bei denen ein Schwerpunkt auf der musikalischen Analyse liegt und/oder die musiktheoretische Fragestellungen berühren. Hierzu gehören auch interdisziplinäre Themen wie z.B. ›Musiktheorie in der Schule‹, ›Musiktheorie und Musikpädagogik‹, Themen aus der ›Geschichte der Musiktheorie‹ etc. Themen können frei gewählt werden, zur wissenschaftlichen Bearbeitung notwendige Eingrenzungen erfolgen in individueller Absprache. Themen ohne musikanalytische und/oder musiktheoretische Anteile aus den Bereichen Musikwissenschaft und Musikpädagogik betreuen meine Kolleginnen und Kollegen der entsprechenden Fachgebiete.
       </Text>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Aktuell werden keine Arbeiten von mir betreut, bitte kontaktieren Sie mich bei Interesse.</ListItem>
+        <ListItem className={style.mlDefault}>Aktuell werden keine Arbeiten von mir betreut, kontaktieren Sie mich bitte bei Interesse.</ListItem>
       </UnorderedList>
       
       <Divider mt='60px' mb='60px' height='2px' bgColor='gray' />
