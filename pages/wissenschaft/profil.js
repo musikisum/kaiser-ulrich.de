@@ -61,7 +61,7 @@ export default function Profil() {
       </Text>
       <UnorderedList className={style.mtDefault}>
         <ListItem className={style.mlDefault}>
-          <b>Theorie der Sonatenform im 18. und frühen 19. Jahrhundert.</b> Seit meiner Dissertation zu der Musik Mozarts habe ich mich gefragt, wie eine zeitgemäße Sonatentheorie aussehen müsste, die sich zur Analyse eines größeren Repertoires eignet. Dabei lasse ich mich durch historische Ideen inspirieren (z.B. Kadenzen frei nach H. Chr. Koch, Regolla dell'ottava usw.) und kombiniere die Gedanken mit systematischen Überlegungen (z.B. der Bedeutung von Satzmodellen und forschungsgelenkten Modellbildungen) zur musikalischen Analyse.
+          <b>Theorie der Sonatenform im 18. und frühen 19. Jahrhundert.</b> Seit meiner Dissertation zu der Musik Mozarts habe ich mich gefragt, wie eine zeitgemäße Sonatentheorie aussehen müsste, die sich zur Analyse eines größeren Repertoires eignet. Dabei lasse ich mich durch historische Ideen inspirieren (z.B. Kadenzen frei nach H. Chr. Koch, Regolla dell&rsquo;ttava usw.) und kombiniere die Gedanken mit systematischen Überlegungen (z.B. der Bedeutung von Satzmodellen und forschungsgelenkten Modellbildungen) zur musikalischen Analyse.
         </ListItem>
       </UnorderedList>
       <UnorderedList className={style.mtDefault}>

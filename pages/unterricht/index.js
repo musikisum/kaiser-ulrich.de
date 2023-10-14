@@ -1,11 +1,10 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
 
-import sitemap from "../../data/sitemap.json";
+import { sitemap } from '../../data/sitemap';
 
 const uid = new ShortUniqueId();
 

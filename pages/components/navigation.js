@@ -4,7 +4,6 @@ import { HamburgerIcon } from '@chakra-ui/icons';
 import { Menu, MenuButton, MenuList, MenuItem, MenuDivider, Button, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Text } from '@chakra-ui/react';
 
 import { sitemap, sitemapDictionary } from "../../data/sitemap";
-// import sitemapDictionary from "../../data/sitemapDictionary.json";
 
 import style from './navigation.module.css';
 

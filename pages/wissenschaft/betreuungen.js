@@ -39,7 +39,7 @@ export default function Betreuungen() {
         Zulassungsarbeiten
       </Heading>
       <Text className={style.mtDefault}>
-        Betreut werden von mir Zulassungsarbeiten (Lehramt) zu Themen, bei denen ein Schwerpunkt auf der musikalischen Analyse liegt und/oder die musiktheoretische Fragestellungen berühren. Hierzu gehören auch interdisziplinäre Themen wie z.B. ›Musiktheorie in der Schule‹, ›Musiktheorie und Musikpädagogik‹, Themen aus der ›Geschichte der Musiktheorie‹ etc. Themen können frei gewählt werden, zur wissenschaftlichen Bearbeitung notwendige Eingrenzungen erfolgen in individueller Absprache. Themen ohne musikanalytische und/oder musiktheoretische Anteile aus den Bereichen Musikwissenschaft und Musikpädagogik betreuen meine Kolleginnen und Kollegen der entsprechenden Fachgebiete.
+        Betreut werden von mir Zulassungsarbeiten (Lehramt) zu Themen, bei denen ein Schwerpunkt auf der musikalischen Analyse liegt und/oder die musiktheoretische Fragestellungen berühren. Hierzu gehören auch interdisziplinäre Themen wie z.B. &lsquo;Musiktheorie in der Schule&rsquo;, &lsquo;Musiktheorie und Musikpädagogik&rsquo;, Themen aus der &lsquo;Geschichte der Musiktheorie&rsquo; etc. Themen können frei gewählt werden, zur wissenschaftlichen Bearbeitung notwendige Eingrenzungen erfolgen in individueller Absprache. Themen ohne musikanalytische und/oder musiktheoretische Anteile aus den Bereichen Musikwissenschaft und Musikpädagogik betreuen meine Kolleginnen und Kollegen der entsprechenden Fachgebiete.
       </Text>
       <UnorderedList className={style.mtDefault}>
         <ListItem className={style.mlDefault}>Aktuell werden keine Arbeiten von mir betreut, kontaktieren Sie mich bitte bei Interesse.</ListItem>
@@ -63,7 +63,7 @@ export default function Betreuungen() {
         <ListItem className={style.mlDefault}><i>James Horner. Die Filmmusik zu AVATAR Zwischen Originalität und Selbstzitat</i>, Zulassungsarbeit Lehramt am Gymnasium 2017</ListItem>
         <ListItem className={style.mlDefault}><i>Virtuosität im Heavy Metal</i>, Zulassungsarbeit Lehramt am Gymnasium 2017</ListItem>
         <ListItem className={style.mlDefault}><i>Freiheit beim Komponieren im Musikunterricht. Eine Analyse von Selektionskriterien bei Kompositionsaufgaben an weiterführenden Schulen</i>, Masterarbeit Musiktheorie/Gehörbildung 2016</ListItem>
-        <ListItem className={style.mlDefault}><i>Die ›Neun Advent-Motetten‹ op. 176 von Josef Gabriel Rheinberger</i>. Zulassungsarbeit Lehramt am Gymnasium 2016</ListItem>
+        <ListItem className={style.mlDefault}><i>Die &lsquo;Neun Advent-Motetten&rsquo; op. 176 von Josef Gabriel Rheinberger</i>. Zulassungsarbeit Lehramt am Gymnasium 2016</ListItem>
         <ListItem className={style.mlDefault}><i>Die Dämpfungsaufhebung in den Klavierkonzerten Ludwig van Beethovens.</i> Bachelorarbeit Hauptfach Musiktheorie 2016</ListItem>
         <ListItem className={style.mlDefault}><i>Percussion im Musikunterricht. Eine funktionale Analyse von Interviews</i> Dissertation an der HMTM 2015 im Fach Musikpädagogik (Zweitgutachter)</ListItem>
         <ListItem className={style.mlDefault}><i>Liederzyklus als Künstlerdenkmal Studien zu Kunstlied und Künstlerrolle in der ersten Hälfte des 19. Jahrhunderts am Fall von R. Schumann. Sechs Gedichte von N. Lenau und Requiem op. 90.</i> Dissertation an der HMTM 2014 im Fach Musikwissenschaft (Zweitgutachter)</ListItem>
@@ -71,7 +71,7 @@ export default function Betreuungen() {
         <ListItem className={style.mlDefault}><i>Musikpädagogik und Musiktheorie. Eine problematische Beziehung? Systemtheoretische Beobachtungen.</i> Dissertation an der Universität Hamburg 2014, Fachbereich Erziehungswissenschaften (Zweitgutachter)</ListItem>
         <ListItem className={style.mlDefault}><i>Die Canzonetten Giovanni Artusis.</i> Bachelorarbeit Hauptfach Musiktheorie und Zulassungsarbeit Lehramt am Gymnasium 2014 und Bachelorarbeit Musiktheorie/Gehörbildung</ListItem>
         <ListItem className={style.mlDefault}><i>Ludwig van Beethoven. Eine Darstellung des Komponisten in bayerischen Schulbüchern.</i> Zulassungsarbeit Lehramt am Gymnasium 2014</ListItem>
-        <ListItem className={style.mlDefault}><i>Formanalyse in der Rockmusik am Beispiel von ›Costello Music‹ der Band The Fratellis.</i> Zulassungsarbeit Lehramt am Gymnasium 2014</ListItem>
+        <ListItem className={style.mlDefault}><i>Formanalyse in der Rockmusik am Beispiel von &lsquo;Costello Music&rsquo; der Band The Fratellis.</i> Zulassungsarbeit Lehramt am Gymnasium 2014</ListItem>
         <ListItem className={style.mlDefault}><i>Konzeption einer Musikanalyse-Anwendung auf verteilten Displays.</i> Bachelorarbeit Medieninformatik an der LMU 2013, Zweitbetreuer/Kooperationspartner</ListItem>
         <ListItem className={style.mlDefault}><i>Modal klingende Stellen im A-capella-Chorwerk von Johannes Brahms.</i> Diplomarbeit Hauptfach Musiktheorie 2013</ListItem>
         <ListItem className={style.mlDefault}><i>Rachmaninov op.4. Eine Analyse zum Wort-Ton-Verhältnis.</i> Zulassungsarbeit Lehramt am Gymnasium 2013</ListItem>
@@ -81,7 +81,7 @@ export default function Betreuungen() {
         <ListItem className={style.mlDefault}><i>Kadenz und Eingang im Violinkonzert.</i> Zulassungsarbeit Lehramt am Gymnasium 2012</ListItem>
         <ListItem className={style.mlDefault}><i>Analytische Betrachtungen zu Becks O Crux Aves.</i> Zulassungsarbeit Lehramt am Gymnasium 2012</ListItem>
         <ListItem className={style.mlDefault}><i>Musiktheorie und ausgewählte Kompositionen von Meinrad Spieß.</i> Diplomarbeit Hauptfach Musiktheorie und Zulassungsarbeit Lehramt am Gymnasium 2011</ListItem>
-        <ListItem className={style.mlDefault}><i>Analytische Beobachtungen zu John Williams' Star Wars (Across the Stars).</i> Zulassungsarbeit Lehramt am Gymnasium 2011</ListItem>
+        <ListItem className={style.mlDefault}><i>Analytische Beobachtungen zu John Williams&rsquo; Star Wars (Across the Stars).</i> Zulassungsarbeit Lehramt am Gymnasium 2011</ListItem>
         <ListItem className={style.mlDefault}><i>Musikalische Analyse der Fest- und Gedenksprüche op. 109 von Johannes Brahms unter Berücksichtigung von gesellschaftspolitischen und theologischen Aspekten.</i> Zulassungsarbeit Lehramt am Gymnasium 2010</ListItem>
         <ListItem className={style.mlDefault}><i>Die Madrigale Thomas Vautors.</i> Zulassungsarbeit Lehramt am Gymnasium 2010</ListItem>
         <ListItem className={style.mlDefault}><i>Neue Medien und Musikunterricht am Beispiel von Popularmusik.</i> Diplomarbeit Hauptfach Musiktheorie 2009</ListItem>
