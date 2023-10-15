@@ -11,7 +11,9 @@ export const sitemap = {
         { "/gesang": [ "/choere", "/ausbildung", "/aufnahmen" ] },
         { "/chorleitung": [ "/consortium", "/ensemberlino", "/addenda" ] },
         { "/person": [ "/profil", "/vita" ] },
-        { "/formales": [ "/kontakt", "/datenschutz", "/sitemap" ] }
+        { "/impressum": [] },
+        { "/datenschutz": [] },
+        { "/sitemap": [] }
     	]
     }
 
@@ -24,7 +26,6 @@ export const sitemapDictionary = {
   "/gesang": "Gesang",
   "/chorleitung": "Chorleitung",
   "/person": "Zur Person",
-  "/formales": "Formales",
   "/wissenschaft/profil": "Profil",
   "/wissenschaft/betreuungen": "Betreuungen",
   "/wissenschaft/hilfsmittel": "Hilfsmittel",
@@ -57,8 +58,8 @@ export const sitemapDictionary = {
   "/chorleitung/addenda": "Addenda",
   "/person/profil": "Profil",
   "/person/vita": "Lebenslauf",
-  "/formales/kontakt": "Kontakt",
-  "/formales/datenschutz": "Datenschutz",
-  "/formales/sitemap": "Sitemap"
+  "/impressum": "Kontakt und Impressum",
+  "/datenschutz": "Datenschutz (DSGVO)",
+  "/sitemap": "Sitemap"
 }
               
