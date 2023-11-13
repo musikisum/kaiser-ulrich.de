@@ -1,13 +1,17 @@
-.headingColor {
-  color: #494949;
-  font-size: 1.7em !important;
-}
-
 .mtDefault {
   margin-top: 20px;
 }
 .mlDefault {
   margin-left: 20px;
+}
+
+.redCell {
+  vertical-align: top;
+  background-color: #FFECEA;
+}
+.greenCell {
+  vertical-align: top;
+  background-color: #C6F6D5;
 }
 
 .cardImg {

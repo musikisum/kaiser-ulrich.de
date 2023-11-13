@@ -48,7 +48,7 @@ export default function Hilfsmittel() {
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
-          src='/images/card-images/hilfsmittel-Seite001.jpg'
+          src='/images/card-images/hilfsmittel-Seite002.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
         />
@@ -59,7 +59,7 @@ export default function Hilfsmittel() {
               Auf dieser Seite finden Sie meine Meinung zur Angabe einer Herausgeberschaft.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/herausgeber'>
+              <Link href='/wissenschaft/hilfsmittel/herausgeber'>
                 <Button variant='solid' className={style.cardButtonSize}>
                   Zu meinen Gedanken ...
                 </Button>
@@ -71,7 +71,7 @@ export default function Hilfsmittel() {
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
-          src='/images/card-images/hilfsmittel-Seite001.jpg'
+          src='/images/card-images/hilfsmittel-Seite003.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
         />
@@ -82,7 +82,7 @@ export default function Hilfsmittel() {
               Auf dieser Seite finden Sie Informationen zum Recherchieren im Rahmen des wissenschaftlichen Arbeitens.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/recherche'>
+              <Link href='/wissenschaft/hilfsmittel/recherche'>
                 <Button variant='solid' className={style.cardButtonSize}>
                   Zum wissenschaftlichen Profil ...
                 </Button>
@@ -94,7 +94,7 @@ export default function Hilfsmittel() {
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
-          src='/images/card-images/hilfsmittel-Seite001.jpg'
+          src='/images/card-images/hilfsmittel-Seite004.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
         />
@@ -105,7 +105,7 @@ export default function Hilfsmittel() {
               Auf dieser Seite finden Sie Informationen zu verschiedenen Zitationsstilen.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/zitieren'>
+              <Link href='/wissenschaft/hilfsmittel/zitieren'>
                 <Button variant='solid' className={style.cardButtonSize}>
                   Zu den Zitationsstilen ...
                 </Button>
@@ -117,7 +117,7 @@ export default function Hilfsmittel() {
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
-          src='/images/card-images/hilfsmittel-Seite001.jpg'
+          src='/images/card-images/hilfsmittel-Seite005.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
         />
@@ -128,7 +128,7 @@ export default function Hilfsmittel() {
               Auf dieser Seite finden Sie ein Tool, um die Formatierungen der Zitierstile besser zu verstehen.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/webwizi'>
+              <Link href='/wissenschaft/hilfsmittel/webwizi'>
                 <Button variant='solid' className={style.cardButtonSize}>
                   Zum Tool (WebWiZi) ...
                 </Button>
@@ -140,7 +140,7 @@ export default function Hilfsmittel() {
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
-          src='/images/card-images/hilfsmittel-Seite001.jpg'
+          src='/images/card-images/hilfsmittel-Seite006.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
         />
@@ -151,7 +151,7 @@ export default function Hilfsmittel() {
               Auf dieser Seite finden Sie Informationen zum Urheberrecht.
             </Text>
             <CardFooter pl='0'>
-              <Link href='/wissenschaft/urheberrecht'>
+              <Link href='/wissenschaft/hilfsmittel/urheberrecht'>
                 <Button variant='solid' className={style.cardButtonSize}>
                   Zum Thema Urheberrecht ...
                 </Button>

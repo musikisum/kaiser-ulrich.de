@@ -1,8 +1,6 @@
 import style from './heaven.module.css';
 import { Text } from '@chakra-ui/react';
 
-
-
 // console.log('URL:', document.URL);
 
 // function getWindowSize() {
