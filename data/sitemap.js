@@ -3,7 +3,7 @@ export const sitemap = {
   "domain": "kaiser-ulrich.de",
   "pages": [
         { "/wissenschaft": [ "/profil", "/betreuungen", "/hilfsmittel" ] },
-        { "/wissenschaft/hilfsmittel": ["/kommunikation", "/herausgeber", "/recherche", "/zitieren", "/webwizi", "/urheberrecht" ] },
+        { "/wissenschaft/hilfsmittel": ["/kommunikation", "/herausgeber" ] },
         { "/publikationen": [ "/verlage", "/artikel", "/openbooks", "/tutorials", "/musik", "/gelegenheiten"] },
         { "/projekte": [ "/elmu", "/openmusicacademy" ] },
         { "/angebote": [ "/vortraege", "/workshops", "/fortbildungen", "/webdoc" ] },
@@ -16,6 +16,8 @@ export const sitemap = {
         { "/sitemap": [] }
     	]
     }
+
+// gelöscht in Wissenschaft: , "/recherche", "/zitieren", "/webwizi", "/urheberrecht"
 
 export const sitemapDictionary = { 
   "/wissenschaft": "Wissenschaft",

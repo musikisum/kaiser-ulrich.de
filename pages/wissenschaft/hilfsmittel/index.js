@@ -69,7 +69,7 @@ export default function Hilfsmittel() {
         </CardBody>
       </Card>
 
-      <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
+      {/* <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
           src='/images/card-images/hilfsmittel-Seite003.jpg'
           alt='Abbildung zur Wissenschaft'
@@ -136,7 +136,7 @@ export default function Hilfsmittel() {
             </CardFooter>
           </Stack>
         </CardBody>
-      </Card>
+      </Card> */}
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
         <Image
