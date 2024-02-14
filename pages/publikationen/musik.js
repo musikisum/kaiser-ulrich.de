@@ -1,12 +1,12 @@
+import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from "../components/layout";
 import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
-import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Link, Text } from '@chakra-ui/react'
-
-import books from '../../data/musik.json';
+import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Link, Text, Heading } from '@chakra-ui/react'
 
 const uid = new ShortUniqueId()
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Musik',
@@ -16,6 +16,9 @@ const options = {
 }
 
 const Musik = () => {
+
+  const { data, error } = useSWR('/data/musik.json', fetcher);
+
   return (
     <>
       <Head>
@@ -25,7 +28,8 @@ const Musik = () => {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={options} />
-      <TableContainer>
+
+      {data && <TableContainer>
         <Table variant='simple' whiteSpace='wrap'>
           <TableCaption>Openbooks (Open Educational Resources) von Ulrich Kaiser</TableCaption>
           <Thead>
@@ -36,7 +40,7 @@ const Musik = () => {
           </Thead>
           <Tbody>
             {
-              books.map(musik => {
+              data.map(musik => {
                 return <Tr key={uid.seq()}>
                   <Td>
                     {musik.link ?
@@ -51,12 +55,29 @@ const Musik = () => {
                     </i>
                       {musik.details ? ' ' + musik.details + ', ' : ', '}
                       {musik.location + ' ' + musik.year + '.'}
-                    <span>{ }</span>
                   </Td>
                 </Tr>
               })
             }
+          </Tbody>
+        </Table>
+      </TableContainer>}
+
+      {/* <hr className="mt40 mb40" />
+      <Heading as='h2' style={{'fontSize': '1.5em', 'color': '#494949'}}>
+        CD-Aufnahmen von Ulrich Kaiser
+      </Heading>
+
+      <TableContainer>
+        <Table>
+          <Thead>
             <Tr>
+              <Th>Abbildung</Th>
+              <Th>Bibliographische Angabe</Th>
+            </Tr>
+          </Thead>
+          <Tbody>
+          <Tr>
               <Td style={{ 'verticalAlign': 'top' }}>
               <Link href='' isExternal><img src='/images/musik/brahms-cd-kaiser-sm.jpg' /></Link>
               </Td>
@@ -104,9 +125,9 @@ const Musik = () => {
             </Tr>
           </Tbody>
         </Table>
-      </TableContainer>
+      </TableContainer> */}
     </>
-  )
+  ) 
 }
 
 Musik.getLayout = function getLayout(page) {

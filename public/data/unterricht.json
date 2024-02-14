@@ -1,0 +1,200 @@
+[
+  {
+    "semester": "Sommersemester 2019",
+    "annotations": "Hallo Welt",
+    "unterricht": [
+      {
+        "Id": "6de5f86b-4448-41d1-89c2-6f221becd2ca",
+        "CourseType": "Ü",
+        "Time": "10:00",
+        "Duration": "2:0",
+        "Category": "Anderes",
+        "Title": "Multimedia (Betreuung einer Mappe)",
+        "Description": "",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "e8ef940e-96b9-4d0c-9c24-a3b974c27d7f",
+        "CourseType": "Hs",
+        "Time": "12:15 Uhr – 13:45 Uhr",
+        "Category": "Sonatensatz (18./19. Jahrhundert)",
+        "Title": "Sonatenform. Forschung und Didaktik",
+        "Description": "In diesem Seminar wird den Fragen nachgegangen, wie die Sonatenform bzw. die Sonatenhauptsatzform in der Forschung thematisiert wird und welche Bedeutung Sonatenmusik und Sonatenform für aktuelle Lehrwerke allgemeinbildender Schulen haben. Die Beantwortung der ersten Frage dient zur Vorbereitung der entsprechende Analyseaufgabe des Staatsexamens, die Beantwortung der zweiten der Planung späterer Berufspraxis. Darüber hinaus werden Materialien zur die Stilübung zum Thema \u203aSonate\u2039 zur Verfügung gestellt.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "0e20d5da-5adc-4f3d-83f8-8a43645b9ca5",
+        "CourseType": "S",
+        "Time": "14:15 Uhr – 15:45",
+        "Category": "Projektseminar",
+        "Title": "Projekt (IM I)",
+        "Description": "Ziel des Seminars ist es, in Gruppen- oder Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen, ein Arrangement für Kammermusik mit/oder ohne Chor auszuarbeiten und aufzuführen etc. Weitere individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab 14.00 Uhr) öffentlich vorgestellt (Präsentation).",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "d7ef5d45-6914-4b1d-8da5-3ed29132fb17",
+        "CourseType": "Hs",
+        "Time": "16:15 Uhr – 17:45",
+        "Category": "Jazz- und Popularmusik (keine gattungsspezifischen Einschränkungen)",
+        "Title": "Pop- und Rockmusik in der Wissenschaft und in der Schule",
+        "Description": "Das Dictum, Pop- und Rockmusik könne man nicht analysieren, ist verbreitet und prägt nicht selten den Umgang mit entsprechender Musik. In diesem Seminar werden einerseits ausgewählte Forschungsbeiträge zur Analyse von Pop- und Rockmusik gelesen und diskutiert, wobei der Einblick in die Forschung unter anderem die Aufgabe hat, die entsprechende Analyseaufgabe des Staatsexamens vorzubereiten. Daneben sollen einfache Poparrangements mit Schulbezug (mit Cubase im Computerraum) ausgearbeitet und anhand von Schulbüchern und Zeitschriften der praktische Umgang mit Pop- und Rockmusik in der Schule reflektiert werden. Ein Arbeitsheft zum Songwriting dient der Vorbereitung der Stilübung im Staatsexamen.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "9c8c82e6-0f21-4866-871b-9837c4118840",
+        "CourseType": "Ü",
+        "Time": "18:00 Uhr – 20:00 Uhr",
+        "Duration": "2:0",
+        "Category": "Anderes",
+        "Title": "Multimedia (Betreuung einer Mappe)",
+        "Description": "",
+        "DayOfWeek": "Dienstag"
+      }
+    ]
+  },{
+    "semester": "Wintersemester 2018–2019",
+    "annotations": "",
+    "unterricht": [
+      {
+        "Id": "057353c8-a5a4-43ed-893e-fe85ff0079cf",
+        "CourseType": "Ü",
+        "Time": "10:00 Uhr – 12.00 Uhr",
+        "Category": "Anderes",
+        "Title": "Multimedia (Betreuung einer Mappe)",
+        "Description": "",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "5fccdb0b-67eb-4831-8063-ff038cd2f487",
+        "CourseType": "Hs",
+        "Time": "12:15 Uhr – 13.45 Uhr",
+        "Category": "Weiterführende Themen der Musiktheorie",
+        "Title": "Wissenschaftliches Arbeiten",
+        "Description": "Was ist Wissenschaft? Was heißt es, wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen werden in diesem Seminar praktische Kompetenzen im Recherchieren von Informationen über Datenbanken und das Internet vermittelt (OPAC, DBIS, EZB, Subito, Operatorensuche bei Wikipedia und Google etc.). Darüber hinaus wird geübt, wissenschaftliche Texte verschiedener Wissenschaftsspielarten (Hermeneutik, Konstruktivismus, Systemtheorie) zu verstehen, zusammenzufassen und zu würdigen bzw. zu kritisieren. Damit werden jene Fähigkeiten geübt, die in den sog. W-Seminaren in Gymnasien vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt werden Kenntnisse vermittelt, die für das Erstellen einer Zulassungs- oder Diplomarbeit wichtig sind (z.B. ein professioneller Umgang mit Office-Programmen wie Word). Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "680eccac-e65a-4a46-8a5b-dad974140727",
+        "CourseType": "S",
+        "Time": "14:15 Uhr – 15.45 Uhr",
+        "Category": "Projektseminar",
+        "Title": "Instrumentieren einer Vorlage (Projekt)",
+        "Description": "In diesem Seminar werden Orchesterbearbeitungstechniken anhand verschiedener Stile erprobt, wobei es Ziel des Seminars ist, eine Instrumentationsarbeit für Orchester auszuarbeiten sowie deren Notat in digitaler Form herzustellen (z.B. mit Sibelius, Finale, Musescore etc.). In einer Blockveranstaltung gegen Ende des Wintersemesters ist diese Ausarbeitung Gegenstand eines kurzen Einstudierungsversuchs.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "d6ca9afe-ec0d-498c-acbe-03380936d73a",
+        "CourseType": "Hs",
+        "Time": "16:15 Uhr – 17.45 Uhr",
+        "Category": "Motette (Kontrapunkt des 16. Jahrhunderts)",
+        "Title": "Motette und Madrigal",
+        "Description": "In diesem Seminar werden zwei Qualifikationsziele verfolgt: Zum einen werden nach einer Klärung der Begriffe \u203aHarmonielehre\u2039 und \u203aKontrapunkt\u2039 grundlegende Techniken kontrapunktischen Komponierens erörtert, die zur Analyse von und Stilübung zur Musik des 15. bis 17. Jahrhunderts befähigen. Hierzu werden ausgewählte Motetten des 16. Jahrhunderts sowie geistliche und weltliche Madrigale des 17. Jahrhunderts analysiert (z.B. von Tobias, Schütz, Schein, Monteverdi, Ward, Ramsey u.a.), welche für die Klangschönheit und den kompositorischen Reichtum dieser Zeit repräsentativ sind. Zum anderen werden Lehrwerke für die Schule in den Blick genommen, um Möglichkeiten und Grenzen dieser Thematik in der Schule zu reflektieren. ",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "9e7f3506-a8b5-4ca7-bd2f-bba16683576d",
+        "CourseType": "Ü",
+        "Time": "18:00 Uhr – 20.00 Uhr",
+        "Category": "Anderes",
+        "Title": "Multimedia (Betreuung einer Mappe)",
+        "Description": "",
+        "DayOfWeek": "Dienstag"
+      }
+    ]
+  },{
+    "semester": "Sommersemester 2018",
+    "annotations": "",
+    "unterricht": [
+      {
+        "Id": "cc4bad3e-7fe5-4fad-953b-edbcd69c45f0",
+        "CourseType": "Hs",
+        "Time": "11:15",
+        "Category": "Passacaglia (18. Jahrhundert)",
+        "Title": "Passacaglien und Fugen von J. S. Bach",
+        "Description": "Im Mittelpunkt des Seminars steht die analytische Beschäftigung mit Fugenkompositionen Johann Sebastian Bachs und Passacaglien-Kompositionen für Tasteninstrumente. An die Erkenntnisse der Analysen schließen sich Stilübungen an, die auf die entsprechenden Aufgaben im Staatsexamen vorbereiten.",
+        "DayOfWeek": "Montag"
+      },
+      {
+        "Id": "2114c7b3-b26d-49c0-8055-ef3270f8037f",
+        "CourseType": "Other",
+        "Time": "13:00 Uhr – 14:00",
+        "Category": "Sprechstunde",
+        "Title": "Sprechstunde",
+        "Description": "",
+        "DayOfWeek": "Montag"
+      },
+      {
+        "Id": "634aea1a-8bc0-4252-a3f9-11fc5a923464",
+        "CourseType": "Hs",
+        "Time": "12:15 – 13:45",
+        "Category": "Jazz- und Popularmusik (keine gattungsspezifischen Einschränkungen)",
+        "Title": "Scorpions - Vom Krautrock in die »Hall of Heavy Metal History«",
+        "Description": "Die Karriere der erfolgreichsten deutschen Rockband um Rudolf Schenker begann in Hannover im Umfeld des \u203aKrautrock\u2039 und entwickelte sich seit spätestens Mitte der 70er Jahren zu einem internationalen Rock-Act. Die Band, die mit Songs wie \u203aStill Loving You\u2039, \u203aWind of Change\u2039 und \u203aHumanity\u2039 Weltruhm erlangt hat, wurde 2017 in die »Hall of Heavy Metal History« aufgenommen. Einen Schwerpunkt des Seminars bilden die wichtigsten Alben der Band im Hinblick auf Songwriting, Stil und Produzenten. Ein weiterer Schwerpunkt liegt auf der Vorbereitung der entsprechenden Staatsexamensaufgaben (Pop/Rock in Tonsatz und Analyse).",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "03868f61-d70b-46ee-8dd0-598ad1ca78e8",
+        "CourseType": "S",
+        "Time": "14:15 – 15:45",
+        "Category": "Projektseminar",
+        "Title": "Interdisziplinäres Projekt I",
+        "Description": "Ziel des Seminars ist es, in Gruppen- oder auch Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen oder die Orchesterbearbeitung des Wintersemesters zu erweitern. Individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab ca. 14.15 Uhr) öffentlich vorgestellt (Präsentation).",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "790ed9c9-b1f5-4dbc-b0b0-a4ff61031175",
+        "CourseType": "Hs",
+        "Time": "16:15 – 17:45",
+        "Category": "Moderne 1890 bis 1925 (keine gattungsspezifischen Einschränkungen)",
+        "Title": "Musik um 1900",
+        "Description": "Als »Gleichzeitigkeit des Ungleichzeitigen« (Carl Dahlhaus) lässt es sich bezeichnen, wenn um 1900 \u203aromantische\u2039 Orchestermusik von Mahler, Puccini, Leoncavallo und Reger der Musik des \u203aImpressionismus\u2039 von Debussy und Ravel gegenübersteht, wenn avantgardistische Musik von Ives und Schönberg nationale Bemühungen von Bártok und Kodály kontrapunktiert oder wenn Ragtime auf die Musik von Skrjabin und Glazunov trifft. Die Auflösung von Zeit- und Personalstilen sowie eine Diversifikation von Musik sind Themen dieses Seminars, wobei die Schwierigkeiten der musikalischen Analyse auf der einen, die Probleme der didaktischen Umsetzungen für den Musikunterricht an allgemeinbildenden Schulen auf der anderen Seite reflektiert werden.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "c9503e49-97e4-4310-88f9-b0634ce5d1fe",
+        "CourseType": "Ü",
+        "Time": "12:00 – 12:45",
+        "Category": "Musiktheorien und ihre Methoden",
+        "Title": "Publikationstechnik",
+        "Description": "In diesem Seminar geht es um die technische Seite des Publizierens (mit Office- oder Desktop-Publishing-Programmen sowie Publizieren im Internet). Darüber hinaus wird die Arbeit mit einer Versionsverwaltung (GIT) vorgestellt. Das Seminar hat Kompetenzen zum Ziel, das eigene Profil in einer digitalen Welt angemessen darstellen zu können.",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "eb400e55-3c56-4bc1-9c45-408a545f958c",
+        "CourseType": "G",
+        "Time": "13:00 – 15:00",
+        "Category": "Anderes",
+        "Title": "Multimedia (Betreuung einer Mappe)",
+        "Description": "",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "521b01cc-ed23-4c66-b474-f0d2f8bb4295",
+        "CourseType": "Ps",
+        "Time": "15:15 – 16:00",
+        "Category": "Musik und Form",
+        "Title": "Popformeln",
+        "Description": "Die musiktheoretische Beschäftigung mit Populärer Musik stößt auf zahlreiche Schwierigkeiten, zum Beispiel werden Fachbegriffe in der Regel äußerst ungenau gebraucht. Schwerpunkte des Seminars bilden Gliederungsanalysen unterschiedlicher Songs und die Lektüre entsprechender Literatur. Die Analysen sollen von Seminarteilnehmerinnen und -teilnehmern mithilfe der Software AnaVis (PC/MAC) zur Visualisierung von Formverläufen selbst erstellt werden (die Bereitschaft zum regelmäßigen Erstellen der Gliederungsanalysen wird erwartet). Ziel des Seminars ist der bewusste Umgang mit Formbegriffen in der Analyse Populärer Musik.",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "7e85afd1-d715-42e4-a7e8-a1c5568a9868",
+        "CourseType": "Ps",
+        "Time": "16:15 – 17:00",
+        "Category": "Stimmführung und Harmonie",
+        "Title": "Kantionalsatz, Choralsatz und Liedsatz",
+        "Description": "In diesem Seminar werden Basics des vierstimmigen Satzes besprochen und geübt. In der Arbeit sollen dabei einerseits stilistische Unterschiede zwischen Kantionalsatz, Choralsatz und Liedsatz deutlich werden, andererseits auch unterschiedliche Vorgehensweisen reflektiert werden. Ziel des Seminars ist es, Chorsätzen schreiben zu können und unterschiedlicher Methoden der Vermittlung kennenzulernen.",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "675a4849-aefd-445b-873e-b86ccea4dc61",
+        "CourseType": "Ps",
+        "Time": "17:15 – 18:00",
+        "Category": "Stimmführung und Harmonie",
+        "Title": "Satzmodelle",
+        "Description": "Die Forschungen von Carl Dahlhaus (\u203aSatztypen und -formeln des 15. und 16. Jahrhunderts\u2039) haben die Entwicklung des Ausbildungsfachs Musiktheorie in Deutschland maßgeblich beeinflusst. In diesem Seminar werden verschiedene Satzmodelle (Quintfallsequenz, Parallelismus, zur Modulation etc.) vorgestellt, praktisch geübt sowie in der musikalischen Analyse angewendet. Darüber wird die Bedeutung von Modellen für die Musiktheorie und die musikalische Analyse thematisiert.",
+        "DayOfWeek": "Mittwoch"
+      }
+    ]
+  }
+]

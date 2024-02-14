@@ -38,6 +38,14 @@ html, body {
   text-decoration: underline;
 }
 
+/* margin styles */
+.mt40 {
+  margin-top: 40px;
+}
+.mb40{
+  margin-bottom: 40px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

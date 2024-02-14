@@ -7,7 +7,6 @@ import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon, ExternalLinkIcon} from '@chakra-ui/icons';
 
 import style from './index.module.css';
-import articleData from '../../data/artikel.json';
 
 const uid = new ShortUniqueId();
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -21,7 +20,8 @@ const options = {
 
 const Artikel = () => {
 
-  const { data, error } = useSWR('/data/newArticles.json', fetcher);
+  
+  const { data, error } = useSWR('/data/articles.json', fetcher);
 
   return (
     <>
@@ -31,7 +31,7 @@ const Artikel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      <Text mb='10' ml='4'>Es wurden { articleData.length } Artikel veröffentlicht:</Text>
+      {/* <Text mb='10' ml='4'>Es wurden { data.length } Artikel veröffentlicht:</Text> */}
       <List m='12px' spacing={3}>
         {
           data ? data.map(article => {
@@ -53,28 +53,7 @@ const Artikel = () => {
                 </div>
               </ListItem>
             )
-          }) : <p>Loading failed ...</p>
-        } 
-        {
-          articleData.map(article => {
-            return (
-            <ListItem key={uid.seq()}>
-              <div className={style.listItemEntry}>                
-                  {article.link ?                  
-                    <Link href={article.link} isExternal><ListIcon as={CheckCircleIcon} color='green.500' /></Link> : 
-                    <ListIcon mt='1' as={NotAllowedIcon} color='red.500' />                  
-                  }
-                <div>
-                  {article.link ? <Link href={article.link} isExternal>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
-                  <span>, in:</span> <i>{article.parent}</i>
-                  {article.additional ? ' ' + article.additional : ''}
-                  {article.issue ? ' ' + article.issue + '' : ''}
-                  {article.details ? ', ' + article.details : ''}
-                  {'.'}
-                </div>
-              </div>
-            </ListItem>)
-          })          
+          }) : <p>Data loading failed ...</p>
         }
       </List>
     </>

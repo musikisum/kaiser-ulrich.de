@@ -4,7 +4,7 @@ export const sitemap = {
   "pages": [
         { "/wissenschaft": [ "/profil", "/betreuungen", "/hilfsmittel" ] },
         { "/wissenschaft/hilfsmittel": ["/kommunikation", "/herausgeber" ] },
-        { "/publikationen": [ "/verlage", "/artikel", "/openbooks", "/tutorials", "/musik", "/gelegenheiten"] },
+        { "/publikationen": [ "/verlage", "/artikel", "/openbooks", "/musik", "/tutorials", "/gelegenheiten"] },
         { "/projekte": [ "/elmu", "/openmusicacademy" ] },
         { "/angebote": [ "/vortraege", "/workshops", "/fortbildungen", "/webdoc" ] },
         { "/unterricht": [ "/aktuelles", "/vergangenes", "/evaluation" ] },

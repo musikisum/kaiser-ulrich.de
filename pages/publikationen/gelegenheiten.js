@@ -1,3 +1,4 @@
+import useSWR from 'swr';
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from "../components/layout";
@@ -8,18 +9,20 @@ import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
 
 import style from './index.module.css';
 
-import online from '../../data/gelegenheiten.json';
-
 const uid = new ShortUniqueId()
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Gelegenheiten',
-  description: 'Hier finden Sie Online-Publikationen, für die sich eine Gelegenheit ergeben hat ...',
+  description: 'Hier finden Sie Publikationen, für die sich eine Gelegenheit ergeben hat und die ausschließlich online publiziert worden sind.',
   filter: 'publikationen',
   slug: '/publikationen/gelegenheiten'
 }
 
 const Gelegenheiten = () => {
+
+  const { data, error } = useSWR('/data/gelegenheiten.json', fetcher);
+
   return (
     <>
       <Head>
@@ -30,7 +33,7 @@ const Gelegenheiten = () => {
       <PageHeader options={ options } />
       <List m='12px' spacing={3}>
         {
-          online.map(article => {
+          data ? data.map(article => {
             return (
             <ListItem key={uid.seq()}>
               <div className={style.listItemEntry}>                  
@@ -46,8 +49,8 @@ const Gelegenheiten = () => {
                 </div>
               </div>
             </ListItem>)
-          })
-        }
+          }) : <p>Data loading failed ...</p>
+        } 
       </List>
     </>
   )

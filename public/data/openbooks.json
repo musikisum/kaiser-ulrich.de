@@ -1,0 +1,106 @@
+[{
+    "title": "Filmmusik",
+    "subtitle": "",
+    "details": "(= OpenBook 15)",
+    "image": "/images/openbooks/kaiser_openbookFilmmusik.jpg",
+    "link": "https://openmusic.academy/docs/NvCYdJuLSa7wFXBs1xf9k8/schule-filmmusik-openbook",
+    "location": "Karlsfeld",
+    "year": "2020"
+  },{
+    "title": "Formenlehre der Musik",
+    "subtitle": "",
+    "details": "(= OpenBook 13)",
+    "image": "/images/openbooks/kaiser_openBookFormenlehre.jpg",
+    "link": "https://oer-musik.de/oer-formenlehre-der-musik/",
+    "location": "Karlsfeld",
+    "year": "2019"
+  },{
+    "title": "Harmonielehre #reloaded",
+    "subtitle": "Eine praktische Anleitung für Musikerinnen und Musiker",
+    "details": "(= OpenBook 12)",
+    "image": "/images/openbooks/kaiser_openbookHarmonielehre.jpg",
+    "link": "https://oer-musik.de/oer-harmonielehre-reloaded-eine-praktische-anleitung-fuer-musikerinnen-und-musiker/",
+    "location": "Karlsfeld",
+    "year": "2016"
+  },{
+    "title": "Orchesterinstrumente",
+    "subtitle": "Transponierende Instrumente",
+    "details": "(= OpenBook 16)",
+    "image": "/images/openbooks/kaiser_openbookTransponierende-instrumente2.jpg",
+    "link": "https://oer-musik.de/oer-orchesterinstrumente-transponierende-instrumente/",
+    "location": "Karlsfeld",
+    "year": "2016"
+  },{
+    "title": "Band-Impulse. Heft 4: Gehörbildung und Musiklehre",
+    "subtitle": "Übungen in Dur. Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
+    "details": "(= OpenBook 9)",
+    "image": "/images/openbooks/kaiser_openBookBandImpulse-4.jpg",
+    "link": "https://oer-musik.de/oer-band-impulse-heft-4-gehoerbildung-und-musiklehre/",
+    "location": "Karlsfeld",
+    "year": "2016"
+  },{
+    "title": "Harmonielehre. Harmonie und Form für Kompositionen in Dur",
+    "subtitle": "",
+    "details": "(= OpenBook 8)",
+    "image": "/images/openbooks/kaiser_ob-harmonieundform-Cover.jpg",
+    "link": "https://oer-musik.de/oer-harmonielehre-harmonie-und-form-fuer-kompositionen-in-dur/",
+    "location": "Karlsfeld",
+    "year": "2015"
+  },{
+    "title": "Ludwig van Beethoven. Die 5. Sinfonie",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 6), inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser",
+    "image": "/images/openbooks/kaiser_ob-beethoven5.png",
+    "link": "https://oer-musik.de/oer-ludwig-van-beethoven-die-fuenfte-sinfonie/",
+    "location": "Karlsfeld",
+    "year": "2014"
+  },{
+    "title": "Kostenlose Software für den Musikunterricht",
+    "subtitle": "",
+    "details": "(= OpenBook 7), Arbeitsheft, inkl. Materialien, Software und Videos, 2. korr. Aufl. 2016",
+    "image": "/images/openbooks/kaiser_openBookFreieSoftware.png",
+    "link": "https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht/",
+    "location": "Karlsfeld",
+    "year": "2014"
+  },{
+    "title": "Lamentobass. Musik aus vier Jahrhunderten",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 5), inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser, Leipzig 2006, 2. vollst. überarb. Aufl. 2013",
+    "image": "/images/openbooks/kaiser_openBookLamentobass.png",
+    "link": "https://oer-musik.de/oer-lamentobass-musik-aus-vier-jahrhunderten/",
+    "location": "Karlsfeld",
+    "year": "2012"
+  },{
+    "title": "Praktische Harmonielehre: Sequenzen (für Kinder)",
+    "subtitle": "",
+    "details": "(= OpenBook 4)",
+    "image": "/images/openbooks/kaiser_harmonielehresequenzenforkids.png",
+    "link": "https://oer-musik.de/oer-praktische-harmonielehre-sequenzen-fuer-kinder/",
+    "location": "Karlsfeld",
+    "year": "2012"
+  },{
+    "title": "Intervalle und Akkorde",
+    "subtitle": "Grundlagen für den Musiktheorieunterricht",
+    "details": "(= OpenBook 3)",
+    "image": "/images/openbooks/kaiser_openbookIntervalleUndAkkorde.png",
+    "link": "https://oer-musik.de/oer-intervalle-und-akkorde/",
+    "location": "Karlsfeld",
+    "year": "2011"
+  },{
+    "title": "Johann Sebastian Bach. Ein Superstar gestern und heute",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 2), Unterrichtsheft, Kommentarheft und Medien (inkl. Software AnaVis von Andreas Helmberger und Ulrich Kaiser)",
+    "image": "/images/openbooks/kaiser_openbookBach.png",
+    "link": "https://oer-musik.de/oer-johann-sebastian-bach-ein-superstar-gestern-und-heute/",
+    "location": "Karlsfeld",
+    "year": "2011"
+  },{
+    "title": "Sonate & Sinfonie. Ein altes Thema auf neuen Wegen",
+    "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
+    "details": "(= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger)",
+    "image": "/images/openbooks/kaiser_openbookSonate.png",
+    "link": "https://oer-musik.de/oer-sonate-und-sinfonie-ein-altes-thema-auf-neuen-wegen/",
+    "location": "Karlsfeld",
+    "year": "2009"
+  }
+]
