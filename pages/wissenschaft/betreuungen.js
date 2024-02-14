@@ -22,7 +22,7 @@ export default function Betreuungen() {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={options} />
-      <Heading as='h3' className={style.headingColor}>
+      <Heading as='h3' className="headingH2">
         Dissertationen
       </Heading>
       <Text className={style.mtDefault}>
@@ -35,7 +35,7 @@ export default function Betreuungen() {
 
       <Divider mt='20px' mb='20px' />
 
-      <Heading as='h3' className={style.headingColor}>
+      <Heading as='h3' className="headingH2">
         Zulassungsarbeiten
       </Heading>
       <Text className={style.mtDefault}>
@@ -47,7 +47,7 @@ export default function Betreuungen() {
       
       <Divider mt='60px' mb='60px' height='2px' bgColor='gray' />
 
-      <Heading as='h3' className={style.headingColor}>
+      <Heading as='h3' className="headingH2">
         Betreute und/oder begutachtete Arbeiten (seit 2006)
       </Heading>
       <UnorderedList className={style.mtDefault}>

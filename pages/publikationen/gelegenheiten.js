@@ -31,9 +31,9 @@ const Gelegenheiten = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      <List m='12px' spacing={3}>
+      { data && <List m='12px' spacing={3}>
         {
-          data ? data.map(article => {
+          data.map(article => {
             return (
             <ListItem key={uid.seq()}>
               <div className={style.listItemEntry}>                  
@@ -49,9 +49,9 @@ const Gelegenheiten = () => {
                 </div>
               </div>
             </ListItem>)
-          }) : <p>Data loading failed ...</p>
+          })
         } 
-      </List>
+      </List>}
     </>
   )
 }

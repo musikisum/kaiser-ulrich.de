@@ -11,13 +11,20 @@ html, body {
   margin: 0;
 }
 
+.headingH2 {
+  color: #494949;
+  font-size: 1.8em !important;
+  margin: 1.2em 0;
+}
 .headingH3 {
   color: #494949;
-  font-size: 1.7em !important;
+  font-size: 1.6em !important;
+  margin: 1em 0;
 }
 .headingH4 {
   color: #494949;
   font-size: 1.4em !important;
+  margin: 0.8em 0;
 }
 
 .footerDiv {

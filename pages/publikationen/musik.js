@@ -63,8 +63,8 @@ const Musik = () => {
         </Table>
       </TableContainer>}
 
-      {/* <hr className="mt40 mb40" />
-      <Heading as='h2' style={{'fontSize': '1.5em', 'color': '#494949'}}>
+      <hr className="mt40 mb40" />
+      <Heading as='h2' style={{'fontSize': '1.5em', 'color': '#494949', 'marginBottom': '40px'}}>
         CD-Aufnahmen von Ulrich Kaiser
       </Heading>
 
@@ -125,7 +125,7 @@ const Musik = () => {
             </Tr>
           </Tbody>
         </Table>
-      </TableContainer> */}
+      </TableContainer>
     </>
   ) 
 }

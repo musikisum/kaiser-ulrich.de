@@ -32,9 +32,9 @@ const Artikel = () => {
       </Head>
       <PageHeader options={ options } />
       {/* <Text mb='10' ml='4'>Es wurden { data.length } Artikel veröffentlicht:</Text> */}
-      <List m='12px' spacing={3}>
+      { data && <List m='12px' spacing={3}>
         {
-          data ? data.map(article => {
+          data.map(article => {
             return (
               <ListItem key={uid.seq()}>
                 <div className={style.listItemEntry}>
@@ -53,9 +53,9 @@ const Artikel = () => {
                 </div>
               </ListItem>
             )
-          }) : <p>Data loading failed ...</p>
+          })
         }
-      </List>
+      </List>}
     </>
   )
 }

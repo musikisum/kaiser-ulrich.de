@@ -23,7 +23,7 @@ export default function Profil() {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={options} />
-      <Heading as='h3' className={style.headingColor}>
+      <Heading as='h3' className="headingH2">
         Anmerkungen zum Wissenschaftsverständnis
       </Heading>
       <Text className={style.mtDefault}>
@@ -53,7 +53,7 @@ export default function Profil() {
 
       <Divider mt='40px' mb='40px' height='2px' bgColor='gray' />
 
-      <Heading as='h3' className={style.headingColor}>
+      <Heading as='h3' className="headingH2">
         Meine Forschungsschwerpunkte
       </Heading>
       <Text className={style.mtDefault}>
@@ -71,7 +71,7 @@ export default function Profil() {
       </UnorderedList>
       <UnorderedList className={style.mtDefault}>
         <ListItem className={style.mlDefault}>
-          <b>Didaktik der Musiktheorie und Neue Medien.</b> Hier verfolge ich Forschungen zu grundlegenden Fragen des Lernens und beschäftige mich mit der Frage, auf welche Weise sich <i>Neue Medien</i> (also elektronische Kommunikationsmedien, die über das Internet vernetzbar sind) in den Hochschulfächern <i>Musiktheorie</i> und <i>Musikwissenschaft</i> sinnvoll einsetzen lassen. Den Themen <i>Blended Learning</i> und <i>Open Educational Practises</i> räume ich im letzten Drittel meiner Berufspraxis dabei höchste Priorität ein. Ein besonderes Anliegen ist mir die Erstellung fachlich hochwertiger <i>Open Educational Resources</i> zum Musiklernen sowie der Einsatz von Opensource-Programmen in der Lehre (Notation, Soundbearbeitung, Desktop-Publishing, Bildbearbeitung etc.). Diese Überlegungen haben mit zu dem Projekt <Link href='https://openmusic.academy' isExternal>Open Music Academy <ExternalLinkIcon /></Link> geführt.
+          <b>Didaktik der Musiktheorie und Neuen Medien.</b> Hier verfolge ich Forschungen zu grundlegenden Fragen des Lernens und beschäftige mich mit der Frage, auf welche Weise sich <i>Neue Medien</i> (also elektronische Kommunikationsmedien, die über das Internet vernetzbar sind) in den Hochschulfächern <i>Musiktheorie</i> und <i>Musikwissenschaft</i> sinnvoll einsetzen lassen. Den Themen <i>Blended Learning</i> und <i>Open Educational Practises</i> räume ich im letzten Drittel meiner Berufspraxis dabei höchste Priorität ein. Ein besonderes Anliegen ist mir die Erstellung fachlich hochwertiger <i>Open Educational Resources</i> zum Musiklernen sowie der Einsatz von Opensource-Programmen in der Lehre (Notation, Soundbearbeitung, Desktop-Publishing, Bildbearbeitung etc.). Diese Überlegungen haben mit zu dem Projekt <Link href='https://openmusic.academy' isExternal>Open Music Academy <ExternalLinkIcon /></Link> geführt.
         </ListItem>
       </UnorderedList>
     </>

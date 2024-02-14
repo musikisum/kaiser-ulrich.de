@@ -1,3 +1,4 @@
+import useSWR from 'swr';
 import Head from 'next/head';
 import dateFormat from 'dateformat'
 import Layout from '../components/layout';
@@ -8,10 +9,9 @@ import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
-import musikanalyseNet from '../../data/summary.json'
-
 const uid = new ShortUniqueId();
 const url = 'https://musikanalyse.net';
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Tutorials',
@@ -21,6 +21,9 @@ const options = {
 }
 
 const Tutorials = () => {
+
+  const { data, error } = useSWR('/data/summary.json', fetcher);
+
   return (
     <>
       <Head>
@@ -29,23 +32,26 @@ const Tutorials = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={options} />
-      <Text mb='10'>Bis 2021 wurden { musikanalyseNet.tutorials.length } Tutorials auf der Domain musikanalyse.net veröffentlicht.</Text>
-      <List m='12px' spacing={3}>
+      { 
+        data && <Text mb='10'>Bis 2021 wurden { data.tutorials.length } Tutorials auf der Domain musikanalyse.net veröffentlicht.</Text> 
+      }
+      { data && <List m='12px' spacing={3}>
         {
-          musikanalyseNet.tutorials.sort((a, b) => { return new Date(b.modified) - new Date(a.modified) }).map(tutorial => {
+          data.tutorials.sort((a, b) => { return new Date(b.modified) - new Date(a.modified) }).map(tutorial => {
             return (
               <ListItem key={uid.seq()}>
                 <div className={style.listItemEntry}>
                   { <Link href={tutorial.link} isExternal><ListIcon as={CheckCircleIcon} color='green.500' /></Link> }
                   <div>
                     <Link href={url + tutorial.link} isExternal><i>{tutorial.title}</i> <ExternalLinkIcon /></Link>, <span>{tutorial.abstract}<br /> 
-                    Quelle: <a href='https://musikanalyse.net'>musikanalyse.net</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
+                    Quelle: <a href={url}>musikanalyse.net</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
                   </div>
                 </div>
               </ListItem>)
           })
         }
       </List>
+    }
     </>
   );
 }

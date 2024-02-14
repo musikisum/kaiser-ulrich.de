@@ -1,3 +1,4 @@
+import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from "../components/layout";
 import PageHeader from '../components/pagehaeder';
@@ -9,6 +10,7 @@ import books from '../../data/verlage.json';
 import style from "./index.module.css";
 
 const uid = new ShortUniqueId()
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Bücher & Hefte',
@@ -18,6 +20,9 @@ const options = {
 }
 
 const Verlage = () => {
+
+  const { data, error } = useSWR('/data/verlage.json', fetcher);
+
   return (
     <>
       <Head>
@@ -27,7 +32,7 @@ const Verlage = () => {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={ options } />
-      <TableContainer>
+      { data && <TableContainer>
         <Table variant='unstyled' whiteSpace='wrap'>
           <TableCaption>Selbstständige Verlagspublikationen von Ulrich Kaiser</TableCaption>
           <Thead>
@@ -63,7 +68,7 @@ const Verlage = () => {
             }
           </Tbody>
         </Table>
-      </TableContainer>
+      </TableContainer> }
     </>
   )
 }

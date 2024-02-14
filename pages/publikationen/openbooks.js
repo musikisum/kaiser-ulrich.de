@@ -1,10 +1,11 @@
+import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from "../components/layout";
 import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
 
-import books from '../../data/openbooks.json';
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const uid = new ShortUniqueId()
 
@@ -16,6 +17,9 @@ const options = {
 }
 
 const OpenBooks = () => {
+
+  const { data, error } = useSWR('/data/openbooks.json', fetcher);
+
   return (
     <>
       <Head>
@@ -25,7 +29,7 @@ const OpenBooks = () => {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={options} />
-      <TableContainer>
+      { data && <TableContainer>
         <Table variant='simple' whiteSpace='wrap'>
           <TableCaption>Openbooks (Open Educational Resources) von Ulrich Kaiser</TableCaption>
           <Thead>
@@ -36,7 +40,7 @@ const OpenBooks = () => {
           </Thead>
           <Tbody>
             {
-              books.map(book => {
+              data.map(book => {
                 return <Tr key={uid.seq()}>
                   <Td>
                     {book.link ?
@@ -58,7 +62,7 @@ const OpenBooks = () => {
             }
           </Tbody>
         </Table>
-      </TableContainer>
+      </TableContainer>}
     </>
   )
 }
