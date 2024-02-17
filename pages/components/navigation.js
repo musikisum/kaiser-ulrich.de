@@ -7,7 +7,8 @@ import { sitemap, sitemapDictionary } from "../../data/sitemap";
 
 import style from './navigation.module.css';
 
-const color = '#F2727F';
+// const color = '#F2727F';
+const color = 'green';
 const uid = new ShortUniqueId();
 
 function getUrls(filter) {
@@ -33,6 +34,8 @@ export default function Navigation({ filter, slug }) {
   const hasTheme = theme !== slug;
   const themeLinks = urls.slice(1);
 
+  const terminateThemeEntry = theme !== '/person';
+
   return (
     <>
       <div className={style.menuIsVisible}>
@@ -40,7 +43,7 @@ export default function Navigation({ filter, slug }) {
           <MenuButton as={Button} rightIcon={<HamburgerIcon />}>Menu</MenuButton>
           <MenuList>
             {
-              hasTheme && theme !== slug ? 
+              hasTheme ? 
               <MenuItem ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem> :
               <MenuItem isDisabled ml='4px' as='a' href={theme}><b>{sitemapDictionary[theme]}</b></MenuItem>
             }
@@ -67,10 +70,19 @@ export default function Navigation({ filter, slug }) {
         { 
           filter === 'wissenschaft/hilfsmittel' && <BreadcrumbItem><BreadcrumbLink href='/wissenschaft'>Wissenschaft</BreadcrumbLink></BreadcrumbItem>
         }
-        {
-          theme !== slug ?
-          <BreadcrumbItem><BreadcrumbLink href={theme}>{sitemapDictionary[theme]}</BreadcrumbLink></BreadcrumbItem> : 
-          <BreadcrumbItem isCurrentPage><BreadcrumbLink href={theme}><Text color={color}>{sitemapDictionary[theme]}</Text></BreadcrumbLink></BreadcrumbItem>
+        { terminateThemeEntry ? (
+            hasTheme ? (
+              <BreadcrumbItem>
+                <BreadcrumbLink href={theme}>{sitemapDictionary[theme]}</BreadcrumbLink>
+              </BreadcrumbItem>
+            ) : (
+              <BreadcrumbItem isCurrentPage>
+                <BreadcrumbLink href={theme}>
+                  <Text color={color}>{sitemapDictionary[theme]}</Text>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+            )
+          ) : null 
         }
         {
           themeLinks.map(url => {

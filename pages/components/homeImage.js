@@ -17,16 +17,16 @@ export default function HomeImage() {
           <Link className={styles.window} href='/'>Projekte</Link>
         </div>
         <div className={styles._11}>
-          <Link className={styles.window} href='/wissenschaft/'>Wissenschaft</Link>
+          <Link className={styles.window} href='/wissenschaft'>Wissenschaft</Link>
         </div>
         <div className={styles._12}>
-          <Link className={styles.window} href='/publikationen/'>Publikationen</Link>
+          <Link className={styles.window} href='/publikationen'>Publikationen</Link>
         </div>
         <div className={styles._21}>
-          <Link className={styles.window} href='/angebote/'>Angebote</Link>
+          <Link className={styles.window} href='/angebote'>Angebote</Link>
         </div>
         <div className={styles._22}>
-          <Link className={styles.window} href='/unterricht/'>Unterricht</Link>
+          <Link className={styles.window} href='/unterricht'>Unterricht</Link>
         </div>
         <div className={styles._31}>
           <Link className={styles.window} href='/gesang'>Gesang</Link>
@@ -35,16 +35,16 @@ export default function HomeImage() {
           <Link className={styles.window} href='/chorleitung'>Chorleitung</Link>
         </div>
         <div className={styles._ul}>
-          <Link className={styles.windowULeft} href='/vita'>
+          <Link className={styles.windowULeft} href='/person/vita'>
             <img className={styles.windowULeftImage} src="/images/homeFenster2.svg" />            
           </Link>
-          <Link className={styles.windowULeftText} href='/vita'>Vita</Link>
+          <Link className={styles.windowULeftText} href='/person/vita'>Vita</Link>
         </div>
         <div className={styles._ur}>
-          <Link className={styles.windowURight} href='/person'>
+          <Link className={styles.windowURight} href='/person/profil'>
             <img className={styles.windowURightImage} src="/images/homeFenster2.svg"></img>            
           </Link>
-          <Link className={styles.windowURightText} href='/person'>zur Person</Link>
+          <Link className={styles.windowURightText} href='/person/profil'>zur Person</Link>
         </div>
       </div>
     </div>

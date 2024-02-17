@@ -60,6 +60,10 @@ html, body {
   margin: 20px 40px;
 }
 
+a.underline {
+  text-decoration: underline;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

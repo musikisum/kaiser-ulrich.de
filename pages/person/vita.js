@@ -1,22 +1,57 @@
-import _ from 'lodash'
-import Head from 'next/head'
+import useSWR from 'swr';
+import Head from 'next/head';
+import { useState } from 'react';
+import Layout from '../components/layout';
+import ShortUniqueId from 'short-unique-id';
+import PageHeader from '../components/pagehaeder';
+import ListComponent from '../components/listComponent';
 
-import vitaData from '../../data/vita.json'
-import style from '../index.module.css'
+import { Button } from '@chakra-ui/react';
+
+const uid = new ShortUniqueId();
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
+
+import style from '../publikationen/index.module.css';
+
+const options = {
+  title: 'Lebenslauf',
+  description: 'Auf dieser Seite finden Sie eine Übersicht über wichtige berufliche Ereignisse in meinen Leben.',
+  filter: 'person',
+  slug: '/person/vita'
+}
 
 export default function Vita() {
+
+  const { data, error } = useSWR('/data/vita.json', fetcher);
+
+  const [inOrder, setInOrder] = useState(true);
+
+  function reverse() {
+    setInOrder(!inOrder);
+  }
 
   return (
     <>
       <Head>
-        <title>Vita</title>
-        <meta name="description" content="Vita | Ulrich Kaiser" />
+        <title>Lebenslauf</title>
+        <meta name="description" content="Lebenslauf | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
-      <div>
-        Hallo Vita
+      <PageHeader options={ options } />
+      <div style={{'textAlign': 'right'}}>
+        <Button mb='40px' mr='10%' bg='#E0F1F4' onClick={reverse}>Reihenfolge umdrehen</Button>
       </div>
+      { data && <ListComponent data={data} inOrder={inOrder} /> }
     </>
+  
+  )
+}
+
+Vita.getLayout = function getLayout(page) {
+  return (
+    <Layout isCenter={false}>
+      {page}
+    </Layout>
   )
 }

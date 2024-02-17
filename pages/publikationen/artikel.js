@@ -3,8 +3,8 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
-import { CheckCircleIcon, NotAllowedIcon, ExternalLinkIcon} from '@chakra-ui/icons';
+import { List, ListItem, ListIcon, Link } from '@chakra-ui/react';
+import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 
 import style from './index.module.css';
 
