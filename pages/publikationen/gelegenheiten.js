@@ -58,7 +58,7 @@ const Gelegenheiten = () => {
 
 Gelegenheiten.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={false} showheaven={true}>
       {page}
     </Layout>
   )

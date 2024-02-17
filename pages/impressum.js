@@ -7,7 +7,6 @@ import style from './index.module.css'
 
 const options = {
   title: 'Impressum ...',
-  description: 'Auf dieser Seite finden Sie alle formalen Angaben sowie Möglichkeiten, mich zu kontaktieren.',
   filter: 'impressum',
   slug: '/impressum'
 }
@@ -35,7 +34,7 @@ const Formales = () => {
 
 Formales.getLayout = function getLayout(page) {
   return (
-    <Layout isCenter={false}>
+    <Layout isCenter={false} showheaven={true}>
       {page}
     </Layout>
   )

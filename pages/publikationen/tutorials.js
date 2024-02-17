@@ -58,7 +58,7 @@ const Tutorials = () => {
 
 Tutorials.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={true} showheaven={true}>
       {page}
     </Layout>
   )

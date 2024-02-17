@@ -153,7 +153,7 @@ export default function Kommunikation() {
 
 Kommunikation.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={false} showheaven={true}>
       {page}
     </Layout>
   )

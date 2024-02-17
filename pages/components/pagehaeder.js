@@ -10,10 +10,12 @@ export default function PageHeader ({ options }) {
         <div className={style.navContainer}>
           <Navigation bg='white' filter={ options?.filter } slug={ options?.slug } />
         </div>
-        {options?.description && <Divider mt='60px' mb='60px' h='1px' bg='gray' /> }
-        <Box w='100%'>
-          <Text fontSize='l'>{options?.description}</Text>
-        </Box> 
+        { options?.description && <Divider mt='60px' mb='60px' h='1px' bg='gray' /> }
+        { options?.description && 
+          <Box w='100%'>
+            <Text fontSize='l'>{options?.description}</Text>
+          </Box> 
+        }
         <Divider mt='60px' mb='60px' h='1px' bg='gray' />
       </div>
   )

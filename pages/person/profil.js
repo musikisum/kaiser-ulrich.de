@@ -5,7 +5,6 @@ import { Heading, Text, Link } from '@chakra-ui/react';
 
 const options = {
   title: 'Zur Person',
-  description: 'Auf dieser Seite finden Sie einige Informationen zu meinem künstlerischem und wissenschaftlichen Profil, das sich im Laufe meiner über 30-jährigen Arbeitzeit an den Musikhochschulen in Berlin und München verändert hat.',
   filter: 'person',
   slug: '/person/profil'
 }
@@ -63,7 +62,7 @@ const Profil = () => {
 
 Profil.getLayout = function getLayout(page) {
   return (
-    <Layout isCenter={false}>
+    <Layout isCenter={false} showheaven={true}>
       {page}
     </Layout>
   )

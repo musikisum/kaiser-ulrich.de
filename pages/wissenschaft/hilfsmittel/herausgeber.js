@@ -134,7 +134,7 @@ export default function Herausgeber() {
 
 Herausgeber.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={false}  showheaven={true}>
       {page}
     </Layout>
   )

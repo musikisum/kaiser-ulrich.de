@@ -7,7 +7,6 @@ import style from './index.module.css'
 
 const options = {
   title: 'Impressum ...',
-  description: 'Auf dieser Seite finden Sie alle die Datenschutzerklärung bzw. Pflichtangaben gemäß DSGVO.',
   filter: 'datenschutz',
   slug: '/datenschutz'
 }
@@ -211,7 +210,7 @@ const Datenschutz = () => {
 
 Datenschutz.getLayout = function getLayout(page) {
   return (
-    <Layout isCenter={false}>
+    <Layout isCenter={false} showheaven={true}>
       {page}
     </Layout>
   )
