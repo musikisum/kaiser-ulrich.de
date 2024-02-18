@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>01f3e420-5f1d-4575-8ba8-c3275f40b02a</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Fuge (18. Jahrhundert)</Category>
+      <Title>Fuge und Konzert im Werk J. S. Bachs</Title>
+      <Description>Im Mittelpunkt des Seminars steht die analytische Beschäftigung mit Fugenkompositionen Johann Sebastian Bachs für Tasteninstrumente (mit einem Seitenblick auf seine Violinkonzerte). An die Erkenntnisse der Fugenanalysen schließen sich einerseits Stilübungen an, andererseits exemplarische Umsetzungen des Themas in aktuellen Schulpublikationen (vgl. Bayerischer Lehrplan Mu 7.3).</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>13964f6d-8539-418c-8ca9-99a3f0fbf00c</Id>
+      <CourseType>E</CourseType>
+      <Start>11:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Anderes</Category>
+      <Title>MA Methodik &amp; Didaktik</Title>
+      <Description>Betreuung von Unterrichtskonzeptionen und Lehrproben</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>3c6225ac-40c3-48f9-8442-957f417efd00</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Jazz- und Popularmusik (keine gattungsspezifischen Einschränkungen)</Category>
+      <Title>Pop-Rockmusik und Politik</Title>
+      <Description>Während im englischsprachigen Raum politisch motivierte Pop- und Rockmusik eine längere Tradition hat, ist Politrock in Deutschland eine relativ junge Erscheinung. Neben grundsätzlichen Überlegungen und exemplarischer Beispiele zu der Verbindung von Politik und Pop-Rockmusik wird – ausgehend von ›Ton Steine Scherben‹ – die Geschichte deutschsprachiger Pop-Rockmusik beleuchtet. Der Verlauf des Seminars zu diesem Thema kann dabei durch selbst eingebrachte Beispiele mitbestimmt werden. Darüber hinaus dient das Seminar zur Vorbereitung auf die entsprechenden Staatsexamensaufgaben (Tonsatz und Analyse).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>aed4f7b1-ee44-4c9e-ade7-e15aee1aec06</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Interdisziplinäres Projekt</Title>
+      <Description>Ziel des Seminars ist es, in Gruppen- oder auch Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen oder die Orchesterbearbeitung des Wintersemesters zu erweitern. Individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab ca. 17.00 Uhr) öffentlich vorgestellt (Präsentation).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>680aef09-9b8d-4052-9eca-1c635c0e9a4a</Id>
+      <CourseType>Other</CourseType>
+      <Start>16:00</Start>
+      <Duration>60</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>46ea4e64-d39a-47e1-aabd-2d0e9c65a4de</Id>
+      <CourseType>E</CourseType>
+      <Start>17:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Anderes</Category>
+      <Title>Schwerpunkt Master (II)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>fbbd7a78-746e-425b-9b5b-e46bf3f08154</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Romantischer Stil 1810 bis 1910 (Kleinformen: Lied, Chorlied, Charakterstück)</Category>
+      <Title>Lieder von F. Schubert und R. Schumann</Title>
+      <Description>In diesem Seminar werden ausgewählte Lieder von Franz Schubert und Robert Schumann analysiert. Darüber hinaus sollen Schlaglichter auf zwei bekannte Liederzyklen geworfen werden ("Winterreise" und "Dichterliebe"). Ein Schwerpunkt liegt dabei auf der Frage, auf welche Weise eine seriöse Interpretation des Verhältnisses von Musik und Text möglich ist. Geplant sind weiterhin Exkurse zu entsprechenden Unterrichtseinheiten in aktuellen Schulpublikationen sowie Übungen zum Schreiben von Klavierliedern zur Vorbereitung des Staatsexamens.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>6d03bd49-b80f-4895-9ae6-3ab815f48ee1</Id>
+      <CourseType>Ü</CourseType>
+      <Start>13:00</Start>
+      <Duration>2:0</Duration>
+      <Category>Anderes</Category>
+      <Title>Mappenbetreuung</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>137aa038-bbf6-4697-a2de-e5375995fc3f</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Weiterführende Themen der Musiktheorie</Category>
+      <Title>Tonart und Tonleiter</Title>
+      <Description>Dieses Proseminar beschäftigt sich mit verschiedenen Perspektiven auf das Thema ›Tonart und Tonleiter‹. Dabei spielen sowohl propädeutische Überlegungen eine Rolle ("Welche Tonleitern gibt es?", "Was ist eine Tonleiter?" "Was ist eine Tonart?") als auch anspruchsvolle wie zum Beispiel die Tonleiter als Mittel zur Werk- und Höranalyse. Vom Standpunkt dieser Erfahrungen aus können Unterrichtspublikationen in den Blick genommen werden, um das Thema im aktuellen Schuldiskurs zu reflektieren und diskutieren. </Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>f5e7ddb4-9450-4ad4-ac11-87af7207fe79</Id>
+      <CourseType>Ps</CourseType>
+      <Start>16:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musiktheorien und ihre Methoden</Category>
+      <Title>Musiktheorie und ihre Methoden</Title>
+      <Description>In diesem Proseminar werden verschiedene Modelle zur Beschreibung von Musik vorgestellt und deren Anwendung anhand geeigneter Musik geübt. Ziel ist die Vermittlung eines Überblicks über das handwerkliche Rüstzeug, das im aktuellen Diskurs der Musiktheorie Anwendung findet. Darüber hinaus ist es Ziel des Seminars, ein Bewusstsein für die Begrenztheit von Methoden sowie das Zusammenspiel von Theorie und Methode in der musiktheoretischen Forschung zu vermitteln.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>07de1d94-9866-42a0-8744-0be35b6a86c4</Id>
+      <CourseType>Ps</CourseType>
+      <Start>17:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Formenlehre</Title>
+      <Description>In diesem Seminar wird ein Überblick über die etablierten Modelle der Formenlehre gegeben, die anhand zahlreicher Beispiele veranschaulicht werden. Darüber hinaus wird die Frage nach der Bedeutung von Formenlehre für den Musikunterricht aufgeworfen und (anhand aktueller Lehrpläne) diskutiert. Daneben besteht die Möglichkeit, Formenlehre-Didaktik und unterrichtspraktische Annäherungen zu thematisieren.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

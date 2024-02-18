@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>cc4bad3e-7fe5-4fad-953b-edbcd69c45f0</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Passacaglia (18. Jahrhundert)</Category>
+      <Title>Passacaglien und Fugen von J. S. Bach</Title>
+      <Description>Im Mittelpunkt des Seminars steht die analytische Beschäftigung mit Fugenkompositionen Johann Sebastian Bachs und Passacaglien-Kompositionen für Tasteninstrumente. An die Erkenntnisse der Analysen schließen sich Stilübungen an, die auf die entsprechenden Aufgaben im Staatsexamen vorbereiten.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>2114c7b3-b26d-49c0-8055-ef3270f8037f</Id>
+      <CourseType>Other</CourseType>
+      <Start>13:00</Start>
+      <Duration>60</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>634aea1a-8bc0-4252-a3f9-11fc5a923464</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Jazz- und Popularmusik (keine gattungsspezifischen Einschränkungen)</Category>
+      <Title>Scorpions - Vom Krautrock in die »Hall of Heavy Metal History«</Title>
+      <Description>Die Karriere der erfolgreichsten deutschen Rockband um Rudolf Schenker begann in Hannover im Umfeld des ›Krautrock‹ und entwickelte sich seit spätestens Mitte der 70er Jahren zu einem internationalen Rock-Act. Die Band, die mit Songs wie ›Still Loving You‹, ›Wind of Change‹ und ›Humanity‹ Weltruhm erlangt hat, wurde 2017 in die »Hall of Heavy Metal History« aufgenommen. Einen Schwerpunkt des Seminars bilden die wichtigsten Alben der Band im Hinblick auf Songwriting, Stil und Produzenten. Ein weiterer Schwerpunkt liegt auf der Vorbereitung der entsprechenden Staatsexamensaufgaben (Pop/Rock in Tonsatz und Analyse).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>03868f61-d70b-46ee-8dd0-598ad1ca78e8</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Interdisziplinäres Projekt I</Title>
+      <Description>Ziel des Seminars ist es, in Gruppen- oder auch Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen oder die Orchesterbearbeitung des Wintersemesters zu erweitern. Individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab ca. 14.15 Uhr) öffentlich vorgestellt (Präsentation).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>790ed9c9-b1f5-4dbc-b0b0-a4ff61031175</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Moderne 1890 bis 1925 (keine gattungsspezifischen Einschränkungen)</Category>
+      <Title>Musik um 1900</Title>
+      <Description>Als »Gleichzeitigkeit des Ungleichzeitigen« (Carl Dahlhaus) lässt es sich bezeichnen, wenn um 1900 ›romantische‹ Orchestermusik von Mahler, Puccini, Leoncavallo und Reger der Musik des ›Impressionismus‹ von Debussy und Ravel gegenübersteht, wenn avantgardistische Musik von Ives und Schönberg nationale Bemühungen von Bártok und Kodály kontrapunktiert oder wenn Ragtime auf die Musik von Skrjabin und Glazunov trifft. Die Auflösung von Zeit- und Personalstilen sowie eine Diversifikation von Musik sind Themen dieses Seminars, wobei die Schwierigkeiten der musikalischen Analyse auf der einen, die Probleme der didaktischen Umsetzungen für den Musikunterricht an allgemeinbildenden Schulen auf der anderen Seite reflektiert werden.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>c9503e49-97e4-4310-88f9-b0634ce5d1fe</Id>
+      <CourseType>Ü</CourseType>
+      <Start>12:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Musiktheorien und ihre Methoden</Category>
+      <Title>Publikationstechnik</Title>
+      <Description>In diesem Seminar geht es um die technische Seite des Publizierens (mit Office- oder Desktop-Publishing-Programmen sowie Publizieren im Internet). Darüber hinaus wird die Arbeit mit einer Versionsverwaltung (GIT) vorgestellt. Das Seminar hat Kompetenzen zum Ziel, das eigene Profil in einer digitalen Welt angemessen darstellen zu können.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>eb400e55-3c56-4bc1-9c45-408a545f958c</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>2:0</Duration>
+      <Category>Anderes</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>521b01cc-ed23-4c66-b474-f0d2f8bb4295</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Popformeln</Title>
+      <Description>Die musiktheoretische Beschäftigung mit Populärer Musik stößt auf zahlreiche Schwierigkeiten, zum Beispiel werden Fachbegriffe in der Regel äußerst ungenau gebraucht. Schwerpunkte des Seminars bilden Gliederungsanalysen unterschiedlicher Songs und die Lektüre entsprechender Literatur. Die Analysen sollen von Seminarteilnehmerinnen und -teilnehmern mithilfe der Software AnaVis (PC/MAC) zur Visualisierung von Formverläufen selbst erstellt werden (die Bereitschaft zum regelmäßigen Erstellen der Gliederungsanalysen wird erwartet). Ziel des Seminars ist der bewusste Umgang mit Formbegriffen in der Analyse Populärer Musik.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>7e85afd1-d715-42e4-a7e8-a1c5568a9868</Id>
+      <CourseType>Ps</CourseType>
+      <Start>16:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Kantionalsatz, Choralsatz und Liedsatz</Title>
+      <Description>In diesem Seminar werden Basics des vierstimmigen Satzes besprochen und geübt. In der Arbeit sollen dabei einerseits stilistische Unterschiede zwischen Kantionalsatz, Choralsatz und Liedsatz deutlich werden, andererseits auch unterschiedliche Vorgehensweisen reflektiert werden. Ziel des Seminars ist es, Chorsätzen schreiben zu können und unterschiedlicher Methoden der Vermittlung kennenzulernen.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>675a4849-aefd-445b-873e-b86ccea4dc61</Id>
+      <CourseType>Ps</CourseType>
+      <Start>17:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Satzmodelle</Title>
+      <Description>Die Forschungen von Carl Dahlhaus (›Satztypen und -formeln des 15. und 16. Jahrhunderts‹) haben die Entwicklung des Ausbildungsfachs Musiktheorie in Deutschland maßgeblich beeinflusst. In diesem Seminar werden verschiedene Satzmodelle (Quintfallsequenz, Parallelismus, zur Modulation etc.) vorgestellt, praktisch geübt sowie in der musikalischen Analyse angewendet. Darüber wird die Bedeutung von Modellen für die Musiktheorie und die musikalische Analyse thematisiert.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

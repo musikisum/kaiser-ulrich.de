@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>05fe10e8-2192-4af9-9db6-57a0051cd6bd</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Fuge (18. Jahrhundert)</Category>
+      <Title>Die Fuge und das Konzert im Werk Johann Sebastian Bachs</Title>
+      <Description>Im Mittelpunkt des Seminars steht die analytische Beschäftigung mit Fugenkompositionen Johann Sebastian Bachs für Tasteninstrumente (mit einem Seitenblick auf seine Violinkonzerte). An die Erkenntnisse der Fugenanalysen schließen sich einerseits Stilübungen an, andererseits exemplarische Umsetzungen des Themas in aktuellen Schulpublikationen (vgl. Bayerischer Lehrplan Mu 7.3).</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>7ddcdd86-3ecb-49c7-bb38-1a8d2e057474</Id>
+      <CourseType>Ps</CourseType>
+      <Start>13:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Popformeln</Title>
+      <Description>Die musiktheoretische Beschäftigung mit Populärer Musik stößt auf zahlreiche Schwierigkeiten. Zum Beispiel werden Fachbegriffe in der Regel äußerst ungenau gebraucht. Schwerpunkt des Seminars bilden Gliederungsanalysen verschiedener Songs (Mainstream-Rock, kein Hip Hop) mithilfe einer Software zur Visualisierung von Formverläufen (AnaVis). Darüber hinaus besteht die Möglichkeit, die Verwendung einer sinnvollen Terminologie zur Benennung von Formteilen zu diskutieren (das Seminar ist eine Wiederholung des gleichlautenden Seminars aus dem Wintersemester).</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ff154400-e0f6-49f6-944b-127777d7873d</Id>
+      <CourseType>Ps</CourseType>
+      <Start>14:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Popmusik ›made in Motown‹</Title>
+      <Description>Berry Gordy gründete 1959 in der ›Motor-Town‹ Detroit mit geringem Startkapital die Plattenfirma Tamla Records. 1960 schuf er Motown Records, vereinigte beide Labels in der Firma Motown Record Corporation und schrieb damit Musikgeschichte. Der Sound ›made in Motown‹ wurde legendär, das Label verschaffte afroamerikanischen Künstlern Akzeptanz in weißen Käuferschichten und beeinflusste Generationen von Musikerinnen und Musikern. Für den Erfolg von Motown zeichnen jedoch nicht nur Stars wie Barrett Strong, Marvin Gaye, Little Stevie Wonder und zahlreiche »The«-Formationen wie z.B. The Miracles, The Temptations, The Marvelettes, The Supremes (mit Diana Ross) und The Jackson Five (mit Michael Jackson) verantwortlich, sondern auch herausragende Studiomusiker wie die Funk Brothers, die den typischen Motown-Sound maßgeblich mit prägten. Im Mittelpunkt des Seminars stehen das Kennenlernen sowie Gliederungsanalysen ausgewählter Motown-Songs mit Hilfe einer Software zur Visualisierung musikalischer Analysen (AnaVis).</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>36ab90d0-3579-40be-ad10-57ef404e1ca5</Id>
+      <CourseType>G</CourseType>
+      <Start>15:00</Start>
+      <Duration>2:15</Duration>
+      <Category />
+      <Title>Mth Hf (7./8. Studienjahr)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>4f5de687-b558-4ca0-a42a-5350ebb924bd</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Jazz- und Popularmusik (keine gattungsspezifischen Einschränkungen)</Category>
+      <Title>›Als die Männer härter wurden‹ – Zur Geschichte und Musik des Hardrock</Title>
+      <Description>Gegenstand des Seminars ist eine Annäherung an die Musik des Hard-Rock, ausgehend von den Gründungsvätern Deep Purple, Led Zeppelin, Uriah Heep und Black Sabbath, über Formationen der Hochphase wie AC/DC, Scorpions und Kiss bis zu den virtuosen Songs Van Halens. Im Mittelpunkt stehen dabei Analysen ausgewählter Beispiele sowie deren soziokulturelle Kontextualisierung. Die analytische Arbeit wird ergänzt durch praktische Übungen zur Staatsexamensaufgabe ›Schreiben eines Rocksongs‹.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>b120a15a-1bfa-40fe-8a7d-4a2a3b15ea02</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Schreiben eines Rocksongs / Hör-Comik / Orchesterarrangement (Projekt)</Title>
+      <Description>Ziel des Seminars ist es, einen Rocksong zu schreiben und eine Partitur mit einer entsprechenden Software herzustellen (z.B. mit Guitar Pro, Sibelius etc.). Im Anschluss daran kann in Kooperation mit der Medienabteilung ein Song produziert werden, der über eine Produktpräsentation vorgestellt wird. Daneben werden auch Materialien zu den folgenden Projekten zur Verfügung gestellt: Ein Hör-Buch nach dem Vorbild der ›Geschichte der Musik in Comics‹ (Klett) oder ›Das kleine Rockbuch‹ (Carlsen Comics) sowie eine Erweiterung der Orchesterbearbeitungen des Sommersemesters. Individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am Ende des Studienjahres öffentlich vorgestellt (Konzert oder Präsentation).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>f7f7c4a4-5584-4645-96c5-52b0cc7ae801</Id>
+      <CourseType>Other</CourseType>
+      <Start>16:00</Start>
+      <Duration>60</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>95fdc4b2-df36-4e9f-89ef-5736fdbf5158</Id>
+      <CourseType>G</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Anderes</Category>
+      <Title>GHR (3. Studienjahr)</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a3464a61-63ae-4901-ad68-ed8f49dd87f8</Id>
+      <CourseType>Ps</CourseType>
+      <Start>16:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Generalbass und Partimento</Title>
+      <Description>Das Seminar bietet eine Einführung in die Welt des Generalbasses. Neben rein technischen Fragen (Was bedeuten die Ziffern? Was ist bei der Stimmführung zu beachten?) wird ein Schwerpunkt auf der Oktavregel (Regola dell'ottava) liegen sowie der Bedeutung von Generalbässen für die Improvisations- und Kompositionsdidaktik des 18. Jahrhundert (das Seminar ist eine Wiederholung des gleichlautenden Seminars aus dem Wintersemester).</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>b0c02d06-69a5-4bcd-adea-1d76c6f0184b</Id>
+      <CourseType>Ps</CourseType>
+      <Start>17:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Weiterführende Themen der Musiktheorie</Category>
+      <Title>Musiktheorie in der Schule</Title>
+      <Description>Musiktheorie ist nicht gleich Musiktheorie. Das Wort kann musiktheoretische Forschung ebenso bezeichnen wie die sogenannten ›basics‹ der allgemeinen Musiklehre. In allgemein bildenden Schulen scheint ›schulbewährtes‹ musiktheoretisches Wissen zudem eine wichtige und von musiktheoretischer Forschung unabhängige Funktion zu erfüllen, da sich Unsinniges und lexikalisch Falsches zäh behauptet kann und sich auch in neuesten Schulbuch-Lehrwerken nachweisen lässt. Nach einer kurzen Einführung in eine grundsätzliche Problematik, die Luhmann als ›Technologiedefizit der Erziehungswissenschaften‹ bezeichnet hat, werden in diesem Seminar einerseits musiktheoretische Inhalte aktueller Schulpublikationen auf den fachwissenschaftlichen Prüfstand gestellt, andererseits Beispiele für alternative Konzepte gegeben, die zum Nachdenken über den Sinn und Unsinn von Musiktheorie in der Schule anregen sollen (das Seminar ist eine Wiederholung des gleichlautenden Seminars aus dem Wintersemester).</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

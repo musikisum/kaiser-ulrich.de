@@ -2,30 +2,18 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { List, ListItem, ListIcon, Text, Heading } from '@chakra-ui/react';
+import { Select, List, ListItem, ListIcon, Text, Heading, Box } from '@chakra-ui/react';
 
-import { sitemap } from '../../data/sitemap';
+import courses from '../../data/unterricht.json';
+const course = courses[0]; 
 
 const uid = new ShortUniqueId();
 
 const options = {
   title: 'Unterricht',
-  description: 'Hier teste ich aktuell die Pfade meiner neuen sitmap.json Datei!'
-}
-
-function getUrls() {
-  const domain = sitemap.protocol + sitemap.domain;
-  const urls = sitemap.pages.reduce((akku, current) => {
-    for (const [key, value] of Object.entries(current)) {
-      const adress = domain + key;
-      akku.push(adress);
-      for (const index in value) {
-        akku.push(adress + value[index]);        
-      }
-    }
-    return akku;
-  }, []);
-  return [...new Set(urls)];;
+  description: 'Hier finden Sie Informationen zu dem aktuellen Semester. Falls Sie sich über meinen Unterricht der vergangenen Semester informieren wollen, wählen Sie bitte ein Semester in dem Auswahlfeld.',
+  filter: 'unterricht',
+  slug: '/unterricht'
 }
 
 const Unterricht = () => {
@@ -37,17 +25,33 @@ const Unterricht = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      <List>
-        {
-          getUrls().map(entry => {
-            return (
-              <ListItem key={uid.seq()}>
-                <Text>{entry}</Text>
-              </ListItem>
-            )
-          })
-        }        
-      </List>
+      <Box style={{'maxWidth': '400px'}} mb='40px'>
+        <Select placeholder='Semester auswählen ...'>
+          {
+            courses.map(item => {
+              return <option 
+                        key={uid.seq()} 
+                        value={item.semester}>
+                        {item.semester}
+                      </option>
+            })
+          }
+        </Select>
+      </Box>      
+      {
+        <Heading as='h3' className='headingH3'>
+          {course.semester}
+        </Heading>
+      }
+      {
+        course.unterricht.map(item => {
+          return <div key={uid.seq()} className='mt20'>
+                  <div><b>{item.Title}</b></div>
+                  <div style={{'marginBottom': '6px'}}>{item.DayOfWeek + ' | ' + item.Start + ' Uhr | Dauer: ' + item.Duration}</div>        
+                  <div>{item.Description}</div>
+                </div>
+        })
+      }
     </>
   );
 }

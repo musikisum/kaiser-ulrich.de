@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>e29bfb1f-300e-48ef-b67f-587240bed7cf</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Klassischer Stil 1750 bis 1830 (Analyse) / Klassischer Sonatensatz (Tonsatz)</Category>
+      <Title>Wolfgang Amadeus Mozart und die Sonatenhauptsatzform</Title>
+      <Description>Anhand der frühen Kompositionen Mozarts werden Kriterien der Analyse entwickelt, die für das Analysieren von Sonatenmusik im weitesten Sinne von Bedeutung sind. Die Reichweite und Tragfähigkeit dieser Modelle wird anschließend in Analysen von Mozarts Werken unterschiedlicher Gattungen erprobt (Sonate, Sinfonie und Arie). Ziel ist es, sowohl brauchbare Idealtypen für die Analyse zu entwickeln als auch diese Modelle für eigene Stilübungen nutzbar zu machen.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ac9fb894-d6ee-467b-a4b5-76e5662fd1d5</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>Hf Musiktheorie (Grundstudium)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>e5ed9a1b-6658-477a-8cd7-f3a4e99247af</Id>
+      <CourseType>Ps</CourseType>
+      <Start>14:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Form in der Musik</Title>
+      <Description>In diesem Seminar werden bekannte Modelle der Formenlehre besprochen und anhand zahlreicher Beispiele veranschaulicht. Schwerpunkte sind die folgenden Themen: Kadenzgliederung, die Sonatenhauptsatzform, ausgewählte Formen in der Oper, Tänze und die Suitensatzform, Rondoformen und Formen im Konzert.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>5b24f14c-24f5-4a90-9691-7e90b899d210</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Kadenz und Harmonik</Title>
+      <Description>Was ist eine Kadenz? – Eine spezifische Stimmführung? Eine bestimmte Harmoniefolge? In diesem Seminar wird das Thema aus verschiedenen Perspektiven in den Blick genommen und die Bedeutung von Kadenzen (im weitesten Sinne) für Kompositionen aus vier Jahrhunderten aufgezeigt.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a9fa4356-558b-45a3-ba22-bda74da45039</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Romantischer Stil 1810 bis 1910 (Analyse) / Romantisches Klavierlied oder Chorsatz (Tonsatz)</Category>
+      <Title>Die weltliche Chormusik von Johannes Brahms</Title>
+      <Description>Johannes Brahms hat nur relativ wenig weltliche Chorwerke komponiert, die Gattung Chorlied jedoch als äußerst anspruchsvoll geschätzt (anlässlich eines Kompositionswettbewerbs soll er gesagt haben: »Chorsachen soll man verlangen. Da sind die Leute doch gezwungen, ordentlich vier Stimmen zu schreiben. Sie werden es kaum sehr sauber machen, aber es doch wenigstens versuchen«). Im Mittelpunkt des Seminars stehen Analysen ausgewählter weltlicher Chorwerke sowie ihre kompositionsgeschichtliche Bedeutung. Dem Analysieren können sich eigene Stilübungen im ›romantischen Chorlied‹ anschließen.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a18e0038-e836-4600-8ac5-6f4d49ab2c4d</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Satztechnische Modelle</Title>
+      <Description>Die Forschungen von Carl Dahlhaus (›Satztypen und -formeln des 15. und 16. Jahrhunderts‹) haben die Entwicklung des Ausbildungsfachs Musiktheorie in Deutschland maßgeblich beeinflusst. In diesem Seminar werden verschiedene idealtypische Modelle (Quintfallsequenz, Parallelismus, Modulationsmodelle etc.) vorgestellt, praktisch geübt sowie deren Bedeutung für die musikalische Analyse untersucht.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>d4fddf55-2bd8-4f87-9b72-0b493e2fd28e</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Freie Themen (Analyse)</Category>
+      <Title>Wissenschaftliches Arbeiten und Schreiben über musiktheoretische Themen</Title>
+      <Description>In dem Seminar werden einerseits grundsätzliche Standards wissenschaftlichen Arbeitens vorgestellt, andererseits erfolgt eine Einführung in die Arbeit mit technischen Hilfsmitteln. Dazu gehören: 1.) OpenOffice und Scribus (Freeware), Word und InDesign, 2.) capella, Sibelius und Finale zum Erstellen von Notenbeispielen sowie 3.) Gimp und Paint (Freeware) zur elementaren Bildbearbeitung. Darüber hinaus wird der Einsatz des Internets für das wissenschaftliche Arbeiten geübt (Buch- und Aufsatzrecherche in Katalogen, im RILM, in Subito und anderen Datenbanken). Das Seminar ist empfohlen zur Begleitung von Zulassungs- und Diplomarbeiten sowie als Vorbereitung auf das schriftliche Staatsexamen (Analyse).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>991d5d88-ba57-49f1-aef6-0b01faf45fd9</Id>
+      <CourseType>Hs</CourseType>
+      <Start>17:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Kirchen-, Theater- und Kammerstil zwischen 1650 und 1750 (Analyse) / Barocke Passacaglia (Tonsatz)</Category>
+      <Title>Passacaglia und Ciacona</Title>
+      <Description>In diesem Seminar werden in erster Linie Passacaglia- und Ciacona-Kompositionen aus der zweiten Hälfte des 17. und ersten Hälfte des 18. Jahrhunderts analysiert. Die Erkenntnisse der Analyse können dann in eigenen Stilübungen erprobt werden. Kleinere Exkurse zur Vorgeschichte sowie Analysen ausgewählter Werke aus späterer Zeit dienen der Kontextualisierung des musikalischen Stils bzw. der erlernten Klangtechniken.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>912a597f-209b-4cba-b1de-dfe425e68416</Id>
+      <CourseType>Ps</CourseType>
+      <Start>12:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Musiktheorien und ihre Methoden</Category>
+      <Title>Musiktheorien und ihre Methoden</Title>
+      <Description>Was ist Musiktheorie, was ist Methode? Ist Stufentheorie eine Musiktheorie? Oder Funktionstheorie? In dem Seminar werden verschiedene musiktheoretische Ansätze z.B. von Rameau, Riepel/Koch, Riemann, Kurth, Schenker und Forte vorgestellt sowie ihre Methoden über die Analysen von geeigneter Musik getestet.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a294b31e-135f-4a7b-9db8-bf58c6bbc3ce</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>GHR 1. Sem.</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>6be858ca-51ab-4196-abbf-b5048b1261bd</Id>
+      <CourseType>G</CourseType>
+      <Start>14:00</Start>
+      <Duration>1:30</Duration>
+      <Category />
+      <Title>Hf Musiktheorie (Hauptstudium)</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>235d82d0-9aaa-42a1-b659-ed5adc1a42fe</Id>
+      <CourseType>E</CourseType>
+      <Start>15:30</Start>
+      <Duration>1:0</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>9d175c6d-1c3d-49a3-b647-5c844214c682</Id>
+      <CourseType>Other</CourseType>
+      <Start>16:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Projekt</Category>
+      <Title>Arrangieren I (Projekt)</Title>
+      <Description>In diesem Seminar werden Orchesterbearbeitungstechniken anhand verschiedener Stile erprobt, wobei es Ziel des Seminars ist, eine Instrumentationsarbeit für großes Orchester auszuarbeiten sowie deren Notat in digitaler Form herzustellen (z.B. mit capella, Sibelius, Finale etc.). In einer Blockveranstaltung gegen Ende des Wintersemesters ist diese Ausarbeitung Gegenstand eines kurzen Einstudierungsversuchs. Darüber hinaus ist es gegebenenfalls möglich, dass die Bearbeitungen im Sommersemester in einem Konzert des A-Orchesters der Schulmusikabteilung der HfM aufgeführt wird.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

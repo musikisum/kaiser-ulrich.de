@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>25d2bcad-33ac-4125-a867-a754b33778bc</Id>
+      <CourseType>Hs</CourseType>
+      <Start>10:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Klassischer Stil 1750 bis 1830 (Analyse) / Klassischer Sonatensatz (Tonsatz)</Category>
+      <Title>Wolfgang Amadeus Mozart und die Sonatenhauptsatzform</Title>
+      <Description>Anhand der frühen Kompositionen Mozarts werden Kriterien entwickelt, die für das Analysieren von Sonatenmusik im weitesten Sinne von Bedeutung sind. Die Reichweite und Tragfähigkeit dieser Modelle wird anschließend in Analysen erprobt, wobei die dafür ausgewählten Werke Mozarts unterschiedlichen Gattungen anghören (Sonate, Sinfonie und Arie). Ziel ist es, sowohl zu brauchbaren Idealtypen für die Analyse zu gelangen als auch diese Modelle für eigene Stilübungen nutzbar zu machen.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>bdd25872-1c76-4f91-bc90-8b61d72900fc</Id>
+      <CourseType>Ps</CourseType>
+      <Start>12:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form (PS3)</Category>
+      <Title>Formenlehre</Title>
+      <Description>In diesem Seminar werden bekannte Modelle der Formenlehre besprochen und anhand zahlreicher Beispiele veranschaulicht. Schwerpunkte sind die folgenden Themen: Kadenzgliederung, die Sonatenhauptsatzform, ausgewählte Formen in der Oper, Tänze und die Suitensatzform, Rondoformen und Formen im Konzert.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ed2d21c2-d3ea-4b2a-b075-20f722abfb71</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>1:30</Duration>
+      <Category />
+      <Title>Hf Mth (3. Studienjahr)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ceaac3f9-c19b-4891-abfb-f0e3acd8365e</Id>
+      <CourseType>G</CourseType>
+      <Start>15:00</Start>
+      <Duration>2:15</Duration>
+      <Category />
+      <Title>Mth Hf (4. Studienjahr)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>d15452c4-0dae-4cab-9ac1-36a5f33a9720</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Motettischer Satz zwischen 1430 und 1640</Category>
+      <Title>Geistliche und weltliche Vokalmusik im frühen 17. Jahrhundert</Title>
+      <Description>Die Musik, die in der ersten Hälfte des 17. Jahrhunderts von bekannteren Komponisten wie Cl. Monteverdi und C. Gesualdo (Italien), J. H. Schein und H. Schütz (Deutschland) sowie W. Byrd (England) komponiert wurde, ist äußerst vielseitig und in der Praxis beliebt (z.B. die Madrigale von Cl. Monteverdi und J. H. Schein bzw. die Motetten der ›Geistlichen Chormusik‹ von H. Schütz). Anhand ausgewählter Werke werden zum einen grundlegende Techniken des Kontrapunkts besprochen, die zur Analyse von Musik des 15. bis 17. Jahrhunderts befähigen, zum anderen Werke unbekannterer Komponisten vorgestellt, um die Klangschönheit und den kompositorischen Reichtum dieser Zeit zu veranschaulichen.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>784d2a90-f104-45c1-97d6-9d90f59ac8b9</Id>
+      <CourseType>G</CourseType>
+      <Start>14:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>Hf Musiktheorie</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>4a657913-7f94-46b7-8e37-2d135ea038f9</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>Choralsatz und Kantionalsatz</Title>
+      <Description>Anhand von Choralsätzen Johann Sebastian Bachs und Kanitionalsätzen von Heinrich Schütz werden grundlegende Techniken besprochen, einstimmige Melodien zu vierstimmigen Vokalsätzen auszuarbeiten. Dabei stehen kontrapunktisch-harmonische Wendungen im Vordergrund, die für tonales Komponieren zwischen 1650 und 1850 von herausragender Bedeutung sind. Eigene satztechnischen Übungen ermöglichen zudem eine Annäherung an die Kunstfertigkeit der Choralausarbeitungen Bachs.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>879ec498-4709-4cb7-9bdc-7d50f740844c</Id>
+      <CourseType>E</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:0</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>0d97c1d2-b3be-425e-8b11-4acc65996c28</Id>
+      <CourseType>G</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>GHR (2. Studienjahr)</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1792d7c8-cd59-4c08-9beb-d97300cec8f4</Id>
+      <CourseType>S</CourseType>
+      <Start>16:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Projekt</Category>
+      <Title>Schreiben eines Rocksongs / Orchesterarrangement (Projekt)</Title>
+      <Description>Ziel des Seminars ist es, einen Rocksong zu schreiben und eine Partitur mit einer entsprechenden Software herzustellen (z.B. mit Guitar Pro, Sibelius etc.). Im Anschluss daran kann in Kooperation mit der Medienabteilung ein Song produziert werden, der über eine Produktpräsentation vorgestellt wird. Daneben ist es möglich, begonnene Orchesterbearbeitungen des Sommersemesters zu erweitern und ggf. in einem Konzert der Schulmusikabteilung der HfM zur Aufführung zu bringen. Individuelle Projektvorhaben können zudem nach Absprache betreut werden.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

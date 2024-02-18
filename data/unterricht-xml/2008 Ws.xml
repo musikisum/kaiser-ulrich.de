@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>056056b3-a02a-4e98-85c9-71f5f4142c7d</Id>
+      <CourseType>V</CourseType>
+      <Start>13:00</Start>
+      <Duration>60</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Formenlehre</Title>
+      <Description>In der Vorlesung werden bekannte Modelle der Formenlehre besprochen und anhand zahlreicher Beispiele veranschaulicht. Schwerpunkte bilden die folgenden Themen: Kadenzgliederungen, die Sonatenhauptsatzform, Rondoformen, Tänze und die Suitensatzform, ausgewählte Formen in der Oper sowie Formen im Konzert und im Klavierlied.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>091cd22e-d76b-4a94-b50d-b1ce09bf0e75</Id>
+      <CourseType>G</CourseType>
+      <Start>14:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>LaG 3. Studienjahr (A)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>8314fd1a-641d-40d2-b11c-cf011a368476</Id>
+      <CourseType>G</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>LaG 3. Studienjahr</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>b95e4e25-ed6b-4b37-b1f1-9de46d011016</Id>
+      <CourseType>S</CourseType>
+      <Start>12:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Examen</Title>
+      <Description>In diesem Seminar werden alle Themenbereiche des Staatsexamens gezielt vorgestellt. Im Anschluss daran werden das Erstellen schriftlicher Analysen und Stilübungen (zu ausgewählten Themen) geübt.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a02dafb6-ce80-4439-9c04-ebd58b633858</Id>
+      <CourseType>G</CourseType>
+      <Start>14:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>LaG 4. Studienjahr</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>24d8f52e-7b59-47e7-a14e-04fabc82f327</Id>
+      <CourseType>G</CourseType>
+      <Start>15:30</Start>
+      <Duration>0:45</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Hf Musiktheorie (Grundtsudium)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1181c1ad-874b-4ddb-a546-26c930e300d1</Id>
+      <CourseType>G</CourseType>
+      <Start>17:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Hf Musiktheorie (Hauptstudium)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a7572abd-81e6-4452-954a-c53ca756aa13</Id>
+      <CourseType>S</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Arrangieren</Title>
+      <Description>In diesem Seminar werden grundlegende Techniken des Instrumentierens besprochen anhand eines Pflichtstücks erprobt. Ziel des Seminars ist es, ein Pflicht- und Wahlstück zu arrangieren bzw. zu bearbeiten sowie deren Notate in digitaler Form zu erstellen (z.B. mit Finale, Sibelius, capella etc.). Eine dieser Bearbeitungen muss mit dem Seminarorchester selbstständig einstudiert werden, ausgewählte Arbeiten des Seminars werden in einem abendlichen Konzert des A-Orchesters der Schulmusikabteilung der HfM zur Aufführung gebracht.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

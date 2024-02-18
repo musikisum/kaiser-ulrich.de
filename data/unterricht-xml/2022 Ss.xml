@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>aa544ac2-2b6d-4ee7-bd2e-6f01fb23e9cf</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit an dem von der Stiftung Innovation in der Hochschullehre geförderten Projekt oer-lfm.oer-lfm</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ee57ef1e-3a38-49af-823c-8c8ad40ab835</Id>
+      <CourseType>S</CourseType>
+      <Start>10:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Weiterführende Themen der Musiktheorie</Category>
+      <Title>Werkanalyse (Master Musikvermittlung)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>cbc35c9a-122c-4352-b1e7-dc5f141547c2</Id>
+      <CourseType>S</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Weiterführende Themen der Musiktheorie</Category>
+      <Title>Stilübung (Master Musikvermittlung)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>0dc15976-1026-4f92-84d0-b1f44476d111</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projekt</Category>
+      <Title>Projektseminar (IM I)</Title>
+      <Description>Ziel des Seminars ist es, in Gruppen- oder Einzelarbeit ein OER-Projekt (Open Educational Ressource) für die neue Lernplattform Open Music Academy der HMTM zu planen und realisieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen, ein Arrangement für Kammermusik mit/oder ohne Chor auszuarbeiten, aufzuführen und zu dokumentieren. Weitere individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab 14.00 Uhr) vorgestellt (Präsentation).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>3b9d9744-d1e0-4645-8130-41008b5eb9c0</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:15</Start>
+      <Duration>2:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projektseminar (IM 2)</Title>
+      <Description>Besprechung und Realisierung von OER-Projekten für die neue Lernplattform Open Music Academy der HMTM.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>af511d08-7b22-42c6-bca9-6ee91537e759</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>3:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit an dem von der Stiftung Innovation in der Hochschullehre geförderten Projekt oer-lfm.oer-lfm</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>82a7a45e-0081-4129-9aad-9e9f41b923fd</Id>
+      <CourseType>Ü</CourseType>
+      <Start>13:00</Start>
+      <Duration>60</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>b68219df-f056-4624-93c1-cd5b18b8202b</Id>
+      <CourseType>Other</CourseType>
+      <Start>14:00</Start>
+      <Duration>4:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit an dem von der Stiftung Innovation in der Hochschullehre geförderten Projekt oer-lfm)</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a5261f78-c4a0-4c31-b945-756178ed6ff8</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit an dem von der Stiftung Innovation in der Hochschullehre geförderten Projekt oer-lfm.oer-lfm (Home-Office)</Description>
+      <DayOfWeek>Thursday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>3a430918-69ef-4ed0-a491-678eed67d93e</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit an dem von der Stiftung Innovation in der Hochschullehre geförderten Projekt oer-lfm.oer-lfm</Description>
+      <DayOfWeek>Friday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

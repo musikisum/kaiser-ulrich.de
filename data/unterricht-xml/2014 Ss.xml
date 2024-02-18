@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>14447b5c-d53c-4856-bae5-8d50141070e7</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Fuge (18. Jahrhundert)</Category>
+      <Title>Die Fuge und das Konzert im Werk Johann Sebastian Bachs</Title>
+      <Description>Im Mittelpunkt des Seminars steht die analytische Beschäftigung mit Fugenkompositionen Johann Sebastian Bachs für Tasteninstrumente (mit einem Seitenblick auf seine Violinkonzerte). An die Erkenntnisse der Fugenanalysen schließen sich einerseits Stilübungen an, andererseits exemplarische Umsetzungen des Themas in aktuellen Schulpublikationen (vgl. Bayerischer Lehrplan Mu 7.3).</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1fee3f5b-98f0-4b39-ac81-234723c58169</Id>
+      <CourseType>Ps</CourseType>
+      <Start>13:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Popformeln</Title>
+      <Description>Die musiktheoretische Beschäftigung mit Populärer Musik stößt auf zahlreiche Schwierigkeiten. Zum Beispiel werden Fachbegriffe in der Regel äußerst ungenau gebraucht. Schwerpunkte des Seminars bilden die Lektüre von Texten sowie Gliederungsanalysen unterschiedlicher Songs. Die Analysen sollen von Seminarteilnehmerinnen und -teilnehmern mithilfe der Software AnaVis zur Visualisierung von Formverläufen selbst erstellt werden, die Bereitschaft zum regelmäßigen Erstellen der Gliederungsanalysen wird erwartet. Ziel des Seminars ist der bewusste Umgang mit Formbegriffen in der Analyse Populärer Musik. </Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>db41eafb-b955-488f-af1e-d18b42e85d24</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Anderes</Category>
+      <Title>Methodik des Hauptfachs Musiktheorie (Bachelor)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ebe03ea6-b012-4824-ae81-c3f36311d95c</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Pop- oder Rocksong (20. Jahrhundert)</Category>
+      <Title>Analyse von Pop- und Rockmusik</Title>
+      <Description>Das Analysieren von Pop- und Rockmusik hat nicht nur mit Problemen der Unterrichtsmethodik zu tun, sondern auch mit Schwierigkeiten im Hinblick auf die Frage, welche Analysemethoden dieser Musik überhaupt angemessen sind. Hierzu werden aktuelle Texte aus dem deutsch und englischprachigen Raum vorgestellt und diskutiert sowie verschiedene Analyseansätze praktisch erprobt. Darüber hinaus werden in dem Seminar ein Exkurs zum Thema 'Populäre Musik in der Schule' sowie Übungen zum Schreiben eines Pop-/Rocksongs angeboten. (Das Seminar ist zur Vorbereitung der entsprechenden Staatsexamensaufgaben geeignet.)</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>6db43282-2a95-47d6-bd0b-799f9b535d65</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Schreiben eines Rocksongs / Hör-Comik / Orchesterarrangement (Projekt)</Title>
+      <Description>Ziel des Seminars ist es, einen Rocksong zu schreiben und eine Partitur mit einer entsprechenden Software herzustellen (z.B. mit Guitar Pro, Sibelius etc.). Im Anschluss daran kann in Kooperation mit der Medienabteilung ein Song produziert werden, der über eine Produktpräsentation vorgestellt wird. Daneben werden auch Materialien zu den folgenden Projekten zur Verfügung gestellt: Ein Hör-Buch nach dem Vorbild der ›Geschichte der Musik in Comics‹ (Klett) oder ›Das kleine Rockbuch‹ (Carlsen Comics) sowie eine Erweiterung der Orchesterbearbeitungen des Sommersemesters. Individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am Ende des Studienjahres öffentlich vorgestellt (Konzert oder Präsentation).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1a71201c-01c4-4852-a096-8571de2d1b76</Id>
+      <CourseType>Other</CourseType>
+      <Start>16:00</Start>
+      <Duration>60</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description>Um Voranmeldung wird gebeten.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>b11f6d09-d724-41da-a3d5-1d5483448167</Id>
+      <CourseType>Ps</CourseType>
+      <Start>14:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Formenlehre</Title>
+      <Description>In diesem Seminar werden bekannte Modelle der Formenlehre besprochen und anhand zahlreicher Beispiele veranschaulicht. Darüber hinaus wird die Frage der Bedeutung von Formenlehre für den Musikunterricht (anhand aktueller Lehrpläne) sowie Möglichkeiten der Methodik bzw. einer unterrichtspraktischen Annäherung thematisiert.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>cbc263ba-4611-43f1-a255-eeb002442035</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Eine Generalbassregel für die Liedharmonisierung und die Analyse</Title>
+      <Description>Wäre es nicht schön, wenn man eine einzige Regel hätte, mit der man Musik des 18. Jahrhunderts (also zum Beispiel Suiten von Bach oder Sonaten von Mozart) harmonisch analysieren könnte? Und wäre es nicht noch schöner, wenn man diese Regel zudem zur Liedharmonisierung und Choralaussetzung verwenden könnte? Diese schöne Regel gibt es, sie heißt: Oktavregel (Regola dell'ottava). Im Mittelpunkt des Seminars stehen die analytischen und praktischen Möglichkeiten der Oktavregel. Darüber hinaus wird eine theoriegeschichtliche Verortung der Regola dell'ottava gegeben.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>70e975ba-c1bd-49a7-b231-908b157a1015</Id>
+      <CourseType>Ps</CourseType>
+      <Start>16:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Grundlagen Musiktheorie</Category>
+      <Title>Musiktheorie in der Schule</Title>
+      <Description>Musiktheorie ist nicht gleich Musiktheorie. Das Wort kann musiktheoretische Forschung ebenso bezeichnen wie die sogenannten ›basics‹ der allgemeinen Musiklehre. In allgemein bildenden Schulen scheint ›schulbewährtes‹ musiktheoretisches Wissen zudem eine wichtige und von musiktheoretischer Forschung unabhängige Funktion zu erfüllen, da sich Unsinniges und lexikalisch Falsches zäh behauptet kann und sich auch in neuesten Schulbuch-Lehrwerken nachweisen lässt. Nach einer kurzen Einführung in eine grundsätzliche Problematik, die Luhmann als ›Technologiedefizit der Erziehungswissenschaften‹ bezeichnet hat, werden in diesem Seminar einerseits musiktheoretische Inhalte aktueller Schulpublikationen auf den fachwissenschaftlichen Prüfstand gestellt, andererseits Beispiele für alternative Konzepte gegeben, die zum Nachdenken über den Sinn und Unsinn von Musiktheorie in der Schule anregen sollen.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>8dfd73e7-4b63-4ada-82e9-c2e15af8a40d</Id>
+      <CourseType>Ps</CourseType>
+      <Start>18:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Satzmodelle</Title>
+      <Description>Die Forschungen von Carl Dahlhaus (›Satztypen und -formeln des 15. und 16. Jahrhunderts‹) haben die Entwicklung des Ausbildungsfachs Musiktheorie in Deutschland maßgeblich beeinflusst. In diesem Seminar werden verschiedene Satzmodelle (Quintfallsequenz, Parallelismus, zur Modulation etc.) vorgestellt, praktisch geübt sowie in der musikalischen Analyse angewendet. Darüber wird die Bedeutung von Modellen für die Musiktheorie und die musikalische Analyse thematisiert.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

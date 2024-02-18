@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>452993c5-0b7a-466c-babf-43a06f8ffe11</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>0:30</Duration>
+      <Category>Anderes</Category>
+      <Title>Abbau von Überstunden</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>6de5f86b-4448-41d1-89c2-6f221becd2ca</Id>
+      <CourseType>Ü</CourseType>
+      <Start>10:00</Start>
+      <Duration>2:0</Duration>
+      <Category>Anderes</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>e8ef940e-96b9-4d0c-9c24-a3b974c27d7f</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Sonatensatz (18./19. Jahrhundert)</Category>
+      <Title>Sonatenform. Forschung und Didaktik</Title>
+      <Description>In diesem Seminar wird den Fragen nachgegangen, wie die Sonatenform bzw. die Sonatenhauptsatzform in der Forschung thematisiert wird und welche Bedeutung Sonatenmusik und Sonatenform für aktuelle Lehrwerke allgemeinbildender Schulen haben. Die Beantwortung der ersten Frage dient zur Vorbereitung der entsprechende Analyseaufgabe des Staatsexamens, die Beantwortung der zweiten der Planung späterer Berufspraxis. Darüber hinaus werden Materialien zur die Stilübung zum Thema ›Sonate‹ zur Verfügung gestellt.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>0e20d5da-5adc-4f3d-83f8-8a43645b9ca5</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projekt (IM I)</Title>
+      <Description>Ziel des Seminars ist es, in Gruppen- oder Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen, ein Arrangement für Kammermusik mit/oder ohne Chor auszuarbeiten und aufzuführen etc. Weitere individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab 14.00 Uhr) öffentlich vorgestellt (Präsentation).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>d7ef5d45-6914-4b1d-8da5-3ed29132fb17</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Jazz- und Popularmusik (keine gattungsspezifischen Einschränkungen)</Category>
+      <Title>Pop- und Rockmusik in der Wissenschaft und in der Schule</Title>
+      <Description>Das Dictum, Pop- und Rockmusik könne man nicht analysieren, ist verbreitet und prägt nicht selten den Umgang mit entsprechender Musik. In diesem Seminar werden einerseits ausgewählte Forschungsbeiträge zur Analyse von Pop- und Rockmusik gelesen und diskutiert, wobei der Einblick in die Forschung unter anderem die Aufgabe hat, die entsprechende Analyseaufgabe des Staatsexamens vorzubereiten. Daneben sollen einfache Poparrangements mit Schulbezug (mit Cubase im Computerraum) ausgearbeitet und anhand von Schulbüchern und Zeitschriften der praktische Umgang mit Pop- und Rockmusik in der Schule reflektiert werden. Ein Arbeitsheft zum Songwriting dient der Vorbereitung der Stilübung im Staatsexamen.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>9c8c82e6-0f21-4866-871b-9837c4118840</Id>
+      <CourseType>Ü</CourseType>
+      <Start>18:00</Start>
+      <Duration>2:0</Duration>
+      <Category>Anderes</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a4c700a0-9a2d-40ab-a2ab-d01b246fa96c</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>0:30</Duration>
+      <Category>Anderes</Category>
+      <Title>Abbau von Überstunden</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

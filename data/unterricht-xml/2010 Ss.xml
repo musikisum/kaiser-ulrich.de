@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>9fe1dbf7-f157-46d2-a8d9-cd28e4b3f2b7</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Kirchen-, Theater- und Kammerstil zwischen 1650 und 1750 (Analyse) / Barocke Fuge (Tonsatz)</Category>
+      <Title>Die Fuge und das Konzert im Werk Johann Sebastian Bachs</Title>
+      <Description>Im Mittelpunkt des Seminars steht die analytische Beschäftigung mit Fugenkompositionen Johann Sebastian Bachs für Tasteninstrumente (mit einem Seitenblick auf seine Violinkonzerte). An die Fugenanalysen schließen sich Stilübungen zum Thema an.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>3834176e-5973-4751-907e-66ebd9acee79</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>Hf Musiktheorie (Grundstudium)</Title>
+      <Description />
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>014234c3-555b-408c-8e57-0543fd9c4158</Id>
+      <CourseType>Ps</CourseType>
+      <Start>14:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Grundlagen Musiktheorie</Category>
+      <Title>Grundlagen der allgemeinen Musiklehre</Title>
+      <Description>Dieser Kurs richtet sich an Studierende, die wenig oder keine Vorkenntnisse im Bereich der Musiktheorie bzw. allgemeinen Musiklehre haben. Grundlagenwissen zum Neapolitaner, übermäßigen Quintsextakkord, zu Kadenzformen und zum Generalbass, zu gängige Sequenzmodellen sowie zum Aufbau von Partituren und zu den transponierenden Instrumenten wird vermittelt und auf abwechslungsreiche Art und Weise geübt.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>4c4769bd-75f8-4efd-8e92-bfd6e7602aa5</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Musiktheorien und ihre Methoden</Category>
+      <Title>Musiktheorien und ihre Methoden</Title>
+      <Description>Was ist Musiktheorie, was ist Methode? Ist Stufentheorie eine Musiktheorie? Oder Funktionstheorie? In dem Seminar werden verschiedene musiktheoretische Ansätze z.B. von Rameau, Riepel/Koch, Riemann, Kurth, Schenker und Forte vorgestellt sowie ihre Methoden über die Analysen von geeigneter Musik getestet. (Diese Veranstaltung ist eine Wiederholung des gleichlautenden Seminars aus dem Wintersemester.)</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>11df52d3-f058-42b6-a6f4-4bce77fbda40</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Romantischer Stil 1810 bis 1910 (Analyse) / Romantisches Klavierlied oder Chorsatz (Tonsatz)</Category>
+      <Title>Ausgewählte Lieder von Franz Schubert</Title>
+      <Description>Der Schwerpunkt des Seminars liegt auf der Analyse ausgewählter Lieder von Franz Schubert. Zum einen ist es das Ziel, den analytischen Umgang mit textgebundener Musik zu üben, zum anderen werden die Analyseergebnisse zu aktuellen Publikationen für den Unterricht an bayerischen Gymnasien in Beziehung gesetzt. An die Analysen können sich Stilübungen zum Thema anschließen.</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>5a2ed7c8-2f99-4b17-aa44-de9b8cae44fe</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Weiterführende Themen der Musiktheorie</Category>
+      <Title>Johann Sebastian Bach im Bayerischen Lehrplan</Title>
+      <Description>Im Bayerischen Lehrplan finden sich zahlreiche Vorgaben, die sich anhand der Musik Johann Sebastian Bachs thematisieren lassen (z.B. Musik und Religion, die Fuge als Bauprinzip, Elemente barocker Musik spielen etc.). In erster Linie werden in diesem Seminar ausgewählte Werke Bachs analysiert und eigene Unterrichtskonzepte entworfen, darüber hinaus kann aus dieser Perspektive die sachliche Angemessenheit von Lehreinheiten aktueller Publikationen diskutiert werden.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>d02a6368-97f4-4af2-be5b-6646b13e4441</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:00</Start>
+      <Duration>1:30</Duration>
+      <Category>Jazz- und Popularmusik (Analyse) / Popmusikarrangement (Tonsatz)</Category>
+      <Title>›Kraut und Rüben‹ — Der Beginn deutscher Rockmusik</Title>
+      <Description>Das Interesse an Rockmusik aus Deutschland aus den späten 60iger und 70iger Jahren ist gering. Dabei sind die Anfänge deutscher Rockmusik interessant und sehr vielfältig. Das Seminar dient dem Kennenlernen der prominentesten Vertreter einiger Musikzentren (Berlin, Köln/Düsseldorf und München) sowie der Analyse ausgewählter Songs von Bands, die heute in der Versenkung verschwunden sind (z.B. Amon Düül, Novalis, Eloy), relative Bekanntheit erreicht (z.B. Birth Control, Kraftwerk, Can, Tangering Dream, City, Puhdys) oder auch Weltkarriere im Mainstream gemacht haben (z.B. Scorpions). Daneben wird das Erstellen von Rocksongs als Vorbereitung auf die entsprechende Staatsexamensaufgabe besprochen, wobei eigene Entwürfe im Computerraum mit geeigneter Software erstellt werden können.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>8d22e1e8-768e-4cfc-8435-1c17c6a98c3a</Id>
+      <CourseType>Hs</CourseType>
+      <Start>17:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Romantischer Stil 1810 bis 1910 (Analyse) / Romantisches Klavierlied oder Chorsatz (Tonsatz)</Category>
+      <Title>Romantische Chormusik</Title>
+      <Description>Im Mittelpunkt des Seminars stehen Chorkompositionen der Familie Mendelssohn, von Robert Schumann und Max Reger. Im Vergleich mit Werken unbekannterer Komponisten (z.B. Ernst Theodor Amadeus Hoffmann, Carl Friedrich Zelter, Albert Becker u.a.) ist es zum einen Ziel des Seminars, den analytischen Umgang mit textgebundener Musik zu üben, zum anderen stiltypische Merkmale ›romantischer Chormusik‹ in den Blick zu nehmen und für eigene Stilübungen nutzbar zu machen.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>136fb131-d53c-4db3-875e-0efb68f7fb77</Id>
+      <CourseType>Ps</CourseType>
+      <Start>12:00</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Popformeln</Title>
+      <Description>Die musiktheoretische Beschäftigung mit Populärer Musik stößt auf zahlreiche Schwierigkeiten: Zum einen wird immer wieder die Frage nach angemessenen Analysemethoden gestellt, zum anderen werden Fachbegriffe im Hinblick auf Populäre Musik oft sehr ungenau gebraucht. In diesem Seminar werden ausgewählte Form- und Harmoniemodelle anhand von Songs aus verschiedenen Zeiten besprochen.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>840e5a80-ec77-488d-9795-1b72153cdba8</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>0:45</Duration>
+      <Category />
+      <Title>GHR 2. Sem.</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>fb8ad0df-c1b0-4d08-a75d-14d1bb2c61b4</Id>
+      <CourseType>G</CourseType>
+      <Start>14:00</Start>
+      <Duration>1:30</Duration>
+      <Category />
+      <Title>Hf Musiktheorie (Hauptstudium)</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>221096d0-04ce-40b1-8a45-c53dc5648528</Id>
+      <CourseType>E</CourseType>
+      <Start>15:30</Start>
+      <Duration>1:0</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>a4803caf-289c-4ae0-a0bc-029739c32d9a</Id>
+      <CourseType>S</CourseType>
+      <Start>16:30</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Arrangieren II (Projekt)</Title>
+      <Description>Ziel des Seminars ist es, einen Rocksong zu schreiben und eine Partitur mit einer entsprechenden Software herzustellen (z.B. mit Guitar Pro etc.). Im Anschluss daran kann in Kooperation mit der Medienabteilung der Song produziert werden, so dass am Ende des Semesters eine CD als fertiges Produkt vorliegt.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

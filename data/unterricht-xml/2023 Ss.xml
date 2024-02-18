@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>53a75317-697e-4cde-af96-c54016e1aa9f</Id>
+      <CourseType>Ü</CourseType>
+      <Start>10:30</Start>
+      <Duration>8:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>4dcb4bdc-048d-480e-9715-4ec5ef317c7f</Id>
+      <CourseType>Ü</CourseType>
+      <Start>10:30</Start>
+      <Duration>3:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>4529faab-4b99-4858-a87d-bc1089b0df79</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Projekt-Seminar</Title>
+      <Description />
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>cd6bc420-a6c3-493d-9217-80ef97dcf20d</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:15</Start>
+      <Duration>2:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>IM 2 – OER und das WWW</Title>
+      <Description>(Fortführung des Hauptseminars aus dem Wintersemester) </Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1fb746bd-58a4-4d10-9597-302f5c0da393</Id>
+      <CourseType>Ü</CourseType>
+      <Start>10:30</Start>
+      <Duration>8:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>5c93da00-ec90-49c6-bedb-a810779c365e</Id>
+      <CourseType>Ü</CourseType>
+      <Start>10:30</Start>
+      <Duration>0:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)</Description>
+      <DayOfWeek>Thursday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>60fc50c9-d765-4806-b3b6-3bcdc8aa79b7</Id>
+      <CourseType>S</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Romantischer Stil 1810 bis 1910 (Kleinformen: Lied, Chorlied, Charakterstück)</Category>
+      <Title>Lieder der Romantik</Title>
+      <Description>Das Seminar dient in erster Linie der Analyse von Liedern, die in der ersten Hälfte des 19. Jahrhunderts komponiert worden sind (z.B. von Franz Schubert und Robert Schumann). Im Vordergrund stehen dabei zwei Fragen: 1. Welche Methoden der analytischen Zugänge eignen sich für diese Musik und sind ihr angemessen? 2. Welche Probleme ergeben sich für die Vermittlung dieser Musik im Kontext Schule? Diese Fragestellungen werden durch Stilübungen ergänzt. Die Inhalte des Seminars eignen sich daher einerseits zur Examensvorbereitung, können andererseits jedoch auch helfen, Probleme der späteren Berufspraxis zu skizzieren und Lösungen für diese Probleme zu finden. </Description>
+      <DayOfWeek>Thursday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>e8a29b0f-6516-4733-aa81-a171685099c6</Id>
+      <CourseType>Ü</CourseType>
+      <Start>13:00</Start>
+      <Duration>2:0</Duration>
+      <Category>Anderes</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description>Weiterführung der Übungen aus dem Wintersemester und Erstellung eines OER-Projekts für die Open Music Academy.</Description>
+      <DayOfWeek>Thursday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>c007968d-a119-4e1b-87d2-b629bb5d5e83</Id>
+      <CourseType>Ü</CourseType>
+      <Start>15:15</Start>
+      <Duration>2:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)</Description>
+      <DayOfWeek>Thursday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>5fd9c639-7212-444b-ab86-62a772ea2e0f</Id>
+      <CourseType>Ü</CourseType>
+      <Start>10:30</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Open Music Academy</Title>
+      <Description>Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)</Description>
+      <DayOfWeek>Friday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

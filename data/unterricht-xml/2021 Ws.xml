@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>6431f255-d029-4f06-8ead-bde74e89684b</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projekt "OER Lernplattform für Musik"</Title>
+      <Description>Projektleitung des von der Stiftung Innovation in der Hochschullehre geförderten Projekts "OER Lernplattform für Musik"</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>261a93f4-907e-4439-877d-69c30818c91a</Id>
+      <CourseType>S</CourseType>
+      <Start>10:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Anderes</Category>
+      <Title>Werkanalyse (Master Musikvermittlung)</Title>
+      <Description>Analyse von Musik unter Berücksichtigung verschiedener musikanalytischer Methoden sowie die Reflexion der Möglichkeiten und Grenzen des gewählten methodischen Repertoires.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>c0188e86-13c7-42a9-a3f9-2d371c7f9385</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Anderes</Category>
+      <Title>Wissenschaftliches Arbeiten</Title>
+      <Description>Was ist Wissenschaft? Was heißt es, wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen werden in diesem Seminar praktische Kompetenzen im Recherchieren von Informationen über Datenbanken und das Internet vermittelt (OPAC, DBIS, EZB, Subito, Operatorensuche bei Wikipedia und Google etc.). Darüber hinaus wird geübt, wissenschaftliche Texte verschiedener Wissenschaftsspielarten (Hermeneutik, Konstruktivismus, Systemtheorie) zu verstehen, zusammenzufassen und zu würdigen bzw. zu kritisieren. Damit werden jene Fähigkeiten geübt, die in den sog. W-Seminaren in Gymnasien vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt werden Kenntnisse vermittelt, die für das Erstellen einer Zulassungs- oder Diplomarbeit wichtig sind (z.B. ein professioneller Umgang mit Office-Programmen wie Word). Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>feb19e9d-cdf1-4504-8fb0-a68494a9dc9d</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Profil Mth (Master Musikvermittlung)</Title>
+      <Description>Das Erstellen von und Reflektieren über Stilübungen in verschiedenen historischen und zeitgenössischen Stilen (inkl. Jazz und Popularmusik) dient der Einfühlung in die klanglich-ästhetischen Besonderheiten eines musikalischen Stils. Gleichzeitig soll die Fähigkeit erworben werden, den eigenen Lernweg zu reflektieren und sich die für das Gelingen einer Stilübung notwendigen theoretischen Kenntnisse selbständig anzueignen.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1e6638a8-4649-4e2c-a292-489487ba4fe2</Id>
+      <CourseType>S</CourseType>
+      <Start>16:15</Start>
+      <Duration>2:35</Duration>
+      <Category>Projektseminar</Category>
+      <Title>OER und das WWW (Was, Wer, Wie) / Projekt (IM 2)</Title>
+      <Description>»OER? Wofür denn dieses viele Geld?« – Seit die UNESCO im Jahr 2002 den Begriff ›Open Educational Resources‹ (OER) geprägt hat, erhielt die dahinter liegende Idee sowohl auf internationaler Ebene als auch in vielen OECD-Ländern Auftrieb. Ursache hierfür dürfte insbesondere die wachsende Bedeutung digitaler Medien für das Lehren und Lernen gewesen sein. In Deutschland hielt man dagegen noch im Jahr 2011 das Thema OER für wenig zukunftsträchtig und den Mangel an digital verfügbaren Unterrichtsmaterialien für unproblematisch. Eine eklatante Fehleinschätzung, die spätestens 2020 durch die weltweite Ausbreitung des Virus SARS-CoV-2 (Corona-Pandemie) offensichtlich geworden ist und deren Revision nun aktuell auch in Deutschland zu einer verstärkten Förderung des Themas OER geführt hat. Dieses Seminar bietet eine erste Annäherung an das Thema OER durch Bereitstellung von Informationen und der Thematisierung gängiger Missverständnisse. Ziel ist es dabei, wichtige Aspekte wie zum Beispiel das Urheberrecht und die Creative-Commons-Lizenzen zu erörtern, Perspektiven der Medienpädagogik und der Medienkompetenz anzusprechen sowie die Frage nach der sozial-gesellschaftlichen Relevanz von OER zu stellen. Darüber hinaus soll es auch um den praktischen Umgang mit OER gehen, also um das Besprechen eigener Ideen, die nach Möglichkeit realisiert und auf der neuen, offenen Lernplattform für Musik an der HMTM veröffentlicht werden.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>660d9068-5bdb-4de9-a00d-5622e698657f</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>3:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projekt "OER Lernplattform für Musik"</Title>
+      <Description>Projektleitung des von der Stiftung Innovation in der Hochschullehre geförderten Projekts "OER Lernplattform für Musik"</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ee550769-9105-41d4-9410-63047f3a6738</Id>
+      <CourseType>G</CourseType>
+      <Start>13:00</Start>
+      <Duration>60</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description>(Multimediaunterricht für MA Wissenschaftliche Vermittlung von Musik)Studien</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>9dc27d78-7a6f-4de4-b48d-2ab731ee2020</Id>
+      <CourseType>Other</CourseType>
+      <Start>14:00</Start>
+      <Duration>4:0</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Projekt "OER Lernplattform für Musik"</Title>
+      <Description />
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>0e0ec7ae-dba7-439a-814a-73981d4b8973</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projekt "OER Lernplattform für Musik"</Title>
+      <Description>Projektleitung des von der Stiftung Innovation in der Hochschullehre geförderten Projekts "OER Lernplattform für Musik"</Description>
+      <DayOfWeek>Thursday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>481dfba8-e1e1-49ba-8bdc-df1dcbcdfdaa</Id>
+      <CourseType>Other</CourseType>
+      <Start>10:00</Start>
+      <Duration>8:0</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projekt "OER Lernplattform für Musik"</Title>
+      <Description>Projektleitung des von der Stiftung Innovation in der Hochschullehre geförderten Projekts "OER Lernplattform für Musik"</Description>
+      <DayOfWeek>Friday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>

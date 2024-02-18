@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<CourseSerializerContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Courses>
+    <Course>
+      <Id>1ac5b53f-f339-47d2-9cf1-05a1d7602818</Id>
+      <CourseType>Hs</CourseType>
+      <Start>11:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Passacaglia (18. Jahrhundert)</Category>
+      <Title>Passacaglia und Musik des Generalbasszeitalters</Title>
+      <Description>Thema dieses Seminars sind Passacaglia- und Chaconne-Kompositionen aus der ersten Hälfte des 18. Jahrhunderts im Besonderen und Kompositionen des Generalbasszeitalters im Allgemeinen. Ziel des Seminars ist es, verschiedene Möglichkeiten der Darstellung dieser Themenfelder in der Schule zu reflektieren, Bass- und Melodiestimmen sicher Harmonisieren zu können und persönliche Fähigkeiten in Stilübung sowie Analyse zu erlangen (Vorbereitung auf das Staatsexamen Tonsatz »barocke Passacaglia« und Analyse »Kirchen- Theater- und Kammerstil zwischen 1650 und 1750 (Fuge, Arie, Concerto, Triosonate)«).</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>03e63957-e435-4f54-b95b-8b8671bb1fd5</Id>
+      <CourseType>Other</CourseType>
+      <Start>13:00</Start>
+      <Duration>60</Duration>
+      <Category>Sprechstunde</Category>
+      <Title>Sprechstunde</Title>
+      <Description>Bitte mit Voranmeldung</Description>
+      <DayOfWeek>Monday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>56998ee7-cba4-4ed3-b84a-90ef8ad02717</Id>
+      <CourseType>Hs</CourseType>
+      <Start>12:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Anderes</Category>
+      <Title>Wissenschaftliches Arbeiten</Title>
+      <Description>Was ist Wissenschaft? Was heißt es, wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen werden in diesem Seminar praktische Kompetenzen im Recherchieren von Informationen über Datenbanken und das Internet vermittelt (OPAC, DBIS, EZB, Subito, Operatorensuche bei Wikipedia und Google etc.). Darüber hinaus wird geübt, wissenschaftliche Texte verschiedener Wissenschaftsspielarten (Hermeneutik, Konstruktivismus, Systemtheorie) zu verstehen, zusammenzufassen und zu würdigen bzw. zu kritisieren. Damit werden jene Fähigkeiten geübt, die in den sog. W-Seminaren in Gymnasien vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt werden Kenntnisse vermittelt, die für das Erstellen einer Zulassungs- oder Diplomarbeit wichtig sind (z.B. ein professioneller Umgang mit Office-Programmen wie Word). Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>3c453b78-1f5d-4e16-bdef-d3e486c0433e</Id>
+      <CourseType>S</CourseType>
+      <Start>14:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Projektseminar</Category>
+      <Title>Projekt (IM I)</Title>
+      <Description>In diesem Seminar werden Orchesterbearbeitungstechniken anhand verschiedener Stile erprobt, wobei es Ziel des Seminars ist, eine Instrumentationsarbeit für Orchester auszuarbeiten sowie deren Notat in digitaler Form herzustellen (z.B. mit Sibelius, Musescore etc.). In einer Blockveranstaltung gegen Ende des Wintersemesters ist diese Ausarbeitung Gegenstand eines kurzen Einstudierungsversuchs.</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>ca2ee3ac-0ba6-46cc-a581-8b0c4e57a880</Id>
+      <CourseType>Hs</CourseType>
+      <Start>16:15</Start>
+      <Duration>1:30</Duration>
+      <Category>Motette (Kontrapunkt des 16. Jahrhunderts)</Category>
+      <Title>Musik zwischen 1500 und 1650</Title>
+      <Description>Ziel des Seminars ist es, sich eine technische und ästhetische Deutungskompetenz für zwischen 1500 und 1650 komponierte Musik zu erarbeiten. Dies soll einerseits dazu befähigen, Unterrichtskonzeptionen für entsprechende Musik kritisch zu reflektieren bzw. selbst erstellen zu können, andererseits Musik dieser Zeit analytisch angemessen zu begegnen. Dabei kann eine Beschäftigung mit ausgewählten Forschungsbeiträgen ebenso von Bedeutung sein wie die Überprüfung des eignen Wissens über Stilübungen (Vorbereitung auf das Staatsexamen).</Description>
+      <DayOfWeek>Tuesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>fd8122d1-f186-4ada-ae32-8ea41db0c188</Id>
+      <CourseType>Ü</CourseType>
+      <Start>13:00</Start>
+      <Duration>2:0</Duration>
+      <Category>Anderes</Category>
+      <Title>Multimedia (Betreuung einer Mappe)</Title>
+      <Description>Themen: Webtechnologien (HTML, CSS, JS), Destop-Publishing und Bildbearbeitung mit Open-Source-Programmen (Scribus, Gimp), professionelles Arbeiten mit Office-Programmen (Word, Exel, Powerpoint oder Writer, Calc oder Impress), Video- und Audiobearbeitung mit proprietären Lösungen (Cubase, Magix).</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>75c7dbd7-df94-4242-8f46-c0144ab05fae</Id>
+      <CourseType>Ps</CourseType>
+      <Start>15:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Grundlagen Musiktheorie</Category>
+      <Title>Grundlagen der Musiktheorie (Basics)</Title>
+      <Description>Das Proseminar 'Grundlagen der Musiktheorie' hat keinen festen Ablaufplan, sondern bietet Raum für alle Fragen zur allgemeinen Musiklehre und Musiktheorie (auch wenn Sie glauben, dass Sie die Antworten eigentlich schon längst wissen müssten). Zwischen den Teilnehmerinnen und Teilnehmern werden die zu besprechenden Themen zum Beginn des Seminars abgestimmt und eine Roadmap festgelegt. Ziel ist es, sich ein gutes musiktheoretisches Grundlagenwissen für die aufbauenden Pro- und Hauptseminare der Musiktheorie (und auch der Musikwissenschaft) anzueignen.  </Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>f0cb9d45-a33a-44b5-99ed-9313790db9d6</Id>
+      <CourseType>Ps</CourseType>
+      <Start>16:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Musik und Form</Category>
+      <Title>Formenlehre</Title>
+      <Description>In diesem Seminar wird ein Überblick über musikalische Formen gegeben und anhand zahlreicher Beispiele die Bedeutung von Modellen für die Formenanalyse veranschaulicht. Darüber hinaus kann der Frage Raum gegeben werden, welche Rolle Formenlehre für den Musikunterricht an allgemeinbildenden Schulen spielt bzw. spielen könnte und wie sich Formenlehre im Musikunterricht vermitteln lässt. </Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+    <Course>
+      <Id>1127704b-f497-4cf0-800d-53780b1ff7e0</Id>
+      <CourseType>Ps</CourseType>
+      <Start>17:15</Start>
+      <Duration>0:45</Duration>
+      <Category>Stimmführung und Harmonie</Category>
+      <Title>Harmonielehre lernen</Title>
+      <Description>Wäre es nicht schön, wenn man eine einzige Regel hätte, mit der man tonale Musik (also zum Beispiel Suiten von Bach oder Sonaten von Mozart) harmonisch analysieren könnte? Und wäre es nicht noch schöner, wenn man diese Regel auch zur Liedbegleitung oder Choralaussetzung verwenden könnte? Die gute Nachricht: Diese Regel gibt es, sie heißt: Oktavregel (Regola dell'ottava). Im Mittelpunkt des Seminars stehen die praktischen und analytischen Möglichkeiten der Oktavregel und ein Ausloten ihres praktischen Nutzens. Aufgrund des spielpraktischen Anteil ist die Teilnehmerzahl auf sieben (Anzahl der Keyboards) begrenzt.</Description>
+      <DayOfWeek>Wednesday</DayOfWeek>
+    </Course>
+  </Courses>
+</CourseSerializerContainer>
