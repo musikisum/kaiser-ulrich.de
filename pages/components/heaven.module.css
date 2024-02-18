@@ -1,20 +1,23 @@
+/* grün: #9AE6B4, #68D391, #48BB78, #38A169, #2F855A, #276749, #22543D, #1C4532, #C6F6D5 */
+/* gelb: #FFF8EA */
+
 .heavenDiv {
   display: block;
-  background-color: #FFF8EA;
+  background-color: #C6F6D5;
   position: fixed;
   width: 100%;
   height: 40px;
 }
 .heavenSmallDiv {
   display: none;
-  background-color: #FFF8EA;
+  background-color: #C6F6D5;
   position: fixed;
   width: 100%;
   height: 40px;
 }
 .heavenSmallestDiv {
   display: none;
-  background-color: #FFF8EA;
+  background-color: #C6F6D5;
   position: fixed;
   width: 100%;
   height: 40px;

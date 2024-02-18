@@ -61,7 +61,7 @@ export default function Hilfsmittel() {
             <CardFooter pl='0'>
               <Link href='/wissenschaft/hilfsmittel/herausgeber'>
                 <Button variant='solid' className={style.cardButtonSize}>
-                  Zu meinen Gedanken ...
+                  Zu meiner Auffassung ...
                 </Button>
               </Link>
             </CardFooter>
@@ -146,14 +146,14 @@ export default function Hilfsmittel() {
         />
         <CardBody className={style.cardBodyMl}>
           <Stack>
-            <Heading fontSize='xl'>Wissenschaft & Urheberrecht</Heading>
+            <Heading fontSize='xl'>Urheberrecht & Wissenschaft</Heading>
             <Text fontSize='l'>
               Auf dieser Seite finden Sie Informationen zum Urheberrecht.
             </Text>
             <CardFooter pl='0'>
               <Link href='/wissenschaft/hilfsmittel/urheberrecht'>
                 <Button variant='solid' className={style.cardButtonSize}>
-                  Zum Thema Urheberrecht ...
+                  Infos zum Urheberrecht ...
                 </Button>
               </Link>
             </CardFooter>
