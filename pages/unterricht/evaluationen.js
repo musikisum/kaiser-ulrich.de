@@ -4,11 +4,14 @@ import { useState } from 'react'
 import testdata from '../../data/unterricht.json'
 import styles from '../index.module.css'
 
-function handleClick(index, activeIndex, setActiveIndex) {
-  index === activeIndex ? setActiveIndex(-1) : setActiveIndex(index)
+const options = {
+  title: 'Evaluationen',
+  description: '',
+  filter: 'unterricht',
+  slug: '/unterricht/evaluation'
 }
 
-export default function Vergangenes() {
+export default function Evaluation() {
 
   const [activeIndex, setActiveIndex] = useState(-1)
 
@@ -16,7 +19,7 @@ export default function Vergangenes() {
     <>
       <Head>
         <title>Unterricht</title>
-        <meta name="description" content="Vergangenes | Ulrich Kaiser" />
+        <meta name="description" content="Evaluation | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div>
@@ -25,3 +28,13 @@ export default function Vergangenes() {
     </>
   )
 }
+
+Evaluation.getLayout = function getLayout(page) {
+  return (
+    <Layout>
+      {page}
+    </Layout>
+  )
+}
+
+export default Evaluation;
