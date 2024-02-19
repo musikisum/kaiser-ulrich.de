@@ -16,20 +16,29 @@ const options = {
   slug: '/unterricht'
 }
 
-
-
 const Unterricht = () => {
 
   const { data, error } = useSWR('/data/unterricht.json', fetcher);
   const [courses, setCourses] = useState();
+  const [semesterValue, setSemesterValue] = useState();
+  const [semesterChanged, setSemesterChanged] = useState();
+  const [displayCourse, setDisplayCourse] = useState();
 
   useEffect(() => {
     if(data) {
       setCourses(data);
+      setDisplayCourse(data[0]);
     }
   }, [data])
 
-  const onSemesterValueChange = (event) => { setCourses(event.target.value) }
+  useEffect(() => {
+    // hier noch das neue Semester setzen
+  }, [semesterChanged])
+
+  const onSemesterChange = (event) => { 
+    setSemesterValue(event.target.value);
+    setSemesterChanged(event.target.value);
+  }
 
   return (
     <>
@@ -39,26 +48,26 @@ const Unterricht = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      {/* <Box style={{'maxWidth': '400px'}} mb='40px'>
-        { courses && <Select onChange={onSemesterValueChange}>
+      <Box style={{'maxWidth': '400px'}} mb='40px'>
+        { courses && <Select onChange={onSemesterChange} value={semesterValue}>
           {
             courses && courses.map(item => {
               return <option
                         key={uid.seq()}
-                        value={item}>
+                        value={item.semester}>
                         {item.semester}
                       </option>
             })
           }
         </Select>}
-      </Box>       */}
+      </Box>
       {
-        courses && <Heading as='h3' className='headingH3'>
-          { courses[0].semester }
+        displayCourse && <Heading as='h3' className='headingH3'>
+          { displayCourse.semester }
         </Heading>
       }
       {
-        courses && courses[0].unterricht.map(item => {
+        displayCourse && displayCourse.unterricht.map(item => {
           return <div key={uid.seq()} className='mt20'>
                   <div><b>{item.Title}</b></div>
                   <div style={{'marginBottom': '6px'}}>{item.DayOfWeek + ' | ' + item.Start + ' Uhr | Dauer: ' + item.Duration}</div>        
