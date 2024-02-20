@@ -12,19 +12,33 @@ html, body {
 }
 
 .headingH2 {
-  color: #494949;
+  color: #6e91a1;
   font-size: 1.6em !important;
   margin: 1.2em 0;
 }
 .headingH3 {
-  color: #494949;
+  color: #6e91a1;
   font-size: 1.4em !important;
   margin: 1em 0;
 }
 .headingH4 {
-  color: #494949;
+  color: #6e91a1;
   font-size: 1.2em !important;
   margin: 0.8em 0;
+}
+.headingH5 {
+  /* #494949 */
+  color: #6e91a1;
+  font-size: 1em !important;
+  margin: 0.6em 0;
+}
+
+.importantLink {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #2F855A;
+  display: block;
+  margin: 10px 0;
 }
 
 .footerDiv {

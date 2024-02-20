@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import ShortUniqueId from 'short-unique-id';
 import { Heading, Divider, Text } from '@chakra-ui/react';
 
