@@ -1,5 +1,6 @@
+import { useState, useEffect } from 'react';
 import ShortUniqueId from 'short-unique-id';
-import { Heading } from '@chakra-ui/react';
+import { Heading, Divider, Text } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
 
@@ -7,41 +8,77 @@ function convertTime(time, title) {
   if(title === 'Sprechstunde') {
     return '60 Minuten';
   }
+  if(title === 'Open Music Academy') {
+    return '';
+  }
   switch (time) {
     case '0:45':
-      return '45 Minuten | 1 SWS (Seminar)';
+      return ' | Dauer: 45 Minuten |(1 SWS/Seminar)';
     case '60':
     case '1:00':
-      return '60 Minuten | 1 SWS (Übung)';
+      return ' | Dauer: 60 Minuten | (1 SWS/Übung)';
       case '1:30': 
-        return '90 Minuten | 2 SWS (Seminar)';
+        return ' | Dauer: 90 Minuten | (2 SWS/Seminar)';
       case '2:00':
       case '2:0':
-        return '120 Minuten | 2 SWS (Übung)';
+        return ' | Dauer: 120 Minuten | (2 SWS/Übung)';
       case '2:30': 
-        return '150 Minuten | 3 SWS (Seminar)';
+        return ' | Dauer: 150 Minuten | (3 SWS/Seminar)';
       default:
         return 'ganztägig'
     }
   
 }
 
-export default function DisplayCourses({ semester, name}) {
+const displayItem = (id, item) => {
+    return <div key={id} className='mt20'>
+            <div><b>{item.Title}</b></div>
+            <div style={{'marginBottom': '6px'}}>
+              {
+                item.DayOfWeek + ' | Beginn: ' + 
+                item.Start + ' Uhr' + 
+                convertTime(item.Duration, item.Title) 
+              }
+            </div>        
+            <div>{item.Description}</div>
+          </div>
+}
+
+const displayElement = (id, lastDay, item) => {
+  return <div key={id} className='mt20'>
+    { lastDay !== item.DayOfWeek && <Divider mt='20px' mb='20px' h='1px' bg='gray' w='50%' /> }
+    { lastDay !== item.DayOfWeek && <Text as='b' mt='20px' mb='10px' color='#6e91a1'>{item.DayOfWeek}</Text> }
+    { displayItem(uid.seq(), item) }
+  </div>
+}
+
+export default function DisplayCourses({ semester, name }) {
+
+  let lastDay = '';
+
   return <>
-    <Heading as='h3' className='headingH3'>
+    <Heading as='h3' className='headingH3' color='#6e91a1'>
         { name }
     </Heading>
-      { semester.unterricht.map(item => {
-        return <div key={uid.seq()} className='mt20'>
-                <div><b>{item.Title}</b></div>
-                <div style={{'marginBottom': '6px'}}>
-                  {item.DayOfWeek + ' | Beginn: ' + 
-                  item.Start + ' Uhr | Dauer: ' + 
-                  convertTime(item.Duration, item.Title)}
-                </div>        
-                <div>{item.Description}</div>
-              </div>
-      })
-    }
+      { semester.unterricht.map((item, index, uArr) => {          
+          let element = null;
+          switch(item.DayOfWeek) {
+            case 'Montag':
+              element = displayElement(uid.seq(), lastDay, item)
+            case 'Dienstag':
+              element = displayElement(uid.seq(), lastDay, item)
+            case 'Mittwoch':
+              element = displayElement(uid.seq(), lastDay, item)
+            case 'Donnerstag':
+              element = displayElement(uid.seq(), lastDay, item)
+            case 'Freitag':
+              element = displayElement(uid.seq(), lastDay, item)
+          }
+          if(index < uArr.length - 1) { 
+            lastDay = item.DayOfWeek; 
+          }
+          return element;
+        })
+      }
   </>
 }

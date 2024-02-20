@@ -12,7 +12,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Unterricht',
-  description: 'Hier finden Sie Informationen zu dem aktuellen Semester. Falls Sie sich über meinen Unterricht der vergangenen Semester informieren wollen, wählen Sie bitte ein Semester in dem Auswahlfeld.',
+  description: 'Hier finden Sie Informationen zu dem aktuellen Semester. Wenn Sie sich über mein Lehrangebot der vergangenen Semester informieren möchten, wählen Sie bitte ein Semester in dem Auswahlfeld.',
   filter: 'unterricht',
   slug: '/unterricht'
 }
@@ -54,7 +54,7 @@ const Unterricht = () => {
       <PageHeader options={ options } />
       <Flex>
         <Spacer />
-        <Box style={{'maxWidth': '300px'}} mb='20px' mr='6%'>
+        <Box style={{'maxWidth': '300px'}} mb='0' mr='6%'>
           { courses && <Select onChange={onSemesterChange} value={semesterName}>
             {
               courses && courses.map(item => {
