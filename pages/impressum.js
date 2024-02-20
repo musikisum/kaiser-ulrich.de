@@ -3,8 +3,6 @@ import Layout from './components/layout';
 import PageHeader from './components/pagehaeder';
 import { Center, Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link } from '@chakra-ui/react';
 
-import style from './index.module.css'
-
 const options = {
   title: 'Impressum ...',
   filter: 'impressum',
@@ -20,7 +18,7 @@ const Formales = () => {
       <link rel="icon" href="/images/icon.png" />
     </Head>
     <PageHeader options={ options } />
-    <Center bg='#FFECEA'>
+    <Center bg='#FFF8EA'>
       <Center padding='40px' fontSize='lg' fontWeight='bold'>
         Prof. Dr. Ulrich Kaiser<br/>
         Birkenstr. 39c<br />

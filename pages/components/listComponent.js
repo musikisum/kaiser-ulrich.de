@@ -1,6 +1,6 @@
 import ShortUniqueId from 'short-unique-id';
 import CustomError from '../components/customError';
-import { List, ListItem, Text, Center } from '@chakra-ui/react';
+import { List, ListItem, Text, Box, Flex } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
 
@@ -19,11 +19,11 @@ export default function ListComponent({ data, inOrder }) {
       <List m='12px' spacing={3}> 
         { data.map(vitaItem => {
           return (
-            <ListItem key={uid.seq()}>
-              <div style={{'display': 'flex'}}>
-                <div><Text w='120px'>{vitaItem.year}</Text></div>
-                <div><Text>{vitaItem.item}</Text></div>
-              </div>                  
+            <ListItem key={uid.seq()} style={{'borderBottom': '1px solid gray'}}>
+              <Flex mb='16px'>
+                <Box as='b' w='150px' color='#6e91a1'>{vitaItem.year}</Box>
+                <Box flex='1'>{vitaItem.item}</Box>
+              </Flex>                  
             </ListItem>)
           })
         }
@@ -31,11 +31,11 @@ export default function ListComponent({ data, inOrder }) {
       <List m='12px' spacing={3}> 
         { reverseData(data).map(vitaItem => {
           return (
-            <ListItem key={uid.seq()}>
-              <div style={{'display': 'flex'}}>
-                <div><Text w='120px'>{vitaItem.year}</Text></div>
-                <div><Text>{vitaItem.item}</Text></div>
-              </div>                  
+            <ListItem key={uid.seq()} style={{'borderBottom': '1px solid gray'}}>
+              <Flex mb='16px'>
+                <Box as='b' w='150px' color='#6e91a1'>{vitaItem.year}</Box>
+                <Box flex='1'>{vitaItem.item}</Box>
+              </Flex>                  
             </ListItem>)
           })
         }

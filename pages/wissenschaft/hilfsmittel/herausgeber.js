@@ -50,9 +50,6 @@ export default function Herausgeber() {
       <Text mt='20px'>
         Eine umstrittene Frage ist es, ob neben dem Urheber auch der Herausgeber eines Werkes angegeben werden muss. Hier dürften die Meinungen auseinander gehen. Versuchen wir, die Kontroverse zu verstehen.
       </Text>
-
-      <Divider mt='6' />
-
       <Alert status='success' mt='20px'>
         <AlertIcon />
         »Ja, die Herausgeber müssen angegeben werden.«
@@ -60,11 +57,11 @@ export default function Herausgeber() {
       <Text mt='20px'>
         Zur Begründung dieser Aussage ließe sich anführen, dass eine Herausgeberschaft jede Menge Arbeit bedeutet, die im Dienste der Wissenschaften geleistet wird und die entsprechend anerkannt werden sollte. Vielleicht bemerkt Herr XYZ, dass es zu einem spezifischen Thema noch sehr wenig Veröffentlichungen gibt (man sagt dann auch: "Dieses Thema ist ein Desiderat der Forschung"). Anschließend müssen kompetente Autoren zu diesem Thema ausgewählt und angesprochen, die Beiträge eingesammelt und formal lektoriert sowie die Bedingungen mit dem Verlag ausgehandelt werden usw. Der kleine Vermerk "hrsg. von XYZ" trägt dieser Arbeit Rechnung, denn ohne einen Herausgeber könnten wir die Leistungen von herausgegebenen Urhebern ja überhaupt nicht lesen (denn dann wären sie ja gar nicht veröffentlicht).
       </Text>
-      <Alert status='error' mt='20px' mt='10'>
+      <Alert status='error' mt='20px'>
         <AlertIcon />
         »Nein, die Herausgeber müssen nicht angegeben werden.«
       </Alert>
-      <Text>
+      <Text mt='20px'>
         Hierfür spricht, dass es ungleich schwieriger ist, ein Buch zu schreiben als es herauszugeben. Denn die primäre Leistung des Autors besteht in einer langwierigen inhaltlichen Auseinandersetzung mit einem Thema (das heißt, in der Erforschung eines Gegenstandes), die des Herausgebers hingegen in der formalen Arbeit (Auswählen der Autoren, formales Lektorieren, Gespräche mit dem Verlag etc.).
       </Text>
 

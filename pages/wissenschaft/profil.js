@@ -23,7 +23,7 @@ export default function Profil() {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={options} />
-      <Heading as='h3' className="headingH2">
+      <Heading as='h3' className="headingH3">
         Anmerkungen zum Wissenschaftsverständnis
       </Heading>
       <Text className={style.mtDefault}>
@@ -53,7 +53,7 @@ export default function Profil() {
 
       <Divider mt='40px' mb='40px' height='2px' bgColor='gray' />
 
-      <Heading as='h3' className="headingH2">
+      <Heading as='h3' className="headingH3">
         Meine Forschungsschwerpunkte
       </Heading>
       <Text className={style.mtDefault}>

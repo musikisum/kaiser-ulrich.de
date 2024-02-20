@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from './components/layout';
 import PageHeader from './components/pagehaeder';
-import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link } from '@chakra-ui/react';
+import { Heading, Text, Divider, Link } from '@chakra-ui/react';
 
 import style from './index.module.css'
 
@@ -34,6 +34,9 @@ const Datenschutz = () => {
       Telefon: 089/289-27873<br/>
       E-Mail: kontakt[at,]kaiser-ulrich.de
     </Text>
+
+    <Divider mt='20px' mb='20px' h='1px' bg='gray' />
+
     <Heading className='headingH4'>
       Allgemeines zur Datenverarbeitung
     </Heading>
@@ -41,6 +44,9 @@ const Datenschutz = () => {
       <b>Umfang der Verarbeitung personenbezogener Daten</b><br/>
       Diese Website wird von einem Webhosting-Anbieter mit Sitz in Deutschland angeboten, Daten der Nutzung werden nur erhoben, soweit diese zur Bereitstellung der funktionsfähigen Website erforderlich sind.
     </Text>
+
+    <Divider mt='20px' mb='20px' h='1px' bg='gray' />
+
     <Heading className='headingH4'>
       Bereitstellung der Website und Erstellung von Logfiles
     </Heading>
@@ -101,6 +107,8 @@ const Datenschutz = () => {
       <b>Widerspruchs- und Beseitigungsmöglichkeit</b><br/>
       Der Nutzer hat jederzeit die Möglichkeit, seine Einwilligung zur Verarbeitung der personenbezogenen Daten zu widerrufen. Haben Sie per E-Mail Kontakt zu mir aufgenommen, so können Sie der Speicherung der personenbezogenen Daten jederzeit widersprechen. In diesem Fall werde ich alle personenbezogenen Daten löschen, die Konversation kann deswegen nicht fortgeführt werden.
     </Text>
+
+    <Divider mt='20px' mb='20px' h='1px' bg='gray' />
 
     <Heading className='headingH4'>
       Rechte der betroffenen Person

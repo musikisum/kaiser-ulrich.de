@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Heading, Text, Link } from '@chakra-ui/react';
+import { Heading, Text, Link, Divider } from '@chakra-ui/react';
 
 const options = {
   title: 'Zur Person',
@@ -25,7 +25,9 @@ const Profil = () => {
       Seit meinem ersten Tutorium (Vorbereitung auf die Aufnhameprüfungen in den Lehramts- und Instrumentalpädagogischen Studiengängen 1987−1990) hat mit das Unterrichten von Musiktheorie und Gehörbildung immer sehr viel Freude bereitet. Das ist erfreulicher Weise bis heute so geblieben, so dass die Vermittlung von Wissen (sowohl im Lehren als auch im Lernen) eine wunderbare und feste Konstante in meinem Leben ist.
     </Text>
 
-    <Heading as='h3' className="headingH3">
+    <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+
+    <Heading as='h3' className="headingH4">
       Berlin
     </Heading>
     <Text>
@@ -38,7 +40,9 @@ const Profil = () => {
       Großes Interesse hatte ich am Schreiben von Programmheften meiner Konzerte, um dem Publikum Hintergrundinformationen zur aufgeführten Musik zu vermitteln. Die Herausforderung bestand darin, biographische und musikanalytische Informationen für ein interessiertes Laienpublikum verständlich aufzubereiten. 1993 erwuchs aus dem Interesse, Texte über Musik zu schreiben, eine intensive <Link textDecoration={"underline"} href='/publikationen/verlage'>Publikationstätigkeit für Verlage</Link> (z.B. für den den Bärenreiter-Verlag eine zweibändige Gehörbildung sowie die Anleitungen <i>Der vierstimmige Satz</i>, <i>Arrangieren und Instrumentieren</i> und für den Klett-Verlag die <i>Sonatenspiele</i> und das <i>Lamentobass</i>-Heft).
     </Text>
 
-    <Heading as='h3' className="headingH3">
+    <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+
+    <Heading as='h3' className="headingH4">
       München
     </Heading>
     <Text>
