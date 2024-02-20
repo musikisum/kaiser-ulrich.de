@@ -1,10 +1,11 @@
 import useSWR from 'swr';
 import Head from 'next/head';
-import { useEffect, useState } from 'react';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
+import { useEffect, useState } from 'react';
 import PageHeader from '../components/pagehaeder';
-import { Select, List, ListItem, ListIcon, Text, Heading, Box } from '@chakra-ui/react';
+import DisplayCourses from '../components/displayCourses';
+import { Select, Box, Flex, Spacer } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
 const fetcher = (url) => fetch(url).then((res) => res.json());
@@ -20,24 +21,27 @@ const Unterricht = () => {
 
   const { data, error } = useSWR('/data/unterricht.json', fetcher);
   const [courses, setCourses] = useState();
-  const [semesterValue, setSemesterValue] = useState();
-  const [semesterChanged, setSemesterChanged] = useState();
+  const [semesterName, setSemesterName] = useState();
   const [displayCourse, setDisplayCourse] = useState();
-
+ 
   useEffect(() => {
     if(data) {
       setCourses(data);
       setDisplayCourse(data[0]);
-    }
+    }    
   }, [data])
 
   useEffect(() => {
-    // hier noch das neue Semester setzen
-  }, [semesterChanged])
+    if(data) {
+      const course = data.filter(item => item.name === semesterName);
+      if(course.length) {
+        setDisplayCourse(course[0]);
+      }
+    }
+  }, [semesterName])
 
   const onSemesterChange = (event) => { 
-    setSemesterValue(event.target.value);
-    setSemesterChanged(event.target.value);
+    setSemesterName(event.target.value);
   }
 
   return (
@@ -48,33 +52,27 @@ const Unterricht = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      <Box style={{'maxWidth': '400px'}} mb='40px'>
-        { courses && <Select onChange={onSemesterChange} value={semesterValue}>
-          {
-            courses && courses.map(item => {
-              return <option
-                        key={uid.seq()}
-                        value={item.semester}>
-                        {item.semester}
-                      </option>
-            })
-          }
-        </Select>}
-      </Box>
-      {
-        displayCourse && <Heading as='h3' className='headingH3'>
-          { displayCourse.semester }
-        </Heading>
-      }
-      {
-        displayCourse && displayCourse.unterricht.map(item => {
-          return <div key={uid.seq()} className='mt20'>
-                  <div><b>{item.Title}</b></div>
-                  <div style={{'marginBottom': '6px'}}>{item.DayOfWeek + ' | ' + item.Start + ' Uhr | Dauer: ' + item.Duration}</div>        
-                  <div>{item.Description}</div>
-                </div>
-        })
-      }
+      <Flex>
+        <Spacer />
+        <Box style={{'maxWidth': '300px'}} mb='20px' mr='6%'>
+          { courses && <Select onChange={onSemesterChange} value={semesterName}>
+            {
+              courses && courses.map(item => {
+                return <option
+                          key={uid.seq()}
+                          value={item.name}>
+                          {item.name}
+                        </option>
+              })
+            }
+          </Select>}
+        </Box>
+      </Flex>
+      { displayCourse && 
+        <DisplayCourses 
+          semester={displayCourse || []} 
+          name={displayCourse.name || 'Keine  Daten vorhanden'} 
+        /> }
     </>
   );
 }
