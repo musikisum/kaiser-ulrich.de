@@ -1,0 +1,105 @@
+import Head from 'next/head';
+import Layout from '../components/layout';
+import PageHeader from '../components/pagehaeder';
+import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link } from '@chakra-ui/react';
+
+import style from './index.module.css'
+
+const options = {
+  title: 'Angebote',
+  description: 'Auf dieser Seite finden Sie Links zu meinen Angeboten wie zum Beispiel Fortbildungen für Lehrerinnen und Lehrer, Vorträge zu Themen der Musik sowie Angebote, die ich über WebDoc erledige (z.B. das Porgrammieren kleiner Webseiten, Layoutarbeiten usw.).',
+  filter: 'angebote',
+  slug: '/angebote'
+}
+
+const Angebote = () => {
+  return <>
+    <Head>
+      <title>{options.title}</title>
+      <meta name="description" content="Wissenschaft | Ulrich Kaiser" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/images/icon.png" />
+    </Head>
+
+    <PageHeader options={ options } />
+    
+    <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
+      <Image
+          src='/images/card-images/wissenschaft-Seite001.jpg'
+          alt='Abbildung zur Wissenschaft'
+          className={style.cardImg}           
+        />
+      <CardBody className={style.cardBodyMl}>
+        <Stack>
+          <Heading fontSize='xl'>Fortbildungen</Heading>
+          <Text fontSize='l'>
+            Auf dieser Seite finden Sie Informationen zu meinem Fortbildunsgangeboten.
+          </Text>
+          <CardFooter pl='0'>
+            <Link href='/angebote/fortbildungen'>
+              <Button variant='solid' className={style.cardButtonSize}>
+                Zu den Fortbildungsangeboten ...
+              </Button>
+            </Link>
+          </CardFooter>
+        </Stack>
+      </CardBody>
+    </Card>
+
+    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
+      <Image
+          src='/images/card-images/wissenschaft-Seite002.jpg'
+          alt='Abbildung zu den Betreuungen'
+          className={style.cardImg}
+        />
+      <CardBody className={style.cardBodyMl}>
+        <Stack>
+          <Heading fontSize='xl'>Betreuungen</Heading>
+          <Text fontSize='l'>
+            Auf dieser Seite finden Sie Informationen zu meinen Vorträgen.
+          </Text>
+          <CardFooter pl='0'>
+            <Link href='/angebote/vortraege'>
+              <Button variant='solid' className={style.cardButtonSize}>
+                Zu den Vorträgen ...
+              </Button>
+            </Link>
+          </CardFooter>
+        </Stack>
+      </CardBody>
+    </Card>
+
+    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
+      <Image
+        src='/images/card-images/wissenschaft-Seite003.jpg'
+          alt='Abbildung zu den Hilfsmitteln'
+          className={style.cardImg}
+        />
+      <CardBody className={style.cardBodyMl}>
+        <Stack>
+          <Heading fontSize='xl'>Hilfsmittel</Heading>
+          <Text fontSize='l'>
+            Auf dieser Seite finden Sie Informationen zur Webprogrammierung &and; meinen Layoutarbeiten (WebDoc).
+          </Text>
+          <CardFooter pl='0'>
+            <Link href='/angebote/webdoc'>
+              <Button variant='solid' className={style.cardButtonSize}>
+                Zum WebDoc ...
+              </Button>
+            </Link>
+          </CardFooter>
+        </Stack>
+      </CardBody>
+    </Card>
+  </>
+}
+
+Angebote.getLayout = function getLayout(page) {
+  return (
+    <Layout isCenter={false} showheaven={true}>
+      {page}
+    </Layout>
+  )
+}
+
+export default Angebote;

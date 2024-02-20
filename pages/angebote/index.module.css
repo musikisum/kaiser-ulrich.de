@@ -1,0 +1,39 @@
+.mtDefault {
+  margin-top: 20px;
+}
+.mlDefault {
+  margin-left: 20px;
+}
+
+.redCell {
+  vertical-align: top;
+  background-color: #FFECEA;
+}
+.greenCell {
+  vertical-align: top;
+  background-color: #C6F6D5;
+}
+
+.cardImg {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+}
+.cardBodyMl {
+  margin-left: 20px;
+}
+.cardButtonSize {
+  margin-left: 0 !important;
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .cardImg {
+    width: 60%;
+    height: 60%;
+  }
+  .cardButtonSize {
+    width: 100%;
+    height: 200px;
+  }
+}
