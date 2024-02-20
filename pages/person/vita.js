@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 import Head from 'next/head';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
@@ -11,8 +11,6 @@ import { Button } from '@chakra-ui/react';
 const uid = new ShortUniqueId();
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
-import style from '../publikationen/index.module.css';
-
 const options = {
   title: 'Lebenslauf',
   filter: 'person',
@@ -22,7 +20,6 @@ const options = {
 export default function Vita() {
 
   const { data, error } = useSWR('/data/vita.json', fetcher);
-
   const [inOrder, setInOrder] = useState(true);
 
   function reverse() {

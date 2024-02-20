@@ -1,5 +1,6 @@
 import ShortUniqueId from 'short-unique-id';
-import { Heading, Divider, Text } from '@chakra-ui/react';
+import CustomError from '../components/customError';
+import { Heading, Divider, Text, Center } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
 
@@ -53,31 +54,34 @@ const displayElement = (id, lastDay, item) => {
 
 export default function DisplayCourses({ semester, name }) {
 
-  let lastDay = '';
-
-  return <>
-    <Heading as='h3' className='headingH3' color='#6e91a1'>
-        { name }
-    </Heading>
-      { semester.unterricht.map((item, index, uArr) => {          
-          let element = null;
-          switch(item.DayOfWeek) {
-            case 'Montag':
-              element = displayElement(uid.seq(), lastDay, item)
-            case 'Dienstag':
-              element = displayElement(uid.seq(), lastDay, item)
-            case 'Mittwoch':
-              element = displayElement(uid.seq(), lastDay, item)
-            case 'Donnerstag':
-              element = displayElement(uid.seq(), lastDay, item)
-            case 'Freitag':
-              element = displayElement(uid.seq(), lastDay, item)
-          }
-          if(index < uArr.length - 1) { 
-            lastDay = item.DayOfWeek; 
-          }
-          return element;
-        })
-      }
-  </>
+  if(semester) {
+    let lastDay = '';
+    return <>
+      <Heading as='h3' className='headingH3' color='#6e91a1'>
+          { name }
+      </Heading>
+        { semester.unterricht.map((item, index, uArr) => {          
+            let element = null;
+            switch(item.DayOfWeek) {
+              case 'Montag':
+                element = displayElement(uid.seq(), lastDay, item)
+              case 'Dienstag':
+                element = displayElement(uid.seq(), lastDay, item)
+              case 'Mittwoch':
+                element = displayElement(uid.seq(), lastDay, item)
+              case 'Donnerstag':
+                element = displayElement(uid.seq(), lastDay, item)
+              case 'Freitag':
+                element = displayElement(uid.seq(), lastDay, item)
+            }
+            if(index < uArr.length - 1) { 
+              lastDay = item.DayOfWeek; 
+            }
+            return element;
+          })
+        }
+      </>
+    } else { 
+    return <CustomError theme='zu meinem Unterricht' />
+  }
 }
