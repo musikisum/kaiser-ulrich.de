@@ -17,24 +17,24 @@ export default function ListComponent({ data, inOrder, firstColunnWith = '150px'
   if(data) {
     return inOrder ?
       <List m='12px' spacing={3}> 
-        { data.map(vitaItem => {
+        { data.map(item => {
           return (
             <ListItem key={uid.seq()} style={{'borderBottom': '1px solid gray'}}>
               <Flex mb='16px'>
-                <Box as='b' w={firstColunnWith} color='#6e91a1'>{vitaItem.year}</Box>
-                <Box flex='1'>{vitaItem.item}</Box>
+                <Box as='b' w={firstColunnWith} color='#6e91a1'>{item.left}</Box>
+                <Box flex='1'>{item.right}</Box>
               </Flex>                  
             </ListItem>)
           })
         }
       </List> :
       <List m='12px' spacing={3}> 
-        { reverseData(data).map(vitaItem => {
+        { reverseData(data).map(item => {
           return (
             <ListItem key={uid.seq()} style={{'borderBottom': '1px solid gray'}}>
               <Flex mb='16px'>
-                <Box as='b' w={firstColunnWith} color='#6e91a1'>{vitaItem.year}</Box>
-                <Box flex='1'>{vitaItem.item}</Box>
+                <Box as='b' w={firstColunnWith} color='#6e91a1'>{item.left}</Box>
+                <Box flex='1'>{item.right}</Box>
               </Flex>                  
             </ListItem>)
           })
