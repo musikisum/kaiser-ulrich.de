@@ -17,6 +17,7 @@
 
 # data
 /public/files/
+/public/scores/
 
 # misc
 .DS_Store

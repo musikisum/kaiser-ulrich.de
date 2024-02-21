@@ -25,8 +25,8 @@ const Angebote = () => {
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/wissenschaft-Seite001.jpg'
-          alt='Abbildung zur Wissenschaft'
+          src='/images/card-images/angebote-Seite002.jpg'
+          alt='Abbildung zur Fortbildungen'
           className={style.cardImg}           
         />
       <CardBody className={style.cardBodyMl}>
@@ -48,13 +48,13 @@ const Angebote = () => {
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/wissenschaft-Seite002.jpg'
-          alt='Abbildung zu den Betreuungen'
+          src='/images/card-images/angebote-Seite001.jpg'
+          alt='Abbildung zu Vorträgen'
           className={style.cardImg}
         />
       <CardBody className={style.cardBodyMl}>
         <Stack>
-          <Heading fontSize='xl'>Betreuungen</Heading>
+          <Heading fontSize='xl'>Vorträge</Heading>
           <Text fontSize='l'>
             Auf dieser Seite finden Sie Informationen zu meinen Vorträgen.
           </Text>
@@ -77,9 +77,9 @@ const Angebote = () => {
         />
       <CardBody className={style.cardBodyMl}>
         <Stack>
-          <Heading fontSize='xl'>Hilfsmittel</Heading>
+          <Heading fontSize='xl'>WebDoc (kommerzielles Angebot)</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zur Webprogrammierung &and; meinen Layoutarbeiten (WebDoc).
+            Auf dieser Seite finden Sie Informationen zur Webprogrammierung &amp; meinen Layoutarbeiten (WebDoc).
           </Text>
           <CardFooter pl='0'>
             <Link href='/angebote/webdoc'>

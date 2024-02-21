@@ -12,9 +12,9 @@ const uid = new ShortUniqueId();
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const options = {
-  title: 'Lebenslauf',
-  filter: 'person',
-  slug: '/person/vita'
+  title: 'WebDoc',
+  filter: 'angebote',
+  slug: '/angebote/webdoc'
 }
 
 export default function WebDoc() {
@@ -29,7 +29,7 @@ export default function WebDoc() {
   return (
     <>
       <Head>
-        <title>Lebenslauf</title>
+        <title>{options.title}</title>
         <meta name="description" content="Lebenslauf | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
@@ -40,7 +40,7 @@ export default function WebDoc() {
           { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
         </Button>
       </div>
-      { data && <ListComponent data={data} inOrder={inOrder} /> }
+      {/* { data && <ListComponent data={data} inOrder={inOrder} /> } */}
     </>
   
   )

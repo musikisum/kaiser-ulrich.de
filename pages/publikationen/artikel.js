@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { List, ListItem, ListIcon, Link } from '@chakra-ui/react';
+import { List, ListItem, ListIcon, Link, Text, Divider } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 
 import style from './index.module.css';
@@ -13,7 +13,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Artikel',
-  description: 'Hier finden Sie Publikationen, die seit 1992 in Zeitschriften und Broschüren veröffentlicht worden sind.',
+  description: '',
   filter: 'publikationen',
   slug: '/publikationen/artikel'
 }
@@ -31,7 +31,10 @@ const Artikel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      {/* <Text mb='10' ml='4'>Es wurden { data.length } Artikel veröffentlicht:</Text> */}
+      { data && <Text mb='10' ml='4'>Hier finden Sie Publikationen, die seit 1992 in Zeitschriften und Broschüren veröffentlicht worden sind. Aktuell werden hier {data.length} Artikel bereitgestellt. Für Gelegenheiten (Interviews, Newsletter-Beiträge usw.) schauen Sie bitte auch bei den <Link href='/publikationen/gelegenheiten/' className='underline'>Gelegenheiten</Link> vorbei.</Text> }
+
+      <Divider mt='60px' mb='40px' h='1px' bg='gray' />
+
       { data && <List m='12px' spacing={3}>
         {
           data.map(article => {

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from "../components/layout";
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { List, ListItem, ListIcon } from '@chakra-ui/react';
+import { List, ListItem, ListIcon, Divider, Text } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
 
 import style from './index.module.css';
@@ -14,7 +14,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Gelegenheiten',
-  description: 'Hier finden Sie Publikationen, für die sich eine Gelegenheit ergeben hat und die ausschließlich online publiziert worden sind.',
+  description: '',
   filter: 'publikationen',
   slug: '/publikationen/gelegenheiten'
 }
@@ -31,6 +31,9 @@ const Gelegenheiten = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
+      <Text mb='10' ml='4'>Hier finden Sie Publikationen, für die sich eine Gelegenheit ergeben hat (Interviews, Newsletter-Beiträge, Online-Publikationen usw.). Meine in Zeitschriften und Büchern veröffentlichten Artikel finden Sie <Link href='/publikationen/artikel/' className='underline'>hier</Link>.</Text>
+      <Divider mt='60px' mb='40px' h='1px' bg='gray' />
+
       { data && <List m='12px' spacing={3}>
         {
           data.map(article => {
@@ -45,7 +48,7 @@ const Gelegenheiten = () => {
                   {article.link && !article.html ? <a href={article.link} target='_blank'>&raquo;{article.title}&laquo;</a> : <span>&raquo;{article.title}&laquo;</span>}
                   {article.details ? ', ' + article.details : ''}
                   {'. '}
-                  {article.html && <Link href={article.link} style={{ 'color': '#494949', 'fontWeight': 'bold'}}>Zum Artikel ...</Link>}
+                  {article.html && <Link href={article.link} style={{ 'color': '#6e91a1', 'fontWeight': 'bold'}}>Zum Artikel ...</Link>}
                 </div>
               </div>
             </ListItem>)

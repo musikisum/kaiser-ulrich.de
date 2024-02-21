@@ -31,7 +31,7 @@ const Freiheitlehreurheberrecht = () => {
         Lange Schutzfristen ließen sich rechtfertigen, gäbe es im europäischen Urheberrecht eine Fair-Use-Schranke, die es erlauben würde, jegliches Material in nicht kommerziellen und/oder gemeinnützigen Projekten (wie z.B. dem Unterricht an allgemeinbildenden Schulen und Musikhochschulen) kostenlos und unter Angabe von Quellen verwenden zu dürfen. Doch wie die jüngsten Reformen des Urheberrechts zeigen, wird eine solche Schranke durch Lobbyismus und Individualinteressen derzeit noch verhindert.
       </Text>
 
-      <Heading as='h2' fontSize='md' mt='24px' mb='12px'>Probleme mit Musikdateien auf <b>YouTube</b></Heading>
+      <Heading as='h2' className='headingH4'>Probleme mit Musikdateien auf <b>YouTube</b></Heading>
       <Text mb='6px'>
         YouTube (Google) setzt mit dem ›Content-ID‹ einen Upload-Filter ein, der aufgrund der umstrittenen Urheberrechtsreform der Normalfall für ›Content Provider‹ werden wird. Dem gewünschten Ziel (Abwendung von Rechtsverstößen) stehen jedoch nicht nur Bedenken gegenüber (Datenschutz, Internetzensur), sondern es werden, wie die nachstehenden Fälle zeigen, auch legale Verwendungsweisen von Bild- und Tonmaterial durch Upload-Filter erschwert bzw. verhindert (darüber hinaus laden solche Techniken zu schwer kontrollierbarem Missbrauch ein). Derzeit können automatisierte Scans z.B. nicht zwischen einem Urheberrechtsverstoß und einem gesetzlich erlaubten Zitat im musikwissenschaftlichen Kontext unterscheiden, was die Vermittlung von musikalischem Fachwissen und meine Bereitstellung von Open Educational Resources auf YouTube schon jetzt negativ beeinträchtigt. Hierzu ein paar Beispiele:
       </Text>
@@ -75,7 +75,7 @@ const Freiheitlehreurheberrecht = () => {
         Die zurückgezogenen Ansprüche (und auch die nicht zurückgezogenen von UMG/Deutsche Grammophon) legen die Vermutung nahe, dass die Content-ID-Datenbank von YouTube/Google mit Titeln gefüllt wird, an denen die Labels keine Rechte mehr haben (vgl. hierzu die Entwicklungen des UrhG zum Leistungsschutz). Über den Support von Google wollte ich hierrüber informieren und die Streitfälle klären. Doch Mails an den Support von YouTube/Google werden »leider nicht gelesen und zur Kenntnis genommen«, eine menschliche Rückmeldungen von YouTube/Google darf man derzeit nur erwarten, wenn eine Urheberrechtsverletzung melden möchte.
       </Text>
 
-      <Heading as='h2' fontSize='md' mt='24px' mb='12px'>Bestätigung der Fehlerhaftigkeit des Content-ID-Systems</Heading>
+      <Heading as='h2' className='headingH4'>Bestätigung der Fehlerhaftigkeit des Content-ID-Systems</Heading>
       <Text mb='6px'>
         Eine Reaktion auf meinen Beitrag für die Wikimedia Foundation erhielt ich eine sehr freundliche Rückmeldung eines Publishing Directors:
       </Text>
@@ -88,7 +88,7 @@ const Freiheitlehreurheberrecht = () => {
         Diese Rückmeldung zeigt, dass ein Wissen um die Fehlerhaftigkeit der Scans bei Insidern durchaus vorhanden ist, dass jedoch klassische Musik als Kollateralschaden in Kauf genommen wird, weil die Filter dort, wo derzeit Geld verdient wird (also im Bereich der Popmusik), recht zuverlässig funktionieren. Darüber hinaus zeigt diese Rückmeldung, dass es unter den Publishers und Labels sowohl einen korrekten Umgang mit der Content-ID-Datenbank zu geben scheint, als auch ein illegales Verhalten, welches gemeinfreie Aufnahmen mit Rechtsansprüchen belegt. In der Diskussion um illegales Verhalten auf YouTube ist das illegale Verhalten durch Labels bisher leider noch nicht thematisiert worden.
       </Text>
 
-      <Heading as='h2' fontSize='md' mt='24px' mb='12px'>Erfahrungen mit eigenen Aufnahmen</Heading>
+      <Heading as='h2' className='headingH4'>Erfahrungen mit eigenen Aufnahmen</Heading>
       <Text mb='6px'>
         Meine von dem Publishing Director bestätigten Erfahrungen gipfelten in einem Erlebnis, das ich mit meinem Chormusik-Kanal auf YouTube hatte, auf dem ich eine nicht mehr im Handel befindliche Brahms-CD des von mir gegründeten Ensemberlino Vocale auf YouTube zur Verfügung stellen wollte. An dieser Aufnahme halte ich alle Rechte, der Chor sang seinerzeit unter meiner Leitung, die CD wurde von mir privat finanziert und der Vertrieb (Pool Music) ist schon vor Jahren in Konkurs gegangen.<br/>
         Zu meinem Erstaunen wurde ich nach dem Upload umgehend von YouTube benachrichtigt, dass die von mir dirigierte und von meinem ehemaligen Chor gesungene Aufnahme gar nicht von uns sei. Denn in ›Wirklichkeit‹ wäre Wolf-Dieter Haunschild der Dirigent der Aufnahme und die Rechte daran lägen deshalb bei Naxos of America.<br/>
