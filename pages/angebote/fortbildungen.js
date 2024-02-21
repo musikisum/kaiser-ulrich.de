@@ -39,7 +39,7 @@ export default function Fortbildungen() {
       <PageHeader options={ options } />
       <div style={{'textAlign': 'right'}}>
         <Flex>
-          { data && <Text>Die {data.length} Fortbildungsveranstaltungen seit 2002:</Text> }
+          { data && <Text>Ein Überblick über meine {data.length} Fortbildungsveranstaltungen seit 2002:</Text> }
           <Spacer />
           <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
             { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }

@@ -1,9 +1,10 @@
 import useSWR from 'swr';
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import { Flex, Spacer, Text } from '@chakra-ui/react';
 import ListComponent from '../components/listComponent';
 
 import { Button } from '@chakra-ui/react';
@@ -19,7 +20,7 @@ const options = {
 
 export default function Vortraege() {
 
-  const { data, error } = useSWR('/data/vita.json', fetcher);
+  const { data, error } = useSWR('/data/vortraege.json', fetcher);
   const [inOrder, setInOrder] = useState(true);
 
   function reverse() {
@@ -35,12 +36,14 @@ export default function Vortraege() {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={ options } />
-      <div style={{'textAlign': 'right'}}>
-        <Button mb='40px' mr='10%' bg='#E0F1F4' onClick={reverse}>
-          { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
-        </Button>
-      </div>
-      {/* { data && <ListComponent data={data} inOrder={inOrder} /> } */}
+      <Flex>
+          { data && <Text>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
+          <Spacer />
+          <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
+            { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
+          </Button>
+        </Flex>
+      { data && <ListComponent data={data} inOrder={inOrder} /> }
     </>
   
   )

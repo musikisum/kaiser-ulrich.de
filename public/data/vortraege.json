@@ -1,22 +1,134 @@
 [
-    {
-		"year": "16.03.2023",
-		"item": "Vorstellung der Open Music Academy auf dem oerBarcamp 2022 (Hamburg)"
-	},
-	{
-		"year": "14.01.2023",
-		"item": "Vorstellung der Open Music Academy auf dem oerBarcamp 2022 (Hamburg)"
-	},
 	{
 		"year": "25.10.2022",
-		"item": "Vorstellung der Open Music Academy auf dem oerBarcamp 2022 (Hamburg)"
+		"item": "›Die Open Music Academy‹ (OERcamp 2022), Berufliche Schule für Medien und Kommunikation Hamburg"
 	},
 	{
 		"year": "12.10.2022",
-		"item": "Vorstellung der Open Music Academy zum Tag der digitalen Lehre an der HfM Nürnberg (Nürnberg)"
+		"item": "Vorstellung der Open Music Academy zum Tag der digitalen Lehre, HfM Nürnberg"
 	},
 	{
 		"year": "11.03.2022",
-		"item": "Einführung in den Entwicklungsstand und die Arbeit mit der Open Music Academy (Online-Kurs/Nürnberg)"
+		"item": "›Einführung in den Entwicklungsstand und die Arbeit mit der Open Music Academy‹, Online-Kurs (Nürnberg)"
+	},
+  {
+    "year": "02.12.2011",
+    "item": "›Stell dir vor, ich verschenke ein Buch und keiner nimmt’s mit‹, 11. Jahreskongress der GMTH Bern"
+	},
+  {
+    "year": "26.10.2009",
+    "item": "›Sonate & Sinfonie. Ein altes Thema auf neuen Wegen‹, 42. Bundeskongress für Musikpädagogik Halle"
+	},
+  {
+    "year": "10.10.2009",
+    "item": "›Die Formfunktionen mediantischer Harmonik (Seitensatz- und Reprisenvorbereitung) in Sonatenmusik des ausgehenden 18. und frühen 19.Jahrhunderts‹, 9. Jahreskongress der GTMH Mainz"
+	},
+  {
+    "year": "07.10.2006",
+    "item": "›»Da aber ein Menuett der Ausführung nach, nichts anderes ist als ein Concert, eine Arie oder Simpfonie… oder: Menuettimprovisationen als Methode der Werkanalyse«‹, 7. Jahreskongress der GMTH Weimar"
+	},
+  {
+    "year": "17.03.2006",
+    "item": "›Systematisches und historisches zu Thema Sequenzmodelle‹, Begriff und Praxis II/4 München"
+	},
+  {
+		"year": "18.11.2005",
+		"item": "›Johannes Brahms und der Kanon‹, Begriff und Praxis I/7 München"
+	},
+	{
+		"year": "28.10.2005",
+		"item": "›Der 'Lamentobass' in Klassik und Pop‹, Begriff und Praxis II/3 München"
+	},
+  {
+		"year": "21.10.2005",
+		"item": "›Der Begriff der Tonleiter und das Menuett als Kompositionsmodell‹, Arbeitskreis der Musiklehrkräfte Musischer Gymnasien Eichstätt"
+	},  
+	{
+		"year": "10.03.2005",
+		"item": "›Neue Ansätze in der Musiktheorie‹, Christoph-Probst-Gymnasium Gilching"
+	},
+  {
+		"year": "18.02.2005",
+		"item": "›Neoklassizismus‹, Begriff und Praxis II/2 München"
+	},
+	{
+		"year": "26.11.2004",
+		"item": "›Interpunktion und dynamische Verläufe‹, Begriff und Praxis II/1 München"
+	},
+	{
+		"year": "12.11.2004",
+		"item": "›Zur Oper im 17. Jahrhundert‹, Begriff und Praxis I/6 München"
+	},
+	{
+		"year": "16.10.2004",
+		"item": "›Arrangieren und Instrumentieren – Perspektiven für den Musiktheorieunterricht‹, 4. Jahreskongress der GMTH Köln"
+	},
+	{
+		"year": "19.03.2004",
+		"item": "›Das Romantische Klavierlied in der Schule‹, Begriff und Praxis I/5 München"
+	},
+  {
+		"year": "21.11.2003",
+		"item": "›Musica sacra und die Berliner Schule (Pepping, Distler, Poos)‹, Begriff und Praxis I/4 München"
+	},
+	{
+		"year": "12.10.2003",
+		"item": "›Koch und Schenker für die Schule – Die 'Sonatenspiele' in der Applaus-Reihe des Klett-Verlags‹, 3. Jahreskongress der GMTH Koblenz"
+	},
+	{
+		"year": "23.05.2003",
+		"item": "›Die Tonleiter als Skala und Modell für Tonalität‹, Begriff und Praxis I/3 München"
+	},
+	{
+		"year": "25.01.2003",
+		"item": "›Neues zur Sonatenhauptsatzform‹, AfS Berlin"
+	},
+	{
+		"year": "22.11.2002",
+		"item": "›Satztechnische Modelle‹, Begriff und Praxis I/2 München"
+	},
+	{
+		"year": "11.10.2002",
+		"item": "›Gehörbildung und Höranalyse, 2. Jahreskongress der GMTH München"
+	},
+	{
+		"year": "14.03.2002",
+		"item": "›Sonate und Sinfonie‹, Begriff und Praxis I/1 München"
+	},
+  {
+    "year": "27.04.2000",
+    "item": "›Brücken zur Sonate‹ (zusammen mit H.-U. Schäfer Lembeck) anläßlich der 23. Bundesschulmusikwoche vom 26.-29. April in Koblenz"
+	},
+  {
+    "year": "2000",
+    "item": "›Musica ficta in Vokalkompositionen‹ des 16. Jahrhunderts, HMTM München"
+	},
+  {
+    "year": "1999",
+    "item": "›Der Anfang vom Ende - Überlegungen zu Schlußbildungen in Mozarts Klaviersonaten‹ (zusammen mit Michael Polth) auf der Fachtagung Musiktheorie Stuttgart"
+	},
+  {
+    "year": "1998",
+    "item": "›Über das Verhältnis von Theorie und Gehörbildung in der Unterrichtspraxis‹, HMDK Stuttgart"
+	},
+  {
+    "year": "1997",
+    "item": "›Über das Verhältnis Musiktheorie, Gehörbildung, Formenlehre und Instrumentation‹, Hochschule für Musik Carl Maria von Weber Dresden"
+  },
+  {
+    "year": "1997",
+    "item": "Über den Wert analytischer Methoden im Musiktheorieunterricht‹, HMTM München"
+  },
+  {
+    "year": "1996",
+    "item": "›Kontrapunkt von Dufay bis Lasso‹, HdK Berlin (heute UdK Berlin)"
+  },
+  {
+    "year": "1995",
+    "item": "Wege zur Analyse von Musik des 20. Jahrhunderts, HfM Detmold"
+  },
+	{
+		"year": "1995",
+		"item": "Hören durch Bildung - Bildung durch Hören, Fachtagung ›Musiktheorie im Gespräch‹, HfM Weimar"
 	}
 ]
