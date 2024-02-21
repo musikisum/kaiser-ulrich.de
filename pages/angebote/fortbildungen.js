@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import ListComponent from '../components/listComponent';
-import { Flex, Spacer, Text } from '@chakra-ui/react';
+import { Flex, Spacer, Text, Divider } from '@chakra-ui/react';
 
 import { Button } from '@chakra-ui/react';
 
@@ -14,7 +14,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const options = {
   title: 'Fortbildungen',
-  description: 'Auf dieser Seite finden Sie meine ein- oder mehrtägigen Fortbildungen für Lehrerinnen und Lehrer an allgemeinbildenden Schulen oder Musikschulen. Falls Sie mich kontaktieren möchten, weil Sie eine Fortbildung zu Themen der Musiktheorie und/oder des digitalen Lehren und Lernens planen, kontaktieren Sie mich bitte über eine meiner im Impressum angegebene Adressen.',
+  description: '',
   filter: 'angebote',
   slug: '/angebote/fortbildungen'
 }
@@ -37,6 +37,15 @@ export default function Fortbildungen() {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={ options } />
+      <Text>
+        Auf dieser Seite finden Sie meine ein- oder mehrtägigen Fortbildungen für Lehrerinnen und Lehrer an allgemeinbildenden Schulen oder Musikschulen.
+      </Text>
+      <Text mt='10px'>
+        Falls Sie mich kontaktieren möchten, weil Sie eine Fortbildung zu Themen der Musiktheorie und/oder des digitalen Lehren und Lernens planen, kontaktieren Sie mich bitte über eine meiner im Impressum angegebene Adressen.
+      </Text>
+
+      <Divider mt='60px' mb='40px' h='1px' bg='gray' />
+
       <div style={{'textAlign': 'right'}}>
         <Flex>
           { data && <Text>Ein Überblick über meine {data.length} Fortbildungsveranstaltungen seit 2002:</Text> }
