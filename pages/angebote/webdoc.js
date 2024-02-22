@@ -26,7 +26,7 @@ export default function WebDoc() {
         Kommerzielles Angebot
       </Heading>
       <Text>
-        Hier finden Sie eine kleine Übersicht über mein kommerzielles Angebot. Die Arbeiten haben dabei in der Regel nichts mit Musik zu tun, wie programmiere ich gerne kleinerer Webseiten, übernehme Layoutarbeiten (wie z.B. Plakate, Visitenkarten, etc.). Diese Tätigkeiten sind eine willkommene Abwechslung von meiner eigentlichen Arbeit, die ich gerne übernehme, wenn ich es zeitlich einrichten kann und es meine Kompetenze nicht überfordert. Schreiben Sie mir eine Mail, wenn Sie eine Anfrage haben ...
+        Hier finden Sie eine kleine Übersicht über meine eigenen oder über externe Aufträge kommerziell erstellten Webseiten. Diese Arbeiten empfinde ich al ein schönes Hobby, da mir das Programmieren von Webseiten ebenso wie Layoutarbeiten Freude bereitet (z.B. das Erstellen von Plakaten, Visitenkarten, etc.). Fall Sie also Wünsche in dieser Richtung haben, ich es zeitlich einrichten kann und es meine Kompetenzen nicht übersteigt, schreiben Sie mir einfach eine Mail ...
       </Text>
       <Divider mt='60px' mb='60px' h='1px' bg='gray' />
 
@@ -49,7 +49,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Meine Hompage, die Sie (anscheinen im Moment :) besuchen, ist die älteste, von mir selbst erstellte Webseite (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellten Web-App, über die ich meine Studierenden betreut habe (mit einem internen Lernmanagmenet-System). Heute erfüllt diese Aufgabe die <a href='https://openmusic.academy'>Open Music Academy (OMA)</a> wesentlich besser als meine eigene Programmierung. Durch das Auslagern der Studierendenbetreuung war es möglich, die Homepage ganz neu aufzusetzen. Heute ist es eine  statische, mit Next.js und Chakra UI gebaute Website. Die Navigation steuert ein JSON-File und wird automatisch erstellt, darüber hinaus erhalten auch die sich gelegentlich verändernden Seiten wie z.B. die der Publikationen, Fortbildungen, Vorträge usw. ihren Content aus JSON-Files, was eine Aktualisierung ohne neues Bauen der Website ermöglicht.  
+              Meine Hompage, die Sie (anscheinen im Moment :) besuchen, ist die älteste, von mir selbst erstellte Webseite (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellten Web-App, über die ich meine Studierenden betreut habe (mit einem internen Lernmanagmenet-System). Durch das Auslagern der Studierendenbetreuung auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> war ein Relaunch der Homepage möglich. Dafür wurde Next.js und Chakra UI verwendet, die Navigation wird automatisch erstellt und über ein JSON-File gesteuert. Auch die sich gelegentlich verändernden Seiten wie z.B. die der Publikationen, Fortbildungen, Vorträge usw. bzw. ihren Content aus JSON-Files, was eine Aktualisierung der Seitze ohne ein neues Erstellen der  Website ermöglicht.  
             </Box>
           </Flex>                  
         </ListItem>
@@ -65,7 +65,25 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Die Seite musikanalyse.net ist meine private Seite zur Musiktheorie ...  
+              Die Programmierung der Seite musikanalyse.net habe ich zusammen mit Andreas Helmberger begonnen, der sich dann jedoch aus dem Projekt zurückgezogen hat. Auf dieser Seite stelle ich privat Informationen zur musikalischen Analyse und Musiktheorie zur Verfügung. Das Angebot richtet sich in erster Linie an meine Studierende und darüber hinaus an alle, die etwas über die genannten Themen wissen möchten.<br/><br/>
+              <i>Im Rahmen eines wissenschaftlichen Forschungsprojekts der TU Dortmund im Bereich Musiktheorie (um Prof. Dr. Mark Gotham), in dem die Verwendung von musiktheoretischen Lehrwerken untersucht worden ist, wurde festgestellt, dass musikanalyse.net »zu den meist verwendeten Lehrwerken im deutschsprachigen Raum (sowohl Print als auch digital) zählt«.</i><br/><br/>
+              Trotz dieses erfreulichen Nachricht und einer <a href='https://opacplus.bsb-muenchen.de/discovery/fulldisplay?docid=alma991076179389707356&context=L&vid=49BVB_BSB:VU1&lang=de&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,musikanalyse.net' className='underline'>Langzeitarchivierung der Seite</a> durch die <a href='https://www.bsb-muenchen.de/' className='underline'>Bayerische Staatsbibliothek</a> werde ich diese Seite auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> transferieren, wo die Inhalte nicht nur kostenlos genutzt, sondern auch aktualisiert, verändert und weiterentwickelt werden können.
+            </Box>
+          </Flex>                  
+        </ListItem>
+        <ListItem style={{'borderBottom': '1px solid gray'}}>
+          <Flex mb='16px' className={style.websiteDirection}>
+            <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
+              <Container>
+                <img src='/images/websites/ResponsiveDesign-oer-musik-Seite001.png' />
+                <Container style={{ 'textAlign': 'center' }}>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
+                  <a href=''>oer-musik.de</a>
+                </Container>                    
+              </Container>
+            </Box>
+            <Box flex='0.6' ml='10px'>
+              Die Seite oer-musik.de ist aus der Seite openbooks-musik.de hervorgegangen, mit der ich 2011 begonnen hatte, meine Materialien für meine Lehramtsstudierenden sowie Lehrerinnen und Lehrer an allgemeinbildenden Schulen zur Verfügung zu stellen. Die Seite verwendet Gatsby, verzichtet auf den Einsatz von CSS-Frameworks und wird auch aufgelöst, sobald ich alle Inhalte auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> überführt und zur Nachbearbeitung freigegeben haben werde. Alle OpenBooks habe ich übrigens mit der freien Desktop-Publishing-Software <a href='https://www.scribus.net/' className='underline'>Scribus</a> selbst entworfen und erstellt.
             </Box>
           </Flex>                  
         </ListItem>
@@ -81,7 +99,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Die erste Website, für die ich einen Auftrag erhielt, war die Seite der Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch) und ausgesprochen leichtgewichtig und schnell.  
+              Die erste Website, die ich über einen externen Auftrag programmiert habe, ist 2015 für die Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke entstanden. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch), ausgesprochen leichtgewichtig und schnell.  
             </Box>
           </Flex>                  
         </ListItem>
@@ -97,10 +115,26 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-            Kurz darauf erhielt ich einen Auftrag erhielt ich Auftrag für eine einfache Seite der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch diese Seite verwendet das CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und schnell.  
+              2017 erhielt ich dann einen Auftrag für eine einfache statische Seite von der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch für diese Seite wurde dass CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>) verwendet und auch diese Seite ist mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und schnell.  
             </Box>
           </Flex>                  
-        </ListItem>
+        </ListItem>        
+        <ListItem style={{'borderBottom': '1px solid gray'}}>
+          <Flex mb='16px' className={style.websiteDirection}>
+            <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
+              <Container>
+                <img src='/images/websites/ResponsiveDesign-symann-Seite001.png' />
+                <Container style={{ 'textAlign': 'center' }}>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
+                  <a href='https://www.ralph-symann.com/'>ralph-symann.de</a>
+                </Container>                    
+              </Container>
+            </Box>
+            <Box flex='0.6' ml='10px'>
+               2019 erhielt ich dann vom Mangement des Komponisten Ralph Symann den Auftrag für eine Website, ein Logo sowie weiteren Layoutmaterialen im Rahmen einer einheitlichen Corporate Identity. Für diese Seite habe ich den Task-Runner Gulp sowie den Static-Site-Generator Metalsmith und darüber hinaus kein CSS-Framework verwendet um wieder eine leichtgewichtige und schnelle statische Website zu erstellen.   
+            </Box>
+          </Flex>                  
+        </ListItem>          
         <ListItem style={{'borderBottom': '1px solid gray'}}>
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
@@ -113,10 +147,27 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-               ... bekam ich den Auftrag für eine Website der Hausarztpraxis Rahmersdorf
+               2021 beauftragte mich dann die Internistische Hausarztpraxis Rahmerdorf mit der Programmierung ihres Webauftritts. Auch für diese Seite habe ich Task-Runner Gulp sowie den Static-Site-Generator Metalsmith verwendet.
             </Box>
           </Flex>                  
-        </ListItem>          
+        </ListItem>
+                 
+        <ListItem style={{'borderBottom': '1px solid gray'}}>
+          <Flex mb='16px' className={style.websiteDirection}>
+            <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
+              <Container>
+                <img src='/images/websites/ResponsiveDesign-k&k-Seite001.png' />
+                <Container style={{ 'textAlign': 'center' }}>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
+                  <a href='https://kaiserliche-koestlichkeiten.eu/'>kaiserliche-koestlichkeiten.eu</a>
+                </Container>                    
+              </Container>
+            </Box>
+            <Box flex='0.6' ml='10px'>
+               Kurz danach erhielt ich den Auftrag für eine Seite voller Leckereien und Köstlichkeiten der Konditormeisterin (und meiner Schwester) Gunhild Lakomczyk-Kaiser. Auch diese Seite ist eine statische Website, die mit Next.js erstellt worden ist und deren Daten in JSON-Files gespeichert werden, damit sich die Seite beim Hinzufügen neuer Elemente ohne ein neues Erstellen aktualisieren lässt. 
+            </Box>
+          </Flex>                  
+        </ListItem>           
       </List>    
     </>  
   )
