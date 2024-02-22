@@ -23,6 +23,8 @@ export const sitemapDictionary = {
   "/wissenschaft": "Wissenschaft",
   "/publikationen": "Publikationen",
   "/projekte": "Projekte",
+  "/projekte/elmu": "ELMU",
+  "/projekte/openmusicacademy": "Open Music Academy",
   "/angebote": "Angebote",
   "/unterricht": "Unterricht",
   "/gesang": "Gesang",

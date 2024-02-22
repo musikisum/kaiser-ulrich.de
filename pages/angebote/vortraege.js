@@ -2,14 +2,12 @@ import useSWR from 'swr';
 import Head from 'next/head';
 import { useState } from 'react';
 import Layout from '../components/layout';
-import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import { Flex, Spacer, Text } from '@chakra-ui/react';
 import ListComponent from '../components/listComponent';
 
 import { Button } from '@chakra-ui/react';
 
-const uid = new ShortUniqueId();
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const options = {
@@ -31,7 +29,7 @@ export default function Vortraege() {
     <>
       <Head>
         <title>{options.title}</title>
-        <meta name="description" content="Lebenslauf | Ulrich Kaiser" />
+        <meta name="description" content="Vorträge | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>

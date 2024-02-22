@@ -6,17 +6,17 @@ import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link }
 import style from './index.module.css'
 
 const options = {
-  title: 'Angebote',
-  description: 'Auf dieser Seite finden Sie Links zu meinen Angeboten wie zum Beispiel Fortbildungen für Lehrerinnen und Lehrer, Vorträge zu Themen der Musik sowie Angebote, die ich über WebDoc erledige (z.B. das Programmieren kleiner Webseiten, Layout-Arbeiten usw.).',
-  filter: 'angebote',
-  slug: '/angebote'
+  title: 'Projekte',
+  description: 'Auf dieser Seite finden Sie Links zu abgeschlossenen und laufenden Projekten.',
+  filter: 'projekte',
+  slug: '/projekte'
 }
 
 const Angebote = () => {
   return <>
     <Head>
       <title>{options.title}</title>
-      <meta name="description" content="Wissenschaft | Ulrich Kaiser" />
+      <meta name="description" content="Projekte | Ulrich Kaiser" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/icon.png" />
     </Head>
@@ -26,19 +26,19 @@ const Angebote = () => {
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
       <Image
           src='/images/card-images/angebote-Seite002.jpg'
-          alt='Abbildung zur Fortbildungen'
+          alt='Abbildung zu Elmu'
           className={style.cardImg}           
         />
       <CardBody className={style.cardBodyMl}>
         <Stack>
-          <Heading fontSize='xl'>Fortbildungen</Heading>
+          <Heading fontSize='xl'>ELMU</Heading>
           <Text fontSize='l'>
             Auf dieser Seite finden Sie Informationen zu meinem Fortbildunsgangeboten.
           </Text>
           <CardFooter pl='0'>
-            <Link href='/angebote/fortbildungen'>
+            <Link href='/projekte/elmu'>
               <Button variant='solid' className={style.cardButtonSize}>
-                Zu den Fortbildungsangeboten ...
+                Zum ELMU-Projekt ...
               </Button>
             </Link>
           </CardFooter>
@@ -49,42 +49,19 @@ const Angebote = () => {
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
           src='/images/card-images/angebote-Seite001.jpg'
-          alt='Abbildung zu Vorträgen'
+          alt='Abbildung zur OMA'
           className={style.cardImg}
         />
       <CardBody className={style.cardBodyMl}>
         <Stack>
-          <Heading fontSize='xl'>Vorträge</Heading>
+          <Heading fontSize='xl'>OMA</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zu meinen Vorträgen.
+            Auf dieser Seite finden Sie Informationen zur Open Music Academy.
           </Text>
           <CardFooter pl='0'>
-            <Link href='/angebote/vortraege'>
+            <Link href='/projekte/openmusicacademy'>
               <Button variant='solid' className={style.cardButtonSize}>
-                Zu den Vorträgen ...
-              </Button>
-            </Link>
-          </CardFooter>
-        </Stack>
-      </CardBody>
-    </Card>
-
-    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
-        src='/images/card-images/wissenschaft-Seite003.jpg'
-          alt='Abbildung zu den Hilfsmitteln'
-          className={style.cardImg}
-        />
-      <CardBody className={style.cardBodyMl}>
-        <Stack>
-          <Heading fontSize='xl'>WebDoc (kommerzielles Angebot)</Heading>
-          <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zur Webprogrammierung &amp; meinen Layoutarbeiten (WebDoc).
-          </Text>
-          <CardFooter pl='0'>
-            <Link href='/angebote/webdoc'>
-              <Button variant='solid' className={style.cardButtonSize}>
-                Zum WebDoc ...
+                Zur Open Music Academy ...
               </Button>
             </Link>
           </CardFooter>
