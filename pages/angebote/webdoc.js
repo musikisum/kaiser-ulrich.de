@@ -49,7 +49,23 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Meine Hompage, die Sie (anscheinen gerade :) besuchen, ist die älteste, von mir selbst erstellte Webseite (2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellten Web-App, über die ich meine Studierenden betreut habe. Heute erfüllt diese Aufgabe die <a href='https://openmusic.academy'>Open Music Academy (OMA)</a> wesentlich besser. Daduch konnte ich die Homepage ganzneu konzipieren, heute ist es eine  statische Website, die ich mit Next.js und Chakra UI gebauthabe. Die Navigation wird aus einem JSON-File ausgelesen und automatisch erstellt, darüber hinaus erhalten auch die sich gelegentlich verändernden Seiten wie z.B. die der Publikationen, Fortbildungen, Vorträge usw. ihren Content aus JSON-Files, was ein Content-Aktualisierung ohne ein neues Bauen der Website erlaubt.  
+              Meine Hompage, die Sie (anscheinen im Moment :) besuchen, ist die älteste, von mir selbst erstellte Webseite (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellten Web-App, über die ich meine Studierenden betreut habe (mit einem internen Lernmanagmenet-System). Heute erfüllt diese Aufgabe die <a href='https://openmusic.academy'>Open Music Academy (OMA)</a> wesentlich besser als meine eigene Programmierung. Durch das Auslagern der Studierendenbetreuung war es möglich, die Homepage ganz neu aufzusetzen. Heute ist es eine  statische, mit Next.js und Chakra UI gebaute Website. Die Navigation steuert ein JSON-File und wird automatisch erstellt, darüber hinaus erhalten auch die sich gelegentlich verändernden Seiten wie z.B. die der Publikationen, Fortbildungen, Vorträge usw. ihren Content aus JSON-Files, was eine Aktualisierung ohne neues Bauen der Website ermöglicht.  
+            </Box>
+          </Flex>                  
+        </ListItem>
+        <ListItem style={{'borderBottom': '1px solid gray'}}>
+          <Flex mb='16px' className={style.websiteDirection}>
+            <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
+              <Container>
+                <img src='/images/websites/ResponsiveDesign-musikanalyse-Seite001.png' />
+                <Container style={{ 'textAlign': 'center' }}>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
+                  <a href='https://musikanalyse.net'>musikanalyse.net</a>
+                </Container>                    
+              </Container>
+            </Box>
+            <Box flex='0.6' ml='10px'>
+              Die Seite musikanalyse.net ist meine private Seite zur Musiktheorie ...  
             </Box>
           </Flex>                  
         </ListItem>
@@ -65,10 +81,42 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Die erste Website, für die ich einen Auftrag erhielt, war die Seite der Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>). Diese Seite ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch) und sehr leicht und schnell.  
+              Die erste Website, für die ich einen Auftrag erhielt, war die Seite der Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch) und ausgesprochen leichtgewichtig und schnell.  
             </Box>
           </Flex>                  
-        </ListItem>        
+        </ListItem>
+        <ListItem style={{'borderBottom': '1px solid gray'}}>
+          <Flex mb='16px' className={style.websiteDirection}>
+            <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
+              <Container>
+                <img src='/images/websites/ResponsiveDesign-meder-Seite001.png' />
+                <Container style={{ 'textAlign': 'center' }}>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
+                  <a href='https://www.tpmeder.de/'>tpmeder.de</a>
+                </Container>                    
+              </Container>
+            </Box>
+            <Box flex='0.6' ml='10px'>
+            Kurz darauf erhielt ich einen Auftrag erhielt ich Auftrag für eine einfache Seite der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch diese Seite verwendet das CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und schnell.  
+            </Box>
+          </Flex>                  
+        </ListItem>
+        <ListItem style={{'borderBottom': '1px solid gray'}}>
+          <Flex mb='16px' className={style.websiteDirection}>
+            <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
+              <Container>
+                <img src='/images/websites/ResponsiveDesign-hausarztpraxis-Seite001.png' />
+                <Container style={{ 'textAlign': 'center' }}>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
+                  <a href='http://www.internistische-hausarztpraxis-ramersdorf.de/'>internistische-hausarztpraxis-ramersdorf.de</a>
+                </Container>                    
+              </Container>
+            </Box>
+            <Box flex='0.6' ml='10px'>
+               ... bekam ich den Auftrag für eine Website der Hausarztpraxis Rahmersdorf
+            </Box>
+          </Flex>                  
+        </ListItem>          
       </List>    
     </>  
   )
