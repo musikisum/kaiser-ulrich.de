@@ -25,7 +25,7 @@ const Angebote = () => {
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/angebote-Seite002.jpg'
+          src='/images/card-images/projekte-Seite001.jpg'
           alt='Abbildung zu Elmu'
           className={style.cardImg}           
         />
@@ -33,7 +33,7 @@ const Angebote = () => {
         <Stack>
           <Heading fontSize='xl'>ELMU</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zu meinem Fortbildunsgangeboten.
+            Auf dieser Seite finden Sie Informationen zum ELMU-Projekt, das bereits abgeschlossen und in die Open Musik Academy (OMA) überführt worden ist.
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/elmu'>
@@ -48,7 +48,7 @@ const Angebote = () => {
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/angebote-Seite001.jpg'
+          src='/images/card-images/projekte-Seite002.jpg'
           alt='Abbildung zur OMA'
           className={style.cardImg}
         />
@@ -56,7 +56,7 @@ const Angebote = () => {
         <Stack>
           <Heading fontSize='xl'>OMA</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zur Open Music Academy.
+            Auf dieser Seite finden Sie Informationen zur Open Music Academy (OMA). Dieses Projekt habe ich zum Beginn des Jahres 2021 für die Hochschule für Musik und Theater entworfen und im selben Jahr wurde es von der Stiftung Innovation in der Hochschullehre zur Förderung ausgewählt. Das Projekt läuft noch bis zum Ende des Jahres 2025.   
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/openmusicacademy'>

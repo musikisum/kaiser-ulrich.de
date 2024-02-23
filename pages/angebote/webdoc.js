@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 import ModalImage from "react-modal-image";
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { Heading, Text, Box, List, ListItem, Flex, HStack, Container, Divider } from '@chakra-ui/react';
+import { Heading, Text, Box, List, ListItem, Flex, HStack, Container, Divider, Spacer } from '@chakra-ui/react';
 
 import style from './index.module.css'; 
 
@@ -15,8 +15,12 @@ const options = {
 const urlSnippet = '/images/webdoc/';
 
 const webDocImages = [
-  { 'small': 'poster1-thumb.jpg', 'large': 'poster1.jpg' },
-  { 'small': 'poster2-thumb.jpg', 'large': 'poster2.jpg' }
+  { 'small': 'poster2-thumb.jpg', 'large': 'poster2.jpg', 'altText': 'Plakat Beispiel Rock' },
+  { 'small': 'happy-thumb.jpg', 'large': 'happy.jpg', 'altText': 'U1 Beispiel Happy-Variationen' },
+  { 'small': 'brahms-thumb.jpg', 'large': 'brahms.jpg', 'altText': 'U1 Beispiel Brahms' },
+  { 'small': 'lamentobass-thumb.jpg', 'large': 'lamentobass.jpg', 'altText': 'U1 Beispiel Lamentobass' },
+  { 'small': 'inventionen-thumb.jpg', 'large': 'inventionen.jpg', 'altText': 'U1 Beispiel Inventionen' },
+  { 'small': 'formenlehre-thumb.jpg', 'large': 'formenlehre.jpg', 'altText': 'U1 Beispiel Formenlehre' }
 ];
 
 const uid = new ShortUniqueId();
@@ -51,7 +55,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-uk-Seite001.png'} />
+                <a href='https://kaiser-ulrich.de'><img src={urlSnippet + 'ResponsiveDesign-uk-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://kaiser-ulrich.de'>kaiser-ulrich.de</a>
@@ -67,7 +71,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-musikanalyse-Seite001.png'} />
+                <a href='https://musikanalyse.net'><img src={urlSnippet + 'ResponsiveDesign-musikanalyse-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://musikanalyse.net'>musikanalyse.net</a>
@@ -85,10 +89,10 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-oer-musik-Seite001.png'} />
+                <a href='https://oer-musik.de/'><img src={urlSnippet + 'ResponsiveDesign-oer-musik-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
-                  <a href=''>oer-musik.de</a>
+                  <a href='https://oer-musik.de/'>oer-musik.de</a>
                 </Container>                    
               </Container>
             </Box>
@@ -101,7 +105,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-gkm-Seite001.png'} />
+                <a href='https://www.gkm-partner.de/'><img src={urlSnippet + 'ResponsiveDesign-gkm-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://www.gkm-partner.de/'>gkm-partner.de</a>
@@ -117,7 +121,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-meder-Seite001.png'} />
+                <a href='https://www.tpmeder.de/'><img src={urlSnippet + 'ResponsiveDesign-meder-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://www.tpmeder.de/'>tpmeder.de</a>
@@ -133,7 +137,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-symann-Seite001.png'} />
+                <a href='https://www.ralph-symann.com/'><img src={urlSnippet + 'ResponsiveDesign-symann-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://www.ralph-symann.com/'>ralph-symann.de</a>
@@ -149,7 +153,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-hausarztpraxis-Seite001.png'} />
+                <a href='http://www.internistische-hausarztpraxis-ramersdorf.de/'><img src={urlSnippet + 'ResponsiveDesign-hausarztpraxis-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='http://www.internistische-hausarztpraxis-ramersdorf.de/'>internistische-hausarztpraxis-ramersdorf.de</a>
@@ -166,7 +170,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <img src={urlSnippet + 'ResponsiveDesign-k&k-Seite001.png'} />
+                <a href='https://kaiserliche-koestlichkeiten.eu/'><img src={urlSnippet + 'ResponsiveDesign-k&k-Seite001.png'} /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://kaiserliche-koestlichkeiten.eu/'>kaiserliche-koestlichkeiten.eu</a>
@@ -187,15 +191,14 @@ export default function WebDoc() {
       <Text m='40px 0'>
         Hier sehen Sie einige ausgewählte Beispiele meiner Plakate und Covergestaltungen: 
       </Text>
-      <Flex bg='#eaeaea' flexWrap='wrap' p='20px'justifyContent='center'>
+      <Flex bg='#eaeaea' flexWrap='wrap' p='20px' justifyContent='space-between'>
         {
           webDocImages.map(images => {
-            return <div style={{'margin': '10px'}}>
-                    <ModalImage
-                      key={uid.seq()}
+            return <div style={{'margin': '10px'}} key={uid.seq()}>
+                    <ModalImage                      
                       small={urlSnippet + images.small}
                       large={urlSnippet + images.large}
-                      alt="Hello World!"                    
+                      alt={images.altText}                  
                     />
                   </div>
           })
