@@ -7,7 +7,7 @@ import style from './index.module.css'
 
 const options = {
   title: 'Chorleitung',
-  description: 'Auf dieser Seite finden Sie Links zu den Chören, die ich im Laufe meines Lebens leiten durfte und mit denen ich einige meiner schönsten Erlebnisse in meinem Leben teilen durfte.',
+  description: 'Über das Chorsingen bei meinem Vater Karl-Heinz-Kaiser bin ich in die Chorleitung quasi hineingewachsen. Neben ersten Chorleitungsversuchen vor den Chören meines Vaters habe ich im Anschluss daran mit 18 Jahren die ersten Chöre übernommen und mir auf diese Weise mein Studium finanziert. Auf dieser Seite finden Sie Links zu den Chören, die ich im Laufe meines Lebens geleitet habe und mit denen ich einige meiner schönsten Erlebnisse in meinem Leben teilen durfte.',
   filter: 'chorleitung',
   slug: '/chorleitung'
 }
@@ -31,60 +31,14 @@ const Angebote = () => {
         />
       <CardBody className={style.cardBodyMl}>
         <Stack>
-          <Heading fontSize='xl'>Consortium Musicum Berlin</Heading>
+          <Heading fontSize='xl'>Chöre</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zumConsortium Musicum Berlin.
+            Auf dieser Seite finden Sie Informationen den Chören, die ich zwischen 1981 und 2000 in Berlin geleitet habe (z.B. das Consortium Musicum Berlin, Ensemberlino Vocale u.a.).
           </Text>
           <CardFooter pl='0'>
-            <Link href='/chorleitung/consortium-musicum'>
+            <Link href='/chorleitung/choere'>
               <Button variant='solid' className={style.cardButtonSize}>
-                Zu Consortium Musicum Berlin ...
-              </Button>
-            </Link>
-          </CardFooter>
-        </Stack>
-      </CardBody>
-    </Card>
-
-    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
-          src='/images/card-images/wissenschaft-Seite003.jpg'
-          alt='Abbildung zu Vorträgen'
-          className={style.cardImg}
-        />
-      <CardBody className={style.cardBodyMl}>
-        <Stack>
-          <Heading fontSize='xl'>Ensemberlino Vocale</Heading>
-          <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zum Ensemberlino Vocale.
-          </Text>
-          <CardFooter pl='0'>
-            <Link href='/chorleitung/ensemberlino-vocale'>
-              <Button variant='solid' className={style.cardButtonSize}>
-                Zum Ensemberlino Vocale ...
-              </Button>
-            </Link>
-          </CardFooter>
-        </Stack>
-      </CardBody>
-    </Card>
-
-    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
-        src='/images/card-images/wissenschaft-Seite003.jpg'
-          alt='Abbildung zu den Hilfsmitteln'
-          className={style.cardImg}
-        />
-      <CardBody className={style.cardBodyMl}>
-        <Stack>
-          <Heading fontSize='xl'>Die & das ...</Heading>
-          <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen anderen Chören und Emsembles, mit denen ich zusammengearbeitet habe.
-          </Text>
-          <CardFooter pl='0'>
-            <Link href='/chorleitung/dies-und-das'>
-              <Button variant='solid' className={style.cardButtonSize}>
-                Zu den Ensembles ...
+                Zu den Chören ...
               </Button>
             </Link>
           </CardFooter>

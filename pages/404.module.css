@@ -1,0 +1,24 @@
+.main {
+  max-width: 1000px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.urlListe {
+  margin-left: 100px;
+}
+
+@media (max-width: 1200px) {
+  .main { 
+    max-width: 800px;
+   }  
+}
+
+@media (max-width: 800px) {
+  .main { 
+    max-width: 400px;
+   }
+  .urlListe {
+    margin-left: 50px;
+  }
+}

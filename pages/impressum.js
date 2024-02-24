@@ -24,7 +24,7 @@ const Formales = () => {
         Birkenstr. 39c<br />
         85757 Karlsfeld<br/>
         Telefon: 089/289-27873<br/>
-        E-Mail: kontakt[at,]kaiser-ulrich.de
+        E-Mail: kontakt[äd]kaiser-ulrich.de
       </Center>    
     </Center> 
   </>
