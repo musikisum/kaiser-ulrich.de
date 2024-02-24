@@ -22,7 +22,9 @@ export default function Profil() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
+
       <PageHeader options={options} />
+      
       <Heading as='h3' className="headingH3">
         Anmerkungen zum Wissenschaftsverständnis
       </Heading>

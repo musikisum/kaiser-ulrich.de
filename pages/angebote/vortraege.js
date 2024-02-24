@@ -33,7 +33,9 @@ export default function Vortraege() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
+
       <PageHeader options={ options } />
+
       <Flex>
           { data && <Text>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
           <Spacer />

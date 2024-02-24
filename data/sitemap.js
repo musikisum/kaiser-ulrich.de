@@ -5,7 +5,7 @@ export const sitemap = {
         { "/wissenschaft": [ "/profil", "/betreuungen", "/hilfsmittel" ] },
         { "/wissenschaft/hilfsmittel": ["/kommunikation", "/herausgeber", '/urheberrecht' ] },
         { "/publikationen": [ "/verlage", "/artikel", "/openbooks", "/musik", "/tutorials", "/gelegenheiten"] },
-        { "/projekte": [ "/elmu", "/openmusicacademy" ] },
+        { "/projekte": [ "/openmusicacademy", "/elmu" ] },
         { "/angebote": [ "/fortbildungen", "/vortraege", "/vortraege-online", "/webdoc" ] },
         { "/unterricht": [ "/evaluation" ] },
         { "/chorleitung": [ "/consortium-musicum", "/ensemberlino-vocale", "/dies-und-das", '/repertoire' ] },

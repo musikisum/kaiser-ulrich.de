@@ -1,14 +1,12 @@
 import useSWR from 'swr';
 import Head from 'next/head';
-import Link from 'next/link';
-import { useState, useEffect } from 'react';
 import Iframe from 'react-iframe'
 import Layout from '../components/layout';
+import { useState, useEffect } from 'react';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { Button, Divider, List, ListItem, Text } from '@chakra-ui/react';
+import { Button, Flex, Text, Card, CardBody, CardHeader, Heading, Box } from '@chakra-ui/react';
 
-import style from '../publikationen/index.module.css';
 
 const uid = new ShortUniqueId();
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
@@ -47,28 +45,41 @@ export default function VortraegeOnline() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
+
       <PageHeader options={ options } />
 
-      <Text>
-        Wählen Sie einen Vortrag aus der Liste durch Anklicken aus.
-      </Text>
+      <Card mb='60px'>
+        <CardHeader>
+          <Heading className='headingH3'>
+            Aktuell verfügbare Vorträge zum Anschauen:  
+          </Heading>
+        </CardHeader>
 
-      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
-
-      { data && <List m='12px 12px' spacing={3} listStyleType='square' style={{'listStylePosition': 'inside'}}>
-        {
-          data.map(item => {
-          return (
-            <ListItem key={uid.seq()}>
-              <Button onClick={onValueChangeClick} value={item.url}>{item.description}</Button>
-            </ListItem>
-          )
-        })
-      }
-        </List>
-      }
-      
-      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+        <CardBody>          
+          { data && <Flex flexWrap='wrap' spacing='4'>
+              {
+                data.map(item => {
+                return (
+                  <Box key={uid.seq()} flex='1' m='10px' style={{'maxWidth': '180px'}}> 
+                    <Button 
+                      onClick={onValueChangeClick} 
+                      value={item.url}
+                      pl='0'
+                      bg='white'
+                      pl='10px'
+                      >
+                      Vortrag anzeigen ...
+                    </Button>
+                    <Text pl='10px'>
+                      {item.description}
+                    </Text>
+                  </Box>)
+                })
+              }            
+            </Flex>
+          }
+        </CardBody>
+      </Card>
 
       { data && <Iframe url={currentUrl}
           position="relative"

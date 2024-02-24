@@ -18,8 +18,9 @@
 # data
 /public/files/
 /public/scores/
-/public/vorlesungen-2019-shanghai/
+/public/medien/
 /public/vortraege/
+/public/vorlesungen-2019-shanghai/
 
 # misc
 .DS_Store

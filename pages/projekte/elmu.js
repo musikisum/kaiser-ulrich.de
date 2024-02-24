@@ -1,14 +1,23 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Text } from '@chakra-ui/react';
+import VideoWrapper from '../components/videoWrapper';
+import { Link, Text, Box, Image, Table, Tbody, Tr, Td, TableContainer, Heading, UnorderedList, ListItem, Divider } from '@chakra-ui/react';
 
+import style from './index.module.css';
 
 const options = {
   title: 'ELMU',
-  description: 'Elmu ...',
+  description: '',
   filter: 'projekte',
   slug: '/projekte/elmu'
+}
+
+const video = {
+  url: '/medien/elmu-video.mp4',
+  posterUrl: '/medien/elmu-poster.jpg',
+  title: 'Explainer-Video für ELMU / 2018',
+  description: ''
 }
 
 const Elmu = () => {
@@ -22,8 +31,146 @@ const Elmu = () => {
 
     <PageHeader options={ options } />
     
-    <Text>Hier kommt etwas zu elmu hin ...</Text>
+    <Box style={{'maxWidth': '200px'}} mb='20px' >
+      <Image src='/images/card-images/projekte-Seite001.jpg' />
+    </Box>
+
+    <Heading as='h3' className='headingH3'>
+      ELMU – eine Wikipedia für Musik
+    </Heading>
+    <Text mb='40px'>
+      Grundlage zum Start des Projekts (Arbeitstitel: OER-Musik) waren meine Materialien, die ich seit 2012 in privatem Engagement erstellt habe (seinerzeit verfügbar über die Domains <i>musik-openbooks.de</i> und <a href='https://musikanalyse.net' className='underline'>musikanalyse.net</a>). Zu Vernschaulichung von Beispielen werden Musikaufnahmen aus den Beständen der <a href='https://hmtm.de' className='underline'>Hochschule für Musik und Theater München</a> (HMTM) genutzt, die ich in Zusammenarbeit mit der Bibliothek der HMTM digitalisiert habe. Digitalisiert worden sind Werke, die vor 1963 erstmalig aufgenommen und die keinem Urheberschutz mehr unterliegen (public domain). Die Langzeitarchivierung ist in Zusammenarbeit mit der BSB geplant.
+    </Text>
+
+    <Heading as='h3' className='headingH4' mt='40px' mb='40px'>
+      Kurzbeschreibung des Vorhabens
+    </Heading>
+    <Text bg='#b9feb9' 
+      pl='40px' 
+      pr='40px' 
+      pt='20px' 
+      pb='20px' 
+      style={{'borderRadius': '10px'}}>
+        Ziel des ELMU-Projekts ist die Bündelung vorhandener sowie Erstellung neuer Open Educational Resources (kurz: OER). Ein weiteres Ziel ist es, ELMU zu einer gut sichtbaren, international ausgerichteten sowie langfristig erreichbaren Lernplattform zur Musik auszubauen. Die Bereitstellung der Materialien ist dabei für unterschiedliche Zielgruppen geplant: für Kinder und Jugendliche an Musikschulen, an allgemeinbildenden Schulen, für Studierende an Musikhochschulen sowie für Erwachsene im Sinne eines lebenslangen Lernens, wobei sich ELMU an dem erfolgreichen Konzept eines community-basierten Wikis orientiert. Der Unterschied zu vorhandenen Wikis liegt in einer fachwissenschaftlichen Redaktionsebene sowie in auf Musik abgestimmten technischen Möglichkeiten. Die Programmierung von ELMU steht unter der freien MIT-Lizenz und ist auf Github veröffentlicht.
+    </Text>
+    
+    <Divider mt='60px' mb='40px' h='1px' bg='gray' />
+
+    <Heading as='h4' className='headingH4' m='40px 0'>
+      Genese des Projekts
+    </Heading>
+
+    <TableContainer className={style.omaTable}>
+      <Table>
+        <Tbody>
+          <Tr>
+            <Td>2017</Td>
+            <Td>Antrag Castringius Kinder- und Jugendstiftung</Td>
+            <Td>Antrag bewilligt</Td>
+          </Tr>
+          <Tr>
+            <Td>2018</Td>
+            <Td>Gesellschaft Freunde der Hochschule für Musik und Theater München e.V.</Td>
+            <Td>Antrag bewilligt</Td>
+          </Tr>
+          <Tr>
+            <Td>2018</Td>
+            <Td>Bundeszentrale für politische Bildung</Td>
+            <Td>Antrag angelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2018</Td>
+            <Td>Erika und Georg Dietrich Stiftung</Td>
+            <Td>Antrag bewilligt</Td>
+          </Tr>
+          <Tr>
+            <Td>2018</Td>
+            <Td>Töpfer-Stiftung</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Aqtivator</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Bayerisches Staatsminitserium für Wissenschaft und Kunst</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Bayerisches Staatsminitserium für Digitales</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Beisheim Stiftung</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>elobau Stiftung</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Goethe-Institut</Td>
+            <Td>Antrag bewilligt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Mahle Stiftung</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>prototypefund</Td>
+            <Td>vom Antragsteller abgelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Siemens Stiftung</Td>
+            <Td>Antrag abgelehnt</Td>
+          </Tr>
+        </Tbody>
+      </Table>
+    </TableContainer>
+
+    <Text m='40px 0'>
+      Bis 2021 konnten  
+    </Text>
+    
+    <Text m='40px 0'>
+      Der 2018 gegründete gemeinnützige Verein ELMU Education e.V. war Kooperationspartner beim Projektantrag der <Link href='/projekte/openmusicacademy' className='underline'>Open Music Academy</Link> (OMA), das ELMU-Projekt wurde vollständig in die OMA überführt. Der Verein <i>ELMU Educatioen e.V.</i> hat sich daraufhin (2023) in <a href='https://openmusic.academy/docs/2PAKgPM44CL4VM5DbCvuLK/open-music-academy-education-ev' className='underline'>Open Music Academy Education e.V.</a>  umbenannt und unterstützt seither satzungsgemäß die Open Music Academy. Weitere Informationen zur Genese des Projekts finden Sie in dem Artikel <a href='https://de.wikipedia.org/wiki/Open_Music_Academy' className='underline'>Open Music Academy</a> in der Wikipedia.
+    </Text>
+
+    <Heading as='h4' className='headingH4' m='60px 0'>
+      Explainer-Video
+    </Heading>
+
+    <VideoWrapper video={video}></VideoWrapper>
+
+    <Heading as='h4' className='headingH4' mt='60px' mb='40px'>
+      Antrag, Text & Interview
+    </Heading>
+
+    <UnorderedList ml='40px'>
+      <ListItem>
+        <Link href='/files/kaiser-antrag-castringius.pdf' className='underline'>Antrag an die Castringius Kinder & Jugend Stiftung München</Link>
+      </ListItem>
+      <ListItem>
+        <Link href='/files/kaiser-elmu-projektbeschreibung.pdf' className='underline'>Projektbeschreibung (kurz)</Link>
+      </ListItem>
+      <ListItem>
+        <Link href='/files/kaiser-elmu-vortrag-gmth.pdf' className='underline'>Vortrag zum Projekt auf dem GMTH-Kongress in Bremen 2018</Link>
+      </ListItem>
+      <ListItem>
+        <Link href='/files/kaiser-elmu.pdf' className='underline'>elmu – Eine Plattform für digitale musikalische Bildung</Link>
+      </ListItem>
+    </UnorderedList>
   </>
+
 }
 
 Elmu.getLayout = function getLayout(page) {

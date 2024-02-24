@@ -1,3 +1,14 @@
+.omaTable {
+  max-width: 80% !important;
+  margin: 0 auto !important;
+  border: 1px solid gray !important;
+}
+.omaTable td {
+  border-bottom: 1px solid gray !important;
+  border-left: 1px solid gray !important;
+  text-wrap: wrap !important;
+}
+
 .mtDefault {
   margin-top: 20px;
 }
@@ -42,5 +53,8 @@
   }
   .websiteDirection {
     flex-direction: column;
+  }
+  .omaTable {
+    max-width: 100% !important;
   }
 }

@@ -23,29 +23,6 @@ const Angebote = () => {
 
     <PageHeader options={ options } />
     
-    <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-      <Image
-          src='/images/card-images/projekte-Seite001.jpg'
-          alt='Abbildung zu Elmu'
-          className={style.cardImg}           
-        />
-      <CardBody className={style.cardBodyMl}>
-        <Stack>
-          <Heading fontSize='xl'>ELMU</Heading>
-          <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zum ELMU-Projekt, das bereits abgeschlossen und in die Open Musik Academy (OMA) überführt worden ist.
-          </Text>
-          <CardFooter pl='0'>
-            <Link href='/projekte/elmu'>
-              <Button variant='solid' className={style.cardButtonSize}>
-                Zum ELMU-Projekt ...
-              </Button>
-            </Link>
-          </CardFooter>
-        </Stack>
-      </CardBody>
-    </Card>
-
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
           src='/images/card-images/projekte-Seite002.jpg'
@@ -56,12 +33,35 @@ const Angebote = () => {
         <Stack>
           <Heading fontSize='xl'>OMA</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zur Open Music Academy (OMA). Dieses Projekt habe ich zum Beginn des Jahres 2021 für die Hochschule für Musik und Theater entworfen und im selben Jahr wurde es von der Stiftung Innovation in der Hochschullehre zur Förderung ausgewählt. Das Projekt läuft noch bis zum Ende des Jahres 2025.   
+            Auf dieser Seite finden Sie Informationen zur Open Music Academy (OMA). Zum Beginn des Jahres 2021 habe ich diese Projektidee für die Hochschule für Musik und Theater entwickelt und im selben Jahr wurde sie von der Stiftung Innovation in der Hochschullehre zur Förderung ausgewählt. Das Projekt wird noch bis zum Ende des Jahres 2025 gefördert.   
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/openmusicacademy'>
               <Button variant='solid' className={style.cardButtonSize}>
                 Zur Open Music Academy ...
+              </Button>
+            </Link>
+          </CardFooter>
+        </Stack>
+      </CardBody>
+    </Card>
+
+    <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
+      <Image
+          src='/images/card-images/projekte-Seite001.jpg'
+          alt='Abbildung zu Elmu'
+          className={style.cardImg}           
+        />
+      <CardBody className={style.cardBodyMl}>
+        <Stack>
+          <Heading fontSize='xl'>ELMU</Heading>
+          <Text fontSize='l'>
+            Auf dieser Seite finden Sie Informationen zum ELMU-Projekt. Das ELMU-Projekt ist bereits abgeschlossen und wurde in die Open Musik Academy (OMA) überführt.
+          </Text>
+          <CardFooter pl='0'>
+            <Link href='/projekte/elmu'>
+              <Button variant='solid' className={style.cardButtonSize}>
+                Zum ELMU-Projekt ...
               </Button>
             </Link>
           </CardFooter>

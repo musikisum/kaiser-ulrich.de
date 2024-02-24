@@ -36,7 +36,9 @@ export default function Fortbildungen() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
+
       <PageHeader options={ options } />
+      
       <Text>
         Auf dieser Seite finden Sie meine ein- oder mehrtägigen Fortbildungen für Lehrerinnen und Lehrer an allgemeinbildenden Schulen oder Musikschulen.
       </Text>
