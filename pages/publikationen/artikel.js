@@ -19,7 +19,6 @@ const options = {
 }
 
 const Artikel = () => {
-
   
   const { data, error } = useSWR('/data/articles.json', fetcher);
 

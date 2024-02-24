@@ -68,14 +68,37 @@ const Angebote = () => {
         </Stack>
       </CardBody>
     </Card>
-
+      
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
-        src='/images/card-images/wissenschaft-Seite003.jpg'
-          alt='Abbildung zu den Hilfsmitteln'
+        src='/images/card-images/angebote-Seite004.jpg'
+          alt='Abbildung zu den Vorträgen online'
           className={style.cardImg}
         />
       <CardBody className={style.cardBodyMl}>
+        <Stack>
+          <Heading fontSize='xl'>Vorträge (online)</Heading>
+          <Text fontSize='l'>
+            Auf dieser Seite finden Sie die Vorträge, die aktuell noch online verfügbar sind.
+          </Text>
+          <CardFooter pl='0'>
+            <Link href='/angebote/vortraege-online'>
+              <Button variant='solid' className={style.cardButtonSize}>
+                Zu den Vorträgen (online)
+              </Button>
+            </Link>
+          </CardFooter>
+        </Stack>
+      </CardBody>
+    </Card>
+
+    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
+      <Image
+        src='/images/card-images/angebote-Seite003.jpg'
+          alt='Abbildung zu den Hilfsmitteln'
+          className={style.cardImg}
+        />
+    <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>WebDoc (kommerzielles Angebot)</Heading>
           <Text fontSize='l'>
@@ -91,6 +114,7 @@ const Angebote = () => {
         </Stack>
       </CardBody>
     </Card>
+    
   </>
 }
 
