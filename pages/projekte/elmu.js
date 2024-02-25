@@ -142,15 +142,14 @@ export default function Elmu() {
       </Table>
     </TableContainer>
 
-    <Text m='40px 0'>
-      Bis 2021 konnten ca. 35.000 € an Spendengeldern in die Programmierung der Domain elmu.online investiert werden. Dieses sichtbare Angebot und der 2018 gegründete gemeinnützige Verein ELMU Education e.V. als Kooperationspartner dürfte mit auschlaggebend gewesen sein, dass der Projektantrag der <Link href='/projekte/openmusicacademy' className='underline'>Open Music Academy</Link> (OMA) der HMTM erfolgreich gewesen ist. Das ELMU-Projekt wurde 2022 vollständig in die OMA überführt.   
-    </Text>
-    
-    <Text m='40px 0'>
+    <Text mt='40px' mb='20px'>
+      Bis 2021 konnten ca. 35.000 € an Spendengeldern in die Programmierung der Domain elmu.online investiert werden. Dieses sichtbare Angebot und der 2018 gegründete gemeinnützige Verein ELMU Education e.V. als Kooperationspartner dürften mit auschlaggebend dafür gewesen sein, dass der Projektantrag der HMTM zum Aufbau der <Link href='/projekte/openmusicacademy' className='underline'>Open Music Academy</Link> (OMA) erfolgreich gewesen ist. Das ELMU-Projekt wurde 2022 vollständig in die OMA überführt.   
+    </Text>    
+    <Text>
       2023 hat sich darüber hinaus der Verein <i>ELMU Educatioen e.V.</i> in <a href='https://openmusic.academy/docs/2PAKgPM44CL4VM5DbCvuLK/open-music-academy-education-ev' className='underline'>Open Music Academy Education e.V.</a>  umbenannt. Er unterstützt seither satzungsgemäß die Open Music Academy. Weitere Informationen zur Genese des Projekts finden Sie in dem Artikel <a href='https://de.wikipedia.org/wiki/Open_Music_Academy' className='underline'>Open Music Academy</a> in der Wikipedia.
     </Text>
 
-    <Heading as='h4' className='headingH4' m='60px 0'>
+    <Heading as='h4' className='headingH4' m='40px 0'>
       Explainer-Video
     </Heading>
 

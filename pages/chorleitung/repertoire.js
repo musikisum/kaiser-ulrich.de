@@ -6,7 +6,7 @@ import { Text, List, ListItem, Box, Flex, Heading } from '@chakra-ui/react';
 const options = {
   title: 'Consortium Musicum',
   filter: 'chorleitung',
-  description: 'Hier finden Sie die in Konzerten aufgeführte Werke der Jahre 1988 bis 2000 (Übersiedlung nach München).',
+  description: 'Hier finden Sie die in Konzerten aufgeführte Werke der Jahre 1988 bis 2000 (bzw. vor meinem Umzug nach München).',
   slug: '/chorleitung/repertoire'
 }
 

@@ -7,7 +7,7 @@ import style from './index.module.css'
 
 const options = {
   title: 'Chorleitung',
-  description: 'Über das Chorsingen bei meinem Vater Karl-Heinz-Kaiser bin ich in die Chorleitung quasi hineingewachsen. Neben ersten Chorleitungsversuchen vor den Chören meines Vaters habe ich im Anschluss daran mit 18 Jahren die ersten Chöre übernommen und mir auf diese Weise mein Studium finanziert. Auf dieser Seite finden Sie Links zu den Chören, die ich im Laufe meines Lebens geleitet habe und mit denen ich einige meiner schönsten Erlebnisse in meinem Leben teilen durfte.',
+  description: 'Über das Chorsingen bei meinem Vater Karl-Heinz Kaiser bin ich in die Chorleitung quasi ›hineingewachsen‹. Nach ersten Chorleitungsversuchen vor den Chören meines Vaters habe ich im Anschluss daran die ersten Chöre übernommen (mit 18 Jahren – und auf diese Weise habe ich mir später auch mein Studium finanziert). Auf dieser Seite finden Sie Links zu den Chören, die ich im Laufe meines Lebens geleitet habe und denen ich einige meiner schönsten Erlebnisse in meinem Leben verdanke sowie Informationen zu dem von mir in Konzerten dirigierten Repertoire.',
   filter: 'chorleitung',
   slug: '/chorleitung'
 }

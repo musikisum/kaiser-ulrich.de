@@ -6,7 +6,7 @@ import { Text, Image, Heading, Divider, Flex, Box, HStack } from '@chakra-ui/rea
 
 const options = {
   title: 'Consortium Musicum',
-  description: 'Hier finden finden Sie Informationen zu den Chören Consortium Musicum Berlin, Ensemberlino Vocale, Artecanto, Chor des Jungen Ensembles Berlin, Bächer-Gesangverein Berlin-Nord und Gesangsverein TSV Gesundbrunnen, die ich zwischen 1981 und 2000 in Berlin geleitet habe.',
+  description: 'Hier finden finden Sie Informationen zu den Chören Consortium Musicum Berlin, Ensemberlino Vocale, Artecanto, Chor des Jungen Ensembles Berlin, Männerchor der Bäcker-Innung Berlin-Nord und Gesangsverein TSV Gesundbrunnen, die ich zwischen 1981 und 2000 in Berlin geleitet habe.',
   filter: 'chorleitung',
   slug: '/chorleitung/choere'
 }
@@ -234,7 +234,7 @@ export default function Choere() {
       <Divider mt='40px' mb='40px' h='1px' bg='gray' />
 
       <Heading as='h3' className="headingH4">
-        Chor der Backerinnung Berlin Nord und Sangesriege des TSVG
+        Chor der Bäcker-Innung Berlin Nord und Sangesriege des TSVG
       </Heading>
 
       <Divider mt='20px' mb='20px' h='0' bg='white' />
