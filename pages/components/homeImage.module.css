@@ -1,7 +1,6 @@
 .headerText {
   font-style: italic;
   text-align: center;
-  margin-top: 40px;
   height: 200px;
 } 
 .ukName { 
@@ -139,6 +138,13 @@ img.windowULeftImage, img.windowURightImage {
   display: relative !important;
 }
 
+/* 4k Displays */
+@media (min-width: 1920px) {
+  .headerText {
+    margin-top: 60px;
+  }
+}
+
 /* DT Displays */
 @media (max-width: 1920px) {
   .headerText {
@@ -149,7 +155,6 @@ img.windowULeftImage, img.windowURightImage {
 /* Smaller Desktop */
 @media (max-width: 1121px) {
   .headerText {
-    margin-top: 20px;
     margin-bottom: 20px;
     height: 120px;
   }

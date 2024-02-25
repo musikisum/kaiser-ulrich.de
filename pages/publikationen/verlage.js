@@ -30,7 +30,7 @@ const Verlage = () => {
         <link rel="icon" href="/images/icon.png" />
       </Head>
       <PageHeader options={ options } />
-      { data && <TableContainer>
+      <TableContainer>
         <Table variant='unstyled' whiteSpace='wrap'>
           <TableCaption>Selbstständige Verlagspublikationen von Ulrich Kaiser</TableCaption>
           <Thead>
@@ -41,7 +41,7 @@ const Verlage = () => {
           </Thead>
           <Tbody>
            {
-            books.map(book => {
+            data && data.map(book => {
               return <Tr key={uid.seq()}>
                   <Td>
                     { book.link ?
@@ -66,7 +66,7 @@ const Verlage = () => {
             }
           </Tbody>
         </Table>
-      </TableContainer> }
+      </TableContainer>
     </>
   )
 }
