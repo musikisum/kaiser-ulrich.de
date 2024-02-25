@@ -5,8 +5,6 @@ import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
 
-import books from '../../data/verlage.json';
-
 import style from "./index.module.css";
 
 const uid = new ShortUniqueId()

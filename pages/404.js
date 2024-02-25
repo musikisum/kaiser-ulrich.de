@@ -1,18 +1,9 @@
 import Head from 'next/head';
 import Layout from './components/layout';
-import ShortUniqueId from 'short-unique-id';
 import { Heading, Text, Link } from '@chakra-ui/react';
-
-import { sitemap, sitemapDictionary } from '../data/sitemap'; 
+import SitemapProvider from './components/sitemapBuilder';
 
 import style from './404.module.css';
-
-const uid = new ShortUniqueId();
-
-function getUrl(slug) {
-  const head = sitemap.protocol + sitemap.domain;
-  return head + slug;
-} 
 
 const Custom404 = () => {
   return <>
@@ -32,21 +23,13 @@ const Custom404 = () => {
           pt='20px' 
           pb='20px' 
           m='40px 0'
-          style={{'borderRadius': '10px'}}>
-            <b>
-              Beim Relaunch dieser Website sind anscheinen einige alte Adressen verloren gegangen. Die Inhalte habe ich allerdings (fast) vollständig übernommen. Können Sie anhand der Sitemap den gesuchte Seitebzw. den gesuchten Inhalt finden? Wenn nicht, kontaktieren Sie mich bitte unter der im <Link href='/impressum/' className='underline'>Impressum</Link> angegebenen Adresse. 
-            </b>
+          style={{'borderRadius': '10px', 'fontWeight': 'bold'}}>
+            Beim Relaunch dieser Website sind anscheinen einige alte Adressen verloren gegangen, ich bitte um Entschuldigung! Die Inhalte habe ich von der alten Seite allerdings (fast) vollständig übernommen, können Sie anhand der <Link href='/sitemap' className='underline'>Sitemap</Link> den gesuchte Seite bzw. den gesuchten Inhalt finden?<br/>
+            <span style={{'display': 'block', 'marginTop': '10px'}}>
+              Wenn nicht, kontaktieren Sie mich bitte unter der im <Link href='/impressum/' className='underline'>Impressum</Link> angegebenen Adresse.
+            </span> 
         </Text>
-        <ul className={style.urlListe}>
-          {          
-            sitemap.pages.map((page, index) => {
-              const key = Object.keys(page)[0];
-              return <li key={uid.seq()}>
-                <Link href={key}>{sitemapDictionary[key]}</Link>
-              </li>
-            })
-          }
-        </ul>
+        {/* <SitemapProvider /> */}
       </div>
     </>
 }

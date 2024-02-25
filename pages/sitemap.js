@@ -1,65 +1,39 @@
 import Head from 'next/head';
-import ShortUniqueId from 'short-unique-id';
-import Layout from '/pages/components/layout';
-import PageHeader from '/pages/components/pagehaeder';
-import { List, ListItem, Text } from '@chakra-ui/react';
+import Layout from './components/layout';
+import PageHeader from './components/pagehaeder';
+import { Heading, Text, Link } from '@chakra-ui/react';
+import SitemapProvider from './components/sitemapBuilder';
 
-import { sitemap } from '../data/sitemap';
-
-const uid = new ShortUniqueId();
+import style from './404.module.css';
 
 const options = {
   title: 'Sitemap',
-  description: 'Hier teste ich aktuell die Pfade meiner neuen sitmap.json Datei!',
+  description: 'Hier können Sie sich einen Überblick über die Struktur meiner Homepage verschaffen und zu den entsprechenden Seiten navigieren.',
   filter: 'sitemap',
   slug: '/sitemap'
 }
 
-function getUrls() {
-  const domain = sitemap.protocol + sitemap.domain;
-  const urls = sitemap.pages.reduce((akku, current) => {
-    for (const [key, value] of Object.entries(current)) {
-      const adress = domain + key;
-      akku.push(adress);
-      for (const index in value) {
-        akku.push(adress + value[index]);
-      }
-    }
-    return akku;
-  }, []);
-  return [...new Set(urls)];;
-}
-
-const Sitemap = () => {
-  return (
-    <>
-      <Head>
-        <title>Sitemap</title>
-        <meta name="description" content="Sitemap | Ulrich Kaiser" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <PageHeader options={options} />
-      <List>
-        {
-          getUrls().map(entry => {
-            return (
-              <ListItem key={uid.seq()}>
-                <Text>{entry}</Text>
-              </ListItem>
-            )
-          })
-        }
-      </List>
+const siteMap = () => {
+  return <>
+      <div className={style.main}>
+        <Head>
+          <title>Sitemap</title>
+          <meta name="description" content="Sitemap | Ulrich Kaiser" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/images/icon.png" />
+        </Head>
+        <PageHeader options={ options } />
+        <SitemapProvider />
+      </div>
     </>
-  );
 }
 
-Sitemap.getLayout = function getLayout(page) {
+siteMap.getLayout = function getLayout(page) {
   return (
-    <Layout>
+    <Layout isCenter={true} showheaven={true}>
       {page}
     </Layout>
   )
 }
 
-export default Sitemap
+export default siteMap;
