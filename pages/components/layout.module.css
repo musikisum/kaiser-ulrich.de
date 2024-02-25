@@ -1,5 +1,19 @@
 .contentContainer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 24px 24px 12px 24px;
+  padding: 60px 24px 0 24px;
+}
+
+/* DT Displays */
+@media (max-width: 1920px) {
+  .headerText {
+    padding: 0 24px 0 24px;
+  }
+}
+
+/* queries for smaller home image links  */
+@media (max-width: 999px) {
+  .contentContainer {
+    padding: 0 24px;
+  }
 }

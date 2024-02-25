@@ -10,7 +10,7 @@ const options = {
   slug: '/publikationen/artikel/online/freiheitlehreundurheberrecht'
 }
 
-const Freiheitlehreurheberrecht = () => {
+export default function Freiheitlehreurheberrecht() {
   return (
     <>
       <Head>
@@ -106,5 +106,3 @@ Freiheitlehreurheberrecht.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Freiheitlehreurheberrecht;

@@ -12,7 +12,7 @@ const options = {
   slug: '/chorleitung'
 }
 
-const Angebote = () => {
+export default function Chorleitung() {
   return <>
     <Head>
       <title>{options.title}</title>
@@ -71,12 +71,10 @@ const Angebote = () => {
   </>
 }
 
-Angebote.getLayout = function getLayout(page) {
+Chorleitung.getLayout = function getLayout(page) {
   return (
     <Layout isCenter={false} showheaven={true}>
       {page}
     </Layout>
   )
 }
-
-export default Angebote;

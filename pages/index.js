@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from './components/layout';
 import HomeImage from './components/homeImage';
 
-const Home = () => {
+export default function Home() {
   return (
     <>
       <Head>
@@ -22,5 +22,3 @@ Home.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Home;

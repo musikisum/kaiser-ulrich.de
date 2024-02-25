@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Layout from './components/layout';
 import { Heading, Text, Link } from '@chakra-ui/react';
-import SitemapProvider from './components/sitemapBuilder';
+import SitemapBuilder from './components/sitemapBuilder';
 
 import style from './404.module.css';
 
-const Custom404 = () => {
+export default function Custom404() {
   return <>
       <div className={style.main}>
         <Head>
@@ -29,7 +29,7 @@ const Custom404 = () => {
               Wenn nicht, kontaktieren Sie mich bitte unter der im <Link href='/impressum/' className='underline'>Impressum</Link> angegebenen Adresse.
             </span> 
         </Text>
-        {/* <SitemapProvider /> */}
+        {/* <SitemapBuilder /> */}
       </div>
     </>
 }
@@ -41,6 +41,3 @@ Custom404.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Custom404;
-

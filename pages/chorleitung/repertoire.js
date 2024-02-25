@@ -944,7 +944,7 @@ export default function Repertoire() {
               Schubert, Franz
             </Box>
             <Box flex='1'>
-              Gesänge zur Feier des heiliges Opfers der Messe (»Deutsche Messe«) in G-Dur D 872
+              Gesänge zur Feier des heiligen Opfers der Messe (»Deutsche Messe«) in G-Dur D 872
             </Box>
           </Flex>                  
         </ListItem>

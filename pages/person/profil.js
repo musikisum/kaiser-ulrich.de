@@ -9,7 +9,7 @@ const options = {
   slug: '/person/profil'
 }
 
-const Profil = () => {
+export default function Profil() {
   return <>
     <Head>
       <title>Zur Person</title>
@@ -73,5 +73,3 @@ Profil.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Profil;

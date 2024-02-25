@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /publicfiles/fd30e297-1321-4823-a9df-61e0cf174ae5/

@@ -15,7 +15,7 @@ const options = {
   slug: '/publikationen/musik'
 }
 
-const Musik = () => {
+export default function Musik() {
 
   const { data, error } = useSWR('/data/musik.json', fetcher);
 
@@ -137,5 +137,3 @@ Musik.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Musik;

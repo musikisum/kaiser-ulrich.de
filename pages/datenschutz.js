@@ -11,7 +11,7 @@ const options = {
   slug: '/datenschutz'
 }
 
-const Datenschutz = () => {
+export default function Datenschutz() {
   return <>
     <Head>
       <title>Datenschutzerklärung</title>
@@ -223,5 +223,3 @@ Datenschutz.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Datenschutz;

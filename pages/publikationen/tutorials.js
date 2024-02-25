@@ -20,7 +20,7 @@ const options = {
   slug: '/publikationen/tutorials'
 }
 
-const Tutorials = () => {
+export default function Tutorials() {
 
   const { data, error } = useSWR('/data/summary.json', fetcher);
 
@@ -63,5 +63,3 @@ Tutorials.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Tutorials;

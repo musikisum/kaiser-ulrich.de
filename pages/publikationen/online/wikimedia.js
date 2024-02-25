@@ -14,7 +14,7 @@ const options = {
   slug: '/publikationen/online/wikimedia'
 }
 
-const Wikimedia = () => {
+export default function Wikimedia() {
   return (
     <>
       <Head>
@@ -74,5 +74,3 @@ Wikimedia.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Wikimedia;

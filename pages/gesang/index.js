@@ -10,7 +10,7 @@ const options = {
   slug: '/gesang'
 }
 
-const Gesang = () => {
+export default function Gesang() {
   return <>
     <Head>
       <title>{options.title}</title>
@@ -178,5 +178,3 @@ Gesang.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Gesang;

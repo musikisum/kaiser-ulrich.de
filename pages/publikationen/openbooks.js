@@ -16,7 +16,7 @@ const options = {
   slug: '/publikationen/openbooks'
 }
 
-const OpenBooks = () => {
+export default function OpenBooks() {
 
   const { data, error } = useSWR('/data/openbooks.json', fetcher);
 
@@ -74,5 +74,3 @@ OpenBooks.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default OpenBooks;

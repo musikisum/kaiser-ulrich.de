@@ -12,7 +12,7 @@ const options = {
   slug: '/wissenschaft'
 }
 
-const Wissenschaft = () => {
+export default function Wissenschaft() {
   return <>
     <Head>
       <title>Wissenschaft</title>
@@ -101,5 +101,3 @@ Wissenschaft.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Wissenschaft;

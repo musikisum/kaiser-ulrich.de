@@ -17,7 +17,7 @@ const options = {
   slug: '/unterricht'
 }
 
-const Unterricht = () => {
+export default function Unterricht() {
 
   const { data, error } = useSWR('/data/unterricht.json', fetcher);
   const [courses, setCourses] = useState();
@@ -84,5 +84,3 @@ Unterricht.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Unterricht

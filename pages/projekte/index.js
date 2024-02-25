@@ -12,7 +12,7 @@ const options = {
   slug: '/projekte'
 }
 
-const Angebote = () => {
+export default function Angebote() {
   return <>
     <Head>
       <title>{options.title}</title>
@@ -78,5 +78,3 @@ Angebote.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Angebote;

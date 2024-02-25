@@ -13,7 +13,7 @@ const options = {
   slug: '/publikationen'
 }
 
-const Index = () => {
+export default function Index() {
 
   return (
     <>
@@ -172,5 +172,3 @@ Index.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Index;

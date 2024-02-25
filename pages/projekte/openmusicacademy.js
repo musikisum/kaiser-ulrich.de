@@ -21,7 +21,7 @@ const video = {
   filter: 'projekte'
 }
 
-const OpenMusicAcademy = () => {
+export default function OpenMusicAcademy() {
   return <>
     <Head>
       <title>{options.title}</title>
@@ -115,5 +115,3 @@ OpenMusicAcademy.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default OpenMusicAcademy;

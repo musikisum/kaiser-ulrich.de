@@ -9,7 +9,7 @@ const options = {
   slug: '/impressum'
 }
 
-const Formales = () => {
+export default function Formales() {
   return <>
     <Head>
       <title>Formales</title>
@@ -37,5 +37,3 @@ Formales.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Formales;

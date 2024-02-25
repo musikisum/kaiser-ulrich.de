@@ -6,7 +6,7 @@ const uid = new ShortUniqueId();
 
 import style from './sitemapBuilder.module.css';
 
-const sitemapComponent = () => {
+export default function sitemapBuilder() {
   
   return <>
     <ul className={style.urlListe}>
@@ -44,5 +44,3 @@ const sitemapComponent = () => {
     </ul>
   </>        
 }
-
-export default sitemapComponent;

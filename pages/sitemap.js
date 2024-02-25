@@ -13,9 +13,9 @@ const options = {
   slug: '/sitemap'
 }
 
-const siteMap = () => {
+export default function sitemap() {
   return <>
-      <div className={style.main}>
+      <div>
         <Head>
           <title>Sitemap</title>
           <meta name="description" content="Sitemap | Ulrich Kaiser" />
@@ -28,12 +28,10 @@ const siteMap = () => {
     </>
 }
 
-siteMap.getLayout = function getLayout(page) {
+sitemap.getLayout = function getLayout(page) {
   return (
     <Layout isCenter={true} showheaven={true}>
       {page}
     </Layout>
   )
 }
-
-export default siteMap;

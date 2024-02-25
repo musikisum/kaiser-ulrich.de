@@ -19,7 +19,7 @@ const options = {
   slug: '/publikationen/gelegenheiten'
 }
 
-const Gelegenheiten = () => {
+export default function Gelegenheiten() {
 
   const { data, error } = useSWR('/data/gelegenheiten.json', fetcher);
 
@@ -66,5 +66,3 @@ Gelegenheiten.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Gelegenheiten;

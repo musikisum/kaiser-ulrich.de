@@ -18,7 +18,7 @@ const options = {
   slug: '/publikationen/artikel'
 }
 
-const Artikel = () => {
+export default function Artikel() {
   
   const { data, error } = useSWR('/data/articles.json', fetcher);
 
@@ -71,5 +71,3 @@ Artikel.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Artikel;

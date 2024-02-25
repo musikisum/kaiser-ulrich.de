@@ -15,7 +15,7 @@ const options = {
   slug: '/unterricht/evaluation'
 }
 
-const Evaluation = () => {
+export default function Evaluation() {
 
   
   const uid = new ShortUniqueId();
@@ -61,5 +61,3 @@ Evaluation.getLayout = function getLayout(page) {
     </Layout>
   )
 }
-
-export default Evaluation;
