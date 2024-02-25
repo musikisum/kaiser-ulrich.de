@@ -133,6 +133,11 @@ export default function Elmu() {
             <Td>Siemens Stiftung</Td>
             <Td>Antrag abgelehnt</Td>
           </Tr>
+          <Tr>
+            <Td>2020</Td>
+            <Td>Erika und Georg Dietrich Stiftung</Td>
+            <Td>Antrag bewilligt</Td>
+          </Tr>
         </Tbody>
       </Table>
     </TableContainer>
