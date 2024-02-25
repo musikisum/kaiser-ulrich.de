@@ -91,7 +91,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-          Das <a href='https://ensemberlino.de/' className='underline'>Ensemberlino Vocale</a> (Berlin) wurde 1991 von Ulrich Kaiser gegründet um Chorwerke aller Epochen zur Aufführung zu bringen. 1992 bestand der Chor aus 15 Sängerinnen und Sängern, z.T. mit abgeschlossener oder begonnener Gesangsausbildung. In dieser Zeit entstand die CD mit Werken von Johannes Brahms (Liebesliederwalzer op.52, op.42, op.93a und op.104). Durch Konzert- sowie Rundfunkauftritte hat sich der Chor einen festen Platz im Berliner Musikleben erobern können. Nach seiner Berufung 1997 an die Hochschule für Musik und Theater in München legte Ulrich Kaiser die Leitung des Ensembles nieder.
+          Das <a href='https://ensemberlino.de/' className='underline'>Ensemberlino Vocale</a> (Berlin) wurde 1991 von Ulrich Kaiser gegründet um Chorwerke aller Epochen zur Aufführung zu bringen. 1992 bestand der Chor aus 15 Sängerinnen und Sängern, z.T. mit abgeschlossener oder begonnener Gesangsausbildung. In dieser Zeit entstand eine CD mit Werken von Johannes Brahms (Liebesliederwalzer Op. 52, Op. 42, Op. 93a und Op. 104). Durch Konzert- sowie Rundfunkauftritte hat sich der Chor einen festen Platz im Berliner Musikleben erobern können. Nach seiner Berufung 1997 an die Hochschule für Musik und Theater in München legte Ulrich Kaiser die Leitung des Ensembles nieder.
           </div>
         </div>
       </div>
@@ -129,6 +129,42 @@ export default function Choere() {
           Leonhard Lechner, »Gott b'hüte dich«
         </Box>
       </Flex>
+
+      <Divider mt='40px' mb='40px' h='1px' bg='gray' /> 
+
+      <Text as='b'>Hörbeispiele Gemeinschaftskonzert von Consortium Musicum und Ensemberlino Vocale:</Text>
+      <Flex flexWrap='wrap' mt='20px'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/kaiser-choere-bruckner-osjusti.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Anton Bruckner, Os iusti
+        </Box>
+      </Flex>                  
+      <Flex flexWrap='wrap'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/kaiser-choere-bruckner-avemaria.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Anton Bruckner, Ave Maria
+        </Box>
+      </Flex>                  
+      <Flex flexWrap='wrap'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/kaiser-choere-bruckner-locusiste.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Anton Bruckner, Locus iste
+        </Box>
+      </Flex>  
+      <Flex flexWrap='wrap'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/kaiser-choere-bruckner-vexillaregis.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Anton Bruckner, Vexilla regis
+        </Box>
+      </Flex>  
 
       <Divider mt='40px' mb='40px' h='1px' bg='gray' />
 
@@ -190,7 +226,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (das Orchester hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (ein langsamer Singen als von der LEitung geplant) keine Sorgen machen musste. Denn der lebhafte Chor Jugendlicher hatte damals die Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (diesem Esnemble verdanke ich daher einige der virtuosesten Aufführungen schneller Chormusik :)
+            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (das Orchester hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (ein langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn der lebhafte Chor Jugendlicher hatte damals die Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (diesem Ensemble verdanke ich daher einige der virtuosesten Aufführungen schneller Chormusik :)
           </div>
         </div>
       </div>    
@@ -209,7 +245,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Meine Chorleitungstätigkeiten begonnen habe ich mit der Übernahme der Männerchöre der Backerinnung Berlin Nord und der Sangesriege des TSV Gesundbrunnen 1981 (mit 18 Jahren). Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerste Frauenchöre aus den Eheleuten gegründet und später dann alle Chöre zusammengelegt, um die Singefähigkeit zu erhalten. Diesen Chören verdanke ich viel, zum Beispiel Erfahrungen, Möglichkeiten zu eigenen Chorkompositionen, menschlich schöne Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigene Wohung verdanke). Nach über acht Jahren musste ich diesen Chor dann aus beruflichen Gründen abgeben.  
+            Meine Chorleitungstätigkeiten begonnen habe ich mit der Übernahme der Männerchöre der Bäckerinnung Berlin Nord und der Sangesriege des TSV Gesundbrunnen 1981 (mit 18 Jahren). Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die Singefähigkeit zu erhalten. Diesen Chören verdanke ich viel, zum Beispiel Erfahrungen, Möglichkeiten zu eigenen Chorkompositionen, menschlich schöne Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung verdanke). Nach über acht Jahren musste ich diesen Chor dann aus beruflichen Gründen abgeben.  
           </div>
         </div>
       </div>    
