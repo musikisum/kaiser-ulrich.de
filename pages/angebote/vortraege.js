@@ -37,13 +37,16 @@ export default function Vortraege() {
       <PageHeader options={ options } />
 
       <Flex>
-          { data && <Text>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
-          <Spacer />
+        { data && <Text>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
+        <Spacer />
           <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
             { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
           </Button>
         </Flex>
       { data && <ListComponent data={data} inOrder={inOrder} /> }
+      <Text mt='40px'>
+        In den Präsentationen können Sie auf die jeweils angegebene Weise navigieren.
+      </Text>
     </>
   
   )

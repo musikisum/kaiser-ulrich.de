@@ -1,7 +1,8 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Text, Image, Spacer, Container, Heading, Divider, Flex, Box, HStack } from '@chakra-ui/react';
+import VideoWrapper from '../components/videoWrapper';
+import { Text, Image, Heading, Divider, Flex, Box, HStack } from '@chakra-ui/react';
 
 const options = {
   title: 'Consortium Musicum',
@@ -10,7 +11,16 @@ const options = {
   slug: '/chorleitung/choere'
 }
 
+const video = {
+  url: '/medien/kaiser-das-kinderhauslied.mp4',
+  posterUrl: '',
+  title: '',
+  description: 'Kinderchor',
+  filter: 'projekte'
+}
+
 import style from './choere.module.css';
+import { divide } from 'lodash';
 
 export default function Choere() {
 
@@ -32,7 +42,7 @@ export default function Choere() {
 
       <div className={style.chorContainer}>
         <div className={style.chorItem}>
-          <Image src='/images/consortium.jpg' width='100%' />
+          <Image src='/images/chor-consortium.jpg' width='100%' />
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
@@ -77,7 +87,7 @@ export default function Choere() {
 
       <div className={style.chorContainer}>
         <div className={style.chorItem}>
-          <Image src='/images/ensemberlino.jpg' width='100%' />
+          <Image src='/images/chor-ensemberlino.jpg' width='100%' />
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
@@ -120,8 +130,91 @@ export default function Choere() {
         </Box>
       </Flex>
 
-      <Divider mt='40px' mb='40px' h='1px' bg='gray' /> 
+      <Divider mt='40px' mb='40px' h='1px' bg='gray' />
 
+      <Heading as='h3' className="headingH4">
+        Kinderchor des Kinderhauses Sankt Josef (Karlsfeld)
+      </Heading>
+
+      <Divider mt='20px' mb='20px' h='0' bg='white' />
+
+      <div className={style.chorContainer}>
+        <div className={style.chorItem}>
+         <VideoWrapper video={video} />
+        </div>
+        <div className={style.chorItem}>
+          <div className={style.chorText}>
+            <Divider mt='16px' h='0' bg='white' color='white' />
+            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a>  verbindet mich nur ein kurzes Engagement als Gastdirigent. Da mein Sohn in diesem Hort war und wir den Hort toll fanden, hatte ich für dieses Ensemble ein <a href='https://oer-musik.de/oer-das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, jedoch einprägsam und wunderschön! 
+          </div>
+        </div>
+      </div>
+      <Divider mt='20px' h='0' bg='white' />
+      <Text as='b'>Hörbeispiele:</Text>
+      <Flex flexWrap='wrap' mt='20px'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/kaiser-das-kinderhauslied.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Ulrich Kaiser, Das Kinderhauslied (= OpenBook 10), Karlsfeld 2015. Mix/Master: Daniel Scholz, Lizenz: CC BY. 
+        </Box>
+      </Flex>    
+
+      <Divider mt='40px' mb='40px' h='1px' bg='gray' />
+
+      <Heading as='h3' className="headingH4">
+        Artecanto
+      </Heading>
+
+      <Divider mt='20px' mb='20px' h='0' bg='white' />
+
+      <div className={style.chorContainer}>
+        <div className={style.chorItem}>
+          <div className={style.chorText}>
+            Der Chor Artecanto war ein Porjektchor, den ich für Aufführung in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert mit anspruchsvoller Chorliteratur bestritten hat.  
+          </div>
+        </div>
+      </div>    
+
+      <Divider mt='40px' mb='40px' h='1px' bg='gray' />
+
+      <Heading as='h3' className="headingH4">
+        Chor des Jungen Ensembles Berlin
+      </Heading>
+
+      <Divider mt='20px' mb='20px' h='0' bg='white' />
+
+      <div className={style.chorContainer}>
+        <div className={style.chorItem}>
+          <Image src='/images/chor-des-jeb.jpg' width='100%' />
+        </div>
+        <div className={style.chorItem}>
+          <div className={style.chorText}>
+            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (das Orchester hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (ein langsamer Singen als von der LEitung geplant) keine Sorgen machen musste. Denn der lebhafte Chor Jugendlicher hatte damals die Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (diesem Esnemble verdanke ich daher einige der virtuosesten Aufführungen schneller Chormusik :)
+          </div>
+        </div>
+      </div>    
+
+      <Divider mt='40px' mb='40px' h='1px' bg='gray' />
+
+      <Heading as='h3' className="headingH4">
+        Chor der Backerinnung Berlin Nord und Sangesriege des TSVG
+      </Heading>
+
+      <Divider mt='20px' mb='20px' h='0' bg='white' />
+
+      <div className={style.chorContainer}>
+        <div className={style.chorItem}>
+          <Image src='/images/chor-wedding.jpg' width='100%' />
+        </div>
+        <div className={style.chorItem}>
+          <div className={style.chorText}>
+            Meine Chorleitungstätigkeiten begonnen habe ich mit der Übernahme der Männerchöre der Backerinnung Berlin Nord und der Sangesriege des TSV Gesundbrunnen 1981 (mit 18 Jahren). Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerste Frauenchöre aus den Eheleuten gegründet und später dann alle Chöre zusammengelegt, um die Singefähigkeit zu erhalten. Diesen Chören verdanke ich viel, zum Beispiel Erfahrungen, Möglichkeiten zu eigenen Chorkompositionen, menschlich schöne Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigene Wohung verdanke). Nach über acht Jahren musste ich diesen Chor dann aus beruflichen Gründen abgeben.  
+          </div>
+        </div>
+      </div>    
+
+      <Divider mt='40px' mb='40px' h='1px' bg='gray' />
     </>
   
   )

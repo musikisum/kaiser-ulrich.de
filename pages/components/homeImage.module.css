@@ -212,8 +212,7 @@ img.windowULeftImage, img.windowURightImage {
 /* Mobile */
 @media (max-width: 700px) {  
   .headerText {
-    margin-top: 10px;
-  }
+    margin-top: 24px;  }
   .homeGrid {
     position: static;
     padding: 36px 16% 0;

@@ -25,7 +25,7 @@ export default function Chorleitung() {
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
       <Image
-          src='/images/card-images/wissenschaft-Seite003.jpg'
+          src='/images/card-images/choere-Seite001.jpg'
           alt='Abbildung zur Fortbildungen'
           className={style.cardImg}           
         />
@@ -48,7 +48,7 @@ export default function Chorleitung() {
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Image
-        src='/images/card-images/wissenschaft-Seite003.jpg'
+        src='/images/card-images/choere-Seite002.jpg'
           alt='Abbildung zu den Hilfsmitteln'
           className={style.cardImg}
         />
