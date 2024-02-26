@@ -13,7 +13,7 @@ function reverseData(data) {
   return reversedArr;
 }
 
-export default function ListComponent({ data, inOrder, firstColunnWith = '150px' }) {
+export default function ListComponent({ data, inOrder, firstColumnWith = '150px', theme }) {
   if(data) {
     return inOrder ?
       <List m='12px' spacing={3}> 
@@ -21,7 +21,7 @@ export default function ListComponent({ data, inOrder, firstColunnWith = '150px'
           return (
             <ListItem key={uid.seq()} style={{'borderBottom': '1px solid gray'}}>
               <Flex mb='16px'>
-                <Box as='b' w={firstColunnWith} color='#6e91a1'>{item.left}</Box>
+                <Box as='b' w={firstColumnWith} color='#6e91a1'>{item.left}</Box>
                 <Box flex='1'>{item.right}</Box>
               </Flex>                  
             </ListItem>)
@@ -33,7 +33,7 @@ export default function ListComponent({ data, inOrder, firstColunnWith = '150px'
           return (
             <ListItem key={uid.seq()} style={{'borderBottom': '1px solid gray'}}>
               <Flex mb='16px'>
-                <Box as='b' w={firstColunnWith} color='#6e91a1'>{item.left}</Box>
+                <Box as='b' w={firstColumnWith} color='#6e91a1'>{item.left}</Box>
                 <Box flex='1'>{item.right}</Box>
               </Flex>                  
             </ListItem>)
@@ -41,6 +41,7 @@ export default function ListComponent({ data, inOrder, firstColunnWith = '150px'
         }
       </List>
     } else {
-      return <CustomError theme='zu meinem Lebenslauf' />
+      const snippet = theme ? theme : "in dieser Datentabelle";
+      return <CustomError theme={snippet} />
     }
   }

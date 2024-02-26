@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Heading, Text, List, ListItem, Flex, Box, Divider } from '@chakra-ui/react';
+import { Heading, List, ListItem, Flex, Box } from '@chakra-ui/react';
 
 const options = {
   title: 'Gesang',

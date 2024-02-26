@@ -59,7 +59,7 @@ export default function Angebote() {
             Auf dieser Seite finden Sie Informationen zu meinen Vorträgen.
           </Text>
           <CardFooter pl='0'>
-            <Link href='/angebote/vortraege'>
+            <Link href='/angebote/beitraege'>
               <Button variant='solid' className={style.cardButtonSize}>
                 Zu den Vorträgen ...
               </Button>
@@ -82,7 +82,7 @@ export default function Angebote() {
             Auf dieser Seite finden Sie die Vorträge, die aktuell noch online verfügbar sind.
           </Text>
           <CardFooter pl='0'>
-            <Link href='/angebote/vortraege-online'>
+            <Link href='/angebote/slides-online'>
               <Button variant='solid' className={style.cardButtonSize}>
                 Zu den Vorträgen (online)
               </Button>

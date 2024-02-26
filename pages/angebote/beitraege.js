@@ -1,24 +1,20 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import { useState } from 'react';
 import Layout from '../components/layout';
+import data from '../../data/vortraege.json'
 import PageHeader from '../components/pagehaeder';
-import { Flex, Spacer, Text } from '@chakra-ui/react';
 import ListComponent from '../components/listComponent';
-
-import { Button } from '@chakra-ui/react';
-
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
+import { Flex, Spacer, Text, Button } from '@chakra-ui/react';
 
 const options = {
   title: 'Vorträge',
+  description: '',
   filter: 'angebote',
-  slug: '/angebote/vortraege'
+  slug: '/angebote/beitraege'
 }
 
-export default function Vortraege() {
+export default function Beitraege() {
 
-  const { data, error } = useSWR('/data/vortraege.json', fetcher);
   const [inOrder, setInOrder] = useState(true);
 
   function reverse() {
@@ -36,20 +32,22 @@ export default function Vortraege() {
 
       <PageHeader options={ options } />
 
-      <Flex>
-        { data && <Text>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
+      <Flex flexWrap='wrap'>
+        { data && <Text mb='20px'>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
         <Spacer />
           <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
             { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
           </Button>
        </Flex>
-      { data && <ListComponent data={data} inOrder={inOrder} /> }
+
+      { data && <ListComponent data={data} inOrder={inOrder} theme='der Vorträge' /> }
+
     </>
   
   )
 }
 
-Vortraege.getLayout = function getLayout(page) {
+Beitraege.getLayout = function getLayout(page) {
   return (
     <Layout isCenter={false} showheaven={true}>
       {page}

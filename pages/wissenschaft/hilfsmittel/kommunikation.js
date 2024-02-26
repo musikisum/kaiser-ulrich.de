@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../../components/layout';
 import PageHeader from '../../components/pagehaeder';
 import { CheckCircleIcon, InfoIcon } from '@chakra-ui/icons';
-import { Heading, TableContainer, Table, TableCaption, Thead, Tbody, Th, Tr, Td, Tfoot, Text, List, ListItem, ListIcon } from '@chakra-ui/react';
+import { Heading, TableContainer, Table, Thead, Tbody, Th, Tr, Td, Tfoot, Text, List, ListItem, ListIcon } from '@chakra-ui/react';
 
 import style from '../index.module.css'
 

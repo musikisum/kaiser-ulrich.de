@@ -5,26 +5,19 @@ import Layout from '../components/layout';
 import { useState, useEffect } from 'react';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import data from '../../data/vortraege-online.json';
 import { Button, Flex, Text, Card, CardBody, CardHeader, Heading, Box } from '@chakra-ui/react';
 
-
 const uid = new ShortUniqueId();
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const options = {
-  title: 'Vorträge (online)',
+  title: 'Slides (online)',
   description: '',
   filter: 'angebote',
-  slug: '/angebote/vortraege-online'
+  slug: '/angebote/slides-online'
 }
 
-function onContentChangeClick(event) {
-  alert(event.target.value)
-}
-
-export default function VortraegeOnline() {
-
-  const { data, error } = useSWR('/data/vortraege-online.json', fetcher);
+export default function SlidesOnline() {
 
   const [url, setUrl] = useState()
   const [currentUrl, setCurrentUrl] = useState();
@@ -64,7 +57,6 @@ export default function VortraegeOnline() {
                     <Button 
                       onClick={onValueChangeClick} 
                       value={item.url}
-                      pl='0'
                       bg='white'
                       pl='10px'
                       >
@@ -93,7 +85,7 @@ export default function VortraegeOnline() {
   )
 }
 
-VortraegeOnline.getLayout = function getLayout(page) {
+SlidesOnline.getLayout = function getLayout(page) {
   return (
     <Layout isCenter={false} showheaven={true}>
       {page}

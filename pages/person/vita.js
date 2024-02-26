@@ -40,7 +40,7 @@ export default function Vita() {
           { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
         </Button>
       </div>
-      { data && <ListComponent data={data} inOrder={inOrder} /> }
+      { data && <ListComponent data={data} inOrder={inOrder} theme='im Lebenslauf' /> }
     </>
   
   )

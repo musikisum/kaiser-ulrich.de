@@ -1,16 +1,13 @@
-import useSWR from 'swr';
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
+import data from '../../data/fortbildungen.json';
 import PageHeader from '../components/pagehaeder';
 import ListComponent from '../components/listComponent';
-import { Flex, Spacer, Text, Divider } from '@chakra-ui/react';
-
-import { Button } from '@chakra-ui/react';
+import { Flex, Spacer, Text, Divider, Button } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
-const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const options = {
   title: 'Fortbildungen',
@@ -21,7 +18,6 @@ const options = {
 
 export default function Fortbildungen() {
 
-  const { data, error } = useSWR('/data/fortbildungen.json', fetcher);
   const [inOrder, setInOrder] = useState(true);
 
   function reverse() {
@@ -36,7 +32,6 @@ export default function Fortbildungen() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
-
       <PageHeader options={ options } />
       
       <Text>
@@ -49,15 +44,15 @@ export default function Fortbildungen() {
       <Divider mt='60px' mb='40px' h='1px' bg='gray' />
 
       <div style={{'textAlign': 'right'}}>
-        <Flex>
-          { data && <Text>Ein Überblick über meine {data.length} Fortbildungsveranstaltungen seit 2002:</Text> }
+        <Flex flexWrap='wrap'>
+          { data && <Text mb='20px'>Ein Überblick über meine {data.length} Fortbildungsveranstaltungen seit 2002:</Text> }
           <Spacer />
           <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
             { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
           </Button>
         </Flex>
       </div>
-      { data && <ListComponent data={data} inOrder={inOrder} /> }
+      { data && <ListComponent data={data} inOrder={inOrder} theme='in den Fortbildungen' /> }
     </>
   
   )
