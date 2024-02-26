@@ -1,8 +1,8 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from "../components/layout";
 import ShortUniqueId from 'short-unique-id';
+import data from '../../data/gelegenheiten.json';
 import PageHeader from '../components/pagehaeder';
 import { List, ListItem, ListIcon, Divider, Text } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
@@ -10,7 +10,6 @@ import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons'
 import style from './index.module.css';
 
 const uid = new ShortUniqueId()
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Gelegenheiten',
@@ -20,8 +19,6 @@ const options = {
 }
 
 export default function Gelegenheiten() {
-
-  const { data, error } = useSWR('/data/gelegenheiten.json', fetcher);
 
   return (
     <>

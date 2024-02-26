@@ -1,11 +1,9 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from "../components/layout";
-import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
+import data from '../../data/openbooks.json';
+import PageHeader from '../components/pagehaeder';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
-
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const uid = new ShortUniqueId()
 
@@ -17,8 +15,6 @@ const options = {
 }
 
 export default function OpenBooks() {
-
-  const { data, error } = useSWR('/data/openbooks.json', fetcher);
 
   return (
     <>

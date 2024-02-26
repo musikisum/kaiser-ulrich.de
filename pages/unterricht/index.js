@@ -1,14 +1,13 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import { useEffect, useState } from 'react';
+import data from '../../data/unterricht.json';
 import PageHeader from '../components/pagehaeder';
 import DisplayCourses from '../components/displayCourses';
 import { Select, Box, Flex, Spacer } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Unterricht',
@@ -19,7 +18,6 @@ const options = {
 
 export default function Unterricht() {
 
-  const { data, error } = useSWR('/data/unterricht.json', fetcher);
   const [courses, setCourses] = useState();
   const [semesterName, setSemesterName] = useState();
   const [displayCourse, setDisplayCourse] = useState();

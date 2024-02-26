@@ -1,6 +1,6 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from '../components/layout';
+import data from '../../data/articles.json';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import { List, ListItem, ListIcon, Link, Text, Divider } from '@chakra-ui/react';
@@ -9,7 +9,6 @@ import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 import style from './index.module.css';
 
 const uid = new ShortUniqueId();
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Artikel',
@@ -19,8 +18,6 @@ const options = {
 }
 
 export default function Artikel() {
-  
-  const { data, error } = useSWR('/data/articles.json', fetcher);
 
   return (
     <>

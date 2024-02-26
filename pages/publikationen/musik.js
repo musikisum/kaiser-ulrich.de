@@ -1,12 +1,11 @@
-import useSWR from 'swr';
 import Head from 'next/head';
+import data from '../../data/musik.json';
 import Layout from "../components/layout";
-import PageHeader from '../components/pagehaeder';
 import ShortUniqueId from 'short-unique-id';
+import PageHeader from '../components/pagehaeder';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Link, Text, Heading } from '@chakra-ui/react'
 
 const uid = new ShortUniqueId()
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Musik',
@@ -16,8 +15,6 @@ const options = {
 }
 
 export default function Musik() {
-
-  const { data, error } = useSWR('/data/musik.json', fetcher);
 
   return (
     <>

@@ -1,14 +1,13 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import Layout from "../components/layout";
-import PageHeader from '../components/pagehaeder';
+import data from '../../data/verlage.json';
 import ShortUniqueId from 'short-unique-id';
+import PageHeader from '../components/pagehaeder';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
 
 import style from "./index.module.css";
 
 const uid = new ShortUniqueId()
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Bücher & Hefte',
@@ -18,8 +17,6 @@ const options = {
 }
 
 export default function Verlage() {
-
-  const { data, error } = useSWR('/data/verlage.json', fetcher);
 
   return (
     <>

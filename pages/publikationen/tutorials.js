@@ -1,7 +1,7 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import dateFormat from 'dateformat'
 import Layout from '../components/layout';
+import data from '../../data/summary.json';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import { CheckCircleIcon, ExternalLinkIcon } from '@chakra-ui/icons'
@@ -11,7 +11,6 @@ import style from './index.module.css';
 
 const uid = new ShortUniqueId();
 const url = 'https://musikanalyse.net';
-const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const options = {
   title: 'Tutorials',
@@ -21,8 +20,6 @@ const options = {
 }
 
 export default function Tutorials() {
-
-  const { data, error } = useSWR('/data/summary.json', fetcher);
 
   return (
     <>

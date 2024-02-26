@@ -1,12 +1,10 @@
-import useSWR from 'swr';
 import Link from 'next/link';
 import Head from 'next/head';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
+import data from '../../data/evaluations.json';
 import PageHeader from '../components/pagehaeder';
-import { Heading, Text, Divider } from '@chakra-ui/react';
-
-const fetcher = (url) => fetch(url).then((res) => res.json());
+import { Heading, Text, Divider, Box } from '@chakra-ui/react';
 
 const options = {
   title: 'Evaluationen',
@@ -16,10 +14,8 @@ const options = {
 }
 
 export default function Evaluation() {
-
   
   const uid = new ShortUniqueId();
-  const { data, error } = useSWR('/data/evaluations.json', fetcher);
 
   return (
     <>
@@ -34,7 +30,7 @@ export default function Evaluation() {
       </Heading>
       {
         data && data.map(evaluation => {
-          return <>
+          return <Box key={uid.seq()}>
             <Heading as='h4' className='headingH5'>{evaluation.semester}</Heading>
             <Text>Bewerteter Unterricht</Text>
             <ul className='list2040'>
@@ -47,7 +43,7 @@ export default function Evaluation() {
             { evaluation.annotation && <Text>{evaluation.annotation}</Text> }
             <Link className='importantLink' href={evaluation.link}>Evaluationsergebnisse</Link>
             <Divider mt='20px' mb='20px' h='1px' bg='gray' w='50%' />
-          </>
+          </Box>
         })
       }
     </>
