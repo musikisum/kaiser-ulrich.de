@@ -42,11 +42,8 @@ export default function Vortraege() {
           <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
             { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
           </Button>
-        </Flex>
+       </Flex>
       { data && <ListComponent data={data} inOrder={inOrder} /> }
-      <Text mt='40px'>
-        In den Präsentationen können Sie auf die jeweils angegebene Weise navigieren.
-      </Text>
     </>
   
   )
