@@ -40,7 +40,7 @@ export default function Navigation({ filter, slug }) {
     <>
       <div className={style.menuIsVisible}>
         <Menu>
-          <MenuButton as={Button} rightIcon={<HamburgerIcon />}>Menu</MenuButton>
+          <MenuButton as={Button} rightIcon={<HamburgerIcon />}>Menü</MenuButton>
           <MenuList>
             {
               hasTheme ? 

@@ -132,7 +132,7 @@ export default function Choere() {
 
       <Divider mt='40px' mb='40px' h='1px' bg='gray' /> 
 
-      <Text as='b'>Hörbeispiele Gemeinschaftskonzert von Consortium Musicum und Ensemberlino Vocale:</Text>
+      <Text as='b'>Hörbeispiele eines Gemeinschaftskonzerts von Consortium Musicum und Ensemberlino Vocale:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
           <audio src='/medien/kaiser-choere-bruckner-osjusti.mp3' controls></audio>
@@ -181,7 +181,7 @@ export default function Choere() {
         <div className={style.chorItem}>
           <div className={style.chorText}>
             <Divider mt='16px' h='0' bg='white' color='white' />
-            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a>  verbindet mich nur ein kurzes Engagement als Gastdirigent. Da mein Sohn in diesem Hort war und wir den Hort toll fanden, hatte ich für dieses Ensemble ein <a href='https://oer-musik.de/oer-das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, jedoch einprägsam und wunderschön! 
+            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a> verbindet mich nur ein kurzes Intermezzo (quasi als Gastdirigent). Da mein Sohn in diesem tollen ort war, hatte ich für dieses Ensemble der Kleinsten ein <a href='https://oer-musik.de/oer-das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, jedoch einprägsam und wunderschön! 
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@ export default function Choere() {
       <div className={style.chorContainer}>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Der Chor Artecanto war ein Porjektchor, den ich für Aufführung in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert mit anspruchsvoller Chorliteratur bestritten hat.  
+            Der Chor Artecanto ist ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert bestritten hat.  
           </div>
         </div>
       </div>    
@@ -226,7 +226,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (das Orchester hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (ein langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn der lebhafte Chor Jugendlicher hatte damals die Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (diesem Ensemble verdanke ich daher einige der virtuosesten Aufführungen schneller Chormusik :)
+            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (das Orchester hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (ein langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn der lebhafte Chor hatte damals die seltene Angewohnheit, beim Singen schneller Chorliteratur von alleine schneller zu werden (dem Ensemble verdanke ich daher einige der virtuosesten Aufführungen schneller Chormusik :)
           </div>
         </div>
       </div>    
@@ -245,7 +245,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Meine Chorleitungstätigkeiten begonnen habe ich mit der Übernahme der Männerchöre der Bäckerinnung Berlin Nord und der Sangesriege des TSV Gesundbrunnen 1981 (mit 18 Jahren). Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die Singefähigkeit zu erhalten. Diesen Chören verdanke ich viel, zum Beispiel Erfahrungen, Möglichkeiten zu eigenen Chorkompositionen, menschlich schöne Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung verdanke). Nach über acht Jahren musste ich diesen Chor dann aus beruflichen Gründen abgeben.  
+            Meine Chorleitungstätigkeiten begonnen habe ich mit mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die Singefähigkeit zu erhalten. Diesen Chören verdanke ich viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung verdanke). Nach über acht Jahren musste ich diesen Chor aus beruflichen Gründen abgeben.  
           </div>
         </div>
       </div>    

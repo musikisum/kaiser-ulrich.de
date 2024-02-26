@@ -28,7 +28,7 @@ export default function Formales() {
       </Center>
       <Divider mt='20px' mb='20px' />
       <Text>
-        <b>Hinweis:</b> Die Elemente der meisten Grafiken auf dieser Website (einschließlich der ›<i>Schule</i>‹ auf der <Link href='/' className='underline'>Landing-Page</Link>) hat Mani Vieregg von <a href='https://www.vieregg-design.de/' className='underline'>VIEREGG Design</a> im Rahmen Ihrer Arbeiten für die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> erstellt und auf dieser Plattform unter der Creative-Commons-Lizenz CC0 <a href='https://openmusic.academy/docs/fRGMepfbbVvekmWvdEtQFx/' className='underline'>veröffentlicht</a>.
+        <b>Hinweis:</b> Die Elemente der meisten Grafiken auf meiner Homepage (einschließlich der ›<i>Schule</i>‹ auf der <Link href='/' className='underline'>Landing-Page</Link>) hat Mani Vieregg im Rahmen Ihrer Arbeiten für die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> erstellt und unter der Creative-Commons-Lizenz (CC0) <a href='https://openmusic.academy/docs/fRGMepfbbVvekmWvdEtQFx/' className='underline'>veröffentlicht</a>.
       </Text>  
     </Box>      
   </>
