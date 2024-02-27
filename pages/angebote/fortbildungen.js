@@ -38,7 +38,7 @@ export default function Fortbildungen() {
         Auf dieser Seite finden Sie meine ein- oder mehrtägigen Fortbildungen für Lehrerinnen und Lehrer an allgemeinbildenden Schulen oder Musikschulen.
       </Text>
       <Text mt='10px'>
-        Falls Sie mich kontaktieren möchten, weil Sie eine Fortbildung zu Themen der Musiktheorie und/oder des digitalen Lehren und Lernens planen, kontaktieren Sie mich bitte über eine meiner im Impressum angegebene Adressen.
+        Falls Sie mich kontaktieren möchten, weil Sie eine Fortbildung zu Themen der Musiktheorie und/oder des digitalen Lehren und Lernens planen, kontaktieren Sie mich bitte über meine im Impressum angegebene Adresse.
       </Text>
 
       <Divider mt='60px' mb='40px' h='1px' bg='gray' />

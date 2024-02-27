@@ -56,7 +56,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>Vorträge</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zu meinen Vorträgen.
+            Auf dieser Seite finden Sie Informationen zu meinen seit 1995 gehaltenen und in Planung befindlichen Vorträgen.
           </Text>
           <CardFooter pl='0'>
             <Link href='/angebote/beitraege'>
@@ -79,7 +79,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>Vorträge (online)</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie die Vorträge, die aktuell noch online verfügbar sind.
+            Auf dieser Seite finden Sie Vorträge, die aktuell online verfügbar sind.
           </Text>
           <CardFooter pl='0'>
             <Link href='/angebote/slides-online'>

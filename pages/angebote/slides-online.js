@@ -44,7 +44,7 @@ export default function SlidesOnline() {
       <Card mb='60px'>
         <CardHeader>
           <Heading className='headingH3'>
-            Aktuell verfügbare Vorträge zum Anschauen:  
+            Aktuell verfügbare Online-Vorträge zum Anschauen:  
           </Heading>
         </CardHeader>
 
