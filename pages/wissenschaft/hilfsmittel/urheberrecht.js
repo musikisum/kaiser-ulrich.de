@@ -55,7 +55,7 @@ export default function Urheberrecht() {
         Eine Besonderheit des Ziatrechts ist es, dass es unter Beachtung einiger Regeln nicht nur von der Zustimmung zur Nutzung durch den Urheber befreit, sondern auch von der Vergütungspflicht für die Nutzung. Im Gegensatz dazu ist die Schranke des § 60a UrhG für das wissenschaftliche Publizieren unbrauchbar (und übrigens auch die Veröffentlichung von Open Educational Resources), da diese Regelung nur eine Zugänglichmachung von Inhalten für bestimmte Teilnehmer einer Lehrveranstaltung erlaubt.
       </Text>
 
-      <Heading as='h2' className='headingH4'>
+      <Heading as='h2' className='headingH4' mt='8' mb='6'>
         Die Regeln
       </Heading>
       <Text>

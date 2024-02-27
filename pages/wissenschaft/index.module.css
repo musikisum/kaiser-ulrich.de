@@ -1,17 +1,22 @@
-.mtDefault {
-  margin-top: 20px;
-}
-.mlDefault {
-  margin-left: 20px;
+.defaultCell {
+  flex: 1;
+  margin: 10px;
+  font-weight: bold;
 }
 
 .redCell {
-  vertical-align: top;
   background-color: #FFECEA;
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 .greenCell {
-  vertical-align: top;
   background-color: #C6F6D5;
+  flex: 1;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
 }
 
 .cardImg {
