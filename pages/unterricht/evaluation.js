@@ -8,7 +8,7 @@ import { Heading, Text, Divider, Box } from '@chakra-ui/react';
 
 const options = {
   title: 'Evaluationen',
-  description: 'Hiermit veröffentliche ich für alle Interssierten die Evaluationsergebnisse der Hochschule für Musik und Theater München zu meiner Lehre, seit diese dort professionell ermittelt wird. Ziel ist es, im Sinne eines ›Visible Learning‹ für mich und andere sichtbar zu machen, welche Aspekte meines Unterrichts in den jeweiligen Jahren gut funktioniert haben und welche als negativ bewertet worden sind. Diese Sichtbarmachung geht einher mit meinen großen Bemühungen, jede Kritik ernst zu nehmen, nach Ursachen zu suchen und mich um eine kontinuierlichen Verbeserung meines Unterrichts zu bemühen.',
+  description: 'Hiermit veröffentliche ich für alle Interessierten die Evaluationsergebnisse zu meiner Lehre an der Hochschule für Musik und Theater München, die dort seit 2019 professionell ermittelt werden. Ziel ist es, im Sinne eines ›Visible Learning‹ für mich und andere sichtbar zu machen, welche Aspekte meines Unterrichts in den jeweiligen Jahren gut funktioniert haben und welche als negativ bewertet worden sind. Diese Sichtbarmachung geht einher mit meinem aufrichtigen Bemühen, jede Kritik an meinem Unterricht ernst zu nehmen, nach Ursachen von Problemen sowie einer kontinuierlichen Verbesserung meines Unterrichts zu suchen.',
   filter: 'unterricht',
   slug: '/unterricht/evaluation'
 }

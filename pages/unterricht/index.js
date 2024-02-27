@@ -1,17 +1,18 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import { useEffect, useState } from 'react';
 import data from '../../data/unterricht.json';
 import PageHeader from '../components/pagehaeder';
 import DisplayCourses from '../components/displayCourses';
-import { Select, Box, Flex, Spacer } from '@chakra-ui/react';
+import { Select, Box, Flex, Spacer, Divider, Text } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
 
 const options = {
   title: 'Unterricht',
-  description: 'Hier finden Sie Informationen zu dem aktuellen Semester. Wenn Sie sich über mein Lehrangebot der vergangenen Semester informieren möchten, wählen Sie bitte ein Semester in dem Auswahlfeld.',
+  description: '',
   filter: 'unterricht',
   slug: '/unterricht'
 }
@@ -50,6 +51,10 @@ export default function Unterricht() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
+      <Text>
+        Hier finden Sie Informationen zu dem aktuellen Semester. Wenn Sie sich über mein Lehrangebot der vergangenen Semester informieren möchten, wählen Sie bitte ein Semester in dem Auswahlfeld. Evaluationergebnnisse zu meinem Unterricht können Sie <Link href='/unterricht/evaluation' className='underline'>hier</Link> einsehen.
+      </Text>
+      <Divider mt='60px' mb='40px' h='1px' bg='gray' />
       <Flex>
         <Spacer />
         <Box style={{'maxWidth': '300px'}} mb='0' mr='6%'>
