@@ -1,3 +1,10 @@
+.mtDefault {
+  margin-top: 20px;
+}
+.mlDefault {
+  margin-left: 20px;
+}
+
 .defaultCell {
   flex: 1;
   margin: 10px;

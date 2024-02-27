@@ -1,7 +1,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  trailingSlash: true
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
