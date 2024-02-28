@@ -210,7 +210,25 @@ export default function Choere() {
             Der Chor Artecanto ist ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert bestritten hat.  
           </div>
         </div>
-      </div>    
+      </div>
+      <Divider m='10px'/>
+      <Text as='b'>Hörbeispiele:</Text>
+      <Flex flexWrap='wrap' mt='20px'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/artecanto-schuetz-verleih-uns-frieden-prima-pars.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Heinrich Schütz, »Verleih uns Frieden (prima pars)«
+        </Box>
+      </Flex>                  
+      <Flex flexWrap='wrap'>
+        <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
+          <audio src='/medien/artecanto-schein-da-jacob.mp3' controls></audio>
+        </Box>
+        <Box flex='1' pt='24px'>
+          Johann Hermann Schein, »Da Jacob die Rede vollende hatte« (aus dem ›Israelisbrünnlein‹)
+        </Box>
+      </Flex>          
 
       <Divider mt='40px' mb='40px' h='1px' bg='gray' />
 
