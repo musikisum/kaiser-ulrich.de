@@ -25,11 +25,13 @@ export default function Index() {
       <PageHeader options={ options } />
       
       <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/publikationen/verlage/'>
+          <Image
           src='/images/card-images/publikationen-Seite001.jpg'
           alt='Abbildung zu Büchern und Heften'          
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Bücher & Hefte</Heading>
@@ -48,11 +50,13 @@ export default function Index() {
       </Card>
 
       <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/publikationen/artikel/'>
+          <Image
           src='/images/card-images/publikationen-Seite003.jpg'
           alt='Abbildung zu Artikeln'          
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Artikel</Heading>
@@ -71,11 +75,13 @@ export default function Index() {
       </Card>
 
       <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/publikationen/openbooks/'>
+          <Image
           src='/images/card-images/publikationen-Seite002.jpg'
           alt='Abbildung zu OpenBooks'          
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>OpenBooks</Heading>
@@ -94,11 +100,13 @@ export default function Index() {
       </Card> 
       
       <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/publikationen/tutorials/'>
+          <Image
           src='/images/card-images/publikationen-Seite004.jpg'
           alt='Abbildung zu Tutorials'          
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Tutorials</Heading>
@@ -117,11 +125,13 @@ export default function Index() {
       </Card>
 
       <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/publikationen/musik/'>
+          <Image
           src='/images/card-images/publikationen-Seite005.jpg'
           alt='Abbildung zu Musikpublikationen'          
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Musik</Heading>
@@ -140,11 +150,13 @@ export default function Index() {
       </Card>
 
       <Card direction={{ base: 'column', md: 'row' }} mb='40px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/publikationen/gelegenheiten/'>
+          <Image
           src='/images/card-images/publikationen-Seite006.jpg'
           alt='Abbildung zu Gelegenheiten'          
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Gelegenheiten</Heading>

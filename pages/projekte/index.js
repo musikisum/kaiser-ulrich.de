@@ -24,11 +24,13 @@ export default function Angebote() {
     <PageHeader options={ options } />
     
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/projekte/openmusicacademy'>
+        <Image
           src='/images/card-images/projekte-Seite002.jpg'
           alt='Abbildung zur OMA'
           className={style.cardImg}
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>OMA</Heading>
@@ -47,11 +49,13 @@ export default function Angebote() {
     </Card>
 
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/projekte/elmu'>
+        <Image
           src='/images/card-images/projekte-Seite001.jpg'
           alt='Abbildung zu Elmu'
           className={style.cardImg}           
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>ELMU</Heading>

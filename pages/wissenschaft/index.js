@@ -24,11 +24,13 @@ export default function Wissenschaft() {
     <PageHeader options={ options } />
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/wissenschaft/profil'>
+        <Image
           src='/images/card-images/wissenschaft-Seite001.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}           
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Profil</Heading>
@@ -47,11 +49,13 @@ export default function Wissenschaft() {
     </Card>
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/wissenschaft/betreuungen'>
+        <Image
           src='/images/card-images/wissenschaft-Seite002.jpg'
           alt='Abbildung zu den Betreuungen'
           className={style.cardImg}
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Betreuungen</Heading>
@@ -70,11 +74,13 @@ export default function Wissenschaft() {
     </Card>
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/wissenschaft/hilfsmittel'>
+        <Image
         src='/images/card-images/wissenschaft-Seite003.jpg'
           alt='Abbildung zu den Hilfsmitteln'
           className={style.cardImg}
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Hilfsmittel</Heading>

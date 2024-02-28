@@ -24,11 +24,12 @@ export default function Chorleitung() {
     <PageHeader options={ options } />
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-      <Image
+    < Link href='/chorleitung/choere'><Image
           src='/images/card-images/choere-Seite001.jpg'
           alt='Abbildung zur Fortbildungen'
           className={style.cardImg}           
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Chöre</Heading>
@@ -47,11 +48,13 @@ export default function Chorleitung() {
     </Card>
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/chorleitung/repertoire'>
+        <Image
         src='/images/card-images/choere-Seite002.jpg'
           alt='Abbildung zu den Hilfsmitteln'
           className={style.cardImg}
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Repertoire</Heading>
@@ -63,7 +66,7 @@ export default function Chorleitung() {
               <Button variant='solid' className={style.cardButtonSize}>
                 Zum Repertoire ...
               </Button>
-            </Link>
+              </Link>
           </CardFooter>
         </Stack>
       </CardBody>

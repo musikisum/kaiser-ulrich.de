@@ -24,11 +24,13 @@ export default function Angebote() {
     <PageHeader options={ options } />
     
     <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/angebote/fortbildungen'>
+        <Image
           src='/images/card-images/angebote-Seite002.jpg'
           alt='Abbildung zur Fortbildungen'
           className={style.cardImg}           
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Fortbildungen</Heading>
@@ -47,11 +49,13 @@ export default function Angebote() {
     </Card>
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/angebote/beitraege'>
+        <Image
           src='/images/card-images/angebote-Seite001.jpg'
           alt='Abbildung zu Vorträgen'
           className={style.cardImg}
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Vorträge</Heading>
@@ -70,11 +74,12 @@ export default function Angebote() {
     </Card>
       
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
-      <Image
+      <Link href='/angebote/slides-online'><Image
         src='/images/card-images/angebote-Seite004.jpg'
           alt='Abbildung zu den Vorträgen online'
           className={style.cardImg}
         />
+      </Link>
       <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>Vorträge (online)</Heading>
@@ -93,11 +98,13 @@ export default function Angebote() {
     </Card>
 
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
+    <Link href='/angebote/webdoc'>
       <Image
-        src='/images/card-images/angebote-Seite003.jpg'
-          alt='Abbildung zu den Hilfsmitteln'
-          className={style.cardImg}
-        />
+      src='/images/card-images/angebote-Seite003.jpg'
+        alt='Abbildung zu den Hilfsmitteln'
+        className={style.cardImg}
+      />
+    </Link>
     <CardBody className={style.cardBodyMl}>
         <Stack>
           <Heading fontSize='xl'>WebDoc (kommerzielles Angebot)</Heading>
