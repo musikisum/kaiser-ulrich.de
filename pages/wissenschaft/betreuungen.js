@@ -29,8 +29,8 @@ export default function Betreuungen() {
         An der <i>Hochschule für Musik und Theater München</i> ist es möglich, bei einem in Musikwissenschaft promovierten Musiktheoretiker über ein Thema mit musikanalytischem Schwerpunkt bzw. der historischen oder systematischen Musiktheorie zu promovieren. Am Ende des erfolgreich abgeschlossenen Promotionsverfahrens wird der Titel <i>Dr. phil</i> im Fach Musikwissenschaft verliehen. Aktuell betreue ich die folgenden Arbeiten:
       </Text>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}><i>Arbeitstitel: Die musikalische Entwicklung der Band Deep Purple unter dem Einfluss der wechselnden Gitarrenbesetzung</i></ListItem>
-        <ListItem className={style.mlDefault}><i>Arbeitstitel: W. A. Mozarts Dramaturgie des Musiktheaters und seine harmonisch-kontrapunktischen Implikationen</i></ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Die musikalische Entwicklung der Band Deep Purple unter dem Einfluss der wechselnden Gitarrenbesetzung</i></ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>W. A. Mozarts Dramaturgie des Musiktheaters und seine harmonisch-kontrapunktischen Implikationen</i></ListItem>
       </UnorderedList>
 
       <Divider mt='20px' mb='20px' />
@@ -42,7 +42,8 @@ export default function Betreuungen() {
         Betreut werden von mir Zulassungsarbeiten (Lehramt) zu Themen, bei denen ein Schwerpunkt auf der musikalischen Analyse liegt und/oder die musiktheoretische Fragestellungen berühren. Hierzu gehören auch interdisziplinäre Themen wie z.B. &lsquo;Musiktheorie in der Schule&rsquo;, &lsquo;Musiktheorie und Musikpädagogik&rsquo;, Themen aus der &lsquo;Geschichte der Musiktheorie&rsquo; etc. Die Themen können frei gewählt werden, zur wissenschaftlichen Bearbeitung notwendige Eingrenzungen erfolgen in der individuellen Betreuung. Themen ohne musikanalytische und/oder musiktheoretische Anteile aus den Bereichen Musikwissenschaft und Musikpädagogik werden von meinen Kolleginnen und Kollegen der entsprechenden Fachgebiete betreut.
       </Text>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Aktuell werden keine Arbeiten von mir betreut, bei Interesse kontaktieren Sie mich bitte über meine Hochschuladresse.</ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Übereinstimmungen und Differenzen in der Theorie der Sonatenform seit 1998</i></ListItem>
+        {/* <ListItem className={style.mlDefault}>Aktuell werden keine Arbeiten von mir betreut, bei Interesse kontaktieren Sie mich bitte über meine Hochschuladresse.</ListItem> */}
       </UnorderedList>
       
       <Divider mt='60px' mb='60px' height='2px' bgColor='gray' />
