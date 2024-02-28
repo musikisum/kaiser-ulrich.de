@@ -57,12 +57,27 @@ export default function Elmu() {
     <Divider mt='60px' mb='40px' h='1px' bg='gray' />
 
     <Heading as='h4' className='headingH4' m='40px 0'>
-      Genese des Projekts
+      Genese des Projekts OER-Lernplattform für Musik <i>elmu</i>
     </Heading>
 
     <TableContainer className={style.omaTable}>
       <Table>
         <Tbody>
+          <Tr>
+            <Td>2015</Td>
+            <Td>Antrag Bayerisches Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag angelehnt</Td>
+          </Tr>
+          <Tr>
+            <Td>2017</Td>
+            <Td>Antrag Hochschulleitung der Hochschule für Musik und Theater München (HMTM)</Td>
+            <Td>Unterstützung zugesagt</Td>
+          </Tr>
+          <Tr bg='#eefdec'>
+            <Td>2017</Td>
+            <Td>Spenden aus Mitteln der Körperschaft der HMTM sowie der Gesellschaft Freunde der Hochschule für Musik und Theater München e.V.</Td>
+            <Td>Realisierung des Prototyps der Lernplattform elmu.online</Td>
+          </Tr>
           <Tr>
             <Td>2017</Td>
             <Td>Antrag Castringius Kinder- und Jugendstiftung</Td>
@@ -70,13 +85,13 @@ export default function Elmu() {
           </Tr>
           <Tr>
             <Td>2018</Td>
-            <Td>Gesellschaft Freunde der Hochschule für Musik und Theater München e.V.</Td>
-            <Td>Antrag bewilligt</Td>
-          </Tr>
-          <Tr>
-            <Td>2018</Td>
             <Td>Bundeszentrale für politische Bildung</Td>
-            <Td>Antrag angelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag angelehnt</Td>
+          </Tr>
+          <Tr bg='#eefdec'>
+            <Td>2018</Td>
+            <Td>Gründung des Vereins ELMU Education e.V.</Td>
+            <Td>Registergericht VR 208171</Td>
           </Tr>
           <Tr>
             <Td>2018</Td>
@@ -86,52 +101,57 @@ export default function Elmu() {
           <Tr>
             <Td>2018</Td>
             <Td>Töpfer-Stiftung</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
+          </Tr>
+          <Tr bg='#eefdec'>
+            <Td>2019</Td>
+            <Td>Bescheid Finanzamt München</Td>
+            <Td>Vereinssatzung entspricht Voraussetzungen nach §§ 51, 59, 60 und 61 AO</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Aqtivator</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Bayerisches Staatsministerium für Wissenschaft und Kunst</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Bayerisches Staatsministerium für Digitales</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Beisheim Stiftung</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>elobau Stiftung</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Goethe-Institut</Td>
-            <Td>Antrag bewilligt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag bewilligt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Mahle Stiftung</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>prototypefund</Td>
-            <Td>vom Antragsteller abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag zurückgezogen</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>
             <Td>Siemens Stiftung</Td>
-            <Td>Antrag abgelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2020</Td>

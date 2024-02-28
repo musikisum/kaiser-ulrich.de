@@ -34,7 +34,7 @@ export default function Choere() {
       </Head>
       <PageHeader options={ options } />      
 
-      <Heading as='h3' className="headingH4">
+      <Heading id='consortiummusicum' as='h3' className="headingH4">
         Consortium Musicum
       </Heading>
 
@@ -79,7 +79,7 @@ export default function Choere() {
 
       <Divider mt='40px' mb='40px' h='1px' bg='gray' />  
 
-      <Heading as='h3' className="headingH4">
+      <Heading id='ensemberlinovovale' as='h3' className="headingH4">
         Ensemberlino Vocale
       </Heading>
 
