@@ -135,11 +135,6 @@ export default function Elmu() {
           </Tr>
           <Tr>
             <Td>2020</Td>
-            <Td>Goethe-Institut</Td>
-            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag bewilligt</Td>
-          </Tr>
-          <Tr>
-            <Td>2020</Td>
             <Td>Mahle Stiftung</Td>
             <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
@@ -156,6 +151,11 @@ export default function Elmu() {
           <Tr>
             <Td>2020</Td>
             <Td>Erika und Georg Dietrich Stiftung</Td>
+            <Td>Antrag bewilligt</Td>
+          </Tr>          
+          <Tr>
+            <Td>2020</Td>
+            <Td>Goethe-Institut</Td>
             <Td>Antrag bewilligt</Td>
           </Tr>
         </Tbody>
