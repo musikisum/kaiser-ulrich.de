@@ -205,13 +205,11 @@ export default function Choere() {
       <Divider mt='20px' mb='20px' h='0' bg='white' />
 
       <div className={style.chorContainer}>
-        <div className={style.chorItem}>
-          <div className={style.chorText}>
-            Der Chor Artecanto ist ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert bestritten hat.  
-          </div>
+        <div>
+          Der Chor Artecanto ist ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert bestritten hat.  
         </div>
       </div>
-      <Divider m='10px'/>
+      <Divider mt='20px' mb='10px'/>
       <Text as='b'>Hörbeispiele:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
