@@ -24,11 +24,13 @@ export default function Hilfsmittel() {
       <PageHeader options={options} />
       
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/wissenschaft/hilfsmittel/kommunikation'>
+          <Image
           src='/images/card-images/hilfsmittel-Seite001.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Kommunikation</Heading>
@@ -47,11 +49,13 @@ export default function Hilfsmittel() {
       </Card>
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/wissenschaft/hilfsmittel/herausgeber'>
+          <Image
           src='/images/card-images/hilfsmittel-Seite002.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Herausgeberinnen & Herausgeber</Heading>
@@ -139,11 +143,13 @@ export default function Hilfsmittel() {
       </Card> */}
 
       <Card direction={{ base: 'column', md: 'row' }} mb='20px' overflow='hidden' variant='outline'>
-        <Image
+        <Link href='/wissenschaft/hilfsmittel/urheberrecht'>
+          <Image
           src='/images/card-images/hilfsmittel-Seite006.jpg'
           alt='Abbildung zur Wissenschaft'
           className={style.cardImg}
-        />
+          />
+        </Link>
         <CardBody className={style.cardBodyMl}>
           <Stack>
             <Heading fontSize='xl'>Urheberrecht & Wissenschaft</Heading>
