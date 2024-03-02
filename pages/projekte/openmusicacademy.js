@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
 import VideoWrapper from '../components/videoWrapper';
-import { Text, Flex, Image, Table, Tbody, Tr, Td, TableContainer, Heading, Spacer } from '@chakra-ui/react';
+import { Text, Flex, Image, Table, Tbody, Tr, Td, TableContainer, Heading, Spacer, Link } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -42,7 +42,7 @@ export default function OpenMusicAcademy() {
       Das Projektvorhaben
     </Heading>
     <Text mb='10'>
-      Im Rahmen der Förderbekanntmachung 2020 Hochschullehre durch Digitalisierung stärken der <a href='https://stiftung-hochschullehre.de/' className='underline'>Stiftung Innovation Hochschullehre</a> wurde das Projekt OER-Lernplattform für Musik (oer-lfm) der <a href='https:/hmtm.de' className='underline'>Hochschule für Musik und Theater München</a> als förderwürdig eingestuft. Ziel der Förderung ist es Präsenzlehre, Blended Learning und Online-Lehre innovativ weiterzudenken, zu erproben und strukturell in den Studiengängen zu verankern.
+      2019 bat mich der damalige Präsident der <a href='https:/hmtm.de' className='underline'>Hochschule für Musik und Theater München</a> (HMTM), ein <Link className='underline' href='/files/Kaiser_Digitale-Innovation-in-der-Lehre.pdf'>Konzept zur digitalen Lehre</Link> zu entwickeln. Nach den Erfahrungen der Corona-Pandemie habe ich das Konzept noch einmal grundlegend überarbeitet und mit <Link href='/projekte/elmu/' className='underline'>ELMU Education e.V.</Link> als Kooperationspartner ist es von der HMTM im Rahmen der Förderbekanntmachung 2020 Hochschullehre durch Digitalisierung stärken der <a href='https://stiftung-hochschullehre.de/' className='underline'>Stiftung Innovation in der Hochschullehre</a> (StIL) unter dem Projektnamen <i>OER-Lernplattform für Musik</i> (oer-lfm) vorgeschlagen worden. 2021 wurde das <a href='https://stiftung-hochschullehre.de/projekt/oer-lfm/' className='underline'>Projekt zur Förderung ausgewählt</a>, seither und bis Ende 2025 wird von der StIL gefördert, um Präsenzlehre und digitales Lehren und Lernen innovativ weiterzudenken, zu erproben und strukturell in den Studiengängen der HMTM zu verankern.
     </Text>
 
     <TableContainer className={style.omaTable}>
@@ -69,7 +69,7 @@ export default function OpenMusicAcademy() {
             <Td>Prof. Dr. Ulrich Kaiser</Td>
           </Tr>
           <Tr>
-            <Td>Fördersumme Projekterweiterung:</Td>
+            <Td>Fördersumme Projekterweiterung (FBM2020 plus):</Td>
             <Td>25.000 EUR</Td>
           </Tr>
           <Tr>
@@ -85,7 +85,7 @@ export default function OpenMusicAcademy() {
     </TableContainer>
 
     <Heading as='h3' className='headingH4' mt='40px' mb='40px'>
-      Kurzbeschreibung des Projektvorhabens
+      Kurzbeschreibung des Projektvorhabens (aus dem Antrag)
     </Heading>
     <Text bg='#b9feb9' 
       pl='40px' 
@@ -103,7 +103,7 @@ export default function OpenMusicAcademy() {
     <VideoWrapper video={video}></VideoWrapper>
     
     <Text mt='40px'>
-      Die Plattform ist als seit Februar 2022 als <a href='https://openmusic.academy' className='underline'>Open Music Academy</a> online. Kooperationspartner des Projekts ist der gemeinnützige Verein <a href='https://openmusic.academy/docs/2PAKgPM44CL4VM5DbCvuLK/open-music-academy-education-ev' className='underline'>Open Music Education e.V.</a> Weitere Informationen finden Sie in dem Artikel <a href='https://de.wikipedia.org/wiki/Open_Music_Academy' className='underline'>Open Music Academy</a> in der Wikipedia.
+      Die OER-Plattform für Musik (oer-lfm) ist seit Februar 2022 unter dem Namen <a href='https://openmusic.academy' className='underline'>Open Music Academy</a> online. Der Kooperationspartner des Projekts hat sich 2022 in <a href='https://openmusic.academy/docs/2PAKgPM44CL4VM5DbCvuLK/open-music-academy-education-ev' className='underline'>Open Music Academy Education e.V.</a> umbenannt. Weitere Informationen finden Sie in dem Artikel <a href='https://de.wikipedia.org/wiki/Open_Music_Academy' className='underline'>Open Music Academy</a> in der Wikipedia.
     </Text>    
   </>
 }
