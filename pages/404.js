@@ -26,7 +26,7 @@ export default function Custom404() {
           style={{'borderRadius': '10px', 'fontWeight': 'bold'}}>
             Beim Relaunch dieser Website sind allem Anschein nach einige alte Adressen verlorengegangen. Falls ja, bitte ich vielmals um Entschuldigung! Die Inhalte der alten Seite habe ich allerdings (fast) vollständig auf die neue Homepage überführt. Finden Sie anhand der <Link href='/sitemap' className='underline'>Sitemap</Link> die gesuchte Seite bzw. den gesuchten Inhalt wieder?<br/>
             <span style={{'display': 'block', 'marginTop': '10px'}}>
-              Falls nicht, können Sie mich über die im <Link href='/impressum/' className='underline'>Impressum</Link> angegebenen Adresse kontaktieren.
+              Falls nicht, können Sie mich über die im <Link href='/impressum/' className='underline'>Impressum</Link> angegebene Adresse kontaktieren.
             </span> 
         </Text>
         {/* <SitemapBuilder /> */}

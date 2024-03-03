@@ -66,7 +66,7 @@ export default function Elmu() {
           <Tr>
             <Td>2015</Td>
             <Td>Antrag Bayerisches Staatsministerium für Bildung und Kultus, Wissenschaft und Kunst</Td>
-            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag angelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr>
             <Td>2017</Td>
@@ -86,7 +86,7 @@ export default function Elmu() {
           <Tr>
             <Td>2018</Td>
             <Td>Bundeszentrale für politische Bildung</Td>
-            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag angelehnt</Td>
+            <Td><span style={{'color': 'maroon', 'marginRight': '6px' }}>X</span>Antrag abgelehnt</Td>
           </Tr>
           <Tr bg='#eefdec'>
             <Td>2018</Td>
