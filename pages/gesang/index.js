@@ -71,7 +71,7 @@ export default function Gesang() {
     </List>
 
     <Heading as='h3' className='headingH4' m='40px 0'>
-      Gesangsunterricht
+      Gesangsunterricht & Studium
     </Heading>
 
     <List m='12px' spacing={3}> 
@@ -102,13 +102,13 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px'>
           <Box as='b' w='150px' color='#6e91a1'>1990–1992</Box>
-          <Box flex='1'>Gesangsunterricht (im Rahmen des Studiums Gesang/Musiktheater) bei Richard Gsell</Box>
+          <Box flex='1'>Gesangsunterricht (im Rahmen des Studiums Gesang/Musiktheater an der HdK Berlin) bei Richard Gsell</Box>
         </Flex>                  
       </ListItem>
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px'>
           <Box as='b' w='150px' color='#6e91a1'>1992–1995</Box>
-          <Box flex='1'>Gesangsunterricht (im Rahmen des Studiums Gesang/Musiktheater) bei Edith Urbanczyk</Box>
+          <Box flex='1'>Gesangsunterricht (im Rahmen des Studiums Gesang/Musiktheater an der HdK Berlin) bei Edith Urbanczyk</Box>
         </Flex>                  
       </ListItem>
     </List>
@@ -121,7 +121,7 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px'>
           <Box as='b' w='150px' color='#6e91a1'>Max</Box>
-          <Box flex='1'>Der Freischütz von Carl Maria von Weber)</Box>
+          <Box flex='1'>Der Freischütz von Carl Maria von Weber</Box>
         </Flex>                  
       </ListItem>
       <ListItem style={{'borderBottom': '1px solid gray'}}>
