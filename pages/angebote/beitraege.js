@@ -8,7 +8,7 @@ import { Flex, Spacer, Text, Button } from '@chakra-ui/react';
 
 const options = {
   title: 'Vorträge',
-  description: '',
+  description: 'Auf dieser Seite finden Sie eine Auflistung über meine Vorträge, die aktuell in Vorbereitung sind bzw. die bereits stattgefunden haben.',
   filter: 'angebote',
   slug: '/angebote/beitraege'
 }
@@ -33,10 +33,10 @@ export default function Beitraege() {
       <PageHeader options={ options } />
 
       <Flex flexWrap='wrap'>
-        { data && <Text mb='20px'>Ein Überblick über meine {data.length} Vorträge seit 1995:</Text> }
+        { data && <Text mb='20px'>Die {data.length} Vorträge im Überblick:</Text> }
         <Spacer />
           <Button mb='40px' bg='#E0F1F4' onClick={reverse}>
-            { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von Geburt an ↓' }
+            { inOrder ? 'Reihenfolge umdrehen ↑' : 'Reihenfolge von 1995 an ↓' }
           </Button>
        </Flex>
 
