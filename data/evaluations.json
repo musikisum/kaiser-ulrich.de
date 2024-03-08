@@ -41,5 +41,45 @@
     ],
     "annotation": "",    
     "link": "/files/evaluations/kaiser_dozentenprofil_19-20.pdf"
-  }  
+  },
+  {
+    "semester": "Fortbildung 2020 am Institut für Lehrerfort- und -weiterbildung Mainz (ILF)",
+    "courses": [
+      "Lehrplan konkret: Sinfonie und Sonate - Modelle und Didaktik"
+    ],
+    "annotation": "",    
+    "link": "/files/evaluations/2020-11-24-evaluation-lfb.pdf"
+  },
+  {
+    "semester": "Fortbildung 2015 am Pädagoischen Institut (PI) München",
+    "courses": [
+      "Kostenlose Software und Materialien - Musikunterricht"
+    ],
+    "annotation": "",    
+    "link": "/files/evaluations/2015-02-25-evaluation-pi.pdf"
+  },
+  {
+    "semester": "Fortbildung 2013 an der HMTM München",
+    "courses": [
+      "Freeware-Programme für den Schulalltag"
+    ],
+    "annotation": "",    
+    "link": "/files/evaluations/2013-06-14-evaluation-freeware.pdf"
+  },
+  {
+    "semester": "Fortbildung 2012 an der HMTM München",
+    "courses": [
+      "Freeware-Programme für den Schulalltag"
+    ],
+    "annotation": "",    
+    "link": "/files/evaluations/2012-11-23-evaluation-freeware.pdf"
+  },
+  {
+    "semester": "Fortbildung 2008 an der Pädagogischen Hochschule Tirol",
+    "courses": [
+      "Neue Wege der Gehörbildung"
+    ],
+    "annotation": "(Feedback per Mail)",    
+    "link": "/files/evaluations/2008-10-22-feetback-tirol.pdf"
+  }
 ]
