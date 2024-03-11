@@ -78,7 +78,7 @@ export default function OpenMusicAcademy() {
           </Tr>
           <Tr>
             <Td>Fördersumme Projektverlängerung:</Td>
-            <Td>n.n.</Td>
+            <Td>719.980 EUR</Td>
           </Tr>
         </Tbody>
       </Table>
