@@ -7,7 +7,7 @@ import style from './index.module.css'
 
 const options = {
   title: 'Projekte',
-  description: 'Auf dieser Seite finden Sie Links zu abgeschlossenen und laufenden Projekten.',
+  description: 'Auf dieser Seite finden Sie Links zu abgeschlossenen, laufenden und geplanten Projekten.',
   filter: 'projekte',
   slug: '/projekte'
 }
@@ -22,6 +22,31 @@ export default function Angebote() {
     </Head>
 
     <PageHeader options={ options } />
+
+    <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
+      <Link href='/projekte/gezumu'>
+        <Image
+          src='/images/card-images/projekte-Seite003.jpg'
+          alt='Abbildung GeZuMu'
+          className={style.cardImg}
+        />
+      </Link>
+      <CardBody className={style.cardBodyMl}>
+        <Stack>
+          <Heading fontSize='xl'>GeZuMu</Heading>
+          <Text fontSize='l'>
+            Auf dieser Seite finden Sie Informationen zum Projekt <i>Generation Zukunft Musik</i> (GeZuMu). Nach meinem Vorschlag wurde gemeinsam mit Lydia Grün eine Projektskizze für eine Richtlinie des BMBF ausgearbeitet.
+          </Text>
+          <CardFooter pl='0'>
+            <Link href='/projekte/gezumu'>
+              <Button variant='solid' className={style.cardButtonSize}>
+                Zum GeZuMu-Projekt ...
+              </Button>
+            </Link>
+          </CardFooter>
+        </Stack>
+      </CardBody>
+    </Card>
     
     <Card direction={{ base: 'column', md: 'row' }} overflow='hidden' variant='outline'>
       <Link href='/projekte/openmusicacademy'>

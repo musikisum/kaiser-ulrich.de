@@ -31,28 +31,34 @@ export default function Urheberrecht() {
       </Text>
       <Container maxW='75%' mt='10' p='6' bg='green.100' borderRadius='20'>
         <Text>
-          "Zulässig ist die Vervielfältigung, Verbreitung und öffentliche Wiedergabe eines veröffentlichten Werkes zum Zweck des Zitats, sofern die Nutzung in ihrem Umfang durch den besonderen Zweck gerechtfertigt ist. Zulässig ist dies insbesondere, wenn
+          "<i>Zulässig ist die Vervielfältigung, Verbreitung und öffentliche Wiedergabe eines veröffentlichten Werkes zum Zweck des Zitats, sofern die Nutzung in ihrem Umfang durch den besonderen Zweck gerechtfertigt ist. Zulässig ist dies insbesondere, wenn</i>
         </Text>
         <ol className='list2040'>
           <li>
-            einzelne Werke nach der Veröffentlichung in ein selbständiges wissenschaftliches Werk zur Erläuterung des Inhalts aufgenommen werden,
+            <i>
+              einzelne Werke nach der Veröffentlichung in ein selbständiges wissenschaftliches Werk zur Erläuterung des Inhalts aufgenommen werden,
+            </i>
           </li>
           <li>
-            Stellen eines Werkes nach der Veröffentlichung in einem selbständigen Sprachwerk angeführt werden,
+            <i>
+              Stellen eines Werkes nach der Veröffentlichung in einem selbständigen Sprachwerk angeführt werden,
+            </i>
           </li>
           <li>
-            einzelne Stellen eines erschienenen Werkes der Musik in einem selbständigen Werk der Musik angeführt werden.
+            <i>
+              einzelne Stellen eines erschienenen Werkes der Musik in einem selbständigen Werk der Musik angeführt werden.
+            </i>
           </li>
         </ol>
         <Text>
-          Von der Zitierbefugnis gemäß den Sätzen 1 und 2 umfasst ist die Nutzung einer Abbildung oder sonstigen Vervielfältigung des zitierten Werkes, auch wenn diese selbst durch ein Urheberrecht oder ein verwandtes Schutzrecht geschützt ist."
+          <i>Von der Zitierbefugnis gemäß den Sätzen 1 und 2 umfasst ist die Nutzung einer Abbildung oder sonstigen Vervielfältigung des zitierten Werkes, auch wenn diese selbst durch ein Urheberrecht oder ein verwandtes Schutzrecht geschützt ist.</i>"
         </Text>        
         <Text mt='2' textAlign='right' fontSize='sm'>
           aus: <i>Gesetz über Urheberrecht und verwandte Schutzrechte</i>, <a className='underline' href='https://www.gesetze-im-internet.de/urhg/__51.html'>§ 51 Zitate</a>.          
         </Text>
       </Container>    
       <Text className='mt40'>
-        Eine Besonderheit des Ziatrechts ist es, dass es unter Beachtung einiger Regeln nicht nur von der Zustimmung zur Nutzung durch den Urheber befreit, sondern auch von der Vergütungspflicht für die Nutzung. Im Gegensatz dazu ist die Schranke des § 60a UrhG für das wissenschaftliche Publizieren unbrauchbar (und übrigens auch die Veröffentlichung von Open Educational Resources), da diese Regelung nur eine Zugänglichmachung von Inhalten für bestimmte Teilnehmer einer Lehrveranstaltung erlaubt.
+        Eine Besonderheit des Zitatrechts ist es, dass es unter Beachtung einiger Regeln nicht nur von der Zustimmung zur Nutzung durch den Urheber befreit, sondern auch von der Vergütungspflicht für die Nutzung. Im Gegensatz dazu ist die Schranke des § 60a UrhG für das wissenschaftliche Publizieren unbrauchbar (und übrigens auch die Veröffentlichung von Open Educational Resources), da diese Regelung nur eine Zugänglichmachung von Inhalten für bestimmte Teilnehmer einer Lehrveranstaltung erlaubt und nicht grundsätzlich von Lizenzzahlungen befreit.
       </Text>
 
       <Heading as='h2' className='headingH4' mt='8' mb='6'>
@@ -82,11 +88,11 @@ export default function Urheberrecht() {
         </li>
       </ul>
       <Text className='mts0'>
-        Das heißt, im Extremfall könnten auch ganz Werke z.B. zur Besprechung der Form erlaubt sein (Großzitat). Dabei ist allerdings zu beachten, dass bei Streitigkeiten vor Gericht ein angemessener Ausgleich hergestellt wird, der im Einzelfall ermittelt werden muss. Das geschieht oftmals durch einen Drei-Stufen-Test, da nach Art. 5 Abs. 5 der Richtlinie 2001/29/EG Ausnahmen und Beschränkungen nur in bestimmten Sonderfällen angewandt werden dürfen, »in denen die normale Verwertung des Werks oder des sonstigen Schutzgegenstands nicht beeinträchtigt wird und die berechtigten Interessen des Rechtsinhabers nicht ungebührlich verletzt werden.« Das heißt, würden man zur Formanalyse einen bekannten Popsong in vollem Umfang zur Verfügung stellen, könnte nicht sichergestellt werden, dass die normale (das heißt: kommerzielle) Verwertung des Werks und die berechtigten Interessen der Rechtsinhaber nicht ungebührlich verletzt werden.
+        Das heißt, im Extremfall könnten auch ganz Werke z.B. zur Besprechung der Form erlaubt sein (Großzitat). Dabei ist allerdings zu beachten, dass bei Streitigkeiten vor Gericht ein angemessener Ausgleich hergestellt wird, der im Einzelfall ermittelt werden muss. Das geschieht oftmals durch einen <a href='https://de.wikipedia.org/wiki/Drei-Stufen-Test_(Urheberrecht)'>Drei-Stufen-Test</a>, da nach Art. 5 Abs. 5 der Richtlinie 2001/29/EG Ausnahmen und Beschränkungen nur in bestimmten Sonderfällen angewandt werden dürfen, »in denen die normale Verwertung des Werks oder des sonstigen Schutzgegenstands nicht beeinträchtigt wird und die berechtigten Interessen des Rechtsinhabers nicht ungebührlich verletzt werden«. Das heißt, würden man zur Formanalyse einen bekannten Popsong in vollem Umfang zur Verfügung stellen, könnte nicht sichergestellt werden, dass
       </Text>
       <Container maxW='75%' mt='10' p='6' bg='green.100' borderRadius='20'>
         <Text>
-          "in denen die normale Verwertung des Werks oder des sonstigen Schutzgegenstands nicht beeinträchtigt wird und die berechtigten Interessen des Rechtsinhabers nicht ungebührlich verletzt werden."
+          "<i>die normale</i> [kommerzielle, Amm. UK] <i>Verwertung des Werks oder des sonstigen Schutzgegenstands nicht beeinträchtigt wird und die berechtigten Interessen des Rechtsinhabers nicht ungebührlich verletzt werden.</i>"
         </Text>        
         <Text mt='2' textAlign='right' fontSize='sm'>
           aus: <i>Richtlinie 2001/29/EG</i>, <a className='underline' href='https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX%3A32001L0029'>Art. 5 Abs. 5</a>.          
@@ -126,7 +132,7 @@ export default function Urheberrecht() {
         </li>
       </ul>
       <Text className='mt40'>
-        Beachte, dass wenn du nur einem Teil deiner Verpflichtung nicht korrekt nachkommst (z.B. ein Ignorieren der Quellenangabepflicht), die ganze Verwendung des zitierten Werkes rechtswidrig ist. Und das kann Konsequenzen haben, die auch in finanzieller Hinsicht empfindlich sein können.   
+        Beachte, dass wenn du nur einem Teil deiner Verpflichtung nicht korrekt nachkommst (z.B. ein Ignorieren der Quellenangabepflicht), die ganze Verwendung des zitierten Werkes rechtswidrig ist. Und das kann Konsequenzen haben, auch in finanzieller Hinsicht.   
       </Text>
     </>
   )

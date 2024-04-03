@@ -7,7 +7,7 @@ import { Link, Text, Box, Image, Table, Tbody, Tr, Td, TableContainer, Heading, 
 import style from './index.module.css';
 
 const options = {
-  title: 'ELMU',
+  title: 'ELMU – eLearning Music',
   description: '',
   filter: 'projekte',
   slug: '/projekte/elmu'
@@ -36,8 +36,10 @@ export default function Elmu() {
     </Box>
 
     <Heading as='h3' className='headingH3'>
-      ELMU – eine Wikipedia für Musik
+      {options.title}
+      <Text style={{'font-size': '16px !important', 'margin-top': '6px !important'}}>oder: Eine Wikipedia für Musik</Text>
     </Heading>
+    
     <Text mb='40px'>
       Grundlage zum Start des Projekts (Arbeitstitel: OER-Musik) waren meine Materialien, die ich seit 2012 in privatem Engagement erstellt habe (seinerzeit verfügbar über die Domains <i>musik-openbooks.de</i> und <a href='https://musikanalyse.net' className='underline'>musikanalyse.net</a>). Zu Vernschaulichung von Beispielen werden Musikaufnahmen aus den Beständen der <a href='https://hmtm.de' className='underline'>Hochschule für Musik und Theater München</a> (HMTM) genutzt, die ich in Zusammenarbeit mit der Bibliothek der HMTM digitalisiert habe. Digitalisiert worden sind Werke, die vor 1963 erstmalig aufgenommen und die keinem Urheberschutz mehr unterliegen (public domain). Die Langzeitarchivierung ist in Zusammenarbeit mit der BSB geplant.
     </Text>
