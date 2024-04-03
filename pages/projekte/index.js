@@ -35,7 +35,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>GeZuMu</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zum Projekt <i>Generation Zukunft Musik</i> (GeZuMu). Nach meinem Vorschlag wurde gemeinsam mit Lydia Grün eine Projektskizze für eine Richtlinie des BMBF ausgearbeitet.
+            Auf dieser Seite finden Sie Informationen zur Projekt <i>Generation Zukunft Musik</i> (GeZuMu), das bisher leider noch nicht realisiert werden konnte. Doch die Projektidee lebt weiter ... 
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/gezumu'>

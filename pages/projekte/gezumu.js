@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import VideoWrapper from '../components/videoWrapper';
 import { Link, Text, Box, Image, Center, Heading, Divider, Img } from '@chakra-ui/react';
-
-import style from './index.module.css';
 
 const options = {
   title: 'Generation Zukunft Musik (GeZuMu)',
@@ -32,7 +29,7 @@ export default function Gezumu() {
       {options.title}
     </Heading>
     <Text mb='40px'>
-      Die Idee des Projektvorhabens ›Generation Zukunft Musik-OER‹ (GeZuMu) basiert auf den Erfahrungen des <Link href='/projekte/openmusicacademy'>OMA-Projekts</Link>. Dort hat sich gezeigt, dass der Aufbau einer Community für die gemeinsame Arbeit an Open Educational Resources zur Musik in älteren Generationen schwierig ist, weil entsprechende Personen oftmals etablierte Veröffentlichungswege bevorzugen und sich aufgrund ihrer Haltung als <i>Kreativschaffende</i> bzw. ihrer Verpflichtungen gegenüber dem Wirtschaftssystem nicht mehr für die gemeinsame Arbeit an freien Lehr- und Lernmaterialien gewinnen lassen. Demgegenüber waren die Erfahrungen mit Studierenden an und mit OER ausgesprochen positiv. Leider wurde der Antrag abgelehnt, doch die Projektidee lebt weiter ... 
+      Die Idee des Projektvorhabens ›Generation Zukunft Musik-OER‹ (GeZuMu) basiert auf den Erfahrungen des <Link href='/projekte/openmusicacademy'>OMA-Projekts</Link>. Dort hat sich gezeigt, dass der Aufbau einer Community für die gemeinsame Arbeit an Open Educational Resources zur Musik in älteren Generationen schwierig ist, weil entsprechende Personen oftmals etablierte Veröffentlichungswege bevorzugen und sich aufgrund ihrer Haltung als <i>Kreativschaffende</i> bzw. ihrer Verpflichtungen gegenüber dem Wirtschaftssystem nicht mehr für die gemeinsame Arbeit an freien Lehr- und Lernmaterialien gewinnen lassen. Demgegenüber waren die Erfahrungen mit Studierenden an und mit OER ausgesprochen positiv.
     </Text>
     
     <Divider mt='60px' mb='40px' h='1px' bg='gray' />
@@ -54,7 +51,7 @@ export default function Gezumu() {
     </Heading>
     
     <Text mb='40px'>
-      Der Antrag wurde für die <a href='https://www.bundesanzeiger.de/pub/publication/N2zALx7zNrO4Ah3VOeb/content/N2zALx7zNrO4Ah3VOeb/BAnz%20AT%2008.05.2023%20B2.pdf?inline'>Richtlinie</a> des Bundesministeriums für Bildung und Forschung <i>zur Förderung von Projekten zur Stärkung, Erweiterung und Vernetzung von OER-Communities – Schwerpunkt innerhalb der OER-Strategie zur Realisierung eines nachhaltigen OER-förderlichen Ökosystems in der digitalen Bildung</i> ausgearbeitet und fristgerecht eingereicht. In der Projektskizze wurde »grundsätzlich Potenzial für eine Förderung gesehen« und die Projektidee auf eine Warteliste gesetzt. Im März 2024 erhielten wir dann die Nachricht, dass die »finale Priorisierung durch das Bundesministerium für Bildung und Forschung« ergeben hat, dass die Projektskizze »im Rahmen der Richtinie zur Förderung von Projekten zur Stärkung, Erweiterung und Vernetzung von OER-Communities leider nicht berücksichtigt werden kann«.
+      Die Projektskizze wurde für die <a href='https://www.bundesanzeiger.de/pub/publication/N2zALx7zNrO4Ah3VOeb/content/N2zALx7zNrO4Ah3VOeb/BAnz%20AT%2008.05.2023%20B2.pdf?inline'>Richtlinie</a> des Bundesministeriums für Bildung und Forschung <i>zur Förderung von Projekten zur Stärkung, Erweiterung und Vernetzung von OER-Communities – Schwerpunkt innerhalb der OER-Strategie zur Realisierung eines nachhaltigen OER-förderlichen Ökosystems in der digitalen Bildung</i> von <a href='https://hmtm.de/personen/prof-lydia-gruen/' className='underline'>Lydia Grün</a> und mir ausgearbeitet und fristgerecht eingereicht. In der Projektskizze wurde »grundsätzlich Potenzial für eine Förderung gesehen« und die Projektidee auf eine Warteliste gesetzt. Im März 2024 erhielten wir dann die Nachricht, dass die »finale Priorisierung durch das Bundesministerium für Bildung und Forschung« ergeben hat, dass die Projektskizze »im Rahmen der Richtinie zur Förderung von Projekten zur Stärkung, Erweiterung und Vernetzung von OER-Communities leider nicht berücksichtigt werden kann«.
     </Text>
 
     <Center>
