@@ -46,7 +46,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Das <a href='https://wp.consortium-musicum-berlin.de/' className='underline'>Consortium Musicum Berlin</a> wurde als Schulchor gegründet. Nach Ingo Ingensand und Franz Riemer übernahm Ulrich Kaiser 1988 die Leitung des Ensembles. Unter seiner Leitung wurden mehr als 20 verschiedene Programme (»a capella« und mit Orchester) in mehr als 50 Konzerten aufgeführt. Wegen des beruflich veranlassten Umzugs nach München legte Ulrich Kaiser 2000 die künstlerische Leitung des Ensembles nieder.
+            Das <a href='https://wp.consortium-musicum-berlin.de/' className='underline'>Consortium Musicum Berlin</a> wurde als Schulchor gegründet. Nach Ingo Ingensand und Franz Riemer übernahm ich 1988 die Leitung des Ensembles. Unter meiner Leitung habe ich mit den <i>Consorten</i> mehr als 20 verschiedene Programme (»a capella« und mit Orchester) erarbeitet und in mehr als 50 Konzerten aufgeführt. Wegen des beruflich veranlassten Umzugs nach München musste ich im Jahr 2000 die künstlerische Leitung des Ensembles niederlegen.
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-          Das <a href='https://ensemberlino.de/' className='underline'>Ensemberlino Vocale</a> (Berlin) wurde 1991 von Ulrich Kaiser gegründet um Chorwerke aller Epochen zur Aufführung zu bringen. 1992 bestand der Chor aus 15 Sängerinnen und Sängern, z.T. mit abgeschlossener oder begonnener Gesangsausbildung. In dieser Zeit entstand eine CD mit Werken von Johannes Brahms (Liebesliederwalzer Op. 52, Op. 42, Op. 93a und Op. 104). Durch Konzert- sowie Rundfunkauftritte hat sich der Chor einen festen Platz im Berliner Musikleben erobern können. Nach seiner Berufung 1997 an die Hochschule für Musik und Theater in München legte Ulrich Kaiser die Leitung des Ensembles nieder.
+          Das <a href='https://ensemberlino.de/' className='underline'>Ensemberlino Vocale</a> (Berlin) habe ich 1991 gegründet, um Chorwerke aller Epochen zur Aufführung zu bringen. 1992 bestand der Chor aus 15 Sängerinnen und Sängern, z.T. mit abgeschlossener oder begonnener Gesangsausbildung. In dieser Zeit entstand eine CD mit Werken von Johannes Brahms (Liebesliederwalzer Op. 52, Op. 42, Op. 93a und Op. 104). Durch Konzert- sowie Rundfunkauftritte konnte sich der Chor einen festen Platz im Berliner Musikleben erobern. Nach seiner Berufung 1997 an die Hochschule für Musik und Theater in München habe ich die Leitung des Ensembles niedergelegt.
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@ export default function Choere() {
 
       <Divider mt='40px' mb='40px' h='1px' bg='gray' /> 
 
-      <Text as='b'>Hörbeispiele eines Gemeinschaftskonzerts von Consortium Musicum und Ensemberlino Vocale:</Text>
+      <Text as='b'>Hörbeispiele eines Gemeinschaftskonzerts der Chöre Consortium Musicum Berlin und Ensemberlino Vocale:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
           <audio src='/medien/kaiser-choere-bruckner-osjusti.mp3' controls></audio>
@@ -181,7 +181,7 @@ export default function Choere() {
         <div className={style.chorItem}>
           <div className={style.chorText}>
             <Divider mt='16px' h='0' bg='white' color='white' />
-            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a> verbindet mich nur ein kurzes Intermezzo (quasi als Gastdirigent). Da mein Sohn in diesem tollen ort war, hatte ich für dieses Ensemble der Kleinsten ein <a href='https://oer-musik.de/oer-das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, jedoch einprägsam und wunderschön! 
+            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a> verbindet mich nur ein sehr kurzes Intermezzo (quasi als Gastdirigent). Da mein Sohn in diesem tollen Hort war, hatte ich für dieses Ensemble der Kleinsten ein <a href='https://oer-musik.de/oer-das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, einprägsam und wunderschön! 
           </div>
         </div>
       </div>
@@ -206,7 +206,7 @@ export default function Choere() {
 
       <div className={style.chorContainer}>
         <div>
-          Der Chor Artecanto ist ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der einige (wenige) Konzert bestritten hat.  
+          Der Chor Artecanto war ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der nur einige (wenige) Konzerte bestritten hat. Mein Umzug nach München hat die Fortführung dieses Projekt leider verhindert.  
         </div>
       </div>
       <Divider mt='20px' mb='10px'/>
@@ -242,7 +242,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (das Orchester hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (ein langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn der lebhafte Chor hatte damals die seltene Angewohnheit, beim Singen schneller Chorliteratur von alleine schneller zu werden (dem Ensemble verdanke ich daher einige der virtuosesten Aufführungen schneller Chormusik :)
+            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (die Leitung des Orchesters hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (das langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn dieser energiereiche und lebhafte Chor junger Sänerinnen und Sänger hatte damals die seltene Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (dem Ensemble verdanke ich daher einige der virtuosesten Aufführungen :)
           </div>
         </div>
       </div>    
@@ -261,7 +261,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Meine Chorleitungstätigkeiten begonnen habe ich mit mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die Singefähigkeit zu erhalten. Diesen Chören verdanke ich viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung verdanke). Nach über acht Jahren musste ich diesen Chor aus beruflichen Gründen abgeben.  
+            Meine Chorleitungstätigkeiten begonnen habe ich mit mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst zwei Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die vierstimmige Singefähigkeit zu erhalten. Diesen Chören verdanke ich sehr viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung verdanke). Nach über acht Jahren musste ich die Chöre aus beruflichen Gründen abgeben.  
           </div>
         </div>
       </div>    

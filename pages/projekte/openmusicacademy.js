@@ -50,7 +50,7 @@ export default function OpenMusicAcademy() {
         <Tbody>
           <Tr>
             <Td>Förderzeitraum:</Td>
-            <Td>01.01.2021 − 31.07.2024</Td>
+            <Td>01.08.2021 − 31.07.2024</Td>
           </Tr>
           <Tr>
             <Td>Fördersumme:</Td>

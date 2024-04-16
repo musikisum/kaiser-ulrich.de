@@ -127,7 +127,7 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px'>
           <Box as='b' w='150px' color='#6e91a1'>Tamino</Box>
-          <Box flex='1'>Zauberflöt von W. A. Mozart</Box>
+          <Box flex='1'>Zauberflöte von W. A. Mozart</Box>
         </Flex>                  
       </ListItem>
     </List>
