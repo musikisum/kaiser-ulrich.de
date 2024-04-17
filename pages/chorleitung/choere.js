@@ -57,7 +57,7 @@ export default function Choere() {
           <audio src='/medien/cmb-mozart.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
-          Wolfgang Amadeus Mozart, Requiem KV 626, 2. Satz, »Kyrie«  (Ausschnitt)
+          Wolfgang Amadeus Mozart, Requiem KV 626 (Ausschnitt)
         </Box>
       </Flex>                  
       <Flex flexWrap='wrap'>
