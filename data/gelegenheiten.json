@@ -30,6 +30,12 @@
     "html": false
   },
   {
+    "title": "Auf dem Weg in eine digitale Hochschulgemeinschaft",
+    "details": "Auftakt 28/2021",
+    "link": "/files/kaiser_2021-auftakt.pdf",
+    "html": false
+  },
+  {
     "title": "Digitale Innovation in der Lehre",
     "details": "Online-Publikation (2019)",
     "link": "/files/Kaiser_Digitale-Innovation-in-der-Lehre.pdf",
@@ -52,5 +58,11 @@
     "details": "Online-Publikation",
     "link": "/publikationen/online/freiheitlehreurheberrecht",
     "html": true
+  },
+  {
+    "title": "Manche halten Musiktheorie für reine Zeitverschwendung",
+    "details": "Impressionen 12/2008, Mitteilungen des Freundeskreises der Anne-Sophie Mutter Stiftung e.V.",
+    "link": "/files/kaiser-mutter-2008.pdf",
+    "html": false
   }
 ]
