@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
 import VideoWrapper from '../components/videoWrapper';
-import { Text, Flex, Image, Table, Tbody, Tr, Td, TableContainer, Heading, Spacer, Link } from '@chakra-ui/react';
+import { Text, Flex, Image, Table, Tbody, Tr, Td, TableContainer, Heading, Spacer, Link, Box } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -101,6 +101,23 @@ export default function OpenMusicAcademy() {
     </Heading>
 
     <VideoWrapper video={video}></VideoWrapper>
+
+    <Heading as='h3' className='headingH4' mt='40px'>
+      Vernetzung 
+    </Heading>
+    <Text mb='20px'>
+      Ziel des Projekts ist es, sich für freie Bildung, frei zugängliche Bildungsmaterialien, offene Bildungspraktiken und offene Lizenzen auch im Bereich der Musik einzusetzen. Um die Idee freier Bildung zu stärken, ist die OMA bemüht, sich zu vernetzen und mit allen Stakeholdern offener Bildung zusammenzuarbeiten. Die OMA ist seit 2024 Mitglied im 
+    </Text>
+    <Flex>
+      <Spacer />
+      <Box w='60%' direction={'row'}>
+        <a href='https://buendnis-freie-bildung.de/'>
+          <Image src='https://buendnis-freie-bildung.de/wp-content/uploads/2018/08/BFB_logo.png'/>
+        </a>
+      </Box>
+      <Spacer />
+    </Flex>
+    
   </>
 }
 
