@@ -27,7 +27,7 @@ export default function Urheberrecht() {
         {options.title}
       </Heading>
       <Text mb='4'>
-        Ohne das Zitatrecht § 51 UrhG wären Wissenschaft und wissenschaftliches Arbeiten undenkbar. Denn Wissenschaft beinhaltet immer auch die Auseinandersetzung mit einem Forschungsstand und dem publiziertem Wissen von anderen und damit von Werken, die wiederum urheberrechtlich geschützt sind. Wäre ein Wiedergeben dieses Materials in einer eigenen wissenschaftlichen Arbeit nicht möglich, dann wäre auch das Publizieren wissenschaftlicher Arbeiten nicht möglich. Im § 51 UrhG heißt es:
+        Ohne das Zitatrecht § 51 UrhG wären Wissenschaft und wissenschaftliches Arbeiten undenkbar. Denn Wissenschaft beinhaltet immer auch die Auseinandersetzung mit einem Forschungsstand und dem publiziertem Wissen von anderen und damit von Werken, die ihrerseits wiederum urheberrechtlichen Schutz genießen. Wäre ein Wiedergeben dieses Materials in einer eigenen wissenschaftlichen Arbeit nicht möglich, wäre das Publizieren wissenschaftlicher Arbeiten nicht möglich. Im § 51 UrhG heißt es deswegen:
       </Text>
       <Container maxW='75%' mt='10' p='6' bg='green.100' borderRadius='20'>
         <Text>
@@ -58,7 +58,7 @@ export default function Urheberrecht() {
         </Text>
       </Container>    
       <Text className='mt40'>
-        Eine Besonderheit des Zitatrechts ist es, dass es unter Beachtung einiger Regeln nicht nur von der Zustimmung zur Nutzung durch den Urheber befreit, sondern auch von der Vergütungspflicht für die Nutzung. Im Gegensatz dazu ist die Schranke des § 60a UrhG für das wissenschaftliche Publizieren unbrauchbar (und übrigens auch die Veröffentlichung von Open Educational Resources), da diese Regelung nur eine Zugänglichmachung von Inhalten für bestimmte Teilnehmer einer Lehrveranstaltung erlaubt und nicht grundsätzlich von Lizenzzahlungen befreit.
+        Eine Besonderheit des Zitatrechts ist es, dass es unter Beachtung einiger Regeln nicht nur von der Zustimmung des Urhebers befreit, sondern auch von der Vergütungspflicht für die Nutzung. Im Gegensatz dazu ist die Schranke des § 60a UrhG für das wissenschaftliche Publizieren unbrauchbar (und übrigens auch für die Veröffentlichung von Open Educational Resources), da diese Regelung nur eine Zugänglichmachung von Inhalten für bestimmte Teilnehmer einer Lehrveranstaltung erlaubt und darüber hinaus nicht von Lizenzzahlungen befreit.
       </Text>
 
       <Heading as='h2' className='headingH4' mt='8' mb='6'>
@@ -69,26 +69,26 @@ export default function Urheberrecht() {
       </Text>
       <ul className='list2040'>
         <li>
-          Das zitierte Werk muss veröffentlicht, nicht jedoch erschienen sein (damit sind auch Veröffentlichungen in unkörperlicher Form z.B. im Internet erfasst). Dabei sind multimediale Werke (Audio und Film) ausdrücklich vom Zitatrecht erfasst und dürfen zitiert werden. 
+          Das zitierte Werk muss veröffentlicht, nicht jedoch erschienen sein (damit sind auch Veröffentlichungen in unkörperlicher Form z.B. im Internet erfasst). Dabei sind multimediale Werke (Audio und Film) ausdrücklich vom Zitatrecht erfasst und dürfen deshalb zitiert werden. 
         </li>
         <li>
-          Zitiert werden darf nur ein einzelnes Werk. Allerdings sind mehrere Zitate im Rahmen einer wissenschaftlichen Arbeit erlaubt.
+          Zitiert werden darf nur ein einzelnes Werk. Mehrere Zitate im Rahmen einer wissenschaftlichen Arbeit sind jedoch erlaubt.
         </li>
         <li>
-          Der Zitatumfang muss angemessen sein, ist darüber hinaus jedoch nicht näher bestimmt. Wenn also die Takte 20–30 einer Komposition besprochen werden, dann ist auch nur die Aufnahme der Takte 20–30 in das eigene Werk zulässig (auch wenn in Takt 21 vielleicht die schönste Stelle des Werkes erklingt).
+          Der Zitatumfang muss angemessen sein, ist darüber hinaus jedoch nicht näher bestimmt. Wenn also die Takte 20–30 einer Komposition besprochen werden, dann ist auch nur die Aufnahme der Takte 20–30 in das eigene Werk zulässig (auch wenn in Takt 24 vielleicht die schönste Stelle des zitierten Werkes erklingt).
         </li>
         <li>
-          Der Zitierende muss eine innere Verbindung zwischen den verwendeten fremden Werk oder Werkteil und den eigenen Gedanken herstellen, das Zitat darf also nur als Belegstelle für eigene, selbstständige Ausführungen und zur Erleichterung der geistigen Auseinandersetzung verwendet werden.
+          Der Zitierende muss eine innere Verbindung zwischen den verwendeten fremden Werk oder Werkteil und den eigenen Gedanken herstellen. Ein Zitat darf also nur als Belegstelle für eigene, selbstständige Ausführungen und zur Erleichterung der geistigen Auseinandersetzung mit dem fremden Werk verwendet werden.
         </li>
         <li>
-          Das zitierte Werk muss kenntnlich gemacht werden (→ Änderungsverbot § 62 UrhG) und sich vonden eigenen Gedanken deutlich abheben (was im Rahmen einer wissenschaftlichen Arbeit in der Regel durch Anführungszeichen kenntlich gemacht wird).
+          Das zitierte Werk muss kenntlich gemacht werden (→ Änderungsverbot § 62 UrhG) und sich von den eigenen Gedanken deutlich abheben (was im Rahmen einer wissenschaftlichen Arbeit in der Regel durch Anführungszeichen geschieht).
         </li>
         <li>
           Eine Quellenangabe nach den Regeln der wissenschaftlichen Community ist zwingend erfolrderlich (→ Quellenangabepflicht § 63 UrhG). 
         </li>
       </ul>
       <Text className='mts0'>
-        Das heißt, im Extremfall könnten auch ganz Werke z.B. zur Besprechung der Form erlaubt sein (Großzitat). Dabei ist allerdings zu beachten, dass bei Streitigkeiten vor Gericht ein angemessener Ausgleich hergestellt wird, der im Einzelfall ermittelt werden muss. Das geschieht oftmals durch einen <a href='https://de.wikipedia.org/wiki/Drei-Stufen-Test_(Urheberrecht)'>Drei-Stufen-Test</a>, da nach Art. 5 Abs. 5 der Richtlinie 2001/29/EG Ausnahmen und Beschränkungen nur in bestimmten Sonderfällen angewandt werden dürfen, »in denen die normale Verwertung des Werks oder des sonstigen Schutzgegenstands nicht beeinträchtigt wird und die berechtigten Interessen des Rechtsinhabers nicht ungebührlich verletzt werden«. Das heißt, würden man zur Formanalyse einen bekannten Popsong in vollem Umfang zur Verfügung stellen, könnte nicht sichergestellt werden, dass
+        Das heißt: Im Extremfall könnten auch ganz Werke z.B. zur Besprechung der Form erlaubt sein (Großzitat). Dabei ist allerdings zu beachten, dass bei Streitigkeiten vor Gericht ein angemessener Ausgleich hergestellt wird, der im Einzelfall zu ermitteln ist. Das geschieht in der Regel durch einen <a href='https://de.wikipedia.org/wiki/Drei-Stufen-Test_(Urheberrecht)'>Drei-Stufen-Test</a>, da nach Art. 5 Abs. 5 der Richtlinie 2001/29/EG Ausnahmen und Beschränkungen nur in bestimmten Sonderfällen angewandt werden dürfen, »in denen die normale Verwertung des Werks oder des sonstigen Schutzgegenstands nicht beeinträchtigt wird und die berechtigten Interessen des Rechtsinhabers nicht ungebührlich verletzt werden«. Das heißt, würden man zur Formanalyse einen bekannten Popsong in vollem Umfang zur Verfügung stellen, könnte nicht sichergestellt werden, dass
       </Text>
       <Container maxW='75%' mt='10' p='6' bg='green.100' borderRadius='20'>
         <Text>
@@ -99,7 +99,7 @@ export default function Urheberrecht() {
         </Text>
       </Container>
       <Text className='mt40'>
-        Wird dagegen nur ein Formteil zitiert, müsste man davon ausgehen dürfen, dass die normale Verwertung des Werks nicht beeinträchtigt wird. (Denn wer möchte immer nur einen Formteil anstelle des ganzen Songs hören?) Im Gegenteil ließe sich argumentieren, dass eine wissenschaftliche Auseinandersetzung mit einem Werk die berechtigten Interessen des Rechtsinhabers nicht verletzt, sondern im Gegenteil zur Bekanntheit des zitierten Werkes und beiträgt und somit ein Interesse am ganzen Werk un deren Verkauf steigert. 
+        Wird dagegen nur ein Formteil zitiert, sollte man davon ausgehen dürfen, dass die normale Verwertung des Werks nicht beeinträchtigt wird. (Denn wer möchte immer nur einen Formteil anstelle des ganzen Songs hören?) Im Gegenteil ließe sich argumentieren, dass eine wissenschaftliche Auseinandersetzung mit einem Werkteil den berechtigten Interessen des Rechtsinhabers nützt, weil das Interesse am ganzen Werk dadurch gesteigert wird. 
       </Text>
 
       <Divider m='6' />
@@ -110,7 +110,7 @@ export default function Urheberrecht() {
       </Alert>
       <ul className='list2040'>
         <li>
-          Du darfst in einem eigenen, wissenschaftlichen Werk ein anderes Werk (Text, Audio, Video) zitieren um die mit diesem Werk auseinaderzusetzen. Dazu musst du weder die Rechteinhaber um Erlaubnis fragen noch eine Gebühr für die Verwednung des zitierten Werkes zahlen.
+          Du darfst in einem eigenen, wissenschaftlichen Werk ein anderes Werk (Text, Audio, Video) zitieren und dich mit diesem Werk auseinaderzusetzen. Dazu musst du weder die Rechteinhaber um Erlaubnis fragen noch eine Gebühr für die Verwendung des zitierten Werkes zahlen.
         </li>
       </ul>
       <Alert status='error' mb='4' mt='10'>
@@ -119,10 +119,10 @@ export default function Urheberrecht() {
       </Alert>
       <ul className='list2040'>
         <li>
-          Du musst das Zitat von deiner eigenen Schöpfung abheben, deine Ausführungen müssen gegenüber dem zitierten Werk erkennbar selbstständig sein.
+          Du musst das Zitat von deiner eigenen Schöpfung abheben. Deine Ausführungen müssen gegenüber dem zitierten Werk erkennbar selbstständig sein.
         </li>
         <li>
-          Du musst das, was du zitierst, als Zitat kenntlich machen. 
+          Du musst das, was du zitierst, als ein Zitat kenntlich machen. 
         </li>
         <li>
           Du darfst das zitierte Werk nicht verändern (→ Änderungsverbot § 62 UrhG).
@@ -132,7 +132,7 @@ export default function Urheberrecht() {
         </li>
       </ul>
       <Text className='mt40'>
-        Beachte, dass wenn du nur einem Teil deiner Verpflichtung nicht korrekt nachkommst (z.B. ein Ignorieren der Quellenangabepflicht), die ganze Verwendung des zitierten Werkes rechtswidrig ist. Und das kann Konsequenzen haben, auch in finanzieller Hinsicht.   
+        Beachte, dass wenn du nur einem Teil deiner Verpflichtung nicht korrekt nachkommst (z.B. ein Ignorieren der Quellenangabepflicht), die ganze Verwendung des zitierten Werkes als rechtswidrig gilt. Und das kann Konsequenzen haben, sowohl in ideeller als auch in finanzieller Hinsicht.   
       </Text>
     </>
   )
