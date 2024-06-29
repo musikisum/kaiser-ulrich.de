@@ -10,7 +10,7 @@ export const sitemap = {
     { "/unterricht": [ "/evaluation" ] },
     { "/chorleitung": [ "/choere", '/repertoire' ] },
     { "/gesang": [] },
-    { "/person": [ "/profil", "/vita" ] },
+    { "/person": [ "/profil", "/vita", "/oep-oer" ] },
     { "/impressum": [] },
     { "/datenschutz": [] },
     { "/sitemap": [] }
@@ -52,6 +52,7 @@ export const sitemapDictionary = {
   "/person": "Person",
   "/person/profil": "Profil",
   "/person/vita": "Lebenslauf",
+  "/person/oep-oer": "Open Educational Practices & Resources",
   "/impressum": "Kontakt und Impressum",
   "/datenschutz": "Datenschutz (DSGVO)",
   "/sitemap": "Sitemap"
