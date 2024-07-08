@@ -28,7 +28,7 @@ export default function Unterricht() {
       setCourses(data);
       setDisplayCourse(data[0]);
     }    
-  }, [data])
+  }, [])
 
   useEffect(() => {
     if(data) {
