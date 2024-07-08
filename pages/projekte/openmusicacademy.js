@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
 import VideoWrapper from '../components/videoWrapper';
-import { Text, Flex, Image, Table, Tbody, Tr, Td, TableContainer, Heading, Spacer, Link, Box } from '@chakra-ui/react';
+import { Text, Flex, Image, Table, Tbody, Tr, Td, TableContainer, Heading, Spacer, Link, Box, Center } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -116,6 +116,31 @@ export default function OpenMusicAcademy() {
         </a>
       </Box>
       <Spacer />
+    </Flex>
+
+    <Heading as='h3' className='headingH4' mt='40px'>
+      Nominierungen 
+    </Heading>
+    <ul style={{'marginTop': '20px', 'marginLeft': '40px', 'marginRight': '40px', 'marginBottom': '40px', }}>
+      <li>2022 erhielt die Open Music Academy eine Empfehlung durch den Bundesverband Musikunterricht im Rahmen der Vergabe des Medienpreises.</li>
+      <li>2024 wurde die Open Music Academy für den erstmalig vergebenen Enter Award von iRights.Lab in der Kategorie Pionierleistung nominiert (Platzierung auf der Shortlist).</li>
+    </ul>
+    <Flex bg="#b9feb9">      
+      <Box w='48%' direction={'row'}>
+        <Center>
+          <a href='https://www.bmu-musik.de/projekte/medienpreis/preistraeger-2022/'>
+            <Image src='/images/nominierung_bmu-empfehlung.jpg' p='10px' />
+          </a>
+        </Center>
+      </Box>
+      <Spacer />
+      <Box w='48%' direction={'row'}>
+        <Center>
+          <a href='https://enter-award.irights-lab.de/'>
+            <Image src='/images/nominierung_enter-award-rgb-w600px.jpg' p='10px'/>
+          </a>
+        </Center>
+      </Box>
     </Flex>
     
   </>
