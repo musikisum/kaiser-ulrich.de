@@ -91,7 +91,7 @@ export default function Herausgeber() {
         <i>Claudio Monteverdi und die Folgen. Bericht über das Internationale Symposium Detmold 1993</i>, hrsg. von Silke Leopold und Joachim Steinheuer, Kassel 1998.
       </Container>
 
-      <Text mt='6' mt='20px'>
+      <Text mt='20px'>
         In dem Buch finden sich Beiträge von 23 Autoren, Joachim Steinheuer ist als Autor vertreten, Silke Leopold hat aber in diesem Buch gar nichts geschrieben (außer ein Vorwort zusammen mit Herrn Dr. Steinheuer).
       </Text>
 
@@ -111,7 +111,7 @@ export default function Herausgeber() {
         Christoph Wünsch, <i>Satztechniken im 20. Jahrhundert</i> (= Bärenreiter Studienbücher Musik 16), Kassel 2009.
       </Container>
 
-      <Text mt='6' mt='20px'>
+      <Text mt='20px'>
         Durch Verweis auf die Reihe (= Bärenreiter Studienbücher Musik 16) kann man das Buch jedenfalls auch im Verlagskatalog schnell ausmachen, durch die Angabe der Herausgeber findet man es nicht schneller. Ein Verzicht auf die Herausgeberschaften könnte verhindern, dass in Datensätzen Namen als Autoren für Publikationen erscheinen, die von ihnen gar nicht geschrieben worden sind (oder für die ihr Beitrag sehr überschaubar war). Die Tatsache, dass es große Herausgeber-Leuchten gibt, die nur kleine Autoren-Lichter sind, wird letztendlich die Kehrseite der Medaille bleiben, auf deren Vorderseite die Arbeit einer seriösen Herausgeberschaft in einer bibliographischen Angabe gewürdigt wird.
       </Text>
 
