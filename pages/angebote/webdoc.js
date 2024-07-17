@@ -57,7 +57,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://kaiser-ulrich.de'><img src={urlSnippet + 'ResponsiveDesign-uk-Seite001.png'} /></a>
+                <a href='https://kaiser-ulrich.de'><img src={urlSnippet + 'ResponsiveDesign-uk-Seite001.png'} alt="kaiser-ulrich.de" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://kaiser-ulrich.de'>kaiser-ulrich.de</a>
@@ -73,7 +73,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://musikanalyse.net'><img src={urlSnippet + 'ResponsiveDesign-musikanalyse-Seite001.png'} /></a>
+                <a href='https://musikanalyse.net'><img src={urlSnippet + 'ResponsiveDesign-musikanalyse-Seite001.png'} alt="musikanalyse.net" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://musikanalyse.net'>musikanalyse.net</a>
@@ -91,7 +91,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://oer-musik.de/'><img src={urlSnippet + 'ResponsiveDesign-oer-musik-Seite001.png'} /></a>
+                <a href='https://oer-musik.de/'><img src={urlSnippet + 'ResponsiveDesign-oer-musik-Seite001.png'} alt="oer-musik.de" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://oer-musik.de/'>oer-musik.de</a>
@@ -107,7 +107,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://www.gkm-partner.de/'><img src={urlSnippet + 'ResponsiveDesign-gkm-Seite001.png'} /></a>
+                <a href='https://www.gkm-partner.de/'><img src={urlSnippet + 'ResponsiveDesign-gkm-Seite001.png'} alt="gkm-partner.de" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://www.gkm-partner.de/'>gkm-partner.de</a>
@@ -123,7 +123,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://www.tpmeder.de/'><img src={urlSnippet + 'ResponsiveDesign-meder-Seite001.png'} /></a>
+                <a href='https://www.tpmeder.de/'><img src={urlSnippet + 'ResponsiveDesign-meder-Seite001.png'} alt="tpmeder.de" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://www.tpmeder.de/'>tpmeder.de</a>
@@ -139,7 +139,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://www.ralph-symann.com/'><img src={urlSnippet + 'ResponsiveDesign-symann-Seite001.png'} /></a>
+                <a href='https://www.ralph-symann.com/'><img src={urlSnippet + 'ResponsiveDesign-symann-Seite001.png'} alt="ralph-symann.com" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://www.ralph-symann.com/'>ralph-symann.de</a>
@@ -155,7 +155,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='http://www.internistische-hausarztpraxis-ramersdorf.de/'><img src={urlSnippet + 'ResponsiveDesign-hausarztpraxis-Seite001.png'} /></a>
+                <a href='http://www.internistische-hausarztpraxis-ramersdorf.de/'><img src={urlSnippet + 'ResponsiveDesign-hausarztpraxis-Seite001.png'} alt="internistische-hausarztpraxis-ramersdorf.de" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='http://www.internistische-hausarztpraxis-ramersdorf.de/'>internistische-hausarztpraxis-ramersdorf.de</a>
@@ -172,7 +172,7 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://kaiserliche-koestlichkeiten.eu/'><img src={urlSnippet + 'ResponsiveDesign-k&k-Seite001.png'} /></a>
+                <a href='https://kaiserliche-koestlichkeiten.eu/'><img src={urlSnippet + 'ResponsiveDesign-k&k-Seite001.png'} alt="kaiserliche-koestlichkeiten.eu" /></a>
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
                   <a href='https://kaiserliche-koestlichkeiten.eu/'>kaiserliche-koestlichkeiten.eu</a>
