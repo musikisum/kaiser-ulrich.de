@@ -41,16 +41,16 @@ export default function OepOer() {
     <Divider mt='20px' mb='20px' w='50%' h='1px' bg='gray' />
     <ol style={{'margin': '20px', 'listStyleType': 'none'}}>
       <li id="fn-01">
-        <a href='#01'>1.</a> <Link href='/publikationen/verlage'>s. Verlagspublikationen</Link>
+        <a href='#01'>1.</a> <Link className='underline' href='/publikationen/verlage'>s. Verlagspublikationen</Link>
       </li>
       <li id="fn-02">
-      <a href='#02'>2.</a> <Link href='/publikationen/tutorials/'>s. Tutorials</Link>
+      <a href='#02'>2.</a> <Link className='underline' href='/publikationen/tutorials/'>s. Tutorials</Link>
       </li>
       <li id="fn-03">
-      <a href='#03'>3.</a> <a href='https://storage.gmth.de/proceedings/articles/270/pdf/gmth-proceedings-artikel-270.pdf'>s. Tutorials</a>
+      <a href='#03'>3.</a> <a className='underline' href='https://storage.gmth.de/proceedings/articles/270/pdf/gmth-proceedings-artikel-270.pdf'>Ulrich Kaiser, »Blended Learning im Musiktheorieunterricht«, GMTH Proceedings 2019.</a>
       </li>
       <li id="fn-04">
-      <a href='#04'>4.</a> <a href='https://musikanalyse.net/feedback/'>s. Feedbach auf musikanalyse.net</a>
+      <a href='#04'>4.</a> <a className='underline' href='https://musikanalyse.net/feedback/'>s. Feedbach auf musikanalyse.net</a>
       </li>
     </ol>
 
@@ -77,67 +77,67 @@ export default function OepOer() {
     <Divider mt='20px' mb='20px' w='50%' h='1px' bg='gray' />
     <ol style={{'margin': '20px', 'listStyleType': 'none'}}>
       <li id="fn-05">
-        <a href='#05'>1.</a> <a href='https://www.rheinwerk-verlag.de/openbook/'>OpenBooks des Rheinberg-Verlags</a>
+        <a href='#05'>1.</a> <a className='underline' href='https://www.rheinwerk-verlag.de/openbook/'>OpenBooks des Rheinberg-Verlags</a>
       </li>
       <li id="fn-06">
-      <a href='#06'>2.</a> <a href='https://oer-musik.de'>oer-musik.de</a>
+      <a href='#06'>2.</a> <a className='underline' href='https://oer-musik.de'>oer-musik.de</a>
       </li>
       <li id="fn-07">
-      <a href='#07'>3.</a> <a href='https://oer-musik.de/feedback'>s. Feedback auf oer-musik.de</a>
+      <a href='#07'>3.</a> <a className='underline' href='https://oer-musik.de/feedback'>s. Feedback auf oer-musik.de</a>
       </li>
       <li id="fn-08">
-      <a href='#08'>4.</a> <a href='https://github.com/musikisum/OpenBook-KostenloseSoftware'>Kostenlose Software für den Musikunterricht (OpenBook auf GitHub)</a>
+      <a href='#08'>4.</a> <a className='underline' href='https://github.com/musikisum/OpenBook-KostenloseSoftware'>Kostenlose Software für den Musikunterricht (OpenBook auf GitHub)</a>
       </li>
       <li id="fn-09">
-      <a href='#09'>5.</a> <Link href='/projekte/elmu/'>ELMU</Link>
+      <a href='#09'>5.</a> <Link className='underline' href='/projekte/elmu/'>ELMU</Link>
       </li>
       <li id="fn-10">
-      <a href='#10'>6.</a> <a href='https://openmusic.academy/docs/2PAKgPM44CL4VM5DbCvuLK/'>Open Music Academy Education e.V.</a>
+      <a href='#10'>6.</a> <a className='underline' href='https://openmusic.academy/docs/2PAKgPM44CL4VM5DbCvuLK/'>Open Music Academy Education e.V.</a>
       </li>
       <li id="fn-11">
-      <a href='#11'>7.</a> <a href='https://stiftung-hochschullehre.de/projekt/oer-lfm/'>Förderprojekt oer-lfm</a>
+      <a href='#11'>7.</a> <a className='underline' href='https://stiftung-hochschullehre.de/projekt/oer-lfm/'>Förderprojekt oer-lfm</a>
       </li>
       <li id="fn-12">
-      <a href='#12'>8.</a> Wikipedia: <a href='https://de.wikipedia.org/wiki/Open_Music_Academy'>Open Music Academy</a>
+      <a href='#12'>8.</a> Wikipedia: <a className='underline' href='https://de.wikipedia.org/wiki/Open_Music_Academy'>Open Music Academy</a>
       </li>
       <li id="fn-13">
-      <a href='#13'>9.</a> <a href='https://openmusic.academy/docs/Px7epURXWsBLoE4fKzFBsW'>Chorsingen? Easy-Peasy! 12 einfache Chorsätze zum Loslegen</a>
+      <a href='#13'>9.</a> <a className='underline' href='https://openmusic.academy/docs/Px7epURXWsBLoE4fKzFBsW'>Chorsingen? Easy-Peasy! 12 einfache Chorsätze zum Loslegen</a>
       </li>
       <li id="fn-14">
-      <a href='#14'>10.</a> <a href='https://openmusic.academy/docs/C3fuWU92TigMJ3223QNqsZ/'>Konzertsatz für Violine solo und Orchester in G-Dur</a>
+      <a href='#14'>10.</a> <a className='underline' href='https://openmusic.academy/docs/C3fuWU92TigMJ3223QNqsZ/'>Konzertsatz für Violine solo und Orchester in G-Dur</a>
       </li>
       <li id="fn-15">
-      <a href='#15'>11.</a> <Link href='/unterricht/evaluation/'>Unterrichtsevaluationen</Link>
+      <a href='#15'>11.</a> <Link className='underline' href='/unterricht/evaluation/'>Unterrichtsevaluationen</Link>
       </li>
       <li id="fn-16">
-      <a href='#16'>12.</a> <a href='https://openmusic.academy/docs/GHp8kL9WtnMn9HT2AiMVT9/'>Stilübung Passacaglia</a>
+      <a href='#16'>12.</a> <a className='underline' href='https://openmusic.academy/docs/GHp8kL9WtnMn9HT2AiMVT9/'>Stilübung Passacaglia</a>
       </li>
       <li id="fn-17">
-      <a href='#17'>13.</a> <a href='https://openmusic.academy/docs/4oCz9X7581kEccgwj9iRrb/'>Stilübung Fuge</a>
+      <a href='#17'>13.</a> <a className='underline' href='https://openmusic.academy/docs/4oCz9X7581kEccgwj9iRrb/'>Stilübung Fuge</a>
       </li>
       <li id="fn-18">
-      <a href='#18'>14.</a> <a href='https://openmusic.academy/docs/4EBjvWEufifccdAvMAsSdP/'>Stilübung Sonate</a>
+      <a href='#18'>14.</a> <a className='underline' href='https://openmusic.academy/docs/4EBjvWEufifccdAvMAsSdP/'>Stilübung Sonate</a>
       </li>
       <li id="fn-19">
-      <a href='#19'>15.</a> <a href='https://openmusic.academy/docs/sjTb3MtmVUPK9bYByf3q6d/'>Arrangieren und Instrumentieren (zusammen mit Carsten Gerlitz)</a>
+      <a href='#19'>15.</a> <a className='underline' href='https://openmusic.academy/docs/sjTb3MtmVUPK9bYByf3q6d/'>Arrangieren und Instrumentieren (zusammen mit Carsten Gerlitz)</a>
       </li>
       <li id="fn-20">
-      <a href='#20'>16.</a> <a href='https://openmusic.academy/docs/NqLXD6BYkvsxyJzdxHmbb5/'>Pop-Arranging. Ein Arbeitsheft</a>
+      <a href='#20'>16.</a> <a className='underline' href='https://openmusic.academy/docs/NqLXD6BYkvsxyJzdxHmbb5/'>Pop-Arranging. Ein Arbeitsheft</a>
       </li>
       <li id="fn-21">
-      <a href='#21'>17.</a> <a href='https://openmusic.academy/docs/p76VikS5Lp3w7L3BZXsfJk/'>Cycle it up! Schnipselmusik im Film</a> und <a href='https://openmusic.academy/docs/NvCYdJuLSa7wFXBs1xf9k8'>Filmmusik</a>
+      <a href='#21'>17.</a> <a className='underline' href='https://openmusic.academy/docs/p76VikS5Lp3w7L3BZXsfJk/'>Cycle it up! Schnipselmusik im Film</a> und <a href='https://openmusic.academy/docs/NvCYdJuLSa7wFXBs1xf9k8'>Filmmusik</a>
       </li>      
       <li id="fn-22">
-      <a href='#22'>18.</a> <a href='https://openmusic.academy/docs/SJQ9zuqxZx9VKG3r5phEzo/'>Popformeln – Formen und Begriffe der Popularmusik</a>
+      <a href='#22'>18.</a> <a className='underline' href='https://openmusic.academy/docs/SJQ9zuqxZx9VKG3r5phEzo/'>Popformeln – Formen und Begriffe der Popularmusik</a>
       </li>      
       <li id="fn-23">
-      <a href='#23'>19.</a> <a href='https://openmusic.academy/docs/mQ8WGsQtwqucwWepfFkUGC/'>Harmonielehre und Form im ausgehenden 18. Jahrhundert</a>
+      <a href='#23'>19.</a> <a className='underline' href='https://openmusic.academy/docs/mQ8WGsQtwqucwWepfFkUGC/'>Harmonielehre und Form im ausgehenden 18. Jahrhundert</a>
       </li>   
       <li id="fn-24">
-      <a href='#24'>20.</a> z.B. <a href='https://openmusic.academy/docs/QaEJiCa4TJDj9b6bj9B3bW/'>Barock</a>, <a href='https://openmusic.academy/docs/6LgrpdXuPYrGmhGCZU4EFK/'>Klassik</a>,&nbsp;<a href='https://openmusic.academy/docs/wp7Mssv5YA1qJ8aVwxq8A8/'>Romantik</a> u.a.
+      <a href='#24'>20.</a> z.B. <a className='underline' href='https://openmusic.academy/docs/QaEJiCa4TJDj9b6bj9B3bW/'>Barock</a>, <a href='https://openmusic.academy/docs/6LgrpdXuPYrGmhGCZU4EFK/'>Klassik</a>,&nbsp;<a href='https://openmusic.academy/docs/wp7Mssv5YA1qJ8aVwxq8A8/'>Romantik</a> u.a.
       </li>         
       <li id="fn-25">
-      <a href='#25'>21.</a> <a href='https://openmusic.academy/docs/94gVe33nDa6qCjmEAqoHx9/'>Walzer Op. 39 von Johannes Brahms</a>, <a href='https://openmusic.academy/docs/qbTvWPnFEEWPRMuStHHoqf/'>Variationen über Happy Birthday to You für zwei Melodieinstrumente</a> u.v.a.
+      <a href='#25'>21.</a> <a className='underline' href='https://openmusic.academy/docs/94gVe33nDa6qCjmEAqoHx9/'>Walzer Op. 39 von Johannes Brahms</a>, <a href='https://openmusic.academy/docs/qbTvWPnFEEWPRMuStHHoqf/'>Variationen über Happy Birthday to You für zwei Melodieinstrumente</a> u.v.a.
       </li>            
       <li id="fn-26">
       <a href='#26'>22.</a> <a href='https://www.gnu.org/philosophy/free-sw'>»Die Freiheit, das Programm zu verbessern und diese Verbesserungen der Öffentlichkeit freizugeben, damit die gesamte Gesellschaft davon profitiert« (Freiheit 3).</a>
