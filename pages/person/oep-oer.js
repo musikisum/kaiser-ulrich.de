@@ -26,6 +26,17 @@ export default function OepOer() {
       <link rel="icon" href="/images/icon.png" />
     </Head>
     <PageHeader options={ options } />
+    <Text bg='#b9feb9' 
+      pl='40px' 
+      pr='40px' 
+      pt='20px' 
+      pb='20px' 
+      style={{'borderRadius': '10px'}}>
+        Aufgrund der folgenden Bewerbung wurde ich 2024 von <a href='https://www.oeglobal.org/' className='underline'>OE Global</a> für den <a href='https://awards.oeglobal.org/2024-finalists/' className='underline'>Open Education Award for Excellence 2024</a> in der Kategorie <i>Educator Award</i> nominiert. Weitere Personen auf der Shortlist für den <i>Educator Award</i> sind: Kiranjot Kaur (Conestoga College, Canada), Fatih Yegul (Conestoga College, Canada) und Maria Luisa Zorrilla (Universidad Autonoma del Estado de Morelos, Mexico).
+    </Text>
+
+    <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+    
     <Heading as='h3' className="headingH3">
       Open Education Pracitices
     </Heading>

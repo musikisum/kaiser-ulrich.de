@@ -19,10 +19,19 @@ export default function Profil() {
     </Head>
     <PageHeader options={ options } />
     <Heading as='h3' className="headingH3">
-      Der rote Faden ...
+      Open Education
     </Heading>
     <Text>
-      Seit meinem ersten Tutorium (Vorbereitung auf die Aufnhameprüfungen in den Lehramts- und Instrumentalpädagogischen Studiengängen 1987−1990) hat mit das Unterrichten von Musiktheorie und Gehörbildung immer sehr viel Freude bereitet. Das ist bis heute so geblieben, so dass die Vermittlung von Wissen (sowohl im Lehren als auch im Lernen) eine wunderbare und feste Konstante in meinem Leben ist.
+      Seit meinem ersten Tutorium (Vorbereitung auf die Aufnahmeprüfungen in den Lehramts- und Instrumentalpädagogischen Studiengängen 1987−1990) lag mein Hauptinteresse auf dem Unterrichten von Musiktheorie und Gehörbildung. Auch wenn ich mir angesichts der aktuellen KI-Entwicklungen nicht sicher bin, in welcher Form das Fach Musiktheorie überlebensfähig sein wird, ist mir die Zusammenarbeit mit Musikstudierenden und Musiklehrenden auch heute noch ein zentrales Anliegen. Meinen aktuellen Unterricht beeinflussen allerdings zunehmend Fragen der Medienkompetenz (im Bereich der Musik) sowie der Medienethik.  
+    </Text>
+    <Text className='mt20'>
+      Über die Programmierung und das Publizieren von OpenBooks bin ich seit 2011 auf die Themen freie Lizenzen bzw. <i>Open Educational Resources</i> (OER) gestoßen. 2014 habe ich dann erstmals eine Creative-Commons-Lizenz für mein OpenBook <a className='underline' href='https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht'>Kostenlose Software für den Musikunterricht</a> gewählt und die Publikation als Open Educational Resource (OER) auf <a href='https://github.com/musikisum/OpenBook-KostenloseSoftware' className='unerline'>GitHub zur Verfügung gestellt</a>. Seit der Corona-Pandemie bin ich ein überzeugter Anhänger einer umfassenden Open Educational Practise. Während das Thema in Deutschland und im Bereich der Musik nur sehr verhalten aufgenommen wird, finden meine Bemühungen mittlerweile internationale Anerkennung. 2024 wurde ich von <a href='https://www.oeglobal.org/' className='underline'>OE Global</a> für den <a href='https://awards.oeglobal.org/2024-finalists/' className='underline'>Open Education Award for Excellence 2024</a> in der Kategorie <i>Educator Award</i> nominiert. Meine Bewerbung können Sie auf meiner Seite zur <Link href='/person/oep-oer/' textDecoration={'underline'}>Open Education</Link> einsehen.
+    </Text>
+    <Text className='mt20'>
+      Während und nach Corona (2020) sind zahlreiche staatliche Programme aufgelegt worden, in denen die Erstellung von OER und der Aufbau von OER-Communities gefördert wird. Ein von mir inhaltlich konzipierter und von der HMTM gestellter Antrag zur Förderung des Aufbaus einer <Link href='/projekte//openmusicacademy'>Lernplattform für Musik (oer-lfm)</Link>) bei der <a className='underline' href='https://stiftung-hochschullehre.de/' target='_blank'>Stiftung Innovation in der Hochschullehre</a> war erfolgreich. Seither arbeite ich als Projektleiter am Aufbau der <a className='underline' href='https://openmusic.academy' target='_blank'>Open Music Academy</a>, wobei mich dieses Projekt voraussichtlich noch bis Ende 2025 (und vielleicht noch darüber hinaus) vollkommen auslasten wird.  
+    </Text>
+    <Text className='mt20'>
+      Neben meiner Begeisterung für eine Open Education im Bereich der Musik haben sich jedoch im Laufe meines Arbeitslebens die Arbeitsschwerpunkt verschoben. Im Folgenden können Sie dazu mehr erfahren.
     </Text>
 
     <Divider mt='60px' mb='60px' h='1px' bg='gray' />
@@ -34,10 +43,10 @@ export default function Profil() {
       In Berlin galt mein Hauptinteresse der Chorleitung und dem Gesang. Eine sehr intensive und über zehnjährige Zusammenarbeit verband mich in dieser Zeit mit dem <Link textDecoration={"underline"} href='/chorleitung/choere#consortiummusicum'>Consortium Musicum</Link> und dem von mir gegründeten <Link textDecoration={"underline"} href='/chorleitung/choere#ensemberlinovovale'>Ensemberlino Vocale</Link>.
     </Text>
     <Text className='mt20'>
-      Während - und auch noch kurz nach - meiner Chorleitungszeit in Berlin übernahm ich Verpflichtungen als <Link textDecoration={"underline"} href="/gesang/">Sänger (Tenor)</Link>. Doch aufgrund einer Kehlkopfverletzung (Sportunfall) sowie einer letztendlich für den Sängerberuf ungeeigneten psychischen Disposition hat sich mein Leben anders entwickelt. Heute habe ich an öffentlichen Auftritten als Sänger kein Interesse mehr.
+      Während - und auch noch kurz nach - meiner Chorleitungszeit in Berlin übernahm ich Verpflichtungen als <Link textDecoration={"underline"} href="/gesang/">Sänger</Link> (Tenor). Doch aufgrund einer Kehlkopfverletzung (Sportunfall) sowie einer letztendlich für den Sängerberuf ungeeigneten psychischen Disposition hat sich mein Leben in eine andere Richtung entwickelt. Heute habe ich an öffentlichen Auftritten als Sänger kein Interesse mehr.
     </Text>
     <Text className='mt20'>
-      Großes Interesse hatte ich am Schreiben von Programmheften meiner Konzerte, um dem Publikum Hintergrundinformationen zur aufgeführten Musik zu vermitteln. Die Herausforderung bestand darin, biographische und musikanalytische Informationen für ein interessiertes Laienpublikum verständlich aufzubereiten. 1993 erwuchs aus dem Interesse, Texte über Musik zu schreiben, eine intensive <Link textDecoration={"underline"} href='/publikationen/verlage'>Publikationstätigkeit für Verlage</Link> (z.B. für den den Bärenreiter-Verlag eine zweibändige Gehörbildung sowie die Anleitungen <i>Der vierstimmige Satz</i>, <i>Arrangieren und Instrumentieren</i> und für den Klett-Verlag die <i>Sonatenspiele</i> und das <i>Lamentobass</i>-Heft).
+      Großes Interesse hatte ich dagegen am Schreiben von Programmheften meiner Konzerte, um dem Publikum Hintergrundinformationen zur aufgeführten Musik zu vermitteln. Die Herausforderung bestand darin, biographische und musikanalytische Informationen für ein interessiertes Laienpublikum verständlich aufzubereiten. 1993 erwuchs aus dem Interesse, Texte über Musik zu schreiben, eine intensive <Link textDecoration={"underline"} href='/publikationen/verlage'>Publikationstätigkeit für Verlage</Link> (z.B. für den den Bärenreiter-Verlag eine zweibändige Gehörbildung sowie die Anleitungen <i>Der vierstimmige Satz</i>, <i>Arrangieren und Instrumentieren</i>, für den Klett-Verlag die <i>Sonatenspiele</i> und das <i>Lamentobass</i>-Heft).
     </Text>
 
     <Divider mt='60px' mb='60px' h='1px' bg='gray' />
@@ -55,14 +64,8 @@ export default function Profil() {
       <li>Wolfgang Amadé Mozart (insbesondere mit seinen frühen Werken)</li>
       <li>Wissenschaftstheorie und Analysemodelle der Musiktheorie</li>
       <li>Pop-/Rockmusik</li>
-      <li>Neue Medien und Didaktik der Musiktheorie</li>
+      <li>Didaktik der Musiktheorie</li>
     </ul>
-    <Text className='mt20'>
-      Über die Programmierung und das Publizieren von OpenBook bin ich schon seit 2011 auf die Themen freie Lizenzen bzw. <i>Open Educational Resources</i> (OER) gestoßen. 2014 habe ich dann erstmals eine Creative-Commons-Lizenz für mein OpenBook <a className='underline' href='https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht'>Kostenlose Software für den Musikunterricht</a> gewählt und die Publikation als Open Educational Resource (OER) auf <a href='https://github.com/musikisum/OpenBook-KostenloseSoftware' className='unerline'>GitHub zur Verfügung gestellt</a>. Seither engagiere ich mich für die Erstellung fachlich konsistenter OER, den Einsatz von Open-Source-Programmen in der Musikausbildung (Notation, Soundbearbeitung, Desktop-Publishing, Bildbearbeitung etc.) sowie für die Open Access Bewegung in Forschung und Lehre.
-    </Text>
-    <Text className='mt20'>
-      Während und nach Corona (2020) sind zahlreiche staatliche Programme aufgelegt worden, in denen die Erstellung von OER und der Aufbau von OER-Communities gefördert wird. Ein von mir inhaltlich konzipierter und von der HMTM gestellter Antrag zur Förderung des Aufbaus einer <Link href='/projekte//openmusicacademy'>Lernplattform für Musik (oer-lfm)</Link>) bei der <a className='underline' href='https://stiftung-hochschullehre.de/' target='_blank'>Stiftung Innovation in der Hochschullehre</a> war erfolgreich. Seither arbeite ich als Projektleiter am Aufbau der <a className='underline' href='https://openmusic.academy' target='_blank'>Open Music Academy</a>, wobei mich dieses Projekt voraussichtlich noch bis Ende 2025 (und vielleicht noch darüber hinaus) vollkommen auslasten wird.  
-    </Text>
   </>
 }
 
