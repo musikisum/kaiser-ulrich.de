@@ -52,7 +52,7 @@ export const sitemapDictionary = {
   "/person": "Person",
   "/person/profil": "Profil",
   "/person/vita": "Lebenslauf",
-  "/person/oep-oer": "Open Educational Practices & Resources",
+  "/person/oep-oer": "Open Education",
   "/impressum": "Kontakt und Impressum",
   "/datenschutz": "Datenschutz (DSGVO)",
   "/sitemap": "Sitemap"

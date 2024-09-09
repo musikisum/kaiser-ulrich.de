@@ -26,19 +26,21 @@ export default function OepOer() {
       <link rel="icon" href="/images/icon.png" />
     </Head>
     <PageHeader options={ options } />
-    <Text bg='#b9feb9' 
-      pl='40px' 
-      pr='40px' 
-      pt='20px' 
-      pb='20px' 
-      style={{'borderRadius': '10px'}}>
-        Aufgrund der folgenden Bewerbung wurde ich 2024 von <a href='https://www.oeglobal.org/' className='underline'>OE Global</a> für den <a href='https://awards.oeglobal.org/2024-finalists/' className='underline'>Open Education Award for Excellence 2024</a> in der Kategorie <i>Educator Award</i> nominiert. Weitere Personen auf der Shortlist für den <i>Educator Award</i> sind: Kiranjot Kaur (Conestoga College, Canada), Fatih Yegul (Conestoga College, Canada) und Maria Luisa Zorrilla (Universidad Autonoma del Estado de Morelos, Mexico).
+    <Text>
+      Anhand meiner Bewerbung für den <a href='https://awards.oeglobal.org/' className='underline'>Open Education Awards for Excellence</a> 2024 in der Kategorie <i>Educator Award</i> von <a href="https://www.oeglobal.org/" className='underline'>OE Global</a> können Sie einiges über mein Engagement für Open Educational Practise und Open Educational Resources erfahren. Der Ausschreibungstext:    
+    </Text>
+    <Text bg='#b9feb9' pl='40px' pr='40px' pt='20px' pb='20px' style={{ borderRadius: '10px', marginTop: '20px' }}>
+      <b>Educator Award</b><br />
+      »This award honors an innovative teacher/professor who has published and/or used a significant body of Open Resources and/or applied Open Practices over a sustained period (at least one year) in their teaching practice. This individual’s open course materials and professional practices have been recognized for impacting student learning and influencing peers to share more openly.«
+    </Text>
+    <Text className='mt20'>
+      Zu meiner aufrichtigen, großen Freude wurde ich unter 112 Bewerbungen aus 28 Ländern für die <a href='https://awards.oeglobal.org/2024-finalists/' className='underline'>Shortlist</a> des Educator Award ausgewählt. Meine Kolleginnen und Kollegen auf dieser Shortlist sind: Kiranjot Kaur (Conestoga College, Canada), Fatih Yegul (Conestoga College, Canada) und Maria Luisa Zorrilla (Universidad Autonoma del Estado de Morelos, Mexico). 
     </Text>
 
     <Divider mt='60px' mb='60px' h='1px' bg='gray' />
     
     <Heading as='h3' className="headingH3">
-      Open Education Pracitices
+      Open Educational Practices
     </Heading>
     <Text>
       Mein Leben ist dem dem Lernen und Lehren gewidmet, seit etwas mehr als 10 Jahren habe ich meine berufliche Lehrtätigkeit auf Open Educational Practices (OEP) und Open Educational Resources (OER) ausgerichtet. Bis 2009 verliefen mein Lernen und Lehren im Hinblick auf meinen Beruf konventionell. Das heißt: Ich habe viele Bücher gekauft, gelesen und für Verlage auch geschrieben.<sup id="01"><a href="#fn-01">1</a></sup>
@@ -50,7 +52,7 @@ export default function OepOer() {
       Seit über 10 Jahren produziere ich Open Educational Resources (bisher 25 OpenBooks und über 200 Tutorials) zum Musiklernen an Musikhochschulen, Musikschulen und allgemeinbildenden Schulen. Trotz strukturell bedingter Widerstände gegen OER im Bereich der Musik (geistiges Eigentum ./. freie Bildung), hat mein jahrelanger Einsatz für OER und OEP viele Menschen berühren und von der Community-Arbeit überzeugen können. Mit Überführung meiner OER in die <a href="https://openmusic.academy" className='underline'>Open Music Academy</a> sind meine Materialien nachhaltig und langfristig für alle Interessierten verfügbar.
     </Text>
     <Divider mt='20px' mb='20px' w='50%' h='1px' bg='gray' />
-    <ol style={{'margin': '20px', 'listStyleType': 'none'}}>
+    <ol style={{margin: '20px', listStyleType: 'none'}}>
       <li id="fn-01">
         <a href='#01'>1.</a> <Link className='underline' href='/publikationen/verlage'>s. Verlagspublikationen</Link>
       </li>
@@ -86,7 +88,7 @@ export default function OepOer() {
       Ich bedauere sehr, dass es meine Materialien nur auf Deutsch gibt. Die Schuld daran trage ich, weil ich mir nie die Zeit genommen habe zu lernen, mich in einer anderen Sprache als meiner Muttersprache differenziert auszudrücken. Ich hoffe sehr, dass Menschen mit entsprechenden Fähigkeiten meine Materialien entdecken, schätzen, adaptieren und übersetzen werden, »damit die gesamte Gesellschaft davon profitiert«.<sup id="26"><a href="#fn-26">22</a></sup> Die OMA ist für Mehrsprachigkeit eingerichtet und dazu in besonderer Weise geeignet.
     </Text>    
     <Divider mt='20px' mb='20px' w='50%' h='1px' bg='gray' />
-    <ol style={{'margin': '20px', 'listStyleType': 'none'}}>
+    <ol style={{margin: '20px', listStyleType: 'none'}}>
       <li id="fn-05">
         <a href='#05'>1.</a> <a className='underline' href='https://www.rheinwerk-verlag.de/openbook/'>OpenBooks des Rheinberg-Verlags</a>
       </li>
