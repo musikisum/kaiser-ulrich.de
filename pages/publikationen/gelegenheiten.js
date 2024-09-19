@@ -4,8 +4,8 @@ import Layout from "../components/layout";
 import ShortUniqueId from 'short-unique-id';
 import data from '../../data/gelegenheiten.json';
 import PageHeader from '../components/pagehaeder';
-import { Image, List, ListItem, ListIcon, Heading, Divider, Text, Box, Accordion, AccordionItem, AccordionButton, AccordionPanel, Stack } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon, MinusIcon, AddIcon } from '@chakra-ui/icons'
+import { List, ListItem, ListIcon, Heading, Divider, Text, Box, Accordion, AccordionItem, AccordionButton, AccordionPanel, Stack, UnorderedList } from '@chakra-ui/react';
 
 import style from './index.module.css';
 
@@ -64,10 +64,95 @@ export default function Gelegenheiten() {
       </Heading>
 
       <Text mb='10' ml='4'>
-        Im Folgenden können Sie einige Interviews nachlesen bzw. nachhören, die ich in der Vergangenheite für verschiedene Radiosender gegeben habe.
+        Im Folgenden können Sie einige Interviews nachlesen bzw. nachhören, um die ich in der Vergangenheit gebeten wurde:
       </Text>
 
-      <Accordion allowToggle>
+      <Accordion allowToggle defaultIndex={[0]}>
+      <AccordionItem>
+          {({ isExpanded }) => (
+            <>
+              <h2>
+                <AccordionButton>
+                  <Box as='span' flex='1' textAlign='left'>
+                    <span style={{ 'color': '#6e91a1'}}>
+                      <b>OE Award for Excellence 2024: Die Open Music Academy gewinnt in der Kategorie »Open Infrastructure«</b> (2024)
+                    </span>
+                  </Box>
+                  {isExpanded ? (
+                    <MinusIcon fontSize='12px' />
+                  ) : (
+                    <AddIcon fontSize='12px' />
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <Stack spacing='3'>                   
+                  <Text as='b'>
+                    Seit 2011 würdigt <a href='https://www.oeglobal.org/' className='underline'>Open Education Global</a> jedes Jahr Menschen und Projekte mit den <a href='https://awards.oeglobal.org/' className='underline'>Open Education Awards for Excellence</a> (<a href='https://awards.oeglobal.org/' className='underline'>OEAwards</a>). Damit werden Einzelpersonen, Open Educational Resources und Projekte und Initiativen gewürdigt sowie jedes Jahr eine aktualisierte Reihe von Sonderpreisen vergeben. Um so viel Anerkennung wie möglich zu teilen, wurden im Vorfeld zunächst die Finalisten des OE Global Award 2024 bekannt gegeben, die 16 Einzelpersonen und 38 offene Bildungsinitiativen und -praktiken in den 16 Preiskategorien würdigt.
+                  </Text>
+                  <img src="/images/screenshot-oer-info-interview.jpg" style={{width: '50%'}}></img>
+                  <Text as='i'>
+                    Ein Beitrag von Prof. Dr. Ulrich Kaiser und Susanne Grimm
+                  </Text>      
+                  <Text>
+                  <Link href='/person/oep-oer/' className='underline'>Prof. Dr. Ulrich Kaiser</Link> und die <Link href='https://openmusic.academy' className='underline'>Open Music Academy</Link> (OMA), <Link href='https://hmtm.de/' className='underline'>Hochschule für Musik und Theater München</Link> (HMTM), haben es in den Kategorien Pädagog*innen und offene Infrastrukturen auf die Short List geschafft. Am 18. September wurde die <Link href='https://awards.oeglobal.org/awards/2024/open-infrastructure/open-music-academy/' className='underline'>Open Music Academy als Sieger</Link> in ihrer Kategorie gekürt. OERinfo hat mit Ulrich Kaiser, dem Projektleiter der OMA, gesprochen.
+                  </Text>     
+                  <Divider />
+                  <Text as='b'>
+                    Die Nominierung für einen OE Global Award allein ist bereits eine Ehrung. Wer hat Dich und die OMA dafür beworben und wie fühlt es sich an, dass Du als Einzelperson und die OMA als offene Infrastruktur es als Finalisten auf die Short List geschafft haben?  
+                  </Text> 
+                  <Text>
+                    Es fühlt sich natürlich großartig an, wenn man aus über 100 Bewerbungen aus 28 Ländern auf der Shortlist für einen Open Education Award for Excellence nominiert worden ist. Die Nominierung empfinde ich als Auszeichnung und Anerkennung, die zeigt, dass man mit seinem Engagement für Offenheit und Freie Bildung von einer internationalen Community wahrgenommen wird. Angesichts der ideellen Widerstände im Bereich der Musik sowie der Schwierigkeiten, denen man sich im Alltag des Hochschullebens gegenübersieht, ist eine solche Nominierung absolut motivierend. Und die Tatsache, dass ich sogar als Einzelperson auf der Shortlist für einen Educator Award nominiert worden bin, freut mich angesichts meines 10 Jahre langen Engagements für OER wirklich sehr. Da auf der Website von OE Global hingewiesen wurde, dass man sich selbst bewerben könne, haben wir uns kurzerhand selbst beworben. Am meisten Freude hatten wir an den Videos, denn wir sitzen und arbeiten ja täglich in einem speziell eingerichteten OER-Videostudio.
+                  </Text>
+                  <Text as='b'>
+                    Und was sagst du dazu, dass die OMA den 2024 Open Education Award for Excellence in der Kategorie Open Infrastructure gewonnen hat?
+                  </Text>
+                  <Text>
+                    In unserem Videostudio habe ich die Auszeichnung live auf YouTube mitverfolgen können und es ist wirklich unglaublich, dass die OMA-Idee, die Programmierung unter freier Lizenz, die Arbeit von einigen (leider noch recht wenigen) Musikerinnen und Musikern sowie des tollen OMA-Teams in so kurzer Zeit internationale Beachtung gefunden haben. Das ist für mich großes Kino und immer noch unfassbar …
+                  </Text>
+                  <Text as='b'>
+                    Was hat Dich ganz zu Anfang dazu bewogen, Dich mit OER zu befassen und Deine Inhalte als solche zu teilen?
+                  </Text>
+                  <Text>
+                    Als ich anfing, mich mit OER zu beschäftigen, wurde OER in Deutschland überwiegend noch kritisch gesehen. Es waren daher keine neuen Perspektiven und Fördertöpfe, die mich zu OER gebracht haben, sondern vielmehr die alten Bedingungen. Zum Beispiel die Bedingungen für Autor*innen in Verlagen und auch die Bedingungen in meiner Hochschularbeit. Ich habe die Macht der Verlage auf Inhalte als problematisch empfunden (Stichwort: fehlerhafte und veraltete Schulbuchinhalte), die Lehre in überladenen Studiengängen (mit überlasteten Studierenden) und die Ghettoisierung von Wissen hinter Bezahlschranken. Dass meine Studierenden für meine Publikationen bezahlen müssen, hat mich ebenfalls gestört (die wunderbare Formel „öffentliches Geld = öffentliches Gut“ kannte ich damals noch nicht, wenn es sie denn überhaupt schon gab).<br />
+                    Den Kipppunkt allerdings bildete für mich die Erkenntnis, welche Sichtbarkeit man mit sorgfältig ausgearbeiteten OER erreichen kann. Während meine sieben Bücher ca. 40.000 Mal verkauft wurden, sind meine OER innerhalb weniger Jahre über 1.000.000 mal heruntergeladen worden. Für alle, die also primär an der Verbreitung ihrer Inhalte interessiert sind, gibt es nur wenig Argumente gegen OER. Viele Argumente allerdings dafür wie z.B. Teilhabe, soziale Gerechtigkeit, Zusammenarbeit oder Nachhaltigkeit. Die wenigsten Kreativen (ein schräges Wort mit einer problematischen Semantik) leben übrigens vom Urheberrecht, deswegen bräuchten viele im Bereich der Musik eigentlich nur die Bereitschaft, auf eine neu Art zu denken und auf einen netten Nebenverdienst zu verzichten.
+                  </Text>
+                  <Text as='b'>
+                    Wie ist die offene Lernplattform OMA entstanden und was bietet sie ihren Nutzer*innen?
+                  </Text>
+                  <Text>
+                    Mein erstes OpenBook mit CC-Lizenz (BY-SA) habe ich 2014 mit Open-Source-Software erstellt und auf GitHub veröffentlicht. Das Thema war „Kostenlose Software für den Musikunterricht“ (ein freies Konkurrenzprodukt zu einer 2013 veröffentlichten Verlagspublikation, die mich geärgert hat). Mit der Bereitstellung unter der CC-Lizenz hoffte ich, dass man über eine kollaborative Zusammenarbeit ein Schulheft zu diesem Thema leichter aktuell halten könne. Bis heute hat sich niemand zur Mitarbeit gefunden. Doch ich habe gelernt, dass der Grund hierfür nicht mangelndes Interesse sein muss, sondern dass er auch in einer ungenügenden Medienkompetenz liegen kann. (Wer kann schon einigermaßen professionell mit Scribus und Gimp umgehen?) Deswegen wollte ich ein Wiki zur Bearbeitung von Musik-OER entwickeln, in dem die Bearbeitung so einfach ist wie bei Wikipedia: Wechsel in den Bearbeitungsmodus und los geht’s. Nur dass diese Plattform spezielle Tools für den Musikunterricht bereitstellen müsste.<br />
+                    Mit Unterstützung der Hochschulleitung der HMTM sowie mithilfe von Spendengeldern wurde dann noch vor Corona ein Prototyp der Plattform entwickelt: ELMU. Dank der Förderung der Stiftung Innovation in der Hochschullehre hatten wir dann seit 2021 die Mittel, diese Plattform zu einem Wiki und einem vollumfänglichen Lernmanagementsystem (LMS) ausbauen zu können. Heute bietet die OMA im öffentlichen Bereich (WIKI) einen einfachen Zugang zum Erstellen und Aktualisieren von Musik-OER und im privaten Bereich ein komfortables, vollumfängliches LMS für den Musikunterricht. Die Software selbst haben wir als OpenSource-Entwicklung (MIT) ausgeschrieben. Sie steht auf GitHub zur Verfügung, ist modern programmiert (REACT/JS) und stellt musikspezifische Funktionalität über Plugins bereit. Mit anderen Plugins ließe sich die Software im Sinne des Open-Gedankens daher auch schnell für andere Inhalte und Fächer adaptieren.
+                  </Text>
+                  <Text as ='b'>
+                    Bist Du auf Deiner Reise als OER-Aktivist im Bereich Musik auch auf Widerstände gestoßen? Was sind Deine Lessons Learned, die Du Deinen Kolleg*innen und OER-Mitstreiter*innen mitgeben möchtest?
+                  </Text>
+                  <Text>
+                    Ja, und zwar nicht zu knapp, eingangs hatte ich das ja schon angedeutet. Da sind zum einen formale Widerstände, denn der Antrag wurde in der Vorbereitung und zum Projektbeginn leider schlecht in die Hochschule kommuniziert. Viele haben in dem Projekt zuerst die Mehrarbeit und nicht den Mehrwert gesehen. Das ist zwar nicht schön, aber es gibt auch Studierende und aufgeschlossene Lehrende, die sich begeistern lassen und mit uns tolle OER-Projekte realisieren. Wir sind deshalb auf einem guten Weg, unsere Ziele zu erreichen.<br />
+                    Unappetitlich waren dagegen einige Kommentare in den Sozialen Medien. Ein ehemaliger Kompositionsstudent unserer Hochschule hat sich über mein Filmmusik-OpenBook geärgert. Aufgesprungen sind dann weitere Personen, darunter auch ein Mitglied des GEMA-Aufsichtsrats sowie ein bekannter Komponist. Es entspricht leider dem Zeitgeist, digital zu hetzen, anstatt analog zu reden. Da die OMA für den Musikbereich eine Pionierleistung ist (als solche wurde sie auf der <a href='https://enter-award.irights-lab.de/shortlist/' className='underline'>Shortlist des Enter Awards</a> von i.Rights.Lab nominiert), kann ich damit leben. Neues stößt oft auf Widerstände, das ist normal, lediglich die Art des Umgangs damit war es nicht.<br />
+                    Wenn es eine Lesson Learned gibt, dann ist es die, dass man gemeinsam mehr erreichen kann (klingt moralisierend, ist aber rein pragmatisch gemeint). Das lässt sich sehr gut an den Open-Source-Entwicklungen im Bereich Künstlicher Intelligenz (KI) beobachten, an denen sich viele der ganz Großen beteiligen. Kollaborativ wird da ein Tempo vorgelegt, das einem dem Atem verschlägt. Und dieses Tempo trifft auf ein teils reaktionäres politisches Denken sowie ein Schneckentempo in der Bildung. Ich persönlich finde es spannend, auf das enorme Potential schauend an dieser Schnittstelle arbeiten zu dürfen. Und ich finde es beängstigend, angesichts der Gefahren das Gefühl zu bekommen, diesen Entwicklungen ausgeliefert zu sein.
+                  </Text>
+                  <Divider />
+                  <Text>
+                    Interviewpartner:
+                  </Text>
+                  <UnorderedList>
+                    <ListItem>
+                      <b>Prof. Dr. Ulrich Kaiser:</b> Ulrich Kaiser ist Professor für Musiktheorie an der <a href='https://www.hmtm.de/de/' className='underline'>Hochschule für Musik und Theater München</a> und Projektleiter der Open Music Academy. Zu seinen Interessenschwerpunkten zählen das <Link href='/publikationen/'>Publizieren</Link> von Forschungsarbeiten unter Open Access sowie eine <Link href='person/oep-oer/'>Open Educational Practise</Link> im Bereich der Musik.
+                    </ListItem>
+                  </UnorderedList>
+                  <Text>
+                    Hören Sie gerne auch in die Podcastfolge zugehOERt 83: <a href='https://open-educational-resources.de/zugehoert-083-oer-zum-musiklernen/'>»OER zum Musiklernen«</a> mit Ulrich Kaiser im Interview zur Open Musik Akademy.
+                  </Text>
+                  <Divider />
+                  <Text>
+                    <a title="Details zu dieser Lizenz" href="http://creativecommons.org/licenses/by/4.0/"><img style={{borderWidth: 0}} src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="Creative Commons Lizenzvertrag" /></a> Dieser Text steht unter der <a title="Details zur Lizenz" href="http://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0-Lizenz</a>. Die Namen der Urheber*innen sollen bei einer Weiterverwendung wie folgt genannt werden: <em>Ulrich Kaiser</em>, <a href="https://www.hmtm.de//" target="_blank" rel="noopener">Hochschule für Musik und Theater München</a> und <em>Susanne Grimm</em>, <a href="https://www.dipf.de/" target="_blank" rel="noopener">DIPF | Leibniz-Institut für Bildungsforschung und Bildungsinformation</a> für <a href="https://www.o-e-r.de/" target="_blank" rel="noopener">OERinfo – Die Informationsstelle OER</a>
+                  </Text>
+                </Stack>
+              </AccordionPanel>
+          </>
+          )}
+        </AccordionItem>
         <AccordionItem>
           {({ isExpanded }) => (
             <>
