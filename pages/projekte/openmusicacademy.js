@@ -142,6 +142,15 @@ export default function OpenMusicAcademy() {
         </Center>
       </Box>
     </Flex>
+    <Flex bg="#b9feb9">      
+      <Box w='100%' direction={'row'}>
+        <Center>
+          <a href='https://awards.oeglobal.org/awards/2024/open-infrastructure/open-music-academy/'>
+            <Image src='/images/awards24-certificate-open-music-academy.png' p='10px' />
+          </a>
+        </Center>
+      </Box>
+    </Flex>
     
   </>
 }
