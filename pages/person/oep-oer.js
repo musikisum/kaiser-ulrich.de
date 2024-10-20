@@ -54,7 +54,7 @@ export default function OepOer() {
     <Divider mt='20px' mb='20px' w='50%' h='1px' bg='gray' />
     <ol style={{margin: '20px', listStyleType: 'none'}}>
       <li id="fn-01">
-        <a href='#01'>1.</a> <Link className='underline' href='/publikationen/verlage'>s. Verlagspublikationen</Link>
+        <a href='#01'>1.</a><Link className='underline' href='/publikationen/verlage'>s. Verlagspublikationen</Link>
       </li>
       <li id="fn-02">
       <a href='#02'>2.</a> <Link className='underline' href='/publikationen/tutorials/'>s. Tutorials</Link>
