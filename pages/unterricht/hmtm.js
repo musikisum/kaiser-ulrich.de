@@ -19,10 +19,10 @@ export default function Hmtm() {
     </Head>
     <PageHeader options={ options } />
     <Text>
-      Auf einen Vorschlag der Studierenden der HMTM habe ich mich im Jahr 2023 für den vom Bayerischen Staatsministerium für Wissenschaft und Kunst ausgelobten <i>Preis für gute Lehre</i> beworben. Hier finden Sie Materialien zu dieser Bewerbung. 
+      Auf einen Vorschlag der Studierenden der HMTM durfte ich mich in den Jahren 2023 und 2024 für den vom Bayerischen Staatsministerium für Wissenschaft und Kunst ausgelobten <i>Preis für gute Lehre</i> bewerben. Hier finden Sie Materialien zu diesen Bewerbungen. 
     </Text>
     <Text bg='#b9feb9' pl='40px' pr='40px' pt='20px' pb='20px' style={{ borderRadius: '10px', marginTop: '20px' }}>
-      <b>Studentische Vorschlagsbegründung</b><br /><br />
+      <b>Studentische Vorschlagsbegründung (2023)</b><br /><br />
       <i>Herr Prof. Dr. Kaiser forscht auf höchstem Niveau über die Theorie der Sonatenhauptsatzform, aber auch im Feld der Pop/Rock/Schlager Musik, was ein außergewöhnlich breites Spektrum der Musikgeschichte und Gegenwart abdeckt. Aber noch wichtiger: er möchte das Musiklernen allen frei zugänglich, und erreichbar machen. Deshalb arbeitet er seit Jahrzehnten an Lehrbüchern aller Stufen, Open  Educational Ressources (OER), Blended Learning, und baut seit einigen Jahren die Open Music Academy (früher ELMU Education e.V. genannt). Diese Online-Plattform sammelt und veröffentlicht originale Beiträge zu nahezu allen Aspekten des Musiklernens.<br/>
       Sein enormes Wissen, seine Begeisterung und sein innovatives Denken schafft er sowohl in seinen Vorlesungen und Seminaren, als auch in seinen Publikationen, in ansteckender Form, herüberzubringen!<br/>
       Es würde mich freuen, wenn seine außergewöhnlichen Leistung besonders anerkannt wäre, wie z.B. durch den Preis ›gute Lehre‹.</i>
