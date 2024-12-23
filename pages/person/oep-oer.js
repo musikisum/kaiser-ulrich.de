@@ -34,7 +34,7 @@ export default function OepOer() {
       »This award honors an innovative teacher/professor who has published and/or used a significant body of Open Resources and/or applied Open Practices over a sustained period (at least one year) in their teaching practice. This individual’s open course materials and professional practices have been recognized for impacting student learning and influencing peers to share more openly.«
     </Text>
     <Text className='mt20'>
-      Zu meiner aufrichtigen, großen Freude wurde ich unter 112 Bewerbungen aus 28 Ländern für die <a href='https://awards.oeglobal.org/2024-finalists/' className='underline'>Shortlist</a> des Educator Award ausgewählt. Meine Kolleginnen und Kollegen auf dieser Shortlist sind: Kiranjot Kaur (Conestoga College, Canada), Fatih Yegul (Conestoga College, Canada) und Maria Luisa Zorrilla (Universidad Autonoma del Estado de Morelos, Mexico). 
+      Zu meiner aufrichtigen, großen Freude wurde ich unter 112 Bewerbungen aus 28 Ländern für die <a href='https://awards.oeglobal.org/2024-finalists/' className='underline'>Shortlist</a> des Educator Award ausgewählt. Meine Kolleginnen und Kollegen auf dieser Shortlist waren: Kiranjot Kaur (Conestoga College, Canada), Fatih Yegul (Conestoga College, Canada) und Maria Luisa Zorrilla (Universidad Autonoma del Estado de Morelos, Mexico). Den Award gewonnen hat Maria Luisa Zorrilla (ich gratuliere herzlich!).
     </Text>
 
     <Divider mt='60px' mb='60px' h='1px' bg='gray' />
