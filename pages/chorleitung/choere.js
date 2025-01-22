@@ -206,7 +206,7 @@ export default function Choere() {
 
       <div className={style.chorContainer}>
         <div>
-          Der Chor Artecanto war ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der nur einige (wenige) Konzerte bestritten hat. Mein Umzug nach München hat die Fortführung dieses Projekt leider verhindert.  
+          Der Chor Artecanto war ein kleiner Projektchor aus 11 Sängerinnen und Sängern, den ich für Aufführung von Chorwerken in kleiner Besetzung 1999 gegründet habe und der nur einige (wenige) Konzerte bestritten hat. Mein Umzug nach München hat die Fortführung dieses Projekts leider verhindert.  
         </div>
       </div>
       <Divider mt='20px' mb='10px'/>
@@ -242,7 +242,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (die Leitung des Orchesters hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (das langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn dieser energiereiche und lebhafte Chor junger Sänerinnen und Sänger hatte damals die seltene Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (dem Ensemble verdanke ich daher einige der virtuosesten Aufführungen :)
+            Den Chor des Jungen Ensemble Berlins habe ich zwischen 1989 und 1992 geleitet (die Leitung des Orchesters hatte zur gleichen Zeit Gereon Kremp übernommen). Dieser Chor war der erste und einzige Chor, bei dem man sich um das <i>Schleppen</i> (das langsamer Singen als von der Leitung geplant) keine Sorgen machen musste. Denn dieser energiereiche und lebhafte Chor junger Sänerinnen und Sänger hatte damals die seltene Angewohnheit, beim Singen schneller Chorliteratur von ganz alleine schneller zu werden (dem Ensemble verdanke ich daher einige sehr virtuose Aufführungen :)
           </div>
         </div>
       </div>    
@@ -261,7 +261,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Meine Chorleitungstätigkeiten begonnen habe ich mit mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst zwei Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die vierstimmige Singefähigkeit zu erhalten. Diesen Chören verdanke ich sehr viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (der ich z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung verdanke). Nach über acht Jahren musste ich die Chöre aus beruflichen Gründen abgeben.  
+            Meine Chorleitungstätigkeiten begonnen habe ich mit mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst zwei Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die vierstimmige Singefähigkeit zu erhalten. Diesen Chören verdanke ich sehr viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung). Nach über acht Jahren musste ich die die Leitung der Chöre aus beruflichen Gründen abgeben.  
           </div>
         </div>
       </div>    

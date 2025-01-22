@@ -1,5 +1,91 @@
 [
   {
+    "name": "Sommersemester 2025",
+    "annotations": "",
+    "unterricht": [
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "6:0",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Montag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "0:45",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "12:15",
+        "Duration": "1:30",
+        "Category": "Anderes",
+        "Title": "Musiktheorie alt und schwer ...",
+        "Description": "Im Mittelpunkt dieses Seminars stehen zwei zentrale Fragestellungen: Zum einen wird untersucht, was unter dem Begriff ›Musiktheorie‹ sowohl in umgangssprachlichen Kontexten als auch in fachwissenschaftlichen Diskursen verstanden wird. Zum anderen geht es darum, ob die Bedeutung angemessen ist, die Musiktheorie in der professionellen Musikausbildung und einem unter Druck stehenden Schulmusikunterricht aktuell zukommt. Ziel des Seminars ist es, den Stand des Musikunterrichts zu reflektieren und über ›Future Skills‹ unter Berücksichtigung einer sich rasant verändernden Gesellschaft nachzudenken. Die Inhalte des Seminars werden in der ersten Sitzung unter Berücksichtigung der Interessen der Teilnehmenden und vorhandener Möglichkeiten festgelegt.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "9ed81bc6-183a-11ee-be56-0242ac120002",
+        "CourseType": "S",
+        "Start": "14:15",
+        "Duration": "1:30",
+        "Category": "Projektseminar",
+        "Title": "IM 1 – Projekt 2",
+        "Description": "Ziel des Seminars ist es, in Gruppen- oder Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen, ein Arrangement für Kammermusik mit/oder ohne Chor auszuarbeiten und aufzuführen etc. Weitere individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab 14.00 Uhr) hochschulintern präsentiert (Prüfung).",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "16:15",
+        "Duration": "2:30",
+        "Category": "Projektseminar",
+        "Title": "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
+        "Description": "Fortführung der Projektbetreuung aus dem gleichnamigen Seminar des Wintersemester",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "8:0",
+        "Category": "Anderes",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "8:00",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "7ce8093a-1b0f-40c6-af75-eff9761bab43",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "7:30",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Freitag"
+      }
+    ]
+  },
+  {
     "name": "Wintersemester 2024/2025",
     "annotations": "",
     "unterricht": [
@@ -136,7 +222,7 @@
         "Duration": "2:30",
         "Category": "Projektseminar",
         "Title": "OER und das WWW / Projekt (IM 2)",
-        "Description": "Fortführung des Seminars aus dem Wintersemester)",
+        "Description": "Fortführung der Projektbetreuung aus dem gleichnamigen Seminar des Wintersemester",
         "DayOfWeek": "Dienstag"
       },
       {
