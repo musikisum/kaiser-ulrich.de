@@ -122,7 +122,7 @@ export default function Hmtm() {
         Ergebnis
       </Heading>
       <Text>
-        2024 wurde mein Kollege <a href='https://hmtm.de/personen/prof-christian-wissel/' className='underline'>Prof. Christian Wissel</a> von der Leitung der <a href='https://hmtm.de/' className='underline'>Hochschule für Musik und Theater München</a> für den <i>Preis für gute Lehre</i> des StMWK ausgewählt und dem Staatsministerium zur Auszeichnung vorgeschlagen. Den Preis in der Kategorie <i>Musikhochschule</i> erhalten hat <a href='https://www.hfm-nuernberg.de/personenverzeichnis/profil/maren-wilhelm' className='underline'>Prof. Wilhelm</a> (Nürnberg)  
+        2024 wurde mein Kollege <a href='https://hmtm.de/personen/prof-christian-wissel/' className='underline'>Prof. Christian Wissel</a> von der Leitung der <a href='https://hmtm.de/' className='underline'>Hochschule für Musik und Theater München</a> für den <i>Preis für gute Lehre</i> des Bayerischen Staatsministeriums für Wissenschaft und Kunst ausgewählt und zur Auszeichnung vorgeschlagen. Den Preis in der Kategorie <i>Musikhochschule</i> erhalten hat <a href='https://www.hfm-nuernberg.de/personenverzeichnis/profil/maren-wilhelm' className='underline'>Prof. Wilhelm</a> (Nürnberg).
       </Text>
     </div>}
 
@@ -142,7 +142,7 @@ export default function Hmtm() {
         <b>Antwort:</b> Angesichts des Tempos gesellschaftlicher Veränderungen durch digitale Innovationen verstehe ich exzellente Lehre heute als einen im hohen Maße dynamischen Prozess. Dieser Prozess gleicht einem neuronalen Netz, in dem Studierende und Lehrende wie Neuronen über Kommunikation miteinander verbunden sind. Das Lernen findet dabei immer parallel und auf verschiedenen Ebenen statt. Studierende lernen an Musikhochschulen idealerweise anhand von Fachinhalten, durch künstlerische Praxis und durch Vorbilder, Lehrpersonen lernen in Unterrichtssituationen, durch künstlerische Vorhaben oder wissenschaftliche Forschung. Nach diesem Bild lässt sich exzellente Lehre nicht über statische Eigenschaften wie fachlich ausgearbeitete Curricula oder Materialien beschreiben, sondern nur als Qualität verstehen, die sich agil und dynamisch um angemessene Fachinhalte in Hinblick auf die rasanten gesellschaftlichen Entwicklungen bemüht.
       </Text>
       <Text className='mt20'>
-        <b>Leitfrage:</b> Bitte beziehen Sie sich im Folgenden bitte auf ein bestimmtes Lehrformat (z.B. Einzel-unterricht, Seminar o.ä.) oder eine spezifische Lehrveranstaltung, die Sie als besonders beispielhaft für Ihre Lehrtätigkeit ansehen. Bitte machen Sie folgende Angaben dazu:
+        <b>Leitfrage:</b> Bitte beziehen Sie sich im Folgenden bitte auf ein bestimmtes Lehrformat (z.B. Einzelunterricht, Seminar o.ä.) oder eine spezifische Lehrveranstaltung, die Sie als besonders beispielhaft für Ihre Lehrtätigkeit ansehen. Bitte machen Sie folgende Angaben dazu:
       </Text>
       <Text className='mt20'>
         <b>Antwort:</b><br />
@@ -155,7 +155,7 @@ export default function Hmtm() {
         <b>Leitfrage:</b> Welche konkreten Lernziele verfolgen Sie in dem von Ihnen gewählten Format bzw. der von Ihnen gewählten Lehrveranstaltung?
       </Text>
       <Text className='mt20'>
-        <b>Antwort:</b> Dieses Seminar bietet eine Annäherung an die Themen Open Educational Practices (OEP) und Open Educational Resources (OER). Ziel ist es, gängige Missverständnisse, Aspekte der Medienethik und der Medienkompetenz sowie ausgewählte Kontexte wie das Urheberrecht und Creative-Commons-Lizenzen zu besprechen. Darüber hinaus wird die Frage nach der sozial-gesellschaftlichen Relevanz von OEP diskutiert. Nach Einführung in die Thematik geht es um die praktische Arbeit an OER, also um das Besprechen und Realisieren einer eigenen, künstlerisch/pädagogischen Projektidee sowie nach Möglichkeit um die Veröffentlichung der Projektergebnisse auf der Open Music Academy.
+        <b>Antwort:</b> Dieses Seminar bietet eine Annäherung an die Themen Open Educational Practices (OEP) und Open Educational Resources (OER). Ziel ist es, gängige Missverständnisse, Aspekte der Medienethik und der Medienkompetenz sowie ausgewählte Kontexte wie das Urheberrecht und Creative-Commons-Lizenzen zu besprechen. Darüber hinaus wird die Frage nach der sozialgesellschaftlichen Relevanz von OEP diskutiert. Nach Einführung in die Thematik geht es um die praktische Arbeit an OER, also um das Besprechen und Realisieren einer eigenen, künstlerisch/pädagogischen Projektidee sowie nach Möglichkeit um die Veröffentlichung der Projektergebnisse auf der Open Music Academy.
       </Text>
       <Text className='mt20'>
         <b>Leitfrage:</b> Welche spezifischen didaktischen und methodischen Ansätze setzen Sie in dem von Ihnen gewählten Format bzw. in der gewählten Lehrveranstaltung ein?
@@ -190,7 +190,7 @@ export default function Hmtm() {
         Ergebnis
       </Heading>
       <Text>
-        2025 wurde mien Lehrkonzept von der Leitung der <a href='https://hmtm.de/' className='underline'>Hochschule für Musik und Theater München</a> für den für den <i>Preis für gute Lehre</i> des StMWK ausgewählt und dem Staatsministerium zur Auszeichnung vorgeschlagen.  
+        2025 wurde mein Lehrkonzept von der Leitung der <a href='https://hmtm.de/' className='underline'>Hochschule für Musik und Theater München</a> für den <i>Preis für gute Lehre</i> des Bayerischen Staatsministeriums für Wissenschaft und Kunst ausgewählt und zur Auszeichnung vorgeschlagen.  
       </Text>
     </div>}
   </>

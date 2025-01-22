@@ -261,7 +261,7 @@ export default function Choere() {
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
-            Meine Chorleitungstätigkeiten begonnen habe ich mit mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst zwei Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die vierstimmige Singefähigkeit zu erhalten. Diesen Chören verdanke ich sehr viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (z.B. einen Großteil der Ausstattung meiner ersten eigenen Wohnung). Nach über acht Jahren musste ich die die Leitung der Chöre aus beruflichen Gründen abgeben.  
+            Meine Chorleitungstätigkeiten begonnen habe ich mit 18 Jahren (1981) und der Übernahme der Männerchöre der Bäcker-Innung Berlin Nord und der Sangesriege des TSV Gesundbrunnen. Bei der Übernahme sangen in beiden Chöre noch über 60 Männer! Aufgrund der Altersstruktur und natürlicher Abgänge habe ich zuerst zwei Frauenchöre aus den Ehefrauen gegründet und später dann alle Chöre zusammengelegt, um die vierstimmige Singefähigkeit zu erhalten. Diesen Chören verdanke ich sehr viel, zum Beispiel Erfahrungen, Aufführungen von Eigenkompositionen, menschlich wertvolle Begegnungen und auch große Hilfsbereitschaft (z.B. den Großteil der Ausstattung meiner ersten eigenen Wohnung in Berlin-Wedding). Nach über acht Jahren musste ich die die Leitung der Chöre aus beruflichen Gründen abgeben.
           </div>
         </div>
       </div>    
