@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
 import VideoWrapper from '../components/videoWrapper';
-import { Text, Image, Heading, Divider, Flex, Box, HStack } from '@chakra-ui/react';
+import { Text, Image, Heading, Divider, Flex, Box } from '@chakra-ui/react';
 
 const options = {
   title: 'Consortium Musicum',
@@ -20,7 +20,6 @@ const video = {
 }
 
 import style from './choere.module.css';
-import { divide } from 'lodash';
 
 export default function Choere() {
 
