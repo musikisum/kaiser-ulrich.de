@@ -35,7 +35,7 @@ export const sitemapDictionary = {
   "/publikationen/tutorials": "Tutorials",
   "/publikationen/gelegenheiten": "Gelegenheiten",
   "/unterricht": "Unterricht",
-  "/unterricht/hmtm": "Lehrverständnis (HMTM)",
+  "/unterricht/hmtm": "Auszeichnungen",
   "/unterricht/evaluation": "Evaluationen",
   "/angebote": "Angebote",
   "/angebote/fortbildungen": "Fortbildungen",
