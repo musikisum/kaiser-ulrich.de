@@ -26,9 +26,6 @@ export default function Evaluation() {
       </Head>
       <PageHeader options={ options } />
       <Heading as='h3' className='headingH3' mb='40px'>
-        Preis für gute Lehre
-      </Heading>
-      <Heading as='h3' className='headingH3' mb='40px'>
         Evaluationsergebnisse meiner Lehre an der HMTM
       </Heading>
       {
