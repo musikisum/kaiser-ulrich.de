@@ -35,7 +35,8 @@ export default function Hmtm() {
       Nominierung für den ›Open Education Award for Excellence‹
     </Heading>
     <Text mb='10'>
-      Im Jahr 2024 wurde ich für mein Lehrengagement mithilfe von Open Educational Resources für die <Link href='/person/oep-oer'>Shortlist</Link> des internationalen <a href='https://awards.oeglobal.org/2024-finalists' className='underline'>Open Education Award for Excellence 2024</a> von OE Global nominiert (Kategorie ›Educator Award‹). In derselben Ausschreibung erhielt die Open Music Academy in der Kategorie <i>Open Infrastructure</i> den <a href='https://awards.oeglobal.org/awards/2024/open-infrastructure/open-music-academy/' className='underline'>Open Education Award for Excellence 2024</a>.
+      Im Jahr 2024 wurde ich für mein Lehrengagement mithilfe von Open Educational aus 112 Nominierungen aus 28 Ländern für die <Link href='/person/oep-oer'>Shortlist</Link> des internationalen <a href='https://awards.oeglobal.org/2024-finalists' className='underline'>Open Education Award for Excellence 2024</a> von OE Global nominiert (Kategorie ›Educator Award‹). Die Auszeichnung erhielt Maria Luisa Zorrilla aus Mexiko.<br/>
+      In derselben Ausschreibung gewann die Open Music Academy in der Kategorie <i>Open Infrastructure</i> den <a href='https://awards.oeglobal.org/awards/2024/open-infrastructure/open-music-academy/' className='underline'>Open Education Award for Excellence 2024</a>.
     </Text>
 
     <Divider mt='10' mb='10' h='1px' bg='gray' />
@@ -63,6 +64,12 @@ export default function Hmtm() {
     </Heading>
     <Text mb='6'>
       »Prof. Ulrich Kaiser orientiert seinen Unterricht mit außergewöhnlichem Engagement an der Zielgruppe seines Unterrichts und richtet ihn im Dialog mit Studierenden stets neu aus. Die Studierenden würdigen das mit exzellenten Evaluationsergebnissen. Der Schwerpunkt der Tätigkeit von Ulrich Kaiser liegt seit Jahren auf dem Feld der digitalen Bildung. Hier ist er nicht nur Pionier und Motor an der HMTM, sondern erreicht weit darüber hinaus Interesse und Aufmerksamkeit in unterschiedlichen Bildungskontexten. Mit der Initiierung und Umsetzung des Projekts „Open Music Academy“ (OMA) 2021 geriet die Idee der digitalen Bildung im Kontext einer zeitgemäßen Didaktik sowie freier Zugänglichkeit und Nachhaltigkeit in den Fokus einer größeren Öffentlichkeit. Prof. Kaisers steter Einsatz für diese Anliegen über den Horizont seines eigenen Unterrichts und Fachs hinaus und mit Wirkung für möglichst viele Bereiche der Hochschule ist herausragend.«
+    </Text>
+    <Heading as='h5' className="headingH5">
+      Prof. Lydia Grün, Präsidentin der HMTM
+    </Heading>
+    <Text mb='6'>
+      »Die Lehre von Prof. Dr. Ulrich Kaiser zeichnet sich durch einen sehr hohen Innovationsgrad aus und bleibt immer anwendungsorientiert. Insbesondere im Bereich der digitalen Bildung zeigt er nicht nur ein feines Gespür für die technischen Entwicklungen unserer Zeit, sondern auch für deren kulturelle, künstlerische und gesellschaftspolitische Dimensionen, die er mit seinen Studierenden diskursiv durchleuchtet und in Projekte wie die Open Music Academy überführt. Damit ist Prof. Dr. Ulrich Kaiser Vorbild für Studierende des Lehramts, die er vornehmlich unterrichtet, und für die Lehre.«
     </Text>
 
     <Divider mt='6' mb='6' h='1px' bg='gray' />
