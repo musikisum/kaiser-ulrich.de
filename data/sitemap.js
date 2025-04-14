@@ -4,7 +4,7 @@ export const sitemap = {
   "pages": [
     { "/wissenschaft": [ "/profil", "/betreuungen", "/hilfsmittel" ] },
     { "/wissenschaft/hilfsmittel": ["/kommunikation", "/herausgeber", '/urheberrecht' ] },
-    { "/publikationen": [ "/verlage", "/artikel", "/openbooks", "/musik", "/tutorials", "/gelegenheiten"] },
+    { "/publikationen": [ "/verlage", "/artikel", "/fischer-mozart-musikwissenschaft", "/openbooks", "/musik", "/tutorials", "/gelegenheiten"] },
     { "/projekte": [ "/gezumu", "/openmusicacademy", "/elmu" ] },
     { "/angebote": [ "/fortbildungen", "/beitraege", "/slides-online", "/webdoc" ] },
     { "/unterricht": [ "/hmtm", "/evaluation" ] },
@@ -30,6 +30,7 @@ export const sitemapDictionary = {
   "/publikationen": "Publikationen",
   "/publikationen/verlage": "Bücher & Hefte",
   "/publikationen/artikel": "Artikel",
+  "/publikationen/fischer-mozart-musikwissenschaft": "H. Fischer",
   "/publikationen/openbooks": "OpenBooks",
   "/publikationen/musik": "Musik",
   "/publikationen/tutorials": "Tutorials",
