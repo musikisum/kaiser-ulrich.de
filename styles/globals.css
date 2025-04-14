@@ -78,6 +78,28 @@ a.underline {
   text-decoration: underline;
 }
 
+.scoreExample {
+  display: block;
+  margin: 36px auto 24px auto;
+}
+.imageText {
+  text-align: center;
+  font-size: small;
+  margin-bottom: 36px;
+}
+.w80 {
+  width: 80%;
+}
+.w70 {
+  width: 70%;
+}
+.w60 {
+  width: 60%;
+}
+.w50 {
+  width: 50%;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

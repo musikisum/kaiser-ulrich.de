@@ -30,7 +30,7 @@ export const sitemapDictionary = {
   "/publikationen": "Publikationen",
   "/publikationen/verlage": "Bücher & Hefte",
   "/publikationen/artikel": "Artikel",
-  "/publikationen/fischer-mozart-musikwissenschaft": "H. Fischer",
+  "/publikationen/fischer-mozart-musikwissenschaft": "Fischer & Mozart",
   "/publikationen/openbooks": "OpenBooks",
   "/publikationen/musik": "Musik",
   "/publikationen/tutorials": "Tutorials",
