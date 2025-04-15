@@ -20,11 +20,11 @@ export default function FischerMozartMusikwissenschaft() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
-      {/* <Heading as='h1' className='headingH2'>Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt</Heading>
-      <Text>Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft.</Text>
       <Text mt='6px' fontSize='12px'>
-       Dieser Beitrag
+       Dieser Beitrag ist erschienen in: ... Er wird hier in HTML-Form zur Verfügung gestellt, um einen Nachvollzug der Höbeispiele zu erleichtern. Die Noten skizzieren urheberrechtlich geschütztes Material, Melodien und die Auschnitte aus den Songs (Sounddateien) werden im Rahmen des <a href='https://www.gesetze-im-internet.de/urhg/__51.html' className='underline'>§ 51 UrHG</a> verwendet und sind von den <a href='' className='underline'>Zeitschrift (Proceedings) der Gesellschaft für Musiktheorie</a> verlinkt.
       </Text>
+      <Heading as='h1' className='headingH2'>Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt</Heading>
+      <Text>Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft.</Text>
       <Text mt='6px' fontSize='12px'>
         Der folgende Beitrag wurde initiiert durch ein Referat auf dem 21. Kongress der GMTH in Basel mit dem Titel »Was passiert im 5. Takt«, in dem es um Strukturbeobachtungen zu Songs ging, die durch Helene Fischer und Beatrice Egli bekannt geworden sind. Die Beobachtungen bestanden darin, dass metaphorisch gesprochen in der Mitte von Taktgruppen dieser Musik – also beispielsweise im fünften Takt achttaktiger Einheiten – sehr häufig eine Subdominante erklingt. Überlegungen zur Formfunktion dieser Subdominante führten zur Melodiegestaltung und an dieser Stelle gerieten strukturelle Ähnlichkeit zwischen der untersuchten Schlagermusik und der Musik W. A. Mozarts in den Blick. Die unterschiedlichen Bewertungen von Schlagermusik auf der einen Seite und der Musik Mozarts auf der anderen sind geeignet, ästhetische Standpunkte der Analysierenden zu reflektieren.<a href='#fn1'><sup id="fz1">1</sup></a>
       </Text>
@@ -49,24 +49,43 @@ export default function FischerMozartMusikwissenschaft() {
       <Text mb='6px'>
         Das erste Analysemodell besteht aus zwei Teilen. Der erste Teil zeigt harmonisch ein I-V-I-Pendel, der zweite Teil besteht aus einer IV–I- oder IV-V-Bewegung:
       </Text>
-      <img className='scoreExample w50' src='/images/fischer-mozart/Modelle-1.svg' alt='Modell I-V-I und Kadenz' />
-      <Text className='imageText'>Abbildung 1: I-V-I-Pendelmodell und IV-I- oder IV-V-Bewegung</Text>
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-1.svg' alt='Modell I-V-I und Kadenz' />
+      <Text className='urhgText'>Abbildung 1: I-V-I-Pendelmodell und IV-I- oder IV-V-Bewegung</Text>
       <Text mb='6px'>
         Das I-V-I-Pendel dient zum Beschreiben von ersten Taktgruppen (Anfängen), die durch ein Pendeln zwischen tonikalen und dominantischen Harmonien charakterisiert sind. Ausgeschlossen sind damit Anfänge, in denen die Subdominante eine tragende Rolle spielt. Das bekannteste Modell, das sich durch das I-V-I-Pendel referenzieren lässt, wäre das Schema (I-V-V-I) im Sinne Robert Gjerdingens<a href='#fn4'><sup id="fz4">4</sup></a> (Beispiel a), die Beispiele b) und c) lassen sich jedoch ebenfalls durch das Modell angemessen beschreiben:
       </Text>
-      <img className='scoreExample w50' src='/images/fischer-mozart/Modelle-2.svg' alt='mögliche Harmoniefolgen I' />
-      <Text className='imageText'>Abbildung 2: Mögliche Harmoniefolgen des I-V-I-Modells</Text>
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-2.svg' alt='mögliche Harmoniefolgen I' />
+      <Text className='urhgText'>Abbildung 2: Mögliche Harmoniefolgen des I-V-I-Modells</Text>
       <Text>
         Als Ausnahme wird eine vor dem tonikalen Abschluss relativ kurz erklingende Subdominante im Rahmen des Schemas interpretiert (Beispiel d). Diese Wendung kommt in Schlagermusik recht häufig vor, wobei die Subdominante hier wie eine Prolongation der zweiten Dominantharmonie wirkt und deshalb als gattungstypische Erweiterung des Schemas aufgefasst wird.
       </Text>
       <Text truncate>
         Das Modell IV-I- bzw. IV-V-Bewegung ist recht abstrakt, da mit ihm Einheiten erfasst werden sollen, die mit einer IV. Stufe bzw. Subdominante beginnen und auf einer I. Stufe (als Ganzschluss) oder einer V. Stufe (als Halbschluss) enden. Die prominenteste Harmoniefolge, die sich mithilfe der IV-I-Bewegung beschreiben lässt, dürfte die IV-I-V-I-Pendelharmonik<a href='#fn5'><sup id="fz5">5</sup></a> sein, jedoch auch die unter b) bis d) gezeigten Harmonien verbinden mit entsprechender Stimmführung eine IV. Stufe mit einem Ganz- oder Halbschluss:
       </Text>
-      <img className='scoreExample w50' src='/images/fischer-mozart/Modelle-3.svg' alt='mögliche Harmoniefolgen II' />
-      <Text className='imageText'>Abbildung 3: Mögliche Harmoniefolgen des IV-I- bzw. IV-V-Modells</Text>
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-3.svg' alt='mögliche Harmoniefolgen II' />
+      <Text className='urhgText'>Abbildung 3: Mögliche Harmoniefolgen des IV-I- bzw. IV-V-Modells</Text>
       <Text>
-        Der Chorus des von Helene Fischer gesungenen Songs Tanz noch einmal mit mir des Albums Zaubermond (2008) lässt sich im Hinblick auf Syntax und Harmonik angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) verstehen. Die Sexte in den Backingvocals im ersten Takt wird dabei als Auffassungsdissonanz zur I. Stufe interpretiert (Abb. 4).
+        Der Chorus des von Helene Fischer gesungenen Songs Tanz noch einmal mit mir des Albums Zaubermond (2008) lässt sich im Hinblick auf Syntax und Harmonik angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) verstehen. Die Sexte in den Backingvocals im ersten Takt wird dabei als Auffassungsdissonanz zur I. Stufe interpretiert.
       </Text>
+      <img className='scoreExample w60 mt36' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-1.svg' alt='mögliche Harmoniefolgen II' />
+      <img className='scoreExample w60 mt12' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-2.svg' alt='mögliche Harmoniefolgen II' />
+      <img className='scoreExample w60 mt12' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-3.svg' alt='mögliche Harmoniefolgen II' />
+      <img className='scoreExample w60 mt12 mb24' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-4.svg' alt='mögliche Harmoniefolgen II' />
+      <Text className='urhgText'>Abbildung 4: Notenskizze Tanz noch einmal mit mir (Chorus)</Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_01.mp3'  />
+      <Text className='urhgText'>Helene Fischer, »Tanz noch einmal mit mir«, Zaubermond, Track 7,<br/>Electrola 2277572, P 2008, Musik/Text: Jean Frankfurter, Tobias Reitz.</Text>
+      <Text className='mt36'>
+        Der harmonische Rhythmus in diesem Song verläuft ganztaktig, das Erreichen der I. Stufe am Ende wirkt ganzschlüssig und bildet zugleich den ersten Takt eines zweitaktigen Interludes, bevor der zweite Verse wieder (in a-Moll) einsetzt. Der folgende zweitaktige Gerüstsatz veranschaulicht den nach C-Dur transponierten harmonischen Verlauf sowie die Gerüsttöne der Melodiegestaltung.
+      </Text>
+      <img className='scoreExample w60 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-1.svg' alt='mögliche Harmoniefolgen II' />
+      <Text className='urhgText'>Abbildung 5: Gerüstsatz Tanz noch einmal mit mir (Chorus), original in A-Dur</Text>
+      <Text className='mt36'>
+        Motivisch entsprechen sich erster und dritter sowie zweiter und vierter Takt (Diminution abwärts- bzw. aufwärts gerichteter Sextintervalle). Das führt anfangs zur Wahrnehmung von Zweitaktgruppen, wobei ab der mittigen Subdominante bzw. dem Beginn der IV-I-V-I-Harmonik ein Beschleunigungseffekt eintritt, der durch einer eintaktige motivische Gestaltung bewirkt wird. Die Klammern über den Notensystemen zeigen die beschriebene Gliederung an.
+      </Text>
+      <Text truncate>
+        Auch der Chorus-Verlauf des von Helene Fischer gesungenen Songs <i>Einmal berührt, für immer verführt</i> lässt sich angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) beschreiben. Interessant ist in diesem Song, dass die Harmonien der Folge I-V-V-I nicht ganztaktig, sondern zur jeweils zweiten Takthälfte des zweiten und vierten Taktes wechseln. Die abschließende I. Stufe des I-V-I-Pendelmodells erklingt daher nur im Wert einer halben Note und bereitet auf diese Weise ein harmonisches Accelerando bzw. die Stufenfolge IV-V-iii-vi-IV-V-I vor. Auch hier wirkt die Gestaltung des Abschlusses wie ein Ganzschluss und lässt sich als Takterstickung (bzw. Phrasenverschränkung) interpretieren.<a href='#fn6'><sup id="fz6">6</sup></a>
+      </Text>
+
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
        <Heading as='h2' className='headingH4'>Fußnoten</Heading>
@@ -77,8 +96,9 @@ export default function FischerMozartMusikwissenschaft() {
           <li id="fn3"><a href='#fz3'>3.&nbsp;</a>Weber 1922, 191. Zum Modellbegriff und wissenschaftstheoretischen Kontext s. Kaiser 2016.</li>
           <li id="fn4"><a href='#fz4'>4.&nbsp;</a>Gjerdingen 1988.</li>
           <li id="fn5"><a href='#fz5'>5.&nbsp;</a>Zur Bedeutung der IV-I-V-I-Harmonik in der Formfunktion einer zweiten Taktgruppe in Musik des 18. Jahrhunderts vgl. Kaiser 2007, 179–185. In englischsprachigen Publikationen wird diese Harmonik unter dem Namen <i>Prinner</i> diskutiert, vgl. Gjerdingen 2007, 45 ff.</li>
+          <li id="fn6"><a href='#fz6'>6.&nbsp;</a>Der achte Takt als harmonischer Abschluss fällt dabei mit dem ersten Takt des Interludes zusammen. Anders als im Bereich klassischer Kompositionen ist der Abschluss der Melodie vorgezogen, entfaltet aber die gleiche Schlusswirkung wie das Erreichen des Grundtons im Offbeat oder auf der ersten Zählzeit des Taktes.</li>
         </ul>
-       </div> */}
+       </div>
     </>
   )
 }
