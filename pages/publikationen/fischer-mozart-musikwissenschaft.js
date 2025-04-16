@@ -59,44 +59,113 @@ export default function FischerMozartMusikwissenschaft() {
       <Text>
         Als Ausnahme wird eine vor dem tonikalen Abschluss relativ kurz erklingende Subdominante im Rahmen des Schemas interpretiert (Beispiel d). Diese Wendung kommt in Schlagermusik recht häufig vor, wobei die Subdominante hier wie eine Prolongation der zweiten Dominantharmonie wirkt und deshalb als gattungstypische Erweiterung des Schemas aufgefasst wird.
       </Text>
-      <Text truncate>
-        Das Modell IV-I- bzw. IV-V-Bewegung ist recht abstrakt, da mit ihm Einheiten erfasst werden sollen, die mit einer IV. Stufe bzw. Subdominante beginnen und auf einer I. Stufe (als Ganzschluss) oder einer V. Stufe (als Halbschluss) enden. Die prominenteste Harmoniefolge, die sich mithilfe der IV-I-Bewegung beschreiben lässt, dürfte die IV-I-V-I-Pendelharmonik<a href='#fn5'><sup id="fz5">5</sup></a> sein, jedoch auch die unter b) bis d) gezeigten Harmonien verbinden mit entsprechender Stimmführung eine IV. Stufe mit einem Ganz- oder Halbschluss:
+      <Text>
+        <span className='truncate' />Das Modell IV-I- bzw. IV-V-Bewegung ist recht abstrakt, da mit ihm Einheiten erfasst werden sollen, die mit einer IV. Stufe bzw. Subdominante beginnen und auf einer I. Stufe (als Ganzschluss) oder einer V. Stufe (als Halbschluss) enden. Die prominenteste Harmoniefolge, die sich mithilfe der IV-I-Bewegung beschreiben lässt, dürfte die IV-I-V-I-Pendelharmonik<a href='#fn5'><sup id="fz5">5</sup></a> sein, jedoch auch die unter b) bis d) gezeigten Harmonien verbinden mit entsprechender Stimmführung eine IV. Stufe mit einem Ganz- oder Halbschluss:
       </Text>
       <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-3.svg' alt='mögliche Harmoniefolgen II' />
       <Text className='urhgText'>Abbildung 3: Mögliche Harmoniefolgen des IV-I- bzw. IV-V-Modells</Text>
       <Text>
         Der Chorus des von Helene Fischer gesungenen Songs Tanz noch einmal mit mir des Albums Zaubermond (2008) lässt sich im Hinblick auf Syntax und Harmonik angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) verstehen. Die Sexte in den Backingvocals im ersten Takt wird dabei als Auffassungsdissonanz zur I. Stufe interpretiert.
       </Text>
-      <img className='scoreExample w60 mt36' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-1.svg' alt='mögliche Harmoniefolgen II' />
-      <img className='scoreExample w60 mt12' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-2.svg' alt='mögliche Harmoniefolgen II' />
-      <img className='scoreExample w60 mt12' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-3.svg' alt='mögliche Harmoniefolgen II' />
-      <img className='scoreExample w60 mt12 mb24' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-4.svg' alt='mögliche Harmoniefolgen II' />
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-1.svg' alt='Song Fischer – Tanz noch einmal mit mir' />
+      <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-2.svg' alt='Song Fischer – Tanz noch einmal mit mir' />
+      <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-3.svg' alt='Song Fischer – Tanz noch einmal mit mir' />
+      <img className='scoreExample w50 mt12 mb24' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-4.svg' alt='Song Fischer – Tanz noch einmal mit mir' />
       <Text className='urhgText'>Abbildung 4: Notenskizze Tanz noch einmal mit mir (Chorus)</Text>
       <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_01.mp3'  />
-      <Text className='urhgText'>Helene Fischer, »Tanz noch einmal mit mir«, Zaubermond, Track 7,<br/>Electrola 2277572, P 2008, Musik/Text: Jean Frankfurter, Tobias Reitz.</Text>
+      <Text className='urhgText'>Helene Fischer, »Tanz noch einmal mit mir«, <i>Zaubermond</i>, Track 7,<br/>Electrola 2277572, P 2008, Musik/Text: Jean Frankfurter, Tobias Reitz.</Text>
       <Text className='mt36'>
         Der harmonische Rhythmus in diesem Song verläuft ganztaktig, das Erreichen der I. Stufe am Ende wirkt ganzschlüssig und bildet zugleich den ersten Takt eines zweitaktigen Interludes, bevor der zweite Verse wieder (in a-Moll) einsetzt. Der folgende zweitaktige Gerüstsatz veranschaulicht den nach C-Dur transponierten harmonischen Verlauf sowie die Gerüsttöne der Melodiegestaltung.
       </Text>
-      <img className='scoreExample w60 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-1.svg' alt='mögliche Harmoniefolgen II' />
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-1.svg' alt='Gerüstsatz für Tanz noch einmal mit mir' />
       <Text className='urhgText'>Abbildung 5: Gerüstsatz Tanz noch einmal mit mir (Chorus), original in A-Dur</Text>
       <Text className='mt36'>
         Motivisch entsprechen sich erster und dritter sowie zweiter und vierter Takt (Diminution abwärts- bzw. aufwärts gerichteter Sextintervalle). Das führt anfangs zur Wahrnehmung von Zweitaktgruppen, wobei ab der mittigen Subdominante bzw. dem Beginn der IV-I-V-I-Harmonik ein Beschleunigungseffekt eintritt, der durch einer eintaktige motivische Gestaltung bewirkt wird. Die Klammern über den Notensystemen zeigen die beschriebene Gliederung an.
       </Text>
-      <Text truncate>
-        Auch der Chorus-Verlauf des von Helene Fischer gesungenen Songs <i>Einmal berührt, für immer verführt</i> lässt sich angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) beschreiben. Interessant ist in diesem Song, dass die Harmonien der Folge I-V-V-I nicht ganztaktig, sondern zur jeweils zweiten Takthälfte des zweiten und vierten Taktes wechseln. Die abschließende I. Stufe des I-V-I-Pendelmodells erklingt daher nur im Wert einer halben Note und bereitet auf diese Weise ein harmonisches Accelerando bzw. die Stufenfolge IV-V-iii-vi-IV-V-I vor. Auch hier wirkt die Gestaltung des Abschlusses wie ein Ganzschluss und lässt sich als Takterstickung (bzw. Phrasenverschränkung) interpretieren.<a href='#fn6'><sup id="fz6">6</sup></a>
+      <Text>
+        <span className='truncate' />Auch der Chorus-Verlauf des von Helene Fischer gesungenen Songs <i>Einmal berührt, für immer verführt</i> lässt sich angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) beschreiben. Interessant ist in diesem Song, dass die Harmonien der Folge I-V-V-I nicht ganztaktig, sondern zur jeweils zweiten Takthälfte des zweiten und vierten Taktes wechseln. Die abschließende I. Stufe des I-V-I-Pendelmodells erklingt daher nur im Wert einer halben Note und bereitet auf diese Weise ein harmonisches Accelerando bzw. die Stufenfolge IV-V-iii-vi-IV-V-I vor. Auch hier wirkt die Gestaltung des Abschlusses wie ein Ganzschluss und lässt sich als Takterstickung (bzw. Phrasenverschränkung) interpretieren.<a href='#fn6'><sup id="fz6">6</sup></a>
       </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Fischer-Einmal-berührt-Chorus-1.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
+      <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Einmal-berührt-Chorus-2.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
+      <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Einmal-berührt-Chorus-3.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
+      <img className='scoreExample w50 mt12 mb24' src='/images/fischer-mozart/Fischer-Einmal-berührt-Chorus-4.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
+      <Text className='urhgText'>Abbildung 6: Einmal berührt, für immer verführt (Chorus)</Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_02.mp3'  />
+      <Text className='urhgText'>Helene Fischer, »Einmal berührt für immer verführt«, Helene Fischer – <i>So wie ich bin</i>,<br/>Track Nr. 9, Electrola 6879812, P 2009, Musik/Text: Jean Frankfurter, Kristina Bach.</Text>
+      <Text className='mt36'>
+        Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf, die Klammern über dem System veranschaulichen die Phrasengliederung:
+      </Text>
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-2.svg' alt='Gerüstsatz für Einmal berührt, für immer verführt' />
+      <Text className='urhgText'>Abbildung 7: Gerüstsatz Einmal berührt, für immer verführt (Chorus), original in G-Dur</Text>
+      <Text className='mt36'>
+        Als Referenz für die Modelle I-V-I-Pendel und IV-V-Bewegung in den von Beatrice Egli gesungenen Songs lässt sich der Verse von <i>Vino und Amore</i> anführen:
+      </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Egli-Vino-und-Amore-Verse-1.svg' alt='Song Egli - Vino und Amore' />
+      <img className='scoreExample w50 mt12 mb24' src='/images/fischer-mozart/Egli-Vino-und-Amore-Verse-2.svg' alt='Song Egli - Vino und Amore' />
+      <Text className='urhgText'>Abbildung 8: Notenskizze Vino und Amore (Verse)</Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_03.mp3'  />
+      <Text className='urhgText'>Beatrice Egli, »Vino und Amore«, <i>Feuer und Flamme</i>,<br/>Track Nr. 13, Jabel 06025 2776663, P 2011, Musik/Text: Elmar Fürer, Charly Bereiter, Ursula Tobler.</Text>
+      <Text className='mt36'>
+        Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf sowie die Phrasengliederung:
+      </Text>
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-3.svg' alt='Gerüstsatz für Vino und Amore' />
+      <Text className='urhgText'>Abbildung 9: Gerüstsatz Einmal berührt, für immer verführt (Chorus), original in G-Dur</Text>
+      <Text className='mt36'>
+        Vergleicht man die drei analysierten Formteile der Songs, entsprechen sich in den von Fischer gesungenen Songs die Verkürzungen der Phrasen, die latente Mehrstimmigkeit sowie eine Beschleunigung ab dem IV-I-Modell, wobei sich diese in <i>Tanz noch einmal mit mir</i> lediglich nur über die motivische Ausarbeitung, in <i>Einmal berührt, für immer verführt</i> auch über den harmonischen Rhythmus vermittelt. Bei dem von Beatrice Egli interpretierten Song <i>Vino und Amore</i> kommt zwar auch eine Phrasenverkürzung vor, diese setzt jedoch erst in den letzten drei Takten ein, und auch die latente Mehrstimmigkeit ist mit Ausnahme des zweiten Taktes weit weniger ausgeprägt als in den beiden von Helene Fischer gesungenen Songs.
+      </Text>
+
+      <Heading as='h2' className='headingH4'>Form</Heading>
+      <Text>
+        Aspekte der Songform werden in dieser Studie nur berücksichtigt, soweit diese im Hinblick auf die Forschungsfrage von Bedeutung sind. Motivische Ausarbeitungen zu einer Harmonik aus I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung wie zum Beispiel in dem Song <i>Einmal berührt, für immer verführt</i> lassen sich als Satz im Sinne der Formenlehre interpretieren:
+      </Text>
+      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Periode-Satz-1.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 10: Formmodell Satz</Text>
+      <Text className='mt36'>
+        Findet keine für den Satz typische Entwicklung im Nachsatz statt, besteht über das von Walter Everett in den Diskurs eingebrachte SRDC-Schema<a href='#fn7'><sup id="fz7">7</sup></a> (Statement-Restatement-Departure-Conclusion) die Möglichkeit, entsprechende Taktgruppen als Einheit aufzufassen. An anderer Stelle habe ich vorgeschlagen,<a href='#fn8'><sup id="fz8">8</sup></a> das SRDC-Schema zu generalisieren, so dass sich alle denkbaren Ausarbeitungen vierteiliger Taktgruppen (und nicht nur Everetts Möglichkeiten aabc und aaba)<a href='#fn9'><sup id="fz9">9</sup></a> als Einheiten und kontingente Realisierungen auffassen lassen.
+      </Text>
+      <img className='scoreExample w80 mt36 mb24' src='/images/fischer-mozart/generalisierungen-Seite002.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 11: Generalisierung des SRDC-Modells</Text>
+      <Text className='mt36'>
+        In englischsprachigen Publikationen sind Formbegriffe oftmals mehrdeutig, weil sowohl der Sentence (Satz) als auch das SRDC-Schema auf verschiedenen Ebenen verwendet werden.<a href='#fn10'><sup id="fz10">10</sup></a>
+      </Text>
+      <img className='scoreExample w80 mt36 mb24' src='/images/fischer-mozart/generalisierungen-Seite003.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 12: Redundanz des Begriffs Prechorus</Text>
 
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
        <Heading as='h2' className='headingH4'>Fußnoten</Heading>
        <div>
         <ul style={{ listStyleType: 'none' }}>
-          <li id="fn1"><a href='#fz1'>1.&nbsp;</a>Unter einer deutschsprachigen Musikwissenschaft werden hier alle Disziplinen subsumiert, die sich mit wissenschaftlichem Anspruch und in deutscher Sprache mit der Analyse von Musik beschäftigen, also die akademische Musikwissenschaft und Popularmusikforschung, die wissenschaftlich arbeitenden Bereiche der institutionellen Musiktheorie usw.</li>
-          <li id="fn2"><a href='#fz2'>2.&nbsp;</a>Systematisch analysiert wurden die Songs der deutschsprachigen Studioalben von Helene Fischer bis 2017 (mit Ausnahme des Albums <i>Weihnachten</i>) sowie einige von Beatrice Egli gesungene Songs als Referenzbeispiele. Die Begrenzung der Alben bis 2017 ist dadurch motiviert, dass bis zu diesem Zeitpunkt Jean Frankfurter Stammkomponist des Schlagerrepertoires von Helene Fischer war. Ab dem Album Helene Fischer (2017) ändert sich das, im Album <i>Rausch</i> (2021) ist Frankfurter an keinem Titel mehr beteiligt. Mit den wechselnden Autorenteams des zuletzt genannten Albums klingen die Songs von Fischer musikalisch auch ganz anders als die Titel bis zum Album <i>Farbenspiel</i> (2013).</li>
-          <li id="fn3"><a href='#fz3'>3.&nbsp;</a>Weber 1922, 191. Zum Modellbegriff und wissenschaftstheoretischen Kontext s. Kaiser 2016.</li>
-          <li id="fn4"><a href='#fz4'>4.&nbsp;</a>Gjerdingen 1988.</li>
-          <li id="fn5"><a href='#fz5'>5.&nbsp;</a>Zur Bedeutung der IV-I-V-I-Harmonik in der Formfunktion einer zweiten Taktgruppe in Musik des 18. Jahrhunderts vgl. Kaiser 2007, 179–185. In englischsprachigen Publikationen wird diese Harmonik unter dem Namen <i>Prinner</i> diskutiert, vgl. Gjerdingen 2007, 45 ff.</li>
-          <li id="fn6"><a href='#fz6'>6.&nbsp;</a>Der achte Takt als harmonischer Abschluss fällt dabei mit dem ersten Takt des Interludes zusammen. Anders als im Bereich klassischer Kompositionen ist der Abschluss der Melodie vorgezogen, entfaltet aber die gleiche Schlusswirkung wie das Erreichen des Grundtons im Offbeat oder auf der ersten Zählzeit des Taktes.</li>
+          <li id="fn1"><a href='#fz1'>1.&nbsp;</a>
+            Unter einer deutschsprachigen Musikwissenschaft werden hier alle Disziplinen subsumiert, die sich mit wissenschaftlichem Anspruch und in deutscher Sprache mit der Analyse von Musik beschäftigen, also die akademische Musikwissenschaft und Popularmusikforschung, die wissenschaftlich arbeitenden Bereiche der institutionellen Musiktheorie usw.
+          </li>
+          <li id="fn2"><a href='#fz2'>2.&nbsp;</a>
+            Systematisch analysiert wurden die Songs der deutschsprachigen Studioalben von Helene Fischer bis 2017 (mit Ausnahme des Albums <i>Weihnachten</i>) sowie einige von Beatrice Egli gesungene Songs als Referenzbeispiele. Die Begrenzung der Alben bis 2017 ist dadurch motiviert, dass bis zu diesem Zeitpunkt Jean Frankfurter Stammkomponist des Schlagerrepertoires von Helene Fischer war. Ab dem Album Helene Fischer (2017) ändert sich das, im Album <i>Rausch</i> (2021) ist Frankfurter an keinem Titel mehr beteiligt. Mit den wechselnden Autorenteams des zuletzt genannten Albums klingen die Songs von Fischer musikalisch auch ganz anders als die Titel bis zum Album <i>Farbenspiel</i> (2013).
+          </li>
+          <li id="fn3"><a href='#fz3'>3.&nbsp;</a>
+            Weber 1922, 191. Zum Modellbegriff und wissenschaftstheoretischen Kontext s. Kaiser 2016.
+          </li>
+          <li id="fn4"><a href='#fz4'>4.&nbsp;</a>
+            Gjerdingen 1988.
+          </li>
+          <li id="fn5"><a href='#fz5'>5.&nbsp;</a>
+            Zur Bedeutung der IV-I-V-I-Harmonik in der Formfunktion einer zweiten Taktgruppe in Musik des 18. Jahrhunderts vgl. Kaiser 2007, 179–185. In englischsprachigen Publikationen wird diese Harmonik unter dem Namen <i>Prinner</i> diskutiert, vgl. Gjerdingen 2007, 45 ff.
+          </li>
+          <li id="fn6"><a href='#fz6'>6.&nbsp;</a>
+            Der achte Takt als harmonischer Abschluss fällt dabei mit dem ersten Takt des Interludes zusammen. Anders als im Bereich klassischer Kompositionen ist der Abschluss der Melodie vorgezogen, entfaltet aber die gleiche Schlusswirkung wie das Erreichen des Grundtons im Offbeat oder auf der ersten Zählzeit des Taktes.
+          </li>
+          <li id="fn7"><a href='#fz7'>7.&nbsp;</a>
+            Everett 2009, 140. Everett referenziert mit diesem Modell die beiden Gestaltungen aabc und aaba: »One other phrase combination occurs quite often, enough so to give it a name and compare examples. This is a four-phrase pattern that we’ll refer to as SRDC, as its components always perform the functions of Statement – Restatement – Departure – Conclusion. The Restatement phrase may cadence the same as did the first Statement (Bobby Darin’s ‘Dream Lover’) or differently, and in fact the first two phrases may form a periodic subgrouping (as in Highwaymen’s ‘Cotton Fields’) or an open phrase group (as in the rooftop Singers ‘Walk Right In’ and Marvin Gayes ‘I Heard It through the Grapevine’). The fourth phrase may recap the opening material, for an aaba pattern (the Tutles’ ‘You Baby’), or may present new melodic ideas, aabc (the Bee Gees’ ‘(The Lights Went Out In) Massachusetts’). Often, an SRDC is the basis of a verse with refrain.«
+          </li>
+          <li id="fn8"><a href='#fz8'>8.&nbsp;</a>
+            Beitrag auf musikanalyse.net: https://musikanalyse.net/tutorials/srdc/ (31.12.2022).
+          </li>          
+          <li id="fn9"><a href='#fz9'>9.&nbsp;</a>
+            Die Möglichkeiten: aaaa, aaab, aaba, aabb, aabc, abaa, abab, abac, abba, abbb, abbc, abca, abcb, abcc und abcd.
+          </li>
+          <li id="fn10"><a href='#fz10'>10.&nbsp;</a>
+            Als Expanded Sentence insbesondere in der Forschung zur Sonatenhauptsatzform bzw. Classical Form und Sonata Theory, vgl. Kaiser 2018, 30 ff.
+          </li>
         </ul>
        </div>
     </>

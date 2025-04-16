@@ -98,6 +98,10 @@ a.underline {
   text-align: center;
   font-size: small;
 }
+.truncate {
+  display: inline-block;
+  width: 24px;
+}
 .w80 {
   width: 80%;
 }
