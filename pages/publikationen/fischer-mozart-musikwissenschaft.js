@@ -42,29 +42,27 @@ export default function FischerMozartMusikwissenschaft() {
       </Text>
 
       <Heading as='h2' className='headingH4'>Satzmodelle und die Subdominante</Heading>
-      <Text mb='6px'>
+      <Text>
         Ausgangspunkt der Untersuchung ist die Beobachtung, dass in der Mitte musikalischer Phrasen sehr häufig eine grundstellige Subdominante erklingt. Im Folgenden werden hierzu einige Modelle erläutert und Beispiele aus dem frühen Schlagerrepertoire von Helene Fischer (bis 2017) und Beatrice Egli (als Referenzbeispiele) sowie Kompositionen Mozarts analysiert.
       </Text>
       <Heading as='h2' className='headingH4'>Schema und 4–1-Modell</Heading>
-      <Text mb='6px'>
+      <Text>
         Das erste Analysemodell besteht aus zwei Teilen. Der erste Teil zeigt harmonisch ein I-V-I-Pendel, der zweite Teil besteht aus einer IV–I- oder IV-V-Bewegung:
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-1.svg' alt='Modell I-V-I und Kadenz' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Modelle-1.svg' alt='Modell I-V-I und Kadenz' />
       <Text className='urhgText'>Abbildung 1: I-V-I-Pendelmodell und IV-I- oder IV-V-Bewegung</Text>
-      <Text mb='6px'>
+      <Text className='mt36'>
         Das I-V-I-Pendel dient zum Beschreiben von ersten Taktgruppen (Anfängen), die durch ein Pendeln zwischen tonikalen und dominantischen Harmonien charakterisiert sind. Ausgeschlossen sind damit Anfänge, in denen die Subdominante eine tragende Rolle spielt. Das bekannteste Modell, das sich durch das I-V-I-Pendel referenzieren lässt, wäre das Schema (I-V-V-I) im Sinne Robert Gjerdingens<a href='#fn4'><sup id="fz4">4</sup></a> (Beispiel a), die Beispiele b) und c) lassen sich jedoch ebenfalls durch das Modell angemessen beschreiben:
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-2.svg' alt='mögliche Harmoniefolgen I' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Modelle-2.svg' alt='mögliche Harmoniefolgen I' />
       <Text className='urhgText'>Abbildung 2: Mögliche Harmoniefolgen des I-V-I-Modells</Text>
-      <Text>
-        Als Ausnahme wird eine vor dem tonikalen Abschluss relativ kurz erklingende Subdominante im Rahmen des Schemas interpretiert (Beispiel d). Diese Wendung kommt in Schlagermusik recht häufig vor, wobei die Subdominante hier wie eine Prolongation der zweiten Dominantharmonie wirkt und deshalb als gattungstypische Erweiterung des Schemas aufgefasst wird.
-      </Text>
-      <Text>
+      <Text className='mt36'>
+        Als Ausnahme wird eine vor dem tonikalen Abschluss relativ kurz erklingende Subdominante im Rahmen des Schemas interpretiert (Beispiel d). Diese Wendung kommt in Schlagermusik recht häufig vor, wobei die Subdominante hier wie eine Prolongation der zweiten Dominantharmonie wirkt und deshalb als gattungstypische Erweiterung des Schemas aufgefasst wird.<br />
         <span className='truncate' />Das Modell IV-I- bzw. IV-V-Bewegung ist recht abstrakt, da mit ihm Einheiten erfasst werden sollen, die mit einer IV. Stufe bzw. Subdominante beginnen und auf einer I. Stufe (als Ganzschluss) oder einer V. Stufe (als Halbschluss) enden. Die prominenteste Harmoniefolge, die sich mithilfe der IV-I-Bewegung beschreiben lässt, dürfte die IV-I-V-I-Pendelharmonik<a href='#fn5'><sup id="fz5">5</sup></a> sein, jedoch auch die unter b) bis d) gezeigten Harmonien verbinden mit entsprechender Stimmführung eine IV. Stufe mit einem Ganz- oder Halbschluss:
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Modelle-3.svg' alt='mögliche Harmoniefolgen II' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Modelle-3.svg' alt='mögliche Harmoniefolgen II' />
       <Text className='urhgText'>Abbildung 3: Mögliche Harmoniefolgen des IV-I- bzw. IV-V-Modells</Text>
-      <Text>
+      <Text className='mt36'>
         Der Chorus des von Helene Fischer gesungenen Songs Tanz noch einmal mit mir des Albums Zaubermond (2008) lässt sich im Hinblick auf Syntax und Harmonik angemessen durch das Modell (I-V-I-Pendel und IV-I-Bewegung) verstehen. Die Sexte in den Backingvocals im ersten Takt wird dabei als Auffassungsdissonanz zur I. Stufe interpretiert.
       </Text>
       <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Fischer-Komm-Tanz-noch-einmal-mit-mir-Chorus-1.svg' alt='Song Fischer – Tanz noch einmal mit mir' />
@@ -77,7 +75,7 @@ export default function FischerMozartMusikwissenschaft() {
       <Text className='mt36'>
         Der harmonische Rhythmus in diesem Song verläuft ganztaktig, das Erreichen der I. Stufe am Ende wirkt ganzschlüssig und bildet zugleich den ersten Takt eines zweitaktigen Interludes, bevor der zweite Verse wieder (in a-Moll) einsetzt. Der folgende zweitaktige Gerüstsatz veranschaulicht den nach C-Dur transponierten harmonischen Verlauf sowie die Gerüsttöne der Melodiegestaltung.
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-1.svg' alt='Gerüstsatz für Tanz noch einmal mit mir' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Geruestsatzmodelle-1.svg' alt='Gerüstsatz für Tanz noch einmal mit mir' />
       <Text className='urhgText'>Abbildung 5: Gerüstsatz Tanz noch einmal mit mir (Chorus), original in A-Dur</Text>
       <Text className='mt36'>
         Motivisch entsprechen sich erster und dritter sowie zweiter und vierter Takt (Diminution abwärts- bzw. aufwärts gerichteter Sextintervalle). Das führt anfangs zur Wahrnehmung von Zweitaktgruppen, wobei ab der mittigen Subdominante bzw. dem Beginn der IV-I-V-I-Harmonik ein Beschleunigungseffekt eintritt, der durch einer eintaktige motivische Gestaltung bewirkt wird. Die Klammern über den Notensystemen zeigen die beschriebene Gliederung an.
@@ -95,7 +93,7 @@ export default function FischerMozartMusikwissenschaft() {
       <Text className='mt36'>
         Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf, die Klammern über dem System veranschaulichen die Phrasengliederung:
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-2.svg' alt='Gerüstsatz für Einmal berührt, für immer verführt' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Geruestsatzmodelle-2.svg' alt='Gerüstsatz für Einmal berührt, für immer verführt' />
       <Text className='urhgText'>Abbildung 7: Gerüstsatz Einmal berührt, für immer verführt (Chorus), original in G-Dur</Text>
       <Text className='mt36'>
         Als Referenz für die Modelle I-V-I-Pendel und IV-V-Bewegung in den von Beatrice Egli gesungenen Songs lässt sich der Verse von <i>Vino und Amore</i> anführen:
@@ -108,7 +106,7 @@ export default function FischerMozartMusikwissenschaft() {
       <Text className='mt36'>
         Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf sowie die Phrasengliederung:
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Geruestsatzmodelle-3.svg' alt='Gerüstsatz für Vino und Amore' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Geruestsatzmodelle-3.svg' alt='Gerüstsatz für Vino und Amore' />
       <Text className='urhgText'>Abbildung 9: Gerüstsatz Einmal berührt, für immer verführt (Chorus), original in G-Dur</Text>
       <Text className='mt36'>
         Vergleicht man die drei analysierten Formteile der Songs, entsprechen sich in den von Fischer gesungenen Songs die Verkürzungen der Phrasen, die latente Mehrstimmigkeit sowie eine Beschleunigung ab dem IV-I-Modell, wobei sich diese in <i>Tanz noch einmal mit mir</i> lediglich nur über die motivische Ausarbeitung, in <i>Einmal berührt, für immer verführt</i> auch über den harmonischen Rhythmus vermittelt. Bei dem von Beatrice Egli interpretierten Song <i>Vino und Amore</i> kommt zwar auch eine Phrasenverkürzung vor, diese setzt jedoch erst in den letzten drei Takten ein, und auch die latente Mehrstimmigkeit ist mit Ausnahme des zweiten Taktes weit weniger ausgeprägt als in den beiden von Helene Fischer gesungenen Songs.
@@ -118,7 +116,7 @@ export default function FischerMozartMusikwissenschaft() {
       <Text>
         Aspekte der Songform werden in dieser Studie nur berücksichtigt, soweit diese im Hinblick auf die Forschungsfrage von Bedeutung sind. Motivische Ausarbeitungen zu einer Harmonik aus I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung wie zum Beispiel in dem Song <i>Einmal berührt, für immer verführt</i> lassen sich als Satz im Sinne der Formenlehre interpretieren:
       </Text>
-      <img className='scoreExample w50 mt36 mb24' src='/images/fischer-mozart/Periode-Satz-1.svg' alt='Formodell' />
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Periode-Satz-1.svg' alt='Formodell' />
       <Text className='urhgText'>Abbildung 10: Formmodell Satz</Text>
       <Text className='mt36'>
         Findet keine für den Satz typische Entwicklung im Nachsatz statt, besteht über das von Walter Everett in den Diskurs eingebrachte SRDC-Schema<a href='#fn7'><sup id="fz7">7</sup></a> (Statement-Restatement-Departure-Conclusion) die Möglichkeit, entsprechende Taktgruppen als Einheit aufzufassen. An anderer Stelle habe ich vorgeschlagen,<a href='#fn8'><sup id="fz8">8</sup></a> das SRDC-Schema zu generalisieren, so dass sich alle denkbaren Ausarbeitungen vierteiliger Taktgruppen (und nicht nur Everetts Möglichkeiten aabc und aaba)<a href='#fn9'><sup id="fz9">9</sup></a> als Einheiten und kontingente Realisierungen auffassen lassen.
@@ -130,6 +128,114 @@ export default function FischerMozartMusikwissenschaft() {
       </Text>
       <img className='scoreExample w80 mt36 mb24' src='/images/fischer-mozart/generalisierungen-Seite003.svg' alt='Formodell' />
       <Text className='urhgText'>Abbildung 12: Redundanz des Begriffs Prechorus</Text>
+      <Text className='mt36'>
+        Auf der Ebene der Formteile ist dabei der Begriff des Prechorus in vielen Fällen redundant, weil er häufig dann verwendet wird, wenn der Beginn des Nachsatzes (eines Satzes) oder der Departure-Abschnitt einer SRDC-Gestaltung<a href='#fn11'><sup id="fz11">11</sup></a> mit einer Änderung des Sounddesigns zusammenfällt. Aus diesem Grund wird in dieser Studie auf den Begriff Prechorus verzichtet, wenn es die Möglichkeit gibt, entsprechende Taktgruppen als Satz- oder SRDC-Struktur zu verstehen. Auch auf der Ebene der Songformen werden die Strukturen nur verwendet, wenn kein gängiger Formbegriff (wie in der Abb. 12 z. B. der Begriff Verse-Bridge-Form) zur Verfügung steht.<br/>
+        <span className='truncate' />Darüber hinaus lassen sich in den von Helene Fischer gesungenen Songs viele Formteile angemessen als Periode bezeichnen. In diesen Fällen entsprechen sich üblicherweise Vorder- und Nachsatz mit Ausnahme der Schlussbildungen und des Textes. Das Korrespondieren des Öffnens und Schließens kann dabei sowohl über Kadenzwirkungen (Halb- und Ganzschluss) als auch über die Lage erreicht werden (z. B. eine öffnende Terzlage gegenüber einer schließenden Oktavlage, ein Schluss in hoher Lage gegenüber einem in tiefer Lage usw.). Periodische Formteile sind für diese Untersuchung insofern von Bedeutung, als sich das Forschungsinteresse in entsprechenden Gestaltungen auf Subdominanten richtet, die in der Mitte eines Vorder- oder Nachsatzes erklingen. Diese Subdominanten markieren daher nicht die Mitte von Formteilen, sondern die Mitte funktionaler Einheiten innerhalb der entsprechenden Formteile (Vordersatz bzw. Nachsatz).
+      </Text>      
+
+      <Heading as='h2' className='headingH4'>Chiffrierungen</Heading>
+      <Text>
+        Für die empirischen Vergleiche wird die Harmonik nicht in Stufen, sondern im untransponierten System (also in C-Dur bzw. a-Moll) chiffriert. Auf diese Weise lässt sich ein spezifisches Problem der Verwendung von Stufensymbolen in Verbindung mit Pop-/Rockmusik vermeiden. Denn beim Chiffrieren mit Stufensymbolen ist die Festlegung einer I. Stufe zwingend notwendig, wobei das Problem dadurch entsteht, dass sich eine I. Stufe in Pattern der Pop-/Rockmusik nicht immer ohne Willkür festlegen lässt. Die Harmonik im Verse von <i>Tanz noch einmal mit mir</i> (2008) veranschaulicht den Sachverhalt:
+      </Text>
+      <img className='scoreExample w60 mt36 mb12' src='/images/fischer-mozart/Problem-erste-Stufe-1.svg' alt='Formodell' />
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_04.mp3'  />
+      <Text className='urhgText'>Abbildung 13: Pattern zur Veranschaulichung des Problems der Festlegung einer I. Stufe</Text>
+      <Text className='mt36'>
+        Die Harmoniefolge, die ein Standardpattern der Pop-/Rockmusik zeigt12, legt die Auffassung nahe, beim ersten Anhören den Anfangsakkord als i. Stufe aufzufassen. Insbesondere durch die Stimmführung (Terzlage in den C- und Quintlage in den G-Akkorden) wirken die C-G-Wendungen wie Halbschlüsse in C-Dur, wodurch man bei einer Wiederholung des Patterns den Anfangsakkord Am als Trugschluss bzw. vi. Stufe wahrnimmt. Die Flüchtigkeit eines häufig an dieser Stelle auftretenden chromatischen Durchgangs (g#) verstärkt dabei das Gefühl eines zwischendomi-nantisch erreichten Trugschlusses und erschwert die Wahrnehmung des zweiten Am-Akkords als i. Stufe. Werden anstelle der kontingenten Chiffrierungen i-VI-III-VII oder vi-IV-I-V absolute Akkordsymbole gewählt (Am-F-C-G), entfällt die Not-wendigkeit der Festlegung einer ersten Stufe (Am oder C), wodurch sich kontin-gente Hörweisen verdecken bzw. für die Forschung terminieren lassen. Werden schließlich alle Akkordfolgen im System ohne Vorzeichen notiert (d. h., im untrans-ponierten System bzw. alle Molltonarten in a-Moll und alle Durtonarten in C-Dur), werden Kongruenzen – auch beim Vorliegen unterschiedlicher Auffassungen bzw. Hörweisen – schnell ersichtlich und recherchierbar.
+      </Text>
+
+      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+
+      <table>
+        <thead>
+          <tr>
+            <td>
+              <p>Titel</p>
+            </td>
+            <td>
+              <p>Formteil</p>
+            </td>
+            <td>
+              <p>I-V-I Pendel + IV-I oder IV-V-Bewegung</p>
+            </td>
+            <td>
+              <p>Album / Jahr / Interpretin</p>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>Es gibt keinen Morgen danach</p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>G-C-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
+            </td>
+            <td>
+              <p><i>Von hier bis unendlich</i> / 2006 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Fantasie hat Flügel</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-G-<b>C</b></p>
+            </td>
+            <td>
+              <p><i>So nah wie du bist</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Mitten im Paradies</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-Dm-G-<b>C</b></p>
+            </td>
+            <td>
+              <p><i>So nah wie du bist</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Ich glaub dir hundert Lügen</i>*</p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-G-F-G-<b>C</b></p>
+            </td>
+            <td>
+              <p><i>So nah wie du bist</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Ewig ist manchmal zu lang</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-G-C-Am-F-Dm-<b>G</b></p>
+            </td>
+            <td>
+              <p>Zaubermond / 2008 / HF</p>
+            </td>
+          </tr>
+        </tbody>  
+      </table>
 
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
@@ -165,6 +271,9 @@ export default function FischerMozartMusikwissenschaft() {
           </li>
           <li id="fn10"><a href='#fz10'>10.&nbsp;</a>
             Als Expanded Sentence insbesondere in der Forschung zur Sonatenhauptsatzform bzw. Classical Form und Sonata Theory, vgl. Kaiser 2018, 30 ff.
+          </li>
+          <li id="fn11"><a href='#fz11'>11.&nbsp;</a>
+            »The results sometimes carried the sentential strophe to the threshold of verse-chorus form. As the sentence is expanded, its parts begin to approximate the features of independent formal modules: s[tatement] and r[estatement] resemble a verse or verses; c[onclusion], which is often a refrain, breaks away as a chorus; and d[eparture] with its momentum-building characteristics, emerges as a prechorus.« Summach 2011.
           </li>
         </ul>
        </div>
