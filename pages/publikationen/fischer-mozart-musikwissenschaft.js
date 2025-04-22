@@ -141,31 +141,32 @@ export default function FischerMozartMusikwissenschaft() {
       <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_04.mp3'  />
       <Text className='urhgText'>Abbildung 13: Pattern zur Veranschaulichung des Problems der Festlegung einer I. Stufe</Text>
       <Text className='mt36'>
-        Die Harmoniefolge, die ein Standardpattern der Pop-/Rockmusik zeigt12, legt die Auffassung nahe, beim ersten Anhören den Anfangsakkord als i. Stufe aufzufassen. Insbesondere durch die Stimmführung (Terzlage in den C- und Quintlage in den G-Akkorden) wirken die C-G-Wendungen wie Halbschlüsse in C-Dur, wodurch man bei einer Wiederholung des Patterns den Anfangsakkord Am als Trugschluss bzw. vi. Stufe wahrnimmt. Die Flüchtigkeit eines häufig an dieser Stelle auftretenden chromatischen Durchgangs (g#) verstärkt dabei das Gefühl eines zwischendomi-nantisch erreichten Trugschlusses und erschwert die Wahrnehmung des zweiten Am-Akkords als i. Stufe. Werden anstelle der kontingenten Chiffrierungen i-VI-III-VII oder vi-IV-I-V absolute Akkordsymbole gewählt (Am-F-C-G), entfällt die Not-wendigkeit der Festlegung einer ersten Stufe (Am oder C), wodurch sich kontin-gente Hörweisen verdecken bzw. für die Forschung terminieren lassen. Werden schließlich alle Akkordfolgen im System ohne Vorzeichen notiert (d. h., im untrans-ponierten System bzw. alle Molltonarten in a-Moll und alle Durtonarten in C-Dur), werden Kongruenzen – auch beim Vorliegen unterschiedlicher Auffassungen bzw. Hörweisen – schnell ersichtlich und recherchierbar.
+        Die Harmoniefolge, die ein Standardpattern der Pop-/Rockmusik zeigt<a href='#fn12'><sup id="fz12">12</sup></a>, legt die Auffassung nahe, beim ersten Anhören den Anfangsakkord als i. Stufe aufzufassen. Insbesondere durch die Stimmführung (Terzlage in den C- und Quintlage in den G-Akkorden) wirken die C-G-Wendungen wie Halbschlüsse in C-Dur, wodurch man bei einer Wiederholung des Patterns den Anfangsakkord Am als Trugschluss bzw. vi. Stufe wahrnimmt. Die Flüchtigkeit eines häufig an dieser Stelle auftretenden chromatischen Durchgangs (g#) verstärkt dabei das Gefühl eines zwischendomi-nantisch erreichten Trugschlusses und erschwert die Wahrnehmung des zweiten Am-Akkords als i. Stufe. Werden anstelle der kontingenten Chiffrierungen i-VI-III-VII oder vi-IV-I-V absolute Akkordsymbole gewählt (Am-F-C-G), entfällt die Not-wendigkeit der Festlegung einer ersten Stufe (Am oder C), wodurch sich kontin-gente Hörweisen verdecken bzw. für die Forschung terminieren lassen. Werden schließlich alle Akkordfolgen im System ohne Vorzeichen notiert (d. h., im untrans-ponierten System bzw. alle Molltonarten in a-Moll und alle Durtonarten in C-Dur), werden Kongruenzen – auch beim Vorliegen unterschiedlicher Auffassungen bzw. Hörweisen – schnell ersichtlich und recherchierbar.
+      </Text>
+      <Text>
+        In der folgenden Tabelle finden sich die drei besprochenen Songs sowie weitere Beispiele aus dem Schlagerrepertoire von Helene Fischer und Beatrice Egli auf die beschriebene Weise chiffriert:<a href='#fn13'><sup id="fz13">13</sup></a>
       </Text>
 
-      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
-
-      <table>
+      <table mt='6' w='80%' style={{margin: 'auto'}}>
         <thead>
-          <tr>
-            <td>
+          <tr style={{borderBottom: '1px solid gray'}}>
+            <td style={{width: '30%', padding: '20px 0'}}>
               <p>Titel</p>
             </td>
-            <td>
+            <td style={{width: '10%'}}>
               <p>Formteil</p>
             </td>
-            <td>
+            <td style={{width: '30%'}}>
               <p>I-V-I Pendel + IV-I oder IV-V-Bewegung</p>
             </td>
-            <td>
+            <td style={{width: '30%'}}>
               <p>Album / Jahr / Interpretin</p>
             </td>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>
+            <td style={{ paddingTop: '30px' }}>
               <p>Es gibt keinen Morgen danach</p>
             </td>
             <td>
@@ -234,14 +235,243 @@ export default function FischerMozartMusikwissenschaft() {
               <p>Zaubermond / 2008 / HF</p>
             </td>
           </tr>
+          <tr>
+            <td>
+              <p><i>Tanz noch einmal mit mir</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F-C-G-C</b></p>
+            </td>
+            <td>
+              <p>Zaubermond / 2008 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Mal ganz ehrlich*</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-G-C-G-C-F-C-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>Zaubermond / 2008 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Hundert Prozent*</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-G-C-F-C-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>So wie ich bin / 2009 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Einmal berührt, für immer verführt</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>So wie ich bin / 2009 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Ist doch kein Wunder</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>So wie ich bin / 2009 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Die Sonne kann warten</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-G-C/E-F-Dm-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>So wie ich bin / 2009 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Bei Romeo war alles anders</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>Feuer und Flamme / 2011 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Ziit</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>Feuer und Flamme / 2011 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Diät</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
+            </td>
+            <td>
+              <p>Feuer und Flamme / 2011 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Du bist ja nur ein Macho</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
+            </td>
+            <td>
+              <p>Feuer und Flamme / 2011 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Liebe macht blind</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
+            </td>
+            <td>
+              <p>Feuer und Flamme / 2011 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Vino und Amore</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
+            </td>
+            <td>
+              <p>Feuer und Flamme / 2011 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Das mit dir*</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-Dm-F-<b>G</b></p>
+            </td>
+            <td>
+              <p>Glücksgefühle / 2013 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Tausend Mal</i></p>
+            </td>
+            <td>
+              <p>Chorus</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-Am-Dm-G-<b>C</b></p>
+            </td>
+            <td>
+              <p>Glücksgefühle / 2013 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Total perfekt</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-C-Dm-F-<b>G</b></p>
+            </td>
+            <td>
+              <p>Bis hierher und nicht weiter / 2014 / BE</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p><i>Drei Wünsche</i></p>
+            </td>
+            <td>
+              <p>Verse</p>
+            </td>
+            <td>
+              <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-Dm-<b>G</b></p>
+            </td>
+            <td>
+              <p>Bis hierher und nicht weiter / 2014 / BE</p>
+            </td>
+          </tr>
         </tbody>  
       </table>
+      <Text className='urhgText' mt='6'>Abbildung 14: Referenzen auf Harmoniefolgen aus I-V-I-Pendel und IV-I-Bewegung (* = eingeschobene Subdominante im Schema vor dem tonikalen Abschluss, HF = Helene Fischer, BE = Beatrice Egli)</Text>
 
+      <Text mt='6'>
+        Die Tabelle zeigt, dass Harmoniefolgen aus I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung für Schlagermusik sehr charakteristisch sind.<a href='#fn14'><sup id="fz14">14</sup></a> Im Repertoire von Helene Fischer und Beatrice Egli finden sich entsprechende Gestaltungen auf den Alben des untersuchten Korpus in der Regel mehrfach.<br/>
+        <span className='truncate' />Ebenso charakteristisch sind die bis hierhin besprochenen Harmoniefolgen für Musik des 18. Jahrhunderts. Robert Gjerdingen hat nachgewiesen, dass die Verwendung der I-V-V-I-Harmoniefolge in Verbindung mit den Melodietönen 1-7…4-3 um 1770 einen Höhepunkt erreicht hatte.15 Unter den zahlreichen Bei-spielen Gjerdingens findet sich auch der Anfang (T. 1–4) der Klaviersonate in G-Dur KV 283 von W. A. Mozart:
+      </Text>
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
        <Heading as='h2' className='headingH4'>Fußnoten</Heading>
-       <div>
-        <ul style={{ listStyleType: 'none' }}>
+       <div style={{margin: 'auto', margin: 'auto', padding: '0 40px', fontSize: '0.8em' }}>
+        <ul className='footnoteList'>
           <li id="fn1"><a href='#fz1'>1.&nbsp;</a>
             Unter einer deutschsprachigen Musikwissenschaft werden hier alle Disziplinen subsumiert, die sich mit wissenschaftlichem Anspruch und in deutscher Sprache mit der Analyse von Musik beschäftigen, also die akademische Musikwissenschaft und Popularmusikforschung, die wissenschaftlich arbeitenden Bereiche der institutionellen Musiktheorie usw.
           </li>
@@ -274,6 +504,15 @@ export default function FischerMozartMusikwissenschaft() {
           </li>
           <li id="fn11"><a href='#fz11'>11.&nbsp;</a>
             »The results sometimes carried the sentential strophe to the threshold of verse-chorus form. As the sentence is expanded, its parts begin to approximate the features of independent formal modules: s[tatement] and r[estatement] resemble a verse or verses; c[onclusion], which is often a refrain, breaks away as a chorus; and d[eparture] with its momentum-building characteristics, emerges as a prechorus.« Summach 2011.
+          </li>
+          <li id="fn12"><a href='#fz12'>12.&nbsp;</a>
+            Diese Wendung charakterisiert z. B. den Chorus von <i>It’s My Life</i> (Bon Jovi), <i>I Was Born To Make You Happy</i> (Brittney Spears) u.v.a. Auf Wikipedia wird diese Harmoniefolge als Variante der Folge I-V-vi-IV geführt: https://en.wikipedia.org/wiki/I-V-vi-IV_progression (14.09.2022).
+          </li>
+          <li id="fn13"><a href='#fz13'>13.&nbsp;</a>
+            Ein charakteristisches Merkmal der von Helene Fischer gesungenen Songs bis 2013 liegt in der Verwendung der gleichnamigen Moll- und Durtonarten im Verse und Chorus wie z. B. in <i>Komm tanz noch einmal mit mir</i> (2008) mit dem Verse in a-Moll und dem Chorus in A-Dur. Die Transposition der jeweiligen Formteile ins untransponierte System führt dazu, dass in diesem und vergleichbaren Fällen der Verse in a-Moll und der Chorus in C-Dur chiffriert werden muss, d. h., gleichnamige Moll-/Dur-Tonarten im Original werden zu Paralleltonarten in der Chiffrierung.
+          </li>
+          <li id="fn14"><a href='#fz14'>14.&nbsp;</a>
+            Das I-V-I-Pendel mit nachfolgender IV-I-Bewegung findet sich darüber hinaus in Popmusik mit meist melodiösem Charakter wie z. B. im Verse von <i>Hey Jude</i> von <i>The Beatles</i>.
           </li>
         </ul>
        </div>

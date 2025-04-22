@@ -100,6 +100,8 @@ a.underline {
 .urhgText {
   text-align: center;
   font-size: small;
+  width: 75%;
+  margin: 0 auto;
 }
 .truncate {
   display: inline-block;
@@ -116,6 +118,15 @@ a.underline {
 }
 .w50 {
   width: 50%;
+}
+.footnoteList {
+  list-style-type: none; 
+}
+.footnoteList > li {
+  padding-bottom: 6px;
+}
+.footnoteList > li > a {
+  font-weight: bold;
 }
 
 /* Enable hover only on non-touch devices */
