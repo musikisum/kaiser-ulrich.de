@@ -119,6 +119,12 @@ a.underline {
 .w50 {
   width: 50%;
 }
+.w40 {
+  width: 40%;
+}
+.w30 {
+  width: 30%;
+}
 .footnoteList {
   list-style-type: none; 
 }

@@ -5,7 +5,7 @@ import PageHeader from '../components/pagehaeder';
 import { Text, Heading, Divider } from '@chakra-ui/react';
 
 const options = {
-  title: '',
+  title: 'Publikationen',
   description: 'Hier wird demnächst ein Aufsatz zur musikalischen Analyse der Musik von Helene Fischer und W. A. Mozart veröffentlicht. Haben Sie noch ein klein wenig Geduld ...',
   filter: 'publikationen',
   slug: '/publikationen/fischer-mozart-musikwissenschaft'
@@ -461,12 +461,65 @@ export default function FischerMozartMusikwissenschaft() {
           </tr>
         </tbody>  
       </table>
-      <Text className='urhgText' mt='6'>Abbildung 14: Referenzen auf Harmoniefolgen aus I-V-I-Pendel und IV-I-Bewegung (* = eingeschobene Subdominante im Schema vor dem tonikalen Abschluss, HF = Helene Fischer, BE = Beatrice Egli)</Text>
+      <Text className='urhgText' mt='6'>Tabelle 1: Referenzen auf Harmoniefolgen aus I-V-I-Pendel und IV-I-Bewegung (* = eingeschobene Subdominante im Schema vor dem tonikalen Abschluss, HF = Helene Fischer, BE = Beatrice Egli)</Text>
 
       <Text mt='6'>
-        Die Tabelle zeigt, dass Harmoniefolgen aus I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung für Schlagermusik sehr charakteristisch sind.<a href='#fn14'><sup id="fz14">14</sup></a> Im Repertoire von Helene Fischer und Beatrice Egli finden sich entsprechende Gestaltungen auf den Alben des untersuchten Korpus in der Regel mehrfach.<br/>
-        <span className='truncate' />Ebenso charakteristisch sind die bis hierhin besprochenen Harmoniefolgen für Musik des 18. Jahrhunderts. Robert Gjerdingen hat nachgewiesen, dass die Verwendung der I-V-V-I-Harmoniefolge in Verbindung mit den Melodietönen 1-7…4-3 um 1770 einen Höhepunkt erreicht hatte.15 Unter den zahlreichen Bei-spielen Gjerdingens findet sich auch der Anfang (T. 1–4) der Klaviersonate in G-Dur KV 283 von W. A. Mozart:
+        Die Tabelle 1 zeigt, dass Harmoniefolgen aus I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung für Schlagermusik sehr charakteristisch sind.<a href='#fn14'><sup id="fz14">14</sup></a> Im Repertoire von Helene Fischer und Beatrice Egli finden sich entsprechende Gestaltungen auf den Alben des untersuchten Korpus in der Regel mehrfach.<br/>
+        <span className='truncate' />Ebenso charakteristisch sind die bis hierhin besprochenen Harmoniefolgen für Musik des 18. Jahrhunderts. Robert Gjerdingen hat nachgewiesen, dass die Verwendung der I-V-V-I-Harmoniefolge in Verbindung mit den Melodietönen 1-7…4-3 um 1770 einen Höhepunkt erreicht hatte.<a href='#fn15'><sup id="fz15">15</sup></a> Unter den zahlreichen Bei-spielen Gjerdingens findet sich auch der Anfang (T. 1–4) der Klaviersonate in G-Dur KV 283 von W. A. Mozart:
       </Text>
+      <img className='scoreExample w50 mt36 mb12' src='/images/fischer-mozart/Gjerdingen-kv283.png' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 14: KV 283/i, Analyse der Takte 1–4 von R. Gjerdingen 1988, 65.</Text>
+      <Text mt='6'>
+        Das folgende Notenbeispiel zeigt die Weiterführung dieses Anfangs bzw. die vollständige Formfunktion Hauptsatz im Kopfsatz der Klaviersonate KV 283:
+      </Text>
+      <img className='scoreExample w60 mt36' src='/images/fischer-mozart/Mozart-Sonate-in-G-KV-283-1.svg' alt='W. A. Mozart, Hauptsatz KV 283, Kopfsatz' />
+      <img className='scoreExample w60 mt12' src='/images/fischer-mozart/Mozart-Sonate-in-G-KV-283-1.svg' alt='W. A. Mozart, Hauptsatz KV 283, Kopfsatz' />
+      <img className='scoreExample w60 mt12 mb24' src='/images/fischer-mozart/Mozart-Sonate-in-G-KV-283-1.svg' alt='W. A. Mozart, Hauptsatz KV 283, Kopfsatz' />
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_05.mp3'  />
+      <Text className='urhgText'>Abbildung 15: Sonate für Klavier in G-Dur KV 283, 1. Satz, Hauptsatz T. 1–16</Text>
+      <Text mt='6'>
+        Nicht nur der Beginn, sondern auch der weitere Verlauf bis zur Kadenz ist syntaktisch (Satz) und harmonisch (IV-I-V-I) mit dem Chorus des Songs <i>Tanz noch einmal mit mir</i> identisch (und zudem vielen weiteren Songs strukturell ähnlich). Gegenüber der Schlagermusik fallen die Akkordumkehrungen bei Mozart auf, die in der Klaviersonate Folge eines imperfizierten Außenstimmensatzes<a href='#fn16'><sup id="fz16">16</sup></a> sein dürften. Darüber hinaus sind die Abschlüsse verschieden, denn in der Schlagermusik entfaltet die IV-I-V-I-Taktgruppe am Ende eine Kadenzwirkung, während Mozart noch eine dreitaktige Kadenz als vorläufiges Ende der Formfunktion Hauptsatz komponiert.<a href='#fn17'><sup id="fz17">17</sup></a><br/>
+        <span className='truncate' />Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf, die Klammern über dem System veranschaulichen die Phrasengliederung:
+      </Text>
+      <img className='scoreExample w60 mt36 mb12' src='/images/fischer-mozart/Geruestsatzmodelle-3.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 16: Gerüstsatz Hauptsatz der Sonate KV 283/i, original in G-Dur.</Text>
+      <Text mt='6'>
+        Welches satztechnische Design ist verantwortlich dafür, dass die IV-I-Bewegung in der Schlagermusik Schlusskraft entfaltet, während sich diese bei Mozart erst in der nachfolgenden Kadenz vermittelt?<br/>
+        <span className='truncate' />Entscheidend für die Schlusswirkung ist das Verhältnis von Oberstimme und Bass. Die Skizze (Abbildung 17) zeigt, dass am Ende der I-V-V-I-IV-I-V-I-Harmoniefolge zwischen Melodie und Bass eine Quinte erklingt (Quintlage), während zwischen diesen Stimmen am Ende des Chorus von Tanz noch einmal mit mir eine Oktave zu hören ist (Abbildung 4).<a href='#fn18'><sup id="fz18">18</sup></a> Diese Oktavlage erscheint in der Klaviersonate Mozarts erst am Ende der Kadenz.
+      </Text>
+      <Text mt='6'>
+        Die Melodiebewegungen, die in den hemiolischen Kadenzen am Ende des Hauptsatzes der Klaviersonate KV 283 für die Schlusswirkung verantwortlich sind, haben einen beispielhaften Verlauf:
+      </Text>
+      <img className='scoreExample w60 mt36 mb12' src='/images/fischer-mozart/Mozart-Sonate-in-G-KV-283-Kadenz-1.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 17: Melodiestruktur in der ersten Kadenz im Kopfsatz der Klaviersonate in G-Dur KV 283.</Text>
+      <Text mt='6'>
+        Der Stufengang d-c-h-a-g vermag beim Hören seine Wirkung aufgrund der Prägnanz bzw. seiner ›guten Gestalt‹ entfalten und muss deswegen an dieser Stelle weder über metaphysische Mittel- und Hintergründe noch eine theoretische Dogmatik legitimiert werden. Man könnte einwenden, dass diese Wirkung durch den Oktavlagenwechsel abgeschwächt wird, jedoch setzt die Disposition der Toncharaktere in verschiedene Oktavlagen, um virtuosem Laufwerk Raum zu geben, die Formwirkung nicht vollständig außer Kraft. Interessant ist, dass sich mit einem entsprechenden Stufengang das Ende des I-V-I-Pendelmodells mit dem Ende der IV-I-Bewegung verbinden lässt (weiße Noten):
+      </Text>
+      <img className='scoreExample w60 mt36 mb12' src='/images/fischer-mozart/Geruestsatzmodelle-3.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 18: Stufengang 5-4-3-2-1 als Verbindung der Abschlüsse des I-V-I-Pendelmodells und der IV-I-Bewegung in C-Dur.</Text>
+      <Text mt='6'>
+        Eine entsprechende Realisierung zeigt das nächste Notenbeispiel, in dem die Ge-rüsttöne der Melodie des Verse aus dem Song <i>Ziit</i> zu sehen sind (nach C-Dur transponiert):
+      </Text>
+      <img className='scoreExample w60 mt36 mb12' src='/images/fischer-mozart/Mozart-Sonate-in-G-KV-283-Kadenz-3.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 19: Stufengang der Gerüsttöne der von Beatrice Egli gesungenen Melodie des Verse in Ziit (original in Es-Dur).</Text>
+      <Text mt='6'>
+        Für die Harmonik I-V-V-I und IV-I-V-I lassen sich im Werk von W. A. Mozart unzählige weitere Beispiele anführen. Ein sehr bekanntes skizziert das folgende Notenbeispiel:
+      </Text>
+      <img className='scoreExample w60 mt36' src='/images/fischer-mozart/Mozart-Bildnis-Arie-1.svg' alt='W. A. Mozart, Bildnis-Arie Anfang' />
+      <img className='scoreExample w60 mt12 mb24' src='/images/fischer-mozart/Mozart-Bildnis-Arie-2.svg' alt='W. A. Mozart, Bildnis-Arie Anfang' />
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_05.mp3'  />
+      <Text className='urhgText'>Abbildung 20: Anfang der Bildnis-Arie des Tamino aus: Die Zauberflöte KV 620.</Text>
+      <Text mt='6'>
+        Die Bildnis-Arie des Tamino aus Mozarts Zauberflöte KV 620 beginnt mit dem Schema I-V-V-I, dem sich eine Gestaltung mithilfe der IV-I-V-I-Harmoniefolge anschließt. Formal lässt sich Mozarts Ausarbeitung als Satz interpretieren. Die vollkommene Schlusswirkung am Ende der IV-I-V-I-Harmoniefolge wird durch einen Sextakkord verhindert, wobei das Verfahren, die Schlusswirkung beim Er-reichen des Grundtons durch einen Sextakkord oder Trugschluss hinauszuzögern, sich auch gelegentlich in Schlagermusik beobachten lässt.<a href='#fn19'><sup id="fz19">19</sup></a> Der IV-I-V-I-Harmonik folgt in der Bildnis-Arie – wie in KV 283 – eine Kadenz (T. 10–15), die durch einen weiteren Trugschluss unterbrochen wird und den ersten Abschnitt der Arie mit einem Ganzschluss in der Ausgangstonart und einer Oktavlage in der Melodie beendet.<br/>
+        <span className='truncate' />Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf und die satztypische Phrasengliederung vor der Kadenz:
+      </Text>
+      <img className='scoreExample w60 mt36 mb12' src='/images/fischer-mozart/Geruestsatzmodelle-4.svg' alt='Formodell' />
+      <Text className='urhgText'>Abbildung 21: Gerüstsatz der Bildnis-Arie T. 3–10 aus Die Zauberflöte KV 620, original in Es-Dur</Text>
+      <Text mt='6'>
+        Nimmt man die Oberstimme ab der IV-I-V-I-Bewegung in den Blick, fällt eine weitere Melodiestruktur auf: der Stufengang a-g-f-e (6-5-4-3),<a href='#fn20'><sup id="fz20">20</sup></a> der eine Überterzung des bereits erörterten Stufengangs f-e-d-c (4-3-2-1) darstellt. Ein letztes Beispiel aus dem Werk W. A. Mozarts veranschaulicht die Bedeutung dieser beiden Strukturbewegungen:
+      </Text>
+
+
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
        <Heading as='h2' className='headingH4'>Fußnoten</Heading>
@@ -513,6 +566,24 @@ export default function FischerMozartMusikwissenschaft() {
           </li>
           <li id="fn14"><a href='#fz14'>14.&nbsp;</a>
             Das I-V-I-Pendel mit nachfolgender IV-I-Bewegung findet sich darüber hinaus in Popmusik mit meist melodiösem Charakter wie z. B. im Verse von <i>Hey Jude</i> von <i>The Beatles</i>.
+          </li>
+          <li id="fn15"><a href='#fz15'>15.&nbsp;</a>
+            Gjerdingen 1988, 102.
+          </li>
+          <li id="fn16"><a href='#fz16'>16.&nbsp;</a>
+            Bis auf die Quinte im ersten Takt und zum Beginn der Kadenz im 8. Takt sowie die Oktave im Schlusstakt erklingen bei Mozart auf den Takteinsen auschließlich imperfekte Konsonanzen bzw. Terzen und eine Sexte.
+          </li>
+          <li id="fn17"><a href='#fz17'>17.&nbsp;</a>
+            Die Dreitaktigkeit resultiert aus einer hemiolischen Dehnung in den Takten 8–9 bzw. einem auskomponierten Ritardando. Die Takte 5–10 (Nachsatz) werden anschließend variierend (Registerwechsel) wiederholt.
+          </li>
+          <li id="fn18"><a href='#fz18'>18.&nbsp;</a>
+            Auch im Chorus von <i>Einmal berührt, für immer verführt</i> hört man am Ende zwischen Gesang und Bass eine schließende Oktavlage, obgleich der Melodieschluss auf leichter Zählzeit erklingt und die instrumentale Melodie des Interludes auf der nachfolgenden Takteins in Terzlage einsetzt.
+          </li>
+          <li id="fn19"><a href='#fz19'>19.&nbsp;</a>
+            Z. B. in den Chorus-Formteilen der von Helene Fischer gesungenen Songs <i>Wo das Leben tanzt</i> (2007), <i>Jeden Morgen wird die Sonne neu gebor’n</i> (2008) und <i>Frag’ nicht wo und wann</i> (2008). Die häufig anzutreffende innere Erweiterung des letzten Chorus wird dagegen in der Regel durch eine einfache oder variierte Wiederholung der letzten Taktgruppe realisiert wie z. B. in <i>Auf der Reise ins Licht</i> (2006), <i>Fantasie hat Flügel</i> (2007), <i>Du hast mein Herz berührt</i> (2007) u.v.a.
+          </li>
+          <li id="fn20"><a href='#fz20'>20.&nbsp;</a>
+            Der Stufengang wird durch die trugschlüssige Wendung in den Sextakkord (T. 10) unterbrochen. Dadurch löst sich die exponierte Septime (T. 9) erst am Beginn der Schlusskadenz (T. 13) auf und verbindet diese klanglich mit dem Vorangegangenen.
           </li>
         </ul>
        </div>
