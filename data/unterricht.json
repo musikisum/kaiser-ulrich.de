@@ -87,11 +87,11 @@
         "Id": "",
         "CourseType": "Other",
         "Start": "11:00",
-        "Duration": "8:00",
-        "Category": "Projektseminar",
+        "Duration": "8:0",
+        "Category": "Anderes",
         "Title": "Open Music Academy",
         "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
-        "DayOfWeek": "Donnerstag"
+        "DayOfWeek": "Freitag"
       }
     ]
   },
