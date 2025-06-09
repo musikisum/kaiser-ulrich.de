@@ -5,6 +5,16 @@
     "unterricht": [
       {
         "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "6:0",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Montag"
+      },
+      {
+        "Id": "",
         "CourseType": "Hs",
         "Start": "12:15",
         "Duration": "1:30",
@@ -36,6 +46,26 @@
       {
         "Id": "",
         "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "8:0",
+        "Category": "Anderes",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "3:00",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
         "Start": "14:15",
         "Duration": "1:90",
         "Category": "Proseminar",
@@ -45,13 +75,23 @@
       },
       {
         "Id": "",
-        "CourseType": "S",
-        "Start": "14:00",
-        "Duration": "15:00",
-        "Category": "Other",
-        "Title": "Sprechstunde",
-        "Description": "",
-        "DayOfWeek": "Freitag"
+        "CourseType": "Other",
+        "Start": "16:00",
+        "Duration": "3:00",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "11:00",
+        "Duration": "8:00",
+        "Category": "Projektseminar",
+        "Title": "Open Music Academy",
+        "Description": "Arbeit in der Open Music Academy (Gebäude C, Videostudio, Raum 001–003)",
+        "DayOfWeek": "Donnerstag"
       }
     ]
   },

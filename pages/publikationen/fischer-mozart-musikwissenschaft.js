@@ -23,7 +23,7 @@ export default function FischerMozartMusikwissenschaft() {
       <Text mt='6px' fontSize='12px'>
        Dieser Beitrag ist erschienen in: ... Er wird hier in HTML-Form zur Verfügung gestellt, um einen Nachvollzug der Höbeispiele zu erleichtern. Die Noten skizzieren urheberrechtlich geschütztes Material, Melodien und die Auschnitte aus den Songs (Sounddateien) werden im Rahmen des <a href='https://www.gesetze-im-internet.de/urhg/__51.html' className='underline'>§ 51 UrHG</a> verwendet, sind gehostet auf dem Server der GMTH und wurden von der <a href='' className='underline'>Zeitschrift (Proceedings) der Gesellschaft für Musiktheorie</a> über Link eingebunden.
       </Text>
-      <Heading as='h1' className='headingH2'>Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt</Heading>
+      {/* <Heading as='h1' className='headingH2'>Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt</Heading>
       <Text>Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft.</Text>
       <Text mt='6px' fontSize='12px'>
         Der folgende Beitrag wurde initiiert durch ein Referat auf dem 21. Kongress der GMTH in Basel mit dem Titel »Was passiert im 5. Takt«, in dem es um Strukturbeobachtungen zu Songs ging, die durch Helene Fischer und Beatrice Egli bekannt geworden sind. Die Beobachtungen bestanden darin, dass metaphorisch gesprochen in der Mitte von Taktgruppen dieser Musik – also beispielsweise im fünften Takt achttaktiger Einheiten – sehr häufig eine Subdominante erklingt. Überlegungen zur Formfunktion dieser Subdominante führten zur Melodiegestaltung und an dieser Stelle gerieten strukturelle Ähnlichkeit zwischen der untersuchten Schlagermusik und der Musik W. A. Mozarts in den Blick. Die unterschiedlichen Bewertungen von Schlagermusik auf der einen Seite und der Musik Mozarts auf der anderen sind geeignet, ästhetische Standpunkte der Analysierenden zu reflektieren.<a href='#fn1'><sup id="fz1">1</sup></a>
@@ -586,7 +586,7 @@ export default function FischerMozartMusikwissenschaft() {
             Der Stufengang wird durch die trugschlüssige Wendung in den Sextakkord (T. 10) unterbrochen. Dadurch löst sich die exponierte Septime (T. 9) erst am Beginn der Schlusskadenz (T. 13) auf und verbindet diese klanglich mit dem Vorangegangenen.
           </li>
         </ul>
-       </div>
+       </div> */}
     </>
   )
 }
