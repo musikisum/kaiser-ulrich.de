@@ -21,7 +21,7 @@ export default function FischerMozartMusikwissenschaft() {
       </Head>
       <PageHeader options={ options } />
       <Text mt='6px' fontSize='12px'>
-       Dieser Beitrag ist erschienen in: ... Er wird hier in HTML-Form zur Verfügung gestellt, um einen Nachvollzug der Höbeispiele zu erleichtern. Die Noten skizzieren urheberrechtlich geschütztes Material, Melodien und die Auschnitte aus den Songs (Sounddateien) werden im Rahmen des <a href='https://www.gesetze-im-internet.de/urhg/__51.html' className='underline'>§ 51 UrHG</a> verwendet und sind von den <a href='' className='underline'>Zeitschrift (Proceedings) der Gesellschaft für Musiktheorie</a> verlinkt.
+       Dieser Beitrag ist erschienen in: ... Er wird hier in HTML-Form zur Verfügung gestellt, um einen Nachvollzug der Höbeispiele zu erleichtern. Die Noten skizzieren urheberrechtlich geschütztes Material, Melodien und die Auschnitte aus den Songs (Sounddateien) werden im Rahmen des <a href='https://www.gesetze-im-internet.de/urhg/__51.html' className='underline'>§ 51 UrHG</a> verwendet, sind gehostet auf dem Server der GMTH und wurden von der <a href='' className='underline'>Zeitschrift (Proceedings) der Gesellschaft für Musiktheorie</a> über Link eingebunden.
       </Text>
       <Heading as='h1' className='headingH2'>Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt</Heading>
       <Text>Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft.</Text>

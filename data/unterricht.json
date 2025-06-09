@@ -1,5 +1,61 @@
 [
   {
+    "name": "Wintersemester 2025/2026",
+    "annotations": "",
+    "unterricht": [
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "12:15",
+        "Duration": "1:30",
+        "Category": "Hauptseminar",
+        "Title": "Wissenschaftliches Arbeiten",
+        "Description": "Was ist Wissenschaft? Was heißt es, im Jahr 2024 wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen liegt ein Schwerpunkt in diesem Seminar auf dem Recherchieren und Bewerten von Informationen. Dazu werden Datenbanken (OPAC, DBIS, EZB, Subito) und die Operatorensuche vorgestellt (auf Wikipedia, in Suchmaschinen und Webseiten wie z.B. JSTOR) sowie das ›prompten‹ mit KI-Tools geübt (Elicit, Research Rabbit, ChatGPT u.a.). Darüber hinaus wird Raum gegeben, den Inhalt wissenschaftlicher Texte verschiedener Wissenschaftsspielarten zu erfassen und zu diskutieren (Hermeneutik, Konstruktivismus, Systemtheorie). Damit stehen jene Fähigkeiten im Fokus, die in den sog. W-Seminaren in Gymnasien aktuell vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt geht es um Fähigkeiten, die für das inhaltliche und technische Erstellen einer Zulassungs- oder Diplomarbeit essentiell sind. Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "S",
+        "Start": "14:15",
+        "Duration": "1:30",
+        "Category": "Seminar",
+        "Title": "IM 1 – Projekt 1",
+        "Description": "In diesem Seminar werden Techniken der Orchesterbearbeitung vorgestellt und der Umgang mit der Open-Source-Software MuseScore erlernt. Ziel des Seminars ist es, eine Filmmusik für Orchester zu einem kurzen Film bzw. Filmausschnitt der Blender Foundation auszuarbeiten und das dafür notwendige Aufführungsmaterial zu erstellen (z.B. mit MuseScore, Sibelius etc.). In einer Blockveranstaltung gegen Ende des Wintersemesters werden die Filmmusiken in einem kurzen Einstudierungsversuch live zum Film aufgeführt.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "16:15",
+        "Duration": "2:30",
+        "Category": "Projektseminar",
+        "Title": "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
+        "Description": "Seit die UNESCO im Jahr 2002 den Begriff ›Open Educational Resources‹ (OER) geprägt hat, erhielt die dahinterliegende Idee auf internationaler Ebene Auftrieb. Ursache hierfür dürfte die wachsende Bedeutung digitaler Medien für das Lehren und Lernen gewesen sein. In Deutschland hielt man dagegen noch im Jahr 2011 das Thema OER für wenig zukunftsträchtig und den Mangel an digital verfügbaren Unterrichtsmaterialien für unproblematisch. Eine eklatante Fehleinschätzung, die spätestens 2020 durch die weltweite Ausbreitung des Virus SARS-CoV-2 (Corona-Pandemie) offensichtlich geworden ist und deren Revision seit 2021 nun auch in Deutschland zu einer verstärkten Förderung freier Bildungsmaterialien geführt hat. Dieses Seminar bietet eine Annäherung an die Themen ›Open Educational Practices‹ (OEP) und OER. Ziel ist es, ausgewählte Kontexte wie das Urheberrecht und Creative-Commons-Lizenzen zu besprechen, gängige Missverständnisse, Aspekte der Medienethik und der Medienkompetenz zu diskutieren und die Frage nach der sozial-gesellschaftlichen Relevanz von OEP zu stellen. Darüber hinaus soll es auch um die praktische Arbeit an OER gehen, also um das Besprechen und Realisieren einer eigenen Projektidee und nach Möglichkeit um die Veröffentlichung von Projektergebnissen auf der Open Music Academy.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "14:15",
+        "Duration": "1:90",
+        "Category": "Proseminar",
+        "Title": "Musiktechnologien in der Vermittlung",
+        "Description": "Inhalt dieses Seminars ist es, mithilfe von Musiktechnologien neue Hörerlebnisse und sinnstiftende Erfahrungen für das Musikerleben zu entwickelt. Im Sinne der ›Kultur der Digitalität‹ von Felix Stalder werden dazu zum Beginn Aspekte des Urheberrechts und der Kreativwirtschaft, postdemokratische Strukturen sowie die Bedeutung von Commons für den Bildungsbereich und die Musikvermittlung reflektiert. Anschließend geht es um das Besprechen und Realisieren einer eigenen, künstlerisch/pädagogischen Projektidee, wobei die für die Umsetzung erforderlichen technischen Fähigkeiten in diesem Seminar erlernt bzw. vertieft werden können (z.B. Film- und Audiobearbeitung, Musiknotation, Bildbearbeitung, Desktoppublishing usw.). Die Ergebnisse werden abschließend im Plenum evaluiert, wobei geeignete Projekte nach einer Erörterung der Crative-Commons-Lizenzen und ihrer BEdeutung über die Open Music Academy veröffentlicht und frei zugänglich gemacht werden können.",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "S",
+        "Start": "14:00",
+        "Duration": "15:00",
+        "Category": "Other",
+        "Title": "Sprechstunde",
+        "Description": "",
+        "DayOfWeek": "Freitag"
+      }
+    ]
+  },
+  {
     "name": "Sommersemester 2025",
     "annotations": "",
     "unterricht": [
