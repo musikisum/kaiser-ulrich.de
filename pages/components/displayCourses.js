@@ -22,8 +22,8 @@ function convertTime(time, title) {
       case '2:00':
       case '2:0':
         return ' | Dauer: 120 Minuten | (2 SWS/Übung)';
-      case '2:30': 
-        return ' | Dauer: 150 Minuten | (3 SWS/Seminar)';
+      case '2:15': 
+        return ' | Dauer: 135 Minuten | (3 SWS/Seminar)';
       default:
         return 'ganztägig'
     }
