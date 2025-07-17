@@ -26,11 +26,11 @@ export default function Betreuungen() {
         Dissertationen
       </Heading>
       <Text className={style.mtDefault}>
-        An der <i>Hochschule für Musik und Theater München</i> ist es möglich, bei einem in Musikwissenschaft promovierten Musiktheoretiker über ein Thema mit musikanalytischem Schwerpunkt bzw. der historischen oder systematischen Musiktheorie zu promovieren. Am Ende des erfolgreich abgeschlossenen Promotionsverfahrens wird der Titel <i>Dr. phil</i> im Fach Musikwissenschaft verliehen. Aktuell betreue ich die folgenden Arbeiten:
+        An der <i>Hochschule für Musik und Theater München</i> ist es möglich, bei einem in Musikwissenschaft promovierten Musiktheoretiker über ein Thema mit musikanalytischem Schwerpunkt bzw. der historischen oder systematischen Musiktheorie zu promovieren. Am Ende des erfolgreich abgeschlossenen Promotionsverfahrens wird der Titel <i>Dr. phil</i> im Fach Musikwissenschaft verliehen. DArüber hinaus gibt es die Möglichkeit, sich von einem Team betreuen zu lassen. Aktuell betreue ich die folgenden Dissertationsprojekte:
       </Text>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Die musikalische Entwicklung der Band Deep Purple unter dem Einfluss der wechselnden Gitarrenbesetzung</i></ListItem>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>W. A. Mozarts Dramaturgie des Musiktheaters und seine harmonisch-kontrapunktischen Implikationen</i></ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Musikunterricht und Digitalisierung an Bayerischen Gymnasien im Spannungsfeld zwischen Commons und Postdemokratie</i></ListItem>
+        <ListItem className={style.mlDefault}><i>Die Gitarristen der Band Deep Purple und deren Einfluss auf das musikalische Werk der Band</i></ListItem>
       </UnorderedList>
 
       <Divider mt='20px' mb='20px' />
@@ -52,6 +52,7 @@ export default function Betreuungen() {
         Betreute und/oder begutachtete Arbeiten (seit 2006)
       </Heading>
       <UnorderedList className={style.mtDefault}>
+        <ListItem className={style.mlDefault}><i>Wolfgang Amadeus Mozart: Dramaturgie und Musik in den Opern der Wiener Zeit</i>, Dissertation (Betreuung und Erstgutachter) 2025</ListItem>
         <ListItem className={style.mlDefault}><i>Songwriting bei Beatrice Egli</i>, Zulassungsarbeit Lehramt am Gymnasium 2023</ListItem>
         <ListItem className={style.mlDefault}><i>Die Verteilung der Songformen und andere formale Untersuchungen der Popularmusik von Billy Joel</i>, Zulassungsarbeit Lehramt am Gymnasium 2022</ListItem>
         <ListItem className={style.mlDefault}><i>Probleme bei der Unterscheidung von Genres und Stilen im Metal</i>, Zulassungsarbeit Lehramt am Gymnasium 2022</ListItem>
