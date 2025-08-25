@@ -107,6 +107,10 @@ a.underline {
   display: inline-block;
   width: 24px;
 }
+.citation {
+  margin: 16px 48px;
+  font-style: italic;
+}
 .w80 {
   width: 80%;
 }

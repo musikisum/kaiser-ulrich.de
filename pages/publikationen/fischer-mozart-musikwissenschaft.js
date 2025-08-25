@@ -899,23 +899,134 @@ export default function FischerMozartMusikwissenschaft() {
       </Text>
       <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_13.mp3'  />
       <Text className='urhgText'>Helene Fischer, <i>Unser Tag</i>, Helene Fischer – <i>Farbenspiel</i>,<br/>Track Nr. 15, Polydor 3752323, P 2013, Musik/Text: Peter Plate, Ulf Leo Sommer, Christopher Applegate.</Text>
-      
-
       <Text mt='6'>
         Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf und die Phrasengliederung des Vordersatzes der periodischen ChorusGestaltung.
       </Text>
       <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Geruestsatzmodelle-7.svg' alt='Helene Fischer - Gerüstsatz Das ist unser Tag' />
-      <Text className='urhgText'>Gerüstsatz <i>Das ist unser Tag</i> (Chorus)</Text>
-
+      <Text className='urhgText'>Abbildung 31: Gerüstsatz <i>Das ist unser Tag</i> (Chorus)</Text>
       <Text mt='6'>
         Auch in den von Helen Fischer gesungenen Songs in Moll kommen funktionale Abschnitte vor, die sich mithilfe der Okatvregel verstehen lassen.<a href='#fn28'><sup id="fz28">28</sup></a><br />
         <span className='truncate' />Die Bedeutung der Regola dell’ottava für die Musikerziehung des 18. Jahrhunderts spiegelt sich einerseits in gedruckten und handschriftlichen Generalbassanleitungen, andererseits lässt sich der harmonische Verlauf zahlreicher Kompositionen der Zeit über die Regola dell’ottava verstehen.<a href='#fn29'><sup id="fz29">29</sup></a> Auch für W. A. Mozarts Lernweg war die Oktavregel bedeutsam. Das folgende Notenbeispiel zeigt die Takte 1–8 sowie 17–24 aus dem Menuett I der Sonate für Klavier und Violine in B-Dur KV 8, das der junge Mozart (spätestens) in seinem neunten Lebensjahr (1764) komponiert hatte.
       </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Mozart-Beispiele_KV8-1.svg' alt='W. A. Mozart, Menuett KV 8' />
+      <Text className='urhgText'>Abbildung 32: W. A. Mozart, Takte 1–8 sowie 17–24 aus dem Menuett I aus KV 8</Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_14.mp3'  />
+      <Text className='urhgText'>Wolfgang Amadeus Mozart, Violin Sonatas KV 6–9, Part 1,<br/>Track 10 – Violin Sonate KV 8, Menuet I (A-Teil und Reprise), Brilliant Classics 92628/8, P 2001.</Text>
+      <Text mt='6'>
+        Die ersten acht Takte lassen sich als Ausarbeitung der Oktavregel verstehen, die im Sinne eines Vordersatzes halbschlüssig endet. Ab Takt 17 desselben Menuetts findet sich eine Wiederkehr dieser Gestaltung, die im Sinne eines Nachsatzes ganzschlüssig abgeschlossen wird. Während Vorder- und Nachsatz in Das ist unser Tag zur Gestaltung eines Chorus eingesetzt werden, zeigt Mozart mit diesem Menuett, wie sich diese Abschnitte zur Gestaltung einer ABA-Reprisenform einsetzen lassen.
+      </Text>
+       <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Diagramm-Chorus-Menuett.svg' alt='Diagramm Chorus - Menuett' />
+      <Text mt='6' className='urhgText'>Abbildung 33: Vorder- und Nachsatz zur formalen Gestaltung</Text>
+
+      <p style={{ fontSize: '1.3em', color: 'GrayText' }}><i>Exkurs Oktavregel</i></p>
+      <Text mt='6'>
+        Vielen Quellen lässt sich entnehmen, dass für den vierten Basston der Oktavregel abwärts im 18. Jahrhundert eine Sekundharmonisierung üblich war:
+      </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Mattheson-Kleine-Generalbasssschule.png' alt='Mattheson Kleine Generalbasschule' />
+      <Text mt='6' className='urhgText'>Abbildung 34: Johann Mattheson, Kleine Generalbassschule, S. 251.</Text>
+      <Text mt='6'>
+        Generalbassaufzeichnungen Mozarts, einer Generalbassanleitung im süddeutschen Raum sowie zahlreichen Kompositionen allerdings lässt sich entnehmen, dass nach einer dominantischen Harmonisierung des vierten Skalentons auch eine grundstellige Subdominante erklingen konnte:
+      </Text>
+      <img className='scoreExample w30 mt36' src='/images/fischer-mozart/02a Nauss_1751.png' alt='Nauß Generalbassbeispiel' />
+      <Text mt='6' className='urhgText'>Abbildung 35: Johann Xaver Nauß, Gründlicher Unterricht, den General-Bass recht zu erlernen, S. 26.</Text>
+      <Text mt='6'>
+        Gegenüber diesen Harmonisierungen ist für eine Oktavregel im Kontext der Popularmusik eine Quartsextakkordharmonisierung des fünften Skalentons wie in <i>Das ist unser Tag</i> charakteristisch:
+      </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Oktavregel-1.svg' alt='Charakteristische Oktavregelharmonisierung in Popmusik' />
+      <Text mt='6' className='urhgText'>Abbildung 36: Charakteristische Oktavregelharmonisierung in Popmusik</Text>
 
 
+      <Heading as='h2' className='headingH4'>Bewertungen</Heading>
+      <Text>
+        Die vergleichenden Analysen haben in Bezug auf Melodiegestaltung und Harmonik große strukturelle Gemeinsamkeiten zwischen dem von Helene Fischer gesungenen Schlagerrepertoire (bis 2017) und Kompositionen Mozarts offengelegt. Ein Unterschied besteht lediglich darin, dass in Schlagermusik musikalische Abschlüsse in die erörterten Harmoniefolgen integriert werden, während Mozart für Schlusswirkungen kadenzielle Erweiterungen komponiert. Die Gemeinsamkeiten der analytischen Befunde werden im Folgenden aus verschiedenen Perspektiven reflektiert sowie divergierende Bewertungen erörtert, die mit diesen Perspektiven einhergehen.<br/>
+        <span className='truncate' />Im Handbuch zu <i>Mozarts Klavier- und Kammermusik</i> schreibt Joachim Brügge:
+      </Text>
+      <Text className='citation'>
+        Johann Peter Abraham Schulz berühmtes vom ›Schein des Bekannten‹ ist öfters auch auf die Wiener Klassik, etwa die Instrumentalmusik Joseph Haydns, als besondere melodischfaßliche Qualität bezogen worden. Bei den Klaviersonaten Mozarts beansprucht wohl der Kopfsatz der Sonate in A-Dur KV 331 wie kein anderer das Attribut, als besonders ›mozart typisch‹ zu gelten. Dabei ist vor allem dessen Thema ein exemplarisches Beispiel für eine an sich (dem äußeren Befund nach) eher konventionell gebende Gestalt, die sich schon nach den ersten Tönen als ›echter‹ Mozart zu erkennen gibt […]<a href='#fn30'><sup id="fz30">30</sup></a>
+      </Text>
+      <Text>
+        Und zur Klaviersonate KV 545 heißt es:
+      </Text>
+      <Text className='citation'>
+        Der paradigmatische Beginn des ersten Satzes, mit seiner elementaren Dreiklangsbildung und den diatonischen Skalenläufen, verkörpert dabei eine der musikalischen ›Visitenkarten‹ der Wiener Klassik schlechthin, wobei gerade die Kürze zur sparsamen Darstellung und Beschränkung der musikalischen Mittel auffordert <span style={{ fontStyle: 'normal' }}>[…]</span> In ihrer Etüden-Diktion nimmt KV 545 einen großen Teil an ›Spielliteratur‹ der pädagogischen Klaviermusik im Stile von Clementi vorweg und übertrumpft diese in der geistreichen Gestaltung.<a href='#fn31'><sup id="fz31">31</sup></a>
+      </Text>
+      <Text>
+        Brügges Äußerungen zeigen, dass der »Schein des Bekannten«, die »besondere melodisch-faßliche Qualität« trotz »eher konventionell gebende[r] Gestalt« als Qualität gesehen werden kann, die als besonders »mozarttypisch« gelten darf. Elementare Dreiklangsbildungen und diatonische Skalenläufe sind dabei keineswegs Attribute minderwertiger Musik, sondern fordern lediglich »zur sparsamen Darstellung und Beschränkung der musikalischen Mittel« auf. Das kunstfertig Einfache als Antagonist des Artifiziellen ist ein Narrativ, das im Französischen auf Michel de Montagne (»poësie populaire«), im Englischen auf Thomas Percy (»popular song«) und im Deutschen auf Johann Gottfried Herder und Johann Abraham Peter Schulz zurückgeführt wird. Nach diesem Narrativ ist das Einfache eine besondere Qualität, auf die im Zusammenhang mit zahlreichen Werken Mozarts von der Klaviermusik bis hin zur Zauberflöte gerne verwiesen wird.<br/>
+        <span className='truncate' />Im Gegensatz dazu hat sich im Kontext der Analyse von Schlagermusik ein Narrativ der Akzeptanzgewinnung durch Distanzvermeidung etabliert. Peter Wicke führt hierzu aus:
+      </Text>
+      <Text className='citation'>
+        Als formbildende und damit gattungsspezifisch relevante Konstante erweist sich jedoch die Ästhetik dieser Form des populären Liedes, die unabhängig von kulturellem Kontext, zeitgeschichtlichem Bezug und modischem Stilgewand einem Prinzip verpflichtet bleibt, das als Akzeptanzgewinnung durch Distanzvermeidung beschrieben werden kann. Die Distanz zwischen dem Schlager als ästhetischem Objekt und dem Hörer als Subjekt seiner Rezeption und Konsumtion wird mit allen zu Gebote stehenden Mitteln so gering wie möglich gehalten. Schlager passen sich möglichst nahtlos dem Alltag ihrer Hörer und den darin hervorgebrachten multifunktionalen Ansprüchen an. Sie bewegen sich im Rahmen von deren Hörgewohnheiten, die sie ebenso prägen wie sie sie bestätigen. Standardisierung und Stereotypisierung des musikalischen Ablaufs umgeben diese alltagsbegleitenden Lieder daher stets mit dem Schein der Bekanntheit, ohne freilich den aufmerksamkeitserheischenden Effekt der Neuheit dadurch zu untergraben <span style={{ fontStyle: 'normal' }}>[…]</span> Das gilt auch für den formalen Aufbau, der mit der Bindung an den achttaktigen Periodenbau, schnell erfaßbaren und leicht erinnerbaren Strophenbau nach dem Vers-Refrain-Prinzip zwar einem relativ feststehenden Reglement folgt, darin aber keineswegs starr und schematisch bleibt.<a href='#fn32'><sup id="fz32">32</sup></a>
+      </Text>
+      <Text>
+        Auch bei Wicke ist vom »Schein des Bekannten« zur Erläuterung der Akzeptanzgewinnung durch Distanzvermeidung die Rede. Anders als der Mozartforscher kann der Popularmusikforscher allerdings darin kein Kennzeichen für Qualität und Kunstfertigkeit erkennen: 
+      </Text>
+      <Text className='citation'>
+        Zwangsläufig spiegeln sich damit im Schlager ebenso ungebrochen wie ungefiltert kulturelle Mentalität, Befindlichkeit und Geisteshaltung von Majoritäten, die in ihrer konkreten Form nicht dem Zustand der Kunst, sondern dem Gesellschaftszustand geschuldet sind. Zudem ist der Schlager als Bestandteil der Alltagskultur, in der er seinen Platz übrigens weitgehend unabhängig von Bildung, Status und Beruf behauptet (lediglich Alter ist ein signifikantes Differenzierungskriterium), gewiß kein Instrument der Aufklärung <span style={{ fontStyle: 'normal' }}>[…]</span> Mit einem wie immer auch gearteten Kunstbegriff ist das nicht zu fassen. Vielmehr verweist diese Form des populären Liedes darauf, daß das Musikalische im Kontext medienvermittelter Alltagskultur über die Grenzen des Kunsthaften und die Bindung an das autonom gesetzte Kunstwerk weit hinausgewachsen ist.
+      </Text>
+      <Text>
+        Für Wicke ist der ›Schein des Bekannten‹ vielmehr Indiz für die »Geisteshaltung von Majoritäten«, wobei das Musikalische »über die Grenzen des Kunsthaften und die Bindung an das autonom gesetzte Kunstwerk weit hinausgewachsen« sei. Aus dieser Perspektive lassen sich allerdings auch Kompositionen des 18. Jahrhunderts beobachten. So ist es beispielsweise nicht schwer, bei J. A. P. Schulz, dem wir so unsterbliche Melodien wie »Der Mond ist aufgegangen« und »Ihr Kinderlein kommet« verdanken, ein Verwertungsinteresse auszumachen, das einer Industrie globaler Musikverwertung in einer medienvermittelten Alltagskultur den Weg bereitet hat:
+      </Text>
+      <Text className='citation'>
+        Zu dem Ende habe ich <span style={{ fontStyle: 'normal' }}>[…]</span> mich in den Melodien selbst der höchsten Simplicität und Faßlichkeit beflissen, ja auf alle Weise den Schein des Bekannten dareinzubringen gesucht, weil ich aus Erfahrung weiß, wie sehr dieser Schein […] zu seiner schnellen Empfehlung dienlich, ja nothwendig ist. In diesem Schein des Bekannten liegt das ganze Geheimniß <span style={{ fontStyle: 'normal' }}>[…]</span> Denn nur durch <span style={{ fontStyle: 'normal' }}>[…]</span> eine Melodie, <span style={{ fontStyle: 'normal' }}>[…]</span> die außerdem in sehr sangbaren Intervallen, in einem, allen Stimmen angemeßenen Umfang, und in den allerleichtesten Modulationen fortfließt; und endlich durch die höchste Vollkommenheit der Verhältnisse aller ihrer Theile, wodurch eigentlich der Melodie diejenige Rundung gegeben wird, die jedem Kunstwerk aus dem Gebiete des Kleinen so unentbehrlich ist, erhält das Lied den Schein <span style={{ fontStyle: 'normal' }}>[…]</span> des Ungesuchten, des Kunstlosen, des Bekannten, <span style={{ fontStyle: 'normal' }}>[…]</span> wodurch es sich dem Ohr so schnell und unaufhörlich zurückkehrend, einprägt. Und das ist doch der Endzweck des Liedercomponisten <span style={{ fontStyle: 'normal' }}>[…]</span><a href='#fn33'><sup id="fz33">33</sup></a>
+      </Text>
+      <Text>
+        Im Hinblick auf Mozart ist der Konflikt zwischen musikalischer Individuation und Publikumsgeschmack über die vielzitierte Mahnung des Vaters bekannt geworden:
+      </Text>
+      <Text className='citation'>
+        Ich empfehle dir Beÿ deiner Arbeit nicht einzig und allein für das musikalische, sondern auch für das ohnmusikalische Publikum zu denken, – du weist es sind 100 ohnwissende gegen 10 wahre Kener, – vergiß also das so genannte populare nicht <span style={{ fontStyle: 'normal' }}>[…]</span><a href='#fn34'><sup id="fz34">34</sup></a>
+      </Text>
+      <Text>
+        Woraufhin der junge Mozart erwidert:
+      </Text>
+      <Text className='citation'>
+        – wegen dem sogenan[n]ten Popolare sorgen sie nichts, den[n], in meiner Oper ist Musick für aller Gattung leute; –<a href='#fn35'><sup id="fz35">35</sup></a>
+      </Text>
+      <Text>
+        Darüber hinaus ist es eine historische Tatsache, dass Musik bereits im 18. Jahrhundert »nicht mehr nur für einen zeitlich und räumlich begrenzten Nutzungskontext produziert«, sondern dass sie »mit Blick auf das breite Publikum produziert, angeboten und beworben« worden ist.<a href='#fn36'><sup id="fz36">36</sup></a><br/>
+        <span className='truncate' />Die bisherigen Ausführungen zeigen, dass die Bewertung musikalischer Gestaltungen, die sich »dem Ohr so schnell und unaufhörlich zurückkehrend« einprägen, kontingent ist. Je nachdem, ob der Fokus auf der musikalischen Struktur oder auf ihrer Rezeption liegt, kann entsprechender Musik eine besondere Qualität oder auch eine massentaugliche Distanzlosigkeit zugeschrieben werden. Vor diesem Hintergrund ist interessant, in welchen Kontexten Schlagermusik negativ bewertet wird. In der deutschsprachigen Musikwissenschaft dürfte es seit Carl Dahlhaus common sense sein, jene Gruppennormen, auf denen der Erfolg von Schlagerkompositionen beruht, negativ zu beurteilen. Carl Dahlhaus schrieb 1970 in seiner Schrift <i>Analyse und Werturteil</i>:
+      </Text>
+      <Text className='citation'>
+        Daß die ›Gruppennorm‹, auf Grund derer ein Schlager als Inbegriff von Musik und eine Beethoven-Symphonie als leeres Getön erscheint, das gleiche ästhetische Daseinsrecht habe wie die entgegengesetzte ›Gruppennorm‹, ist insofern eine Täuschung, als die Sachurteile, die den ›Gruppennormen‹ zugrundeliegen, nicht gleich fundiert sind. Denn ein Hörer, der einer Beethoven-Symphonie gerecht zu werden vermag, ist im allgemeinen auch fähig, die musikalischen Sachverhalte in einem Schlager zu durchschauen, aber nicht umgekehrt. Nicht, daß dem Hochmut der Eingeweihten das Wort geredet werden soll. Daß jedoch niemand das Recht hat, es musikalischen Analphabeten zum Vorwurf zu machen, daß sie es sind, ändert nichts daran, daß der Analphabetismus ein brüchiges Fundament für ästhetische Urteile ist.<a href='#fn37'><sup id="fz37">37</sup></a>
+      </Text>
+      <Text>
+        Referenzpunkt für die Aussagen zur Minder- oder Höherwertigkeit von Sachurteilen ist eine wie auch immer geartete Qualität. In ihrem Beitrag »Analyse des Werturteils – Analysen, wer urteilt?«<a href='#fn38'><sup id="fz38">38</sup></a> schreibt Nina Noeske:
+      </Text>
+      <Text className='citation'>
+        2014 kommt Adam Szymczyk, damals designierter künstlerischer Leiter der documenta 14 (2017, Kassel und Athen) und Direktor der Kunsthalle Basel, in einem Gespräch auf den Begriff ›Qualität‹ zu sprechen: Qualität in der Kunst (hier verstanden im wertenden Sinne) sei für ihn »eine leere Kategorie«, die unterstelle, es gebe in ihr als sicher und feststehend bezeugte, messbare, gewissermaßen objektive Werte; tatsächlich sei Qualität aber »immer die Qualität von jemand anderem«. Wo demnach von ihr die Rede ist, werden, dieser Argumentation zufolge, Maßstäbe angelegt, die dem jeweiligen Kunstwerk äußerlich sind; entsprechend, so die Botschaft, solle man es unterlassen, die Kunst damit zu traktieren.
+      </Text>
+      <Text>
+        Akzeptiert man zudem die Prämissen der konstruktivistischen Systemtheorie nach Niklas Luhmann, lässt sich Qualität auch aus wissenschaftstheoretischer Sicht nur im Beobachten erster Ordnung bestimmen. Ein Beobachten zweiter Ordnung beschäftigt dagegen die Frage, wie und durch wen Qualität erzeugt wird »und wie lange die Illusion hält«.<a href='#fn39'><sup id="fz39">39</sup></a><br/>
+        <span className='truncate' />Qualität, auf die Carl Dahlhaus in seinem vielzitierten Text rekurriert, lässt sich daher in Ideologiekritik und Wissenschaftstheorie auflösen. Und auch sein Argument, dass »verständige Beethoven-Hörer« musikalische Sachverhalte in einem Schlager durschauen könnten, steht auf wackeligen Füßen. Das wird schnell ersichtlich, wenn man sich der musikalischen Analyse von Schlagermusik zuwendet. Denn zum einen gibt es ausgesprochen wenig wissenschaftliche Literatur zu aktueller Schlagermusik, zum anderen setzt sich die wenige Literatur,<a href='#fn40'><sup id="fz40">40</sup></a> die es gibt, in der Regel nicht fundiert mit der klingenden Musik auseinander. Rainer Moritz, Schlagerexperte, Literaturkritiker und Autor, resümiert beispielsweise in seiner Publikation zum Schlager:
+      </Text>
+      <Text className='citation'>
+        Zum Erstaunlichen ihres Erfolges gehört übrigens, dass ihre Schlager einschließlich der CD Helene Fischer (2017) selbst von hoher Konventionalität sind. Ihr Produzent und Komponist Jean Frankfurter, ein Branchen-Urgestein, baut auf eingängige, zeitgemäß poppig arrangierte Rhythmen von oft stampfender Eintönigkeit. Auch ihre Texte – viele aus der Feder der altbewährten Irma Holder oder Kristina Bach – sind durch die Bank uninspiriert und setzen auf ein vertrautes Setting. Flammende Herzen, Paradiese, Lust zu fliegen, am besten atemlos durch die Nacht zu den Sternen und Wolken, bunte Träume, orkanartige Gefühle – das ist der geschmacksarme Metaphern- und Liebessalat der Helene Fischer, der Andrea Bergs deutlich schmerzempfindlichere Lieder fast realitätsnah erscheinen lässt.<a href='#fn41'><sup id="fz41">41</sup></a>
+      </Text>
+      <Text>
+        Gleichgültig, welchen Pfaden (populär-)wissenschaftlicher Äußerungen man folgt, ob die Musik von Helene Fischer unter dem Titel »kitschig, verklemmt und kleinbürgerlich«<a href='#fn42'><sup id="fz42">42</sup></a> analysiert wird oder ob die Attacken wechselweise der Musik oder dem Publikum gelten<a href='#fn43'><sup id="fz43">43</sup></a>: Im Mittelpunkt steht die kritische Auseinandersetzung mit Schlagertexten. Sollen allerdings Äpfel nicht mit Birnen verglichen werden, müssten sich Analysen des klassischen Repertoires dann auch ernsthaft mitTextzeilen wie »Stürze zu Boden, schwülstige Stolze«, »ein Weib tut wenig, plaudert viel« oder »Weia! Waga! Woge, du Welle! Walle zur Wiege« beschäftigen.<br/>
+        <span className='truncate' />Dass der <i>primary text</i> bzw. Musik als Musik zumindest in der deutschsprachigen musikwissenschaftlichen Forschung zu kurz kommt, wird in der Popularmusikforschung als Desiderat benannt:
+      </Text>
+      <Text className='citation'>
+        In der Regel wird die konkrete Klanglichkeit – man kann sie auch Materialität, Struktur oder Gestaltung nennen – von individuellen Materialien populärer Musik wie Songs, Tracks, Alben, DJ-Sets oder Improvisationen weitestgehend vernachlässigt. Kurz: In den PMS <span style={{ fontStyle: 'normal' }}>[Popular Music Studies]</span> wird populäre Musik als Musik kaum erforscht.<a href='#fn44'><sup id="fz44">44</sup></a>
+      </Text>
+      <Text>
+        Auch wenn in den letzten zwei Jahrzehnten im Bereich der deutschsprachigen Popularmusikforschung einige analytische Beiträge zur Popularmusik erschienen sind: Eine musikanalytische Auseinandersetzung mit der Musik des Schlagers sucht man selbst dort vergebens. Es mag abwegig erscheinen, sich im Bemühen um eine analytische Auseinandersetzung mit Schlagermusik ausgerechnet auf Theodor W. Adorno zu berufen,<a href='#fn45'><sup id="fz45">45</sup></a> doch seine Anmerkungen zum musikalischen Material sind progressiv und weitreichend:
+      </Text>
+      <Text className='citation'>
+        Der Inhalt ist nicht außerhalb der musikalischen Zeit sondern ihr wesentlich und sie ihm: er ist alles, was in der Zeit stattfindet. Material dagegen ist, womit die Künstler schalten: was an Worten, Farben, Klängen bis hinauf zu Verbindungen jeglicher Art bis zu je entwickelten Verfahrungsweisen fürs Ganze ihnen sich darbietet: insofern können auch Formen Material werden; also alles ihnen Gegenübertretende, worüber sie zu entscheiden haben. Die unter unreflektierten Künstlern verbreitete Vorstellung von der Wählbarkeit des Materials ist insofern problematisch, als sie den Zwang des Materials und zu spezifischem Material ignoriert, der in den Verfahrungsweisen und ihrem Fortschritt waltet. Auswahl des Materials, Verwendung und Beschränkung in seiner Anwendung, ist ein wesentliches Moment der Produktion.<a href='#fn46'><sup id="fz46">46</sup></a>
+      </Text>
+      <Text>
+        Demnach gehören zur materiellen Ebene der Musik des Schlagers Kompressoren, Filter, VST-Plug-ins, Auto-Tune, elektronische Klänge usw. und angesichts musikwissenschaftlicher Curricula der professionellen Musikausbildungsstätten darf mit Recht bezweifelt werden, dass Musikwissenschaftlerinnen und Musikwissenchaftler im 21. Jahrhundert noch über die Kompetenz verfügen, die »musikalischen Sachverhalte in einem Schlager zu durchschauen«.
+      </Text>
 
-       <Divider mt='60px' mb='60px' h='1px' bg='gray' />
-       <Heading as='h2' className='headingH4'>Fußnoten</Heading>
+
+      <Heading as='h2' className='headingH4'>Zusammenfassung</Heading>
+      <Text>
+        In diesem Beitrag wurden Harmonik und Melodieführung in Songs aus dem frühen Schlagerrepertoire von Helene Fischer (bis 2017) analysiert und die Analyseergebnisse Kompositionen Mozarts gegenübergestellt. Mithilfe satztechnischer Modelle wurden zahlreiche Gemeinsamkeiten in der musikalischen Gestaltung nachgewiesen, die trotz unterschiedlicher Stilistiken eine vergleichbare musikalische Wirkung entfalten (Liedhaftigkeit, Sangbarkeit, periodische bzw. symmetrische Gestaltung, Einprägsamkeit, usw.). Abschließend standen musikwissenschaftliche Bewertungen im Fokus, wobei Divergenzen durch kontingente Perspektiven geprägt sind bzw. auf verschiedenen Interessen an der Struktur oder Rezeption von Musik beruhen. Darüber hinaus wurden Vorurteile in der Musikwissenschaft offengelegt und die Beschäftigung mit Schlagermusik <i>als Musik</i> bzw. einem gehörten, ästhetischen Gegenstand als Desiderat der Musikforschung bestimmt.
+      </Text>
+
+
+      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+      <Heading as='h2' className='headingH4'>Fußnoten</Heading>
        <div style={{margin: 'auto', margin: 'auto', padding: '0 40px', fontSize: '0.8em' }}>
         <ul className='footnoteList'>
           <li id="fn1"><a href='#fz1'>1.&nbsp;</a>
@@ -1005,8 +1116,188 @@ export default function FischerMozartMusikwissenschaft() {
           <li id="fn29"><a href='#fz29'>29.&nbsp;</a>
             Paradigmatisch z.B. das Präludium in C-Dur BWV 846, T. 5–19 im ersten Teil des Wohltemperierten Klavier, aber auch die Präludien in c-Moll BWV 847, T. 5–11, in D-Dur BWV 850, T. 3–20 und 22–25 u.v.a.
           </li>
+          <li id="fn30"><a href='#fz30'>30.&nbsp;</a>
+            Brügge 2006, 128.
+          </li>
+          <li id="fn31"><a href='#fz31'>31.&nbsp;</a>
+            Brügge 2006, 129.
+          </li>
+          <li id="fn32"><a href='#fz32'>32.&nbsp;</a>
+            Brügge 2016.
+          </li>
+          <li id="fn33"><a href='#fz33'>33.&nbsp;</a>
+            Schulz 1785, Vorbericht.
+          </li>
+          <li id="fn34"><a href='#fz34'>34.&nbsp;</a>
+            Stiftung Mozarteum Salzburg, Mozart Briefe und Dokumente – Online-Edition,http://dme.mozarteum.at/DME/briefe/letter.php?mid=1124&cat=3 (Leopold Mozart an Wolfgang Amadé Mozart in München, Salzburg, 11. Dezember 1780).
+          </li>
+          <li id="fn35"><a href='#fz35'>35.&nbsp;</a>
+            Stiftung Mozarteum Salzburg, Mozart Briefe und Dokumente – Online-Edition, http://dme.mozarteum.at/DME/briefe/letter.php?mid=1129&cat=3 (Wolfgang Amadé Mozart an Leopold Mozart in Salzburg, München, 16. Dezember 1780)
+          </li>
+           <li id="fn36"><a href='#fz36'>36.&nbsp;</a>
+            Zaunstöck 2007, 138.
+          </li>
+           <li id="fn37"><a href='#fz37'>37.&nbsp;</a>
+            Dahlhaus 1970, S. 14.
+          </li>
+          <li id="fn38"><a href='#fz38'>38.&nbsp;</a>
+            Noeske 2020, 81–82.
+          </li>
+           <li id="fn39"><a href='#fz39'>39.&nbsp;</a>
+            Luhmann 1997, 156–157: »Das Beobachten zweiter Ordnung hat, auf seine Wirkungen hin beobachtet, offenbar toxische Qualität. Es verändert den unmittelbaren Weltkontakt. Es zersetzt die gleichwohl beibehaltene Einstellung erster Ordnung. Es durchsetzt die Lebenswelt (im Sinne Husserls) mit einem Verdacht gegen sich selbst, ohne sie verlassen zu können. Während der Beobachter erster Ordnung die Hoffnung hegen konnte, mit durchdringendem Blick die sich zeigende Oberfläche überwinden und in die Tiefe eindringen und vom Schein zum Sein vordringen zu können, wird dem Beobachter zweiter Ordnung auch diese Intention der »Philosophie« suspekt. Er liebt die Weisheit und das Können und das Wissen nicht, er versucht zu verstehen, wie es und durch wen es erzeugt wird und wie lange die Illusion hält. Für ihn ist das Sein ein »Ontologie« produzierendes Beobachtungsschema, und Natur wird dann nur noch ein Begriff sein, der ein beruhigendes Ende verheißt und damit weitere Fragen stoppt. Toxisch ist auch, daß der Beobachter zweiter Ordnung die »Sinnfrage« stellt, etwa hundert Jahre von der Mitte des 19. bis zur Mitte des 20. Jahrhunderts sich damit berauscht - nur um schließlich auch dies noch als Spezialität einer bestimmten Epoche beobachten zu müssen.«
+          </li>          
+          <li id="fn40"><a href='#fz40'>40.&nbsp;</a>
+            Übersichten finden sich bei Wulff 2012 und Kornberger 2018, 49–63.
+          </li>         
+          <li id="fn41"><a href='#fz41'>41.&nbsp;</a>
+            Rainer Moritz, Schlager. 100 Seiten, Ditzingen 2017, zit. n. d. 2. aktualisierten Aufl. 2019, 38.
+          </li>   
+          <li id="fn42"><a href='#fz42'>42.&nbsp;</a>
+            Grau 2014.
+          </li>
+          <li id="fn43"><a href='#fz43'>43.&nbsp;</a>
+            So z. B. von Anja Caspary (Musikchefin radioeins) in einem Interview mit Holger Lachmann (Musikchef Antenne Brandenburg), die der Musik von Helene Fischer jede handwerkliche Qualität abspricht (»Genau, weil das ist keine Kunst […]« bzw. dem Publikum Kompetenz und fehlenden Musikgeschmack vorwirft (»[…] mich irritiert es eher, dass, dass so viele Menschen sich wegballern wollen mit so ’ner Belanglosigkeit, vielleicht können die gar nichts anderes mehr hören [...]« und »das ist ‘was für Leute, die keine Ahnung von Musik haben, würde ich behaupten, sondern die einfach nur Gedudel wollen, das nicht wehtun darf, das sie nicht zum Nachdenken bringt«).
+          </li>
+          <li id="fn44"><a href='#fz44'>44.&nbsp;</a>
+            Gálvez 2021, 6.
+          </li>
+          <li id="fn45"><a href='#fz45'>45.&nbsp;</a>
+            Vgl. hierzu Großmann/Hanáček 2016, 59 und Gálvez 2021, 10
+          </li>
+          <li id="fn46"><a href='#fz46'>46.&nbsp;</a>
+            Zit. nach Adorno 1998, 222.
+          </li>          
         </ul>
        </div>
+
+      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+      <Heading as='h2' className='headingH4'>Literatur</Heading>
+      <ul className='list2040'>
+        <li>
+	        Adorno, Theodor W. (1998), Ästhetische Theorie, in: Theodor W. Adorno. Gesammelte Schriften, Bd. 9, Lizenzausgabe Wissenschaftliche Buchgesellschaft: Suhrkamp (Erstausgabe Frankfurt a.M. 1970).
+        </li>
+        <li>
+          Brügge, Joachim (2006), »Solowerke für Klavier«, in: Mozarts Klavier- und Kammermusik (= Das Mozart-Handbuch 2), hg. von Matthias Schmidt, Laaber: Laaber.
+        </li>
+        <li>
+          Caspary, Anja (2018), Interview mit Holger Lachmann im INFOradio am 4. September 2018, transkripiert nach einem Mitschnitt auf Twitter, https://mobile.twitter.com/rbb24Inforadio/status/1036884678895173633?lang=ar-x-fm) (29.12.2022).
+        </li>
+        <li>
+          Walter Everett (2009), The Foundation of Rock, New York: Oxford University Press.
+        </li>
+        <li>
+          Gálvez, José (2021), »Normativität ohne Normen – Geschichte ohne Vergangenheit. Ästhetische Paradoxa populärer Musik«, in: Das verdächtig Populäre in der Musik. Warum wir mögen, wofür wir uns schämen, hg. von Marina Schwarz: Springer VS.
+        </li>
+        <li>
+          Gjerdingen, Robert (1988), A Classic Turn of Phrase. Music and the Psychology of Convention, Philadelphia: University of Pennsylvania Press.
+        </li>
+        <li>
+          Gjerdingen, Robert O. (2007), Music in the Galant Style, New York: Oxford University Press.
+        </li>
+        <li>
+          Großmann, Rolf und Maria Hanáček (2016), »Sound as Musical Material: Three Approaches to a Material Perspective on Sound and Music«, in: Sound as Popular Culture. A Research Companion, hg. von Gerrit Papenburg und Holger Schulze, Cambridge: MIT Press.
+        </li>
+        <li>
+          Kaiser, Ulrich (2007), Die Notenbücher der Mozarts als Grundlage der Analyse von W. A. Mozarts Kompositionen 1761-1767, Kassel: Bärenreiter, https://mozartforschung.de/downloads/kaiser_notenbuechermozarts-kassel-2007.pdf.
+        </li>
+        <li>
+          Kaiser, Ulrich (2016): »Vom Satzmodell zum Modell«, Zeitschrift der Gesellschaft für Musiktheorie 13/Sonderausgabe [Special Issue], 135–153. https://doi.org/10.31751/865
+        </li>
+        <li>
+          Kaiser, Ulrich (2018), »Formfunktionen der Sonatenform. Ein Beitrag zur Sonatentheorie auf der Grundlage einer Kritik an William E. Caplins Verständnis von Formfunktionen«, Zeitschrift der Gesellschaft für Musiktheorie 15/1 (2018), 29–79.
+        </li>
+        <li>
+          Kaiser, Ulrich (2023), »Models for Mozart’s Transitions: A Transatlantic Exchange (A reply on a short essay by Nathan John Martin)«, in: Music Theory Spectrum (mtad012 - no open access).
+        </li>
+        <li>
+          Kornberger, Monika (2018), »Einmal sang die Liebe uns ein Lied«. Deutscher Schlager der Zwischenkriegszeit und seine Protagonisten in Wien, Dissertation zur Erlangung des Doktorgrades der Philosophie an der Karl-Franzens-Universität Graz, https://unipub.uni-graz.at/obvugrhs/content/titleinfo/2945896/full.pdf
+        </li>
+        <li>
+          Luhmann, Niklas (1997), Die Kunst der Gesellschaft (= suhrkamp taschenbuch Wissenschaft 1303), Frankfurt a.M. 1997: Suhrkamp (gebundene Erstausgabe ebd. 1995).
+        </li>
+        <li>
+          Noeske, Nina (2020), »Analyse des Werturteils – Analysen, wer urteilt? ›Qualität‹ und Qualitätsmaßstäbe in der Musikforschung«, Zeitschrift der Gesellschaft für Musiktheorie 17/1, 81–102. https://doi.org/10.31751/1028.
+        </li>
+        <li>
+          Schulz, Johann Abraham Peter (1785), Lieder im Volkston bey dem Claviere zu singen, zweite verb. Aufl., Berlin: Georg Kakob Decker.
+        </li>
+        <li>
+          Summach, Jay (2011), »The Structure, Function, and Genesis of the Prechorus, in: MTO 17/3, https://mtosmt.org/issues/mto.11.17.3/mto.11.17.3.summach.html
+        </li>
+        <li>
+          Weber, Max (1922), »Die ›Objektivität‹ sozialwissenschaftlicher und sozialpolitischer Erkenntnis« [1904], in: Max Weber: Gesammelte Aufsätze zur Wissenschaftslehre, Tübingen: MohrSiebeck, 146–214.
+        </li>
+        <li>
+          Wicke, Peter (2021), Art. Schlager, in: MGG Online, hg. von Laurenz Lütteken, Kassel, Stuttgart, New York 2016 ff., https://www-1mgg-2online-1com-1jvd8i9co0003.emedia1.bsbmuenchen.de/mgg/stable/404035
+        </li>
+        <li>
+          Wulff, Hans Jürgen (2012), Schlager, Schlagerfilm, Schlagerforschung. Ein bibliographisches Dossier (= Medienwissenschaft: Berichte und Papiere 134), Hamburg: Institut für Germanistik https://doi.org/10.25969/mediarep/12766.
+        </li>
+        <li>
+          Zaunstöck, Holger (2007), »Populäre Musikkultur im 18. Jahrhundert? Die Genese popkultureller Praxis im Spannungsfeld von Aufklärung und Stadtraum«, Jahrbuch für Kommunikationsgeschichte, Bd. 9, 130-149. https://www.jstor.org/stable/20852517
+        </li>
+      </ul>
+
+      <Heading as='h2' className='headingH4'>Diskographie</Heading>
+      <ul className='list2040'>
+        <li>
+          <i>Von hier bis unendlich</i> (2006), Electrola 3543702 (EMI) / EAN 0094635437027 (Fischer).
+        </li>
+        <li>
+          <i>So nah wie du</i> (2007), Electrola 3969462 (EMI) / EAN 0094639694624 (Fischer).
+        </li>
+        <li>
+          <i>Zaubermond</i> (2008), Electrola 2277572 (EMI) / EAN 5099922775726 (Fischer).
+        </li>
+        <li>
+          <i>Wenn der Himmel es so will</i> (2008), Solymar 28292 / EAN 7619999282927 (Egli).
+        </li>
+        <li>
+          <i>Helene Fischer – So wie ich bin</i> (2009), Electrola 6879812 (EMI) / EAN 5099968798123 (Fischer).
+        </li>
+        <li>
+          <i>Für einen Tag</i> (2011), Electrola 6806752 (EMI) / EAN 5099968067526 (Fischer).
+        </li>
+        <li>
+          <i>Feuer und Flamme</i> (2011), Jabel 06025 2776663 (UMG) / EAN 0602527766638 (Egli).
+        </li>
+        <li>
+          <i>Farbenspiel</i> (2013), Polydor 3752323 (UMG) / EAN 0602537523238 (Fischer).
+        </li>
+        <li>
+          <i>Glücksgefühle</i> (2013), Polydor 06025 3739825 (UMG) / EAN 0602537398256 (Egli).
+        </li>
+        <li>
+          <i>Pure Lebensfreude</i> (2013), Polydor 3762187 (UMG) / EAN 0602537621873 (Egli).
+        </li>
+        <li>
+          <i>Bis hierher und viel weiter</i> (2014), Polydor 3796913 (UMG) / EAN 0602537969135 (Egli).
+        </li>
+        <li>
+          <i>Kick im Augenblick</i> (2016), Polydor 4784126 (UMG) / EAN 0602547841261 (Egli).
+        </li>
+        <li>
+          <i>Helene Fischer</i> (2017), Polydor 06025 5745659 (UMG) / EAN 0602557456592 (Fischer).
+        </li>
+        <li>
+          <i>Wohlfühlgarantie</i> (2018), Polydor 06025 6706276 (UMG) / EAN 0602567062769 (Egli).
+        </li>
+        <li>
+          <i>Natürlich!</i> (2019), Electrola 0602577541575 (UMG) / EAN 0602577541575 (Egli).
+        </li>
+        <li>
+          <i>Rausch</i> (2021), Polydor 060243829076 (UMG) / EAN 0602438290765 (Fischer).
+        </li>
+        <li>
+          <i>Alles was du brauchst</i> (2021), Polydor 060243833260 (UMG) / EAN 0602438332601 (Egli).
+        </li>
+      </ul>
+
+      <Text mt='6'>
+        <i>
+          [In dieser HTML-Version des Beitrags sind die verpflichtenden Angaben der Audiozitate (§ 51 Zitate) direkt unter den Audioplayern angegeben worden. Die Dateien werden nicht auf dieser Domain bereitgestellt, sondern vom Server der <i>Gesellschaft für Musiktheorie</i> gestreamt. Bei Fragen zum Urheberrecht wenden Sie sich bitte an die Verantwortlichen der wissenschaftlichen Zeitschrift.]
+        </i>
+      </Text>
     </>
   )
 }
