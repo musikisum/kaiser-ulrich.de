@@ -555,8 +555,6 @@ export default function FischerMozartMusikwissenschaft() {
         Der Chorus von Lieb mich (2009) lässt sich als Periode verstehen, wobei sich sowohl der Vorder- als auch der Nachsatz durch das oben skizzierte Modell beschreiben lassen. Die Kadenzen im vierten und achten Takt korrespondieren im Sinne der Charakteristik einer Periode (des Öffnens und Schließens):
       </Text>
 
-
-
       <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Fischer-Lieb-mich-Chorus-1.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
       <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Lieb-mich-Chorus-2.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
       <img className='scoreExample w50 mt12 mb24' src='/images/fischer-mozart/Fischer-Lieb-mich-Chorus-3.svg' alt='Song Fischer – Einmal berührt, für immer verführt' />
@@ -794,9 +792,126 @@ export default function FischerMozartMusikwissenschaft() {
       </Text>
 
       <Text mt='6'>
-        Diese Tabelle gibt darüber Auskunft, dass die Parallelismus-Harmonik in von Helene Fischer gesungener Schlagermusik ungefähr ebenso häufig vorkommt wie die Kombination von I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung. Dagegen ist eine Parallelismus-Harmonik für die von Beatrice Egli gesungenen Songs im untersuchten Zeitraum nicht charakteristisch.
+        Diese Tabelle gibt darüber Auskunft, dass die Parallelismus-Harmonik in von Helene Fischer gesungener Schlagermusik ungefähr ebenso häufig vorkommt wie die Kombination von I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung. Dagegen ist eine Parallelismus-Harmonik für die von Beatrice Egli gesungenen Songs im untersuchten Zeitraum nicht charakteristisch.<br/>
         <span className='truncate' />Modifikationen bzw. klangliche Erweiterungen (Prolongationen) der Parallelismus-Harmonik sind in Schlagermusik sehr selten, lassen sich jedoch in dem von Helene Fischer gesungenen Repertoire beobachten. Das Beispiel der Abbildung 27 (Seite 23) zeigt im oberen System einen Melodieausschnitt aus dem von Helene Fischer gesungenen Song Hab‘ den Himmel berührt, darunter die in Terzen geführten Oberstimmen des Parallelismus, darunter den Zick-Zack-Bass des Modells (mit möglichen Verfärbungen bzw. Chromatisierungen) und im untersten System die Fundament- bzw. Grundtöne der Akkorde, die durch die oberen Stimmen skizziert werden.
       </Text>
+       <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Parallelismus-prolongiert-1.svg' alt='Parallelismus prolongiert und chromatisiert' />
+       <Text className='urhgText'>
+        Abbildung 27: Chromatisierung des Parallelismus (Ausprägung mit Zwischendominanten)
+      </Text>
+      <Text mt='6'>
+        Im Falle eines Parallelismus und seiner Variationen stehen terzweise fallende Hörereignisse im Vordergrund (entweder ein terzweise sequenzierter Quintstieg oder ein terzweise sequenzierter Quintfall wie in der Abbildung oben E-a / C-F / A-d).<a href='#fn23'><sup id="fz23">23</sup></a> Ohne zwischendominante Verfärbung prägt diese Harmoniefolge den Chorus von Hab‘ den Himmel berührt. Das folgende Notenbeispiel skizziert in den oberen drei Systemen den Vordersatz der periodischen Chorus-Gestaltung.
+      </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Fischer-Hab-den-Himmlerberührt-1.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+       <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Hab-den-Himmlerberührt-2.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+      <img className='scoreExample w50 mt12 mb24' src='/images/fischer-mozart/Fischer-Hab-den-Himmlerberührt-3.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+      <Text className='urhgText'>
+        Abbildung 28: Vordersatz des Chorus aus <i>Hab den Himmel berührt</i>
+      </Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_10.mp3'  />
+      <Text className='urhgText'>Helene Fischer, <i>Hab den Himmel berührt</i>, Helene Fischer – <i>Zaubermond</i>,<br/>Track Nr. 8, Electrola 2277572, P 2008, Musik/Text: Jean Frankfurter, Christina Bach.</Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_11.mp3'  />
+      <Text className='urhgText'>Procol Harum, <i>A Whiter Shade of Pale</i>, P 1967, auf: <i>Jahre Rock!</i> CD 1, Track Nr. 5, BMG 82876 59869 2</Text>
+
+      <Text mt='6'>
+        Unter der dreistimmigen Skizze (Melodie, Bass und Schlagzeug) sind im kleineren Notenstich Melodie und Bass des Songs A Whiter Shade Of Pale abgebildet, der durch die Band Procol Harum sowie durch einen Rechtsstreit zwischen Gary Brooker (Komponist) und Matthew Fisher (Organist) bekannt geworden ist. Die Ähnlichkeit der Melodien hat ihre Ursache in einem identischen Harmoniemodell und dem allgemeinen Klangprinzip eines imperfizierten Außenstimmensatzes, der für die Musik des 18. Jahrhunderts charakteristisch ist.<br/>
+        <span className='truncate' />Die folgende Tabelle zeigt Referenzen zum untersuchten Korpus und chiffriert die jeweiligen Harmoniefolgen:<a href='#fn24'><sup id="fz24">24</sup></a>
+      </Text>
+
+      <table style={{width: '80%', marginTop: '6px', margin: 'auto'}}>
+        <thead>
+          <tr style={{borderBottom: '1px solid gray'}}>
+            <td style={{width: '30%', padding: '20px 0'}}>
+              <p>Titel</p>
+            </td>
+            <td style={{width: '10%'}}>
+              <p>Formteil</p>
+            </td>
+            <td style={{width: '30%'}}>
+              <p>Parallelismus-Harmonik</p>
+            </td>
+            <td style={{width: '30%'}}>
+              <p>Album / Jahr / Interpretin</p>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p><i>Zwischen Himmel und Erde</i></p>
+            </td>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p>Chorus</p>
+            </td>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p>C-C/E-F-G-Am-Dm-Em-F-G-C (F-G)<br/>C-C/E-F-G-Am-Dm-Em-F-C-G-C</p>
+            </td>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Hab’ den Himmel berührt C</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>C-Em-Am-C-F-Am-Dm-G-F-Em-G-C<br/>C-Em-Am-C-F-Am-Dm-G-F-Em-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
+            </td>
+          </tr>
+        </tbody>  
+      </table>
+      <Text className='urhgText' mt='6'>
+        Tabelle 3: Modifikationen (Prolongationen) der Parallelismusharmonik
+      </Text>
+
+      <Text mt='6'>
+        Ausschnitte aus der Parallelismus-Harmonik aufwärts sind in dem von Helene Fischer gesungenen Repertoire selten,<a href='#fn25'><sup id="fz25">25</sup></a> abwärts hingegen können entsprechende Harmoniefolgen als ein Standard bezeichnet werden.<a href='#fn26'><sup id="fz26">26</sup></a><br/>
+        <span className='truncate' />In Kompositionen Mozarts kommt die Parallelismus-Harmonik häufig und syntaktisch auch in vergleichbarer Weise vor. Das folgende Beispiel skizziert eine Vertonung des Textes »Drei Knaben, jung, schön, hold und weise umschweben euch auf eurer Reise« aus Mozarts <i>Zauberflöte</i>:
+      </Text>
+       <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Mozart-Parallelismus-3-Knaben-1.svg' alt='W. A. Mozart, Parallelismus in Drei Knaben, jung, schön, hold und weise' />
+      <Text className='urhgText'>
+        Abbildung 29: W. A. Mozart, die drei Damen im 1. Akt der Zauberflöte
+      </Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_12.mp3'  />
+      <Text className='urhgText'>Wolfgang Amadeus Mozart, <i>Die Zauberflöte</i>, Part 1,<br/>Track 10 – Quintett: Hm! hm! hm! hm! (Papageno, Tamino, drei Damen), Brilliant Classics 92633/41, P 1991.</Text>
+      <Text mt='6'>
+        Der Einsatz des Parallelismus an dieser Stelle entspricht exakt dem Einsatz der Harmoniefolge in der Schlagermusik, denn auch Mozart kombiniert die Harmonik des Parallelismus mit einem Halb- und Ganzschluss zur Gestaltung einer periodischen Taktgruppe. Die prolongiert-chromatisierten Gestaltungen hingegen verwendet Mozart allerdings in anderen formalen Kontexten.<a href='#fn27'><sup id="fz27">27</sup></a><br />
+        <span className='truncate' />In der Abbildung 39 verweist die tiefste Stimme des Beispiels auf ein weiteres Satzmodell, das in der Musik und Didaktik des 18. Jahrhunderts von herausragender Bedeutung gewesen ist und das sich auch in Schlagermusik beobachten lässt: Die Regola dell’ottava (›Oktavregel‹).
+      </Text>
+
+
+      <Heading as='h2' className='headingH4'>Regola dell‘ottava (›Oktavregel‹)</Heading>
+      <Text>
+        Eine Parallelismus-Harmonisierung in Verbindung mit einer auffälligen Tonleiterbewegung im Bass charakterisiert den Chorus des von Helene Fischer gesungenen Songs <i>Das ist unser Tag</i>.
+      </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Fischer-Das-ist-unser-Tag-Chorus-1.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+      <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Das-ist-unser-Tag-Chorus-2.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+      <img className='scoreExample w50 mt12' src='/images/fischer-mozart/Fischer-Das-ist-unser-Tag-Chorus-3.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+      <img className='scoreExample w50 mt12 mb24' src='/images/fischer-mozart/Fischer-Das-ist-unser-Tag-Chorus-4.svg' alt='Helene Fischer - Hab den Himmel berührt (Parallelismus)' />
+      <Text className='urhgText'>
+        Abbildung 30: Periodische Gestaltung in <i>Unser Tag</i> (Chorus)
+      </Text>
+      <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_13.mp3'  />
+      <Text className='urhgText'>Helene Fischer, <i>Unser Tag</i>, Helene Fischer – <i>Farbenspiel</i>,<br/>Track Nr. 15, Polydor 3752323, P 2013, Musik/Text: Peter Plate, Ulf Leo Sommer, Christopher Applegate.</Text>
+      
+
+      <Text mt='6'>
+        Das folgende Notenbeispiel skizziert den transponierten harmonisch-melodischen Verlauf und die Phrasengliederung des Vordersatzes der periodischen ChorusGestaltung.
+      </Text>
+      <img className='scoreExample w50 mt36' src='/images/fischer-mozart/Geruestsatzmodelle-7.svg' alt='Helene Fischer - Gerüstsatz Das ist unser Tag' />
+      <Text className='urhgText'>Gerüstsatz <i>Das ist unser Tag</i> (Chorus)</Text>
+
+      <Text mt='6'>
+        Auch in den von Helen Fischer gesungenen Songs in Moll kommen funktionale Abschnitte vor, die sich mithilfe der Okatvregel verstehen lassen.<a href='#fn28'><sup id="fz28">28</sup></a><br />
+        <span className='truncate' />Die Bedeutung der Regola dell’ottava für die Musikerziehung des 18. Jahrhunderts spiegelt sich einerseits in gedruckten und handschriftlichen Generalbassanleitungen, andererseits lässt sich der harmonische Verlauf zahlreicher Kompositionen der Zeit über die Regola dell’ottava verstehen.<a href='#fn29'><sup id="fz29">29</sup></a> Auch für W. A. Mozarts Lernweg war die Oktavregel bedeutsam. Das folgende Notenbeispiel zeigt die Takte 1–8 sowie 17–24 aus dem Menuett I der Sonate für Klavier und Violine in B-Dur KV 8, das der junge Mozart (spätestens) in seinem neunten Lebensjahr (1764) komponiert hatte.
+      </Text>
+
 
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
@@ -868,6 +983,27 @@ export default function FischerMozartMusikwissenschaft() {
           </li>
           <li id="fn22"><a href='#fz22'>22.&nbsp;</a>
             Hinweise auf diese Komposition wurden zeitgleich publiziert in Gjerdingen 2007, 361 und Kaiser 2007, S. 183–184.
+          </li>
+          <li id="fn23"><a href='#fz23'>23.&nbsp;</a>
+            Vgl. z.B. New York State Of Mine von Billy Joel, Gestaltung des Verse.
+          </li>
+          <li id="fn24"><a href='#fz24'>24.&nbsp;</a>
+            Zur Herleitung der Harmonik aus dem Parallelismus vgl. Kaiser 2016, 136.
+          </li>
+          <li id="fn25"><a href='#fz25'>25.&nbsp;</a>
+            Z. B. im Verse von Copilot (2011): Am-C-Dm-G-Am-C-Dm-G-E-Am-G-C-Dm-F-E
+          </li>
+          <li id="fn26"><a href='#fz26'>26.&nbsp;</a>
+            Auch in kleineren Einheiten wie z. B. mit vier verschiedenen Akkorden in: <i>Gefühle wie Feuer und Eis</i> (Verse) u.a.
+          </li>
+          <li id="fn27"><a href='#fz27'>27.&nbsp;</a>
+            Aufgrund der sequenziellen Harmonik und in Verbindung mit rauschendem Charakter sind entsprechende Gestaltungen in Kompositionen Mozarts für die Formfunktion Durchführung typisch wie z.B. in der Durchführung der Sonate für Violine und Klavier KV 377, T. 87 ff. oder im Credo der Krönungsmesse KV 317, T. 25 ff.
+          </li>
+          <li id="fn28"><a href='#fz28'>28.&nbsp;</a>
+            So z.B. Verse und Chorus in <i>Adieu</i>, dem letzten Titel des Albums Helene Fischer (2017). Gleichzeitig veranschaulicht dieser von Martin Fliegenschmidt [Pseudonym: Martin Fly] komponierte und produzierte Song zusammen mit <i>Sonne auf der Haut</i> (Komponistin Christina Bach), <i>Wenn du lachst</i> (Komponisten Simon Triebel, Tobias Reitz, Ali Zuckowski und David Gold) und anderen Titeln den sich mit diesem Album ändernden musikalischen Stil der von Helene Fischer interpretierten Lieder
+          </li>
+          <li id="fn29"><a href='#fz29'>29.&nbsp;</a>
+            Paradigmatisch z.B. das Präludium in C-Dur BWV 846, T. 5–19 im ersten Teil des Wohltemperierten Klavier, aber auch die Präludien in c-Moll BWV 847, T. 5–11, in D-Dur BWV 850, T. 3–20 und 22–25 u.v.a.
           </li>
         </ul>
        </div>
