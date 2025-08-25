@@ -148,7 +148,7 @@ export default function FischerMozartMusikwissenschaft() {
         <span className='truncate' />In der folgenden Tabelle finden sich die drei besprochenen Songs sowie weitere Beispiele aus dem Schlagerrepertoire von Helene Fischer und Beatrice Egli auf die beschriebene Weise chiffriert:<a href='#fn13'><sup id="fz13">13</sup></a>
       </Text>
 
-      <table mt='6' w='80%' style={{margin: 'auto'}}>
+      <table style={{width: '80%', marginTop: '6px', margin: 'auto'}}>
         <thead>
           <tr style={{borderBottom: '1px solid gray'}}>
             <td style={{width: '30%', padding: '20px 0'}}>
@@ -167,255 +167,255 @@ export default function FischerMozartMusikwissenschaft() {
         </thead>
         <tbody>
           <tr>
-            <td style={{ paddingTop: '20px' }}>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top' }}>
               <p>Es gibt keinen Morgen danach</p>
             </td>
-            <td style={{ paddingTop: '20px' }}>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top' }}>
               <p>Chorus</p>
             </td>
-            <td style={{ paddingTop: '20px' }}>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top' }}>
               <p><b>G-C-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
             </td>
-            <td style={{ paddingTop: '20px' }}>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top' }}>
               <p><i>Von hier bis unendlich</i> / 2006 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Fantasie hat Flügel</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-G-<b>C</b></p>
             </td>
-            <td>
-              <p><i>So nah wie du bist</i> / 2007 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Mitten im Paradies</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-Dm-G-<b>C</b></p>
             </td>
-            <td>
-              <p><i>So nah wie du bist</i> / 2007 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Ich glaub dir hundert Lügen</i>*</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-G-F-G-<b>C</b></p>
             </td>
-            <td>
-              <p><i>So nah wie du bist</i> / 2007 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Ewig ist manchmal zu lang</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-G-C-Am-F-Dm-<b>G</b></p>
             </td>
-            <td>
-              <p>Zaubermond / 2008 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Tanz noch einmal mit mir</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
             </td>
-            <td>
-              <p>Zaubermond / 2008 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Mal ganz ehrlich*</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-G-C-G-C-F-C-G-<b>C</b></p>
             </td>
-            <td>
-              <p>Zaubermond / 2008 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Hundert Prozent*</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-G-C-F-C-G-<b>C</b></p>
             </td>
-            <td>
-              <p>So wie ich bin / 2009 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So wie ich bin</i> / 2009 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Einmal berührt, für immer verführt</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-G-<b>C</b></p>
             </td>
-            <td>
-              <p>So wie ich bin / 2009 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So wie ich bin</i> / 2009 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Ist doch kein Wunder</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-G-<b>C</b></p>
             </td>
-            <td>
-              <p>So wie ich bin / 2009 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So wie ich bin</i> / 2009 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Die Sonne kann warten</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-G-C/E-F-Dm-G-<b>C</b></p>
             </td>
-            <td>
-              <p>So wie ich bin / 2009 / HF</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So wie ich bin</i> / 2009 / HF</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Bei Romeo war alles anders</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
             </td>
-            <td>
-              <p>Feuer und Flamme / 2011 / BE</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><i>Ziit</i></p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={ {verticalAlign: 'top'} }>
               <p><b>C-G-G-C</b> | <b>F</b>-C-G-<b>C</b></p>
             </td>
-            <td>
-              <p>Feuer und Flamme / 2011 / BE</p>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><i>Diät</i></p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
             </td>
-            <td>
-              <p>Feuer und Flamme / 2011 / BE</p>
+            <td style={{verticalAlign: 'top'}}>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><i>Du bist ja nur ein Macho</i></p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
             </td>
-            <td>
-              <p>Feuer und Flamme / 2011 / BE</p>
+            <td style={{verticalAlign: 'top'}}>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><i>Liebe macht blind</i></p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
             </td>
-            <td>
-              <p>Feuer und Flamme / 2011 / BE</p>
+            <td style={{verticalAlign: 'top'}}>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><i>Vino und Amore</i></p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p>Verse</p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><b>C-G-G-C</b> | <b>F</b>-C-D-<b>G</b></p>
             </td>
-            <td>
-              <p>Feuer und Flamme / 2011 / BE</p>
+            <td style={{verticalAlign: 'top'}}>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
             </td>
           </tr>
           <tr>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><i>Das mit dir*</i></p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p>Chorus</p>
             </td>
-            <td>
+            <td style={{verticalAlign: 'top'}}>
               <p><b>C-G-G-C</b> | <b>F</b>-C-Dm-F-<b>G</b></p>
             </td>
-            <td>
-              <p>Glücksgefühle / 2013 / BE</p>
+            <td style={{verticalAlign: 'top'}}>
+              <p><i>Glücksgefühle</i> / 2013 / BE</p>
             </td>
           </tr>
           <tr>
@@ -429,7 +429,7 @@ export default function FischerMozartMusikwissenschaft() {
               <p><b>C-G-G-C</b> | <b>F</b>-C-Am-Dm-G-<b>C</b></p>
             </td>
             <td>
-              <p>Glücksgefühle / 2013 / BE</p>
+              <p><i>Glücksgefühle</i> / 2013 / BE</p>
             </td>
           </tr>
           <tr>
@@ -443,7 +443,7 @@ export default function FischerMozartMusikwissenschaft() {
               <p><b>C-G-G-C</b> | <b>F</b>-C-Dm-F-<b>G</b></p>
             </td>
             <td>
-              <p>Bis hierher und nicht weiter / 2014 / BE</p>
+              <p><i>Bis hierher und nicht weiter</i> / 2014 / BE</p>
             </td>
           </tr>
           <tr>
@@ -457,14 +457,15 @@ export default function FischerMozartMusikwissenschaft() {
               <p><b>C-G-G-C</b> | <b>F</b>-G-Em-Am-F-Dm-<b>G</b></p>
             </td>
             <td>
-              <p>Bis hierher und nicht weiter / 2014 / BE</p>
+              <p><i>Bis hierher und nicht weiter</i> / 2014 / BE</p>
             </td>
           </tr>
         </tbody>  
-      </table>
+      </table>      
       <Text className='urhgText' mt='6'>
         Tabelle 1: Referenzen auf Harmoniefolgen aus I-V-I-Pendel und IV-I-Bewegung (* = eingeschobene Subdominante im Schema vor dem tonikalen Abschluss, HF = Helene Fischer, BE = Beatrice Egli)
       </Text>
+
       <Text mt='6'>
         Die Tabelle 1 zeigt, dass Harmoniefolgen aus I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung für Schlagermusik sehr charakteristisch sind.<a href='#fn14'><sup id="fz14">14</sup></a> Im Repertoire von Helene Fischer und Beatrice Egli finden sich entsprechende Gestaltungen auf den Alben des untersuchten Korpus in der Regel mehrfach.<br/>
         <span className='truncate' />Ebenso charakteristisch sind die bis hierhin besprochenen Harmoniefolgen für Musik des 18. Jahrhunderts. Robert Gjerdingen hat nachgewiesen, dass die Verwendung der I-V-V-I-Harmoniefolge in Verbindung mit den Melodietönen 1-7…4-3 um 1770 einen Höhepunkt erreicht hatte.<a href='#fn15'><sup id="fz15">15</sup></a> Unter den zahlreichen Beispielen Gjerdingens findet sich auch der Anfang (T. 1–4) der Klaviersonate in G-Dur KV 283 von W. A. Mozart:
@@ -571,13 +572,231 @@ export default function FischerMozartMusikwissenschaft() {
         Auch in diesen Fällen ist interessant, dass sich die formalen Wirkungen wie öffnend (Halbschluss) und schließend (Ganzschluss) an charakteristischen Melodiebewegungen festmachen lassen. Während das Öffnen eines dominantischen Halbschlusses in der Regel an eine auf dem zweiten Ton der Tonart endenden Bewegung gekoppelt ist (im Beispiel oben 5-4-3-2), ist für das Schließend eines Ganzschlusses eine Bewegung in den Grundton charakteristisch (im Beispiel oben 3-2-1).<br/>
         <span className='truncate' />Die folgende Tabelle 2 (Seite 22) zeigt weitere Referenzen zum Vorkommen der Parallelismus-Harmonik (mit mindestens fünf Akkorden) im untersuchten Korpus.
       </Text>
-      [Tabelle 2]
-      <Text>
+
+      <table style={{width: '80%', marginTop: '6px', margin: 'auto'}}>
+        <thead>
+          <tr style={{borderBottom: '1px solid gray'}}>
+            <td style={{width: '30%', padding: '20px 0'}}>
+              <p>Titel</p>
+            </td>
+            <td style={{width: '10%'}}>
+              <p>Formteil</p>
+            </td>
+            <td style={{width: '30%'}}>
+              <p>Parallelismus-Harmonik</p>
+            </td>
+            <td style={{width: '30%'}}>
+              <p>Album / Jahr / Interpretin</p>
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p><i>Solang dein Herz noch für mich schlägt</i></p>
+            </td>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p>Chorus</p>
+            </td>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p>C-Em-<b>Am-Em-F-C-Dm</b>-G-C<br/>C-Em-<b>Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={{ paddingTop: '20px', verticalAlign: 'top'}}>
+              <p><i>Von hier bis unendlich</i> / 2006 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Auf der Reise ins Licht</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Verse</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Am-G-Am-C-F-G<br/>Am-G-Am-C-F-G<br/><b>Am-Em-F-C-Dm</b>-F-E</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Von hier bis unendlich</i> / 2006 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Fantasie hat Flügel</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>C-Em-F-G<br/>C-Em-F-G<br/><b>Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Du fängst mich auf und lässt mich fliegen</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>C-G-Dm-G-C<br/><b>Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Mut zum Gefühl</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Verse</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F-C-Dm</b>-G<br/><b>C-G-Am-Em-F-C-Dm</b>-G<br/>F-G-C/E-F-Dm-G</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Mut zum Gefühl</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F-C-Dm</b>-G<br/><b>C-G-Am-Em-F</b>-G<br/>F-G-C/E-F-Dm-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Das Karussell in meinem Bauch</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>C-F-G-C-F-<b>G-Am-Em-F-C-Dm</b>-G<br/>C-F-G-C-F-<b>G-Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So nah wie du</i> / 2007 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Einmal berührt, für immer verführt</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>C-F-C-G<br/>C-F-Am-G<br/><b>Am-Em-F-C</b>-C-G-F-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Willkommen in meinen Träumen</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Verse</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>C-Em-<b>Am-Em-F-C-Dm</b>-G<br/>C-Em-<b>Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
+            </td>
+          </tr>          
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Das absolute Herzgefühl</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Bridge</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F-C</b>-G</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Zaubermond</i> / 2008 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Lieb mich</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F-C-Dm</b>-G<br/><b>C-G-Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>So wie ich bin</i> / 2009 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Lass diese Nacht nie mehr enden</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F-C-Dm</b>-G<br/><b>C-G-Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Für einen Tag</i> / 2011 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Phänomen</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Chorus</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F-C-Dm</b>-G<br/><b>C-G-Am-Em-F-C-Dm</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Für einen Tag</i> / 2011 / HF</p>
+            </td>
+          </tr>
+          <tr>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Für immer ist nicht lang genug</i></p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p>Intro und Interlude</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><b>C-G-Am-Em-F</b>-G-C</p>
+            </td>
+            <td style={ {verticalAlign: 'top'} }>
+              <p><i>Feuer und Flamme</i> / 2011 / BE</p>
+            </td>
+          </tr>
+        </tbody>  
+      </table>
+      <Text className='urhgText' mt='6'>
+        Tabelle 2: Vorkommen der Parallelismus-Harmonik mit mindestens fünf Akkorden
+      </Text>
+
+      <Text mt='6'>
         Diese Tabelle gibt darüber Auskunft, dass die Parallelismus-Harmonik in von Helene Fischer gesungener Schlagermusik ungefähr ebenso häufig vorkommt wie die Kombination von I-V-I-Pendel und IV-I- bzw. IV-V-Bewegung. Dagegen ist eine Parallelismus-Harmonik für die von Beatrice Egli gesungenen Songs im untersuchten Zeitraum nicht charakteristisch.
         <span className='truncate' />Modifikationen bzw. klangliche Erweiterungen (Prolongationen) der Parallelismus-Harmonik sind in Schlagermusik sehr selten, lassen sich jedoch in dem von Helene Fischer gesungenen Repertoire beobachten. Das Beispiel der Abbildung 27 (Seite 23) zeigt im oberen System einen Melodieausschnitt aus dem von Helene Fischer gesungenen Song Hab‘ den Himmel berührt, darunter die in Terzen geführten Oberstimmen des Parallelismus, darunter den Zick-Zack-Bass des Modells (mit möglichen Verfärbungen bzw. Chromatisierungen) und im untersten System die Fundament- bzw. Grundtöne der Akkorde, die durch die oberen Stimmen skizziert werden.
       </Text>
-
-
 
 
        <Divider mt='60px' mb='60px' h='1px' bg='gray' />
