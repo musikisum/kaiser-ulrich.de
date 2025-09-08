@@ -21,7 +21,7 @@ export default function FischerMozartMusikwissenschaft() {
       </Head>
       <PageHeader options={ options } />
       <Text mt='6px' fontSize='12px'>
-       Dieser Beitrag ist erschienen in den <a href='' className='underline'>Proceeding der Gesellschaft für Musiktheorie</a>. Er wird an dieser Stelle in HTML-Form zur Verfügung gestellt, um einen Nachvollzug der Hörbeispiele zu erleichtern. Die Noten skizzieren urheberrechtlich geschütztes Material, Melodien und die Auschnitte aus den Songs (Sounddateien) werden im Rahmen des <a href='https://www.gesetze-im-internet.de/urhg/__51.html' className='underline'>§ 51 UrHG</a> (Zitatrecht) verwendet. Die urheberrechlich geschützten Sounddateien liegen auf dem Server der Gesellschaft für Musiktheorie und werden hier über Deeplinking referenziert.
+       Dieser Beitrag ist erschienen in den Proceedings <a href='https://www.gmth.de/proceedings/artikel/334.aspx' className='underline'>Tonsysteme und Stimmungen. 21. Jahreskongress der Gesellschaft für Musiktheorie (GMTH Proceedings 2021)</a>. Er wird an dieser Stelle in HTML-Form zur Verfügung gestellt, um einen Nachvollzug der Hörbeispiele zu erleichtern. Die Noten skizzieren urheberrechtlich geschütztes Material, Melodien und die Auschnitte aus den Songs (Sounddateien) werden im Rahmen des <a href='https://www.gesetze-im-internet.de/urhg/__51.html' className='underline'>§ 51 UrHG</a> (Zitatrecht) verwendet. Die urheberrechlich geschützten Sounddateien liegen auf dem Server der Gesellschaft für Musiktheorie und werden hier über Deeplinking referenziert.
       </Text>
       <Heading as='h1' className='headingH2'>Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt</Heading>
       <Text>Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft.</Text>
@@ -1156,7 +1156,7 @@ export default function FischerMozartMusikwissenschaft() {
             Grau 2014.
           </li>
           <li id="fn43"><a href='#fz43'>43.&nbsp;</a>
-            So z. B. von Anja Caspary (Musikchefin radioeins) in einem Interview mit Holger Lachmann (Musikchef Antenne Brandenburg), die der Musik von Helene Fischer jede handwerkliche Qualität abspricht (»Genau, weil das ist keine Kunst […]« bzw. dem Publikum Kompetenz und fehlenden Musikgeschmack vorwirft (»[…] mich irritiert es eher, dass, dass so viele Menschen sich wegballern wollen mit so ’ner Belanglosigkeit, vielleicht können die gar nichts anderes mehr hören [...]« und »das ist ‘was für Leute, die keine Ahnung von Musik haben, würde ich behaupten, sondern die einfach nur Gedudel wollen, das nicht wehtun darf, das sie nicht zum Nachdenken bringt«).
+            So z. B. von Anja Caspary (Musikchefin radioeins) in einem Interview mit Holger Lachmann (Musikchef Antenne Brandenburg), die der Musik von Helene Fischer jede handwerkliche Qualität abspricht (»Genau, weil das ist keine Kunst […]« bzw. dem Publikum Kompetenz und fehlenden Musikgeschmack vorwirft (»[…] mich irritiert es eher, dass, dass so viele Menschen sich wegballern wollen mit so ’ner Belanglosigkeit, vielleicht können die gar nichts anderes mehr hören [...]« und »das ist ‘was für Leute, die keine Ahnung von Musik haben, würde ich behaupten, sondern die einfach nur Gedudel wollen, das nicht wehtun darf, das sie nicht zum Nachdenken bringt«). Da die Veröffentlichung bei Twitter nicht mehr verfügbar ist, können Sie den Ausschnitt aus dem Interview hier hören: <audio controls className='scoreExampleAudio' src='https://storage.gmth.de/proceedings/articles/334/attachments/334_audio_15.mp3'  /> 
           </li>
           <li id="fn44"><a href='#fz44'>44.&nbsp;</a>
             Gálvez 2021, 6.
@@ -1295,7 +1295,7 @@ export default function FischerMozartMusikwissenschaft() {
 
       <Text mt='6'>
         <i>
-          [In dieser HTML-Version des Beitrags sind die verpflichtenden Angaben der Audiozitate (§ 51 Zitate) direkt unter den Audioplayern angegeben worden. Die Dateien werden nicht auf dieser Domain bereitgestellt, sondern vom Server der <i>Gesellschaft für Musiktheorie</i> gestreamt. Bei Fragen zum Urheberrecht wenden Sie sich bitte an die Verantwortlichen der wissenschaftlichen Zeitschrift.]
+          [In dieser HTML-Version des Beitrags sind die verpflichtenden Angaben der Audiozitate (§ 51 Zitate) direkt unter den Audioplayern angegeben worden. Bei Fragen zum Urheberrecht wenden Sie sich bitte an die Verantwortlichen der wissenschaftlichen Zeitschrift.]
         </i>
       </Text>
     </>
