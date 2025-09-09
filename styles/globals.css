@@ -145,7 +145,6 @@ a.underline {
   background: rgba(var(--card-rgb), 0.1);
   border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
-
   .card:hover span {
   transform: translateX(4px);
   }
@@ -155,8 +154,12 @@ a.underline {
   .thirteen::before {
   animation: none;
   }
-
   .card:hover span {
   transform: none;
+  }
+}
+@media (width < 800px) {
+  .scoreExample {
+    width: 100%;
   }
 }
