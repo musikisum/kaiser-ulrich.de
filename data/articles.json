@@ -1,18 +1,18 @@
 [
   {
     "title": "Die Open Music Academy. Ein Wiki und Lernmanagement-System für den Musikunterricht",
-    "parent": "Musikvermittlung im postdigitalen Zeitalter",
-    "additional": "(im Review, erscheint demnächst)",
-    "issue": "",
+    "parent": "Zeitschrift der Gesellschaft für Musiktheorie",
+    "additional": "(= ZGMTH)",
+    "issue": "erscheint demnächst",
     "details": "",
     "link": ""
   }, {
     "title": "Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt. Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft",
-    "parent": "ZGMTH/Proceedings",
-    "additional": "(erscheint demnächst)",
-    "issue": "",
-    "details": "",
-    "link": ""
+    "parent": "Tonsysteme und Stimmungen. 21. Jahreskongress der Gesellschaft für Musiktheorie Basel 2021",
+    "additional": "",
+    "issue": "(= GMTH Proceedings 2021)",
+    "details": "S. 255‒294",
+    "link": "https://www.gmth.de/proceedings/artikel/334.aspx"
   }, {
     "title": "Der Seitensatz. Zur Karriere eines dogmatischen Begriffs",
     "parent": "Mozart Studien.",
