@@ -45,7 +45,7 @@ export default function Musik() {
                       <img src={musik.image} />
                     }
                   </Td>
-                  <Td>
+                  <Td style={{verticalAlign: "top"}}>
                     <i>
                       {musik.title}
                       {musik.subtitle ? '. ' + musik.subtitle : ''}
