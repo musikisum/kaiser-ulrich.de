@@ -37,7 +37,7 @@ export default function Elmu() {
 
     <Heading as='h3' className='headingH3'>
       {options.title}
-      <Text style={{'font-size': '16px !important', 'margin-top': '6px !important'}}>oder: Eine Wikipedia für Musik</Text>
+      <Text style={{fontSize: '16px !important', marginTop: '6px !important'}}>oder: Eine Wikipedia für Musik</Text>
     </Heading>
     
     <Text mb='40px'>

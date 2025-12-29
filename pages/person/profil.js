@@ -66,6 +66,9 @@ export default function Profil() {
       <li>Pop-/Rockmusik</li>
       <li>Didaktik der Musiktheorie</li>
     </ul>
+    <Text className='mt20'>
+      Seit dem Förderprojekt oer-lfm (2021–2025) und angesichts der gesellschaftlichen Veränderung durch künstliche Intelligenz (KI) interessiert es mich jedoch aktuell (2026) am meisten, praktische Materialien für den Musikunterricht zu erstellen. Mit dieser Tätigkeit verbindet sich die Hoffnung, das praktische Musizieren im Laienmusikbereich fördern sowie einen Kontrapunkt gegen eine alles umspannende und erdrückende Musikwirtschaft setzen zu können.
+    </Text>
   </>
 }
 

@@ -60,7 +60,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>OMA</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zur Open Music Academy (OMA). Zum Beginn des Jahres 2021 habe ich diese Projektidee für die Hochschule für Musik und Theater entwickelt und im selben Jahr wurde sie von der Stiftung Innovation in der Hochschullehre zur Förderung ausgewählt. Das Projekt wird noch bis zum Ende des Jahres 2025 gefördert.   
+            Auf dieser Seite finden Sie Informationen zur Open Music Academy (OMA). Zum Beginn des Jahres 2021 habe ich diese Projektidee für die Hochschule für Musik und Theater entwickelt und im selben Jahr wurde sie von der Stiftung Innovation in der Hochschullehre zur Förderung ausgewählt. Das Projekt wurde zwischen 2021 und 2025 gefördert.   
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/openmusicacademy'>
