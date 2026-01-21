@@ -1,5 +1,71 @@
 [
   {
+    "name": "Sommersemester 2026",
+    "annotations": "",
+    "unterricht": [
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "12:15",
+        "Duration": "1:30",
+        "Category": "Hauptseminar",
+        "Title": "Mehr runter als rauf! Musiktheorie heute (inkl. Examensrepetitorium)",
+        "Description": "In diesem Seminar werden – unter Berücksichtigung der Interessen der Teilnehmenden – sowohl musikanalytische als auch metatheoretische Perspektiven behandelt. Der Titel »mehr runter als rauf« lässt sich zunächst musikanalytisch lesen: Im gregorianischen Choral überwiegen Abwärts- gegenüber Aufwärtsbewegungen; die Regola dell’ottava ist kompositionsgeschichtlich in der Abwärtsbewegung bedeutsamer als in der Aufwärtsbewegung; Hintergrundzüge in der Theorie Heinrich Schenkers verlaufen abwärts, und Melodien enden nur selten mit einer Aufwärtsbewegung. Darüber hinaus eröffnet der Titel metatheoretische Überlegungen: Musikunterricht an Schulen, Musiktheorie an Musikhochschulen sowie zahlreiche weitere Fachdisziplinen stehen angesichts gesellschaftlicher Transformationsprozesse und der zunehmenden Bedeutung von KI unter spürbarem Druck, den man als Abwärtsbewegung oder als Niedergang von Disziplinen wahrnehmen kann. Darüber hinaus kann das Seminar Hinblick auf satztechnische Kompetenzen mithilfe einer Flipped-Classroom-Konzeption auf die folgenden Tonsatzaufgaben vorbereiten: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "S",
+        "Start": "14:15",
+        "Duration": "1:30",
+        "Category": "Seminar",
+        "Title": "IM 1 – Projekt 2",
+        "Description": "Ziel des Seminars ist es, in Gruppen- oder Einzelarbeit ein Projekt zu planen und zu präsentieren. Denkbar ist es beispielsweise, einen Rocksong zu schreiben, ein Hörspiel zu erstellen, einen Film zu vertonen, ein Arrangement für Kammermusik mit/oder ohne Chor auszuarbeiten und aufzuführen etc. Weitere individuelle Vorhaben können ggf. nach Absprache betreut werden. Die Projekte werden am letzten Dienstag des Semesters (ab 14.00 Uhr) hochschulintern präsentiert (Prüfung mit Anwesenheitspflicht).",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "16:15",
+        "Duration": "2:15",
+        "Category": "Projektseminar (Fortsetzung Ws)",
+        "Title": "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
+        "Description": "Seit die UNESCO im Jahr 2002 den Begriff ›Open Educational Resources‹ (OER) geprägt hat, erhielt die dahinterliegende Idee auf internationaler Ebene Auftrieb. Ursache hierfür dürfte die wachsende Bedeutung digitaler Medien für das Lehren und Lernen gewesen sein. In Deutschland hielt man dagegen noch im Jahr 2011 das Thema OER für wenig zukunftsträchtig und den Mangel an digital verfügbaren Unterrichtsmaterialien für unproblematisch. Eine eklatante Fehleinschätzung, die spätestens 2020 durch die weltweite Ausbreitung des Virus SARS-CoV-2 (Corona-Pandemie) offensichtlich geworden ist und deren Revision seit 2021 nun auch in Deutschland zu einer verstärkten Förderung freier Bildungsmaterialien geführt hat. Dieses Seminar bietet eine Annäherung an die Themen ›Open Educational Practices‹ (OEP) und OER. Ziel ist es, ausgewählte Kontexte wie das Urheberrecht und Creative-Commons-Lizenzen zu besprechen, gängige Missverständnisse, Aspekte der Medienethik und der Medienkompetenz zu diskutieren und die Frage nach der sozial-gesellschaftlichen Relevanz von OEP zu stellen. Darüber hinaus soll es auch um die praktische Arbeit an OER gehen, also um das Besprechen und Realisieren einer eigenen Projektidee und nach Möglichkeit um die Veröffentlichung von Projektergebnissen auf der Open Music Academy.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "HS",
+        "Start": "11:15",
+        "Duration": "1:30",
+        "Category": "Projektseminar (Fortsetzung Ws)",
+        "Title": "Musiktechnologien in der Vermittlung",
+        "Description": "Inhalt dieses Seminars ist es, mithilfe von Musiktechnologien neue Hörerlebnisse und sinnstiftende Erfahrungen für das Musikerleben zu entwickelt. Im Sinne der ›Kultur der Digitalität‹ von Felix Stalder werden zum Beginn Aspekte des Urheberrechts und der Kreativwirtschaft, postdemokratische Strukturen sowie die Bedeutung von Commons für den Bildungsbereich und die Musikvermittlung reflektiert. Anschließend geht es um das Besprechen und Realisieren einer eigenen, künstlerisch/pädagogischen Projektidee, wobei die für die Umsetzung erforderlichen technischen Fähigkeiten in diesem Seminar erlernt bzw. vertieft werden können (z.B. Film- und Audiobearbeitung, Musiknotation, Bildbearbeitung, Desktoppublishing usw.). Die Ergebnisse werden abschließend im Plenum evaluiert, wobei geeignete Projekte nach einer Erörterung der Creative-Commons-Lizenzen und ihrer Bedeutung über die Open Music Academy veröffentlicht und frei zugänglich gemacht werden können.",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "HS",
+        "Start": "14:00",
+        "Duration": "1:30",
+        "Category": "Projektseminar",
+        "Title": "Musik und Aufklärung (inkl. Examensrepetitorium)",
+        "Description": "In der Mitte des 18. Jahrhunderts entwickelte sich eine Musikdidaktik, in der Musik – mit Ausnahme der Melodie – als grundsätzlich lehrbar galt. Das Menuett wurde zum universalen Lerngegenstand für die musikalische Sprache einer ganzen Epoche (»Da aber ein Menuett, der Ausführung nach, nichts anders ist als ein Concert, eine Arie oder Simpfonie«). Gleichzeitig löste sich Musik zunehmend aus höfischen Kontexten und öffnete sich einer bürgerlichen Öffentlichkeit, wodurch das Publikum zur zentralen Instanz wurde (»du weißt, es sind 100 Unwissende gegen 10 wahre Kenner – vergiß also das so genannte Populare nicht«). Ausgehend von der Musik des 18. Jahrhunderts sind in diesem Seminar – je nach Interesse der Teilnehmenden – verschiedene musiktheoretische Blickwinkel möglich. Insbesondere aus einer Perspektive von Strukturen und Funktionen zeigen sich dabei enge Verbindungslinien vom ›popularen‹ zur Popularmusik. Darüber hinaus kann das Seminar Hinblick auf satztechnische Kompetenzen mithilfe einer Flipped-Classroom-Konzeption auf die folgenden Tonsatzaufgaben vorbereiten: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop.",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "14:00",
+        "Duration": "3:0",
+        "Category": "Anderes",
+        "Title": "Sprechstunden",
+        "Description": "Gebäude C, Videostudio, Raum 001–003",
+        "DayOfWeek": "Freitag"
+      }
+    ]
+  },
+  {
     "name": "Wintersemester 2025/2026",
     "annotations": "",
     "unterricht": [
