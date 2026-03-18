@@ -36,7 +36,7 @@
       {
         "Id": "",
         "CourseType": "HS",
-        "Start": "11:15",
+        "Start": "12:00",
         "Duration": "1:30",
         "Category": "Projektseminar (Fortsetzung Ws)",
         "Title": "Musiktechnologien in der Vermittlung",
@@ -46,10 +46,10 @@
       {
         "Id": "",
         "CourseType": "HS",
-        "Start": "14:00",
+        "Start": "15:00",
         "Duration": "1:30",
         "Category": "Projektseminar",
-        "Title": "Musik und Aufklärung (inkl. Examensrepetitorium)",
+        "Title": "Sonatenmusik (inkl. Examensrepetitorium)",
         "Description": "In der Mitte des 18. Jahrhunderts entwickelte sich eine Musikdidaktik, in der Musik – mit Ausnahme der Melodie – als grundsätzlich lehrbar galt. Das Menuett wurde zum universalen Lerngegenstand für die musikalische Sprache einer ganzen Epoche (»Da aber ein Menuett, der Ausführung nach, nichts anders ist als ein Concert, eine Arie oder Simpfonie«). Gleichzeitig löste sich Musik zunehmend aus höfischen Kontexten und öffnete sich einer bürgerlichen Öffentlichkeit, wodurch das Publikum zur zentralen Instanz wurde (»du weißt, es sind 100 Unwissende gegen 10 wahre Kenner – vergiß also das so genannte Populare nicht«). Ausgehend von der Musik des 18. Jahrhunderts (Sonaten, Sinfonien, Konzerte) sind in diesem Seminar – je nach Interesse der Teilnehmenden – verschiedene musiktheoretische Blickwinkel möglich. Insbesondere aus einer Perspektive von Strukturen und Funktionen zeigen sich dabei enge Verbindungslinien vom ›popularen‹ zur Popularmusik. Darüber hinaus kann das Seminar Hinblick auf satztechnische Kompetenzen mithilfe einer Flipped-Classroom-Konzeption auf die folgenden Tonsatzaufgaben vorbereiten: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop.",
         "DayOfWeek": "Donnerstag"
       },
