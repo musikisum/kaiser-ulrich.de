@@ -6,8 +6,8 @@ import { Stack, Heading, Text, Card, Image, CardBody, CardFooter, Button, Link }
 import style from '../index.module.css'
 
 const options = {
-  title: 'Betreuungen',
-  description: 'Auf dieser Seite finden zu den Hilfsmittel, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.',
+  title: 'Hilfsmittel',
+  description: 'Auf dieser Seite finden Sie Hilfsmittel, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.',
   filter: 'wissenschaft/hilfsmittel',
   slug: '/wissenschaft/hilfsmittel'
 }
@@ -16,8 +16,8 @@ export default function Hilfsmittel() {
   return (
     <>
       <Head>
-        <title>Profil</title>
-        <meta name="description" content="Forschung | Ulrich Kaiser" />
+        <title>Hilfsmittel</title>
+        <meta name="description" content="Hilfsmittel | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>

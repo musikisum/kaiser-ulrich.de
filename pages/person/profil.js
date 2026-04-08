@@ -4,7 +4,7 @@ import PageHeader from '../components/pagehaeder';
 import { Heading, Text, Link, Divider } from '@chakra-ui/react';
 
 const options = {
-  title: 'Zur Person',
+  title: 'Profil',
   filter: 'person',
   slug: '/person/profil'
 }
@@ -12,8 +12,8 @@ const options = {
 export default function Profil() {
   return <>
     <Head>
-      <title>Zur Person</title>
-      <meta name="description" content="Zur Person | Ulrich Kaiser" />
+      <title>Profil</title>
+      <meta name="description" content="Profil | Ulrich Kaiser" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/images/icon.png" />
     </Head>

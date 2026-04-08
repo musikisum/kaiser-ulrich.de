@@ -7,7 +7,6 @@ import { sitemap, sitemapDictionary } from "../../data/sitemap";
 
 import style from './navigation.module.css';
 
-// const color = '#F2727F';
 const color = 'green';
 const uid = new ShortUniqueId();
 
@@ -23,7 +22,7 @@ function getUrls(filter) {
     }
     return akku;
   }, []);
-  return [...new Set(urls)];;
+  return [...new Set(urls)];
 }
 
 export default function Navigation({ filter, slug }) {

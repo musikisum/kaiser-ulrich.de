@@ -16,8 +16,8 @@ export default function Betreuungen() {
   return (
     <>
       <Head>
-        <title>Profil</title>
-        <meta name="description" content="Forschung | Ulrich Kaiser" />
+        <title>Betreuungen</title>
+        <meta name="description" content="Betreuungen | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>

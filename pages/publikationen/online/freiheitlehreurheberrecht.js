@@ -14,7 +14,7 @@ export default function Freiheitlehreurheberrecht() {
   return (
     <>
       <Head>
-        <title>Artikel</title>
+        <title>{options.title}</title>
         <meta name="description" content="Artikel | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

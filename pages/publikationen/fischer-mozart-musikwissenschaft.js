@@ -5,7 +5,7 @@ import PageHeader from '../components/pagehaeder';
 import { Text, Heading, Divider } from '@chakra-ui/react';
 
 const options = {
-  title: 'Publikationen',
+  title: 'Fischer & Mozart',
   description: '',
   filter: 'publikationen',
   slug: '/publikationen/fischer-mozart-musikwissenschaft'

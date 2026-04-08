@@ -5,7 +5,7 @@ import VideoWrapper from '../components/videoWrapper';
 import { Text, Image, Heading, Divider, Flex, Box } from '@chakra-ui/react';
 
 const options = {
-  title: 'Consortium Musicum',
+  title: 'Chöre',
   description: 'Hier finden finden Sie Informationen zu den Chören Consortium Musicum Berlin, Ensemberlino Vocale, Artecanto, Chor des Jungen Ensembles Berlin, Männerchor der Bäcker-Innung Berlin-Nord und Gesangsverein TSV Gesundbrunnen, die ich zwischen 1981 und 2000 in Berlin geleitet habe.',
   filter: 'chorleitung',
   slug: '/chorleitung/choere'

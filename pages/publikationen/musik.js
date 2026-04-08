@@ -19,8 +19,8 @@ export default function Musik() {
   return (
     <>
       <Head>
-        <title>OpenBooks</title>
-        <meta name="description" content="OpenBooks | Ulrich Kaiser" />
+        <title>Musik</title>
+        <meta name="description" content="Musik | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>

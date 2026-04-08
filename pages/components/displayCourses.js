@@ -60,19 +60,24 @@ export default function DisplayCourses({ semester, name }) {
       <Heading as='h3' className='headingH3' color='#6e91a1'>
           { name }
       </Heading>
-        { semester.unterricht.map((item, index, uArr) => {          
+        { semester.unterricht.map((item, index, uArr) => {
             let element = null;
             switch(item.DayOfWeek) {
               case 'Montag':
-                element = displayElement(uid.seq(), lastDay, item)
+                element = displayElement(uid.seq(), lastDay, item);
+                break;
               case 'Dienstag':
-                element = displayElement(uid.seq(), lastDay, item)
+                element = displayElement(uid.seq(), lastDay, item);
+                break;
               case 'Mittwoch':
-                element = displayElement(uid.seq(), lastDay, item)
+                element = displayElement(uid.seq(), lastDay, item);
+                break;
               case 'Donnerstag':
-                element = displayElement(uid.seq(), lastDay, item)
+                element = displayElement(uid.seq(), lastDay, item);
+                break;
               case 'Freitag':
-                element = displayElement(uid.seq(), lastDay, item)
+                element = displayElement(uid.seq(), lastDay, item);
+                break;
             }
             if(index < uArr.length - 1) { 
               lastDay = item.DayOfWeek; 

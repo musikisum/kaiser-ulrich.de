@@ -46,13 +46,13 @@ export default function Unterricht() {
   return (
     <>
       <Head>
-        <title>Artikel</title>
+        <title>Unterricht</title>
         <meta name="description" content="Artikel | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <PageHeader options={ options } />
       <Text>
-        Hier finden Sie Informationen zu dem aktuellen Semester. Wenn Sie sich über mein Lehrangebot der vergangenen Semester informieren möchten, wählen Sie bitte ein Semester in dem Auswahlfeld. Evaluationergebnnisse zu meinem Unterricht können Sie <Link href='/unterricht/evaluation' className='underline'>hier</Link> einsehen.
+        Hier finden Sie Informationen zu dem aktuellen Semester. Wenn Sie sich über mein Lehrangebot der vergangenen Semester informieren möchten, wählen Sie bitte ein Semester in dem Auswahlfeld. Evaluationsergebnisse zu meinem Unterricht können Sie <Link href='/unterricht/evaluation' className='underline'>hier</Link> einsehen.
       </Text>
       <Divider mt='60px' mb='40px' h='1px' bg='gray' />
       <Flex>

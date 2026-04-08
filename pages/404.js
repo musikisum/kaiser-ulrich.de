@@ -9,7 +9,7 @@ export default function Custom404() {
   return <>
       <div className={style.main}>
         <Head>
-          <title>Zur Person</title>
+          <title>Seite nicht gefunden</title>
           <meta name="description" content="404 (not found) | Ulrich Kaiser" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/images/icon.png" />

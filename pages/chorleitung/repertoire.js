@@ -4,7 +4,7 @@ import PageHeader from '../components/pagehaeder';
 import { Text, List, ListItem, Box, Flex, Heading } from '@chakra-ui/react';
 
 const options = {
-  title: 'Consortium Musicum',
+  title: 'Repertoire',
   filter: 'chorleitung',
   description: 'Hier finden Sie die in Konzerten aufgeführte Werke der Jahre 1988 bis 2000 (bzw. vor meinem Umzug nach München).',
   slug: '/chorleitung/repertoire'

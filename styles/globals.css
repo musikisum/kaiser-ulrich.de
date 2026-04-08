@@ -1,3 +1,21 @@
+/* =============================================
+   Landing Page Abstände – hier zentral anpassen
+   --home-top:  Abstand oben (Screen → Headertext)
+   --home-gap:  Abstand Headertext → Hausbild
+   ============================================= */
+:root {
+  --home-top: 0px;   /* Desktop: contentContainer gibt bereits 40px */
+  --home-gap: 40px;
+}
+@media (min-width: 1921px) {
+  :root { --home-top: 80px; } /* 4K: 40px (Container) + 80px = 120px gesamt */
+}
+@media (max-width: 999px) {
+  /* clamp gleicht den Sprung aus, wenn contentContainer sein Padding verliert:
+     bei 999px ≈ 40px, bei 700px ≈ 28px, bei 500px = 20px (Minimum) */
+  :root { --home-top: clamp(20px, 4vw, 40px); }
+}
+
 html, body {
   max-width: 100vw;
   height: 100%;

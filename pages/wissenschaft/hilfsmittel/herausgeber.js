@@ -16,8 +16,8 @@ export default function Herausgeber() {
   return (
     <>
       <Head>
-        <title>Profil</title>
-        <meta name="description" content="Forschung | Ulrich Kaiser" />
+        <title>{options.title}</title>
+        <meta name="description" content="Anmerkungen zum Herausgeber | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/icon.png" />
       </Head>
