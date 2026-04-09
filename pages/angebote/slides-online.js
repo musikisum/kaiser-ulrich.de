@@ -19,8 +19,9 @@ const options = {
 }
 
 const isVideo = (url) => url.endsWith('.mp4');
-const videos = data.filter(item => isVideo(item.url));
-const slides = data.filter(item => !isVideo(item.url));
+const videos = data.filter(item => item.group === 'Videos');
+const vorlesungen = data.filter(item => item.group === 'Vorlesungen');
+const slides = data.filter(item => item.group === 'Slides');
 
 export default function SlidesOnline() {
 
@@ -42,8 +43,21 @@ export default function SlidesOnline() {
         {/* Left: grouped list */}
         <Box className={style.list}>
 
-          <Text className={style.groupLabel}>Videos</Text>
+          <Text className={style.groupLabel}>Vorträge</Text>
           {videos.map(item => (
+            <Box
+              key={uid.seq()}
+              onClick={() => setActiveItem(item)}
+              className={style.listItem}
+              bg={activeItem.url === item.url ? '#E0F0F4' : 'white'}
+              borderColor={activeItem.url === item.url ? '#6e91a1' : 'gray.200'}
+            >
+              <Text fontSize='sm'>{item.description}</Text>
+            </Box>
+          ))}
+
+          <Text className={style.groupLabel} mt='4'>Vorlesungen</Text>
+          {vorlesungen.map(item => (
             <Box
               key={uid.seq()}
               onClick={() => setActiveItem(item)}
@@ -77,6 +91,7 @@ export default function SlidesOnline() {
               ? <video
                   key={activeItem.url}
                   src={activeItem.url}
+                  poster={activeItem.poster || ''}
                   controls
                   className={style.video}
                 />

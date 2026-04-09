@@ -1,36 +1,69 @@
 [
 	{
-		"url": "/medien/video-kaiser-keynote.mp4",
+		"url": "https://www.youtube-nocookie.com/embed/H0AuKSa6-B8",
+		"group": "Videos",
 		"description": "Keynote GMTH-Kongress 2024: Musiktheorie in der Glaskugel",
 		"details": "Keynote-Vortrag auf dem 24. Jahreskongress der Gesellschaft für Musiktheorie an der Brandenburgischen Technischen Universität Cottbus-Senftenberg, Einführung in die Sektion II: »Post-pandemic era, Internationalisierung und Digitalisierung, Herausforderungen der Musiktheorie in aktueller Forschung und Lehre« am 4. Oktober 2024.",
 		"abstract": "Anhand eines Rückblicks auf ausgewählte digitale und bildungspolitische Ereignisse der letzten 40 Jahre werden Entwicklungen der letzten vier Jahre reflektiert. Welche Leistungen kann Musiktheorie in Lehre und Forschung angesichts der Krise im Lehramtsbereich, den Wandlungen des Musikmarktes sowie der erstaunlichen Ergebnisse von Deep-Learning-Projekten wie ChatGPT, Udio & Co. noch erbringen? Werden wir als Einzelpersonen und als Gesellschaft die ungewisse Zukunft mitgestalten können oder liefern wir lediglich das Wissen zum Füttern der Maschinen?"
 	},
 	{
-		"url": "/vortraege/2021-trossingen/Impulsvortrag.mp4",
+		"url": "https://www.youtube-nocookie.com/embed/3SDz70EiBoc",
+		"group": "Videos",
+		"description": "Der Seitensatz - Zur Karriere eines dogmatischen Begriffs",
+		"details": "Vortrag am Institute of Art History of Czech Academy of Sciences and Mozart Society of the Czech Republic. International Musicological Congress ›Current Issues of Mozart Research III‹ (Oktober 2020).",
+		"abstract": "Anhand der Sonate in C-Dur Op. 53 (›Waldstein‹) von L. v. Beethoven wird ein Analyse-Modell für die Formfunktionen ›Seitensatz‹ und ›Schlussgruppe‹ entwickelt. Im Anschluss daran wird diesem Modell die Formfunktion Seitensatz in den Sonaten in D-Dur KV 311 (284c), C-Dur KV 309 (284b), G-Dur KV 283 (189h) und C-Dur KV 545 von W. A. Mozart bestimmt. Die Analyseergebnisse werden mit der Analyse amerikanischer Autoren verglichen sowie durch Anmerkungen zum geistesgeschichtlichen Kontext der Formenlehre von Erwin Ratz erläutert."
+	},
+	{
+		"url": "https://www.youtube-nocookie.com/embed/oAjKVM7JQCI",
+		"group": "Videos",
 		"description": "2021 Impulsvortrag HfM Trossingen"
 	},
 	{
+		"url": "https://cdn.openmusic.academy/media-library/vorlesung-1-MKECfMNMAAnJih49hFHY1E.mp4",
+		"group": "Vorlesungen",
+		"description": "Vorlesung 1 – Shanghai Conservatory of Music 2019",
+		"poster": "https://cdn.openmusic.academy/media-library/vorlesung-1-vorschau-TJkACjqzF2hj6GCy5qLXSX.jpg"
+	},
+	{
+		"url": "https://cdn.openmusic.academy/media-library/vorlesung-2-g19VuVCUzbVbadBQgfXunK.mp4",
+		"group": "Vorlesungen",
+		"description": "Vorlesung 2 – Shanghai Conservatory of Music 2019",
+		"poster": "https://cdn.openmusic.academy/media-library/vorlesung-2-vorschau-BLqtqmuLa4fuxxemoaBL3S.jpg"
+	},
+	{
+		"url": "https://cdn.openmusic.academy/media-library/vorlesung-3-8XLokrJZ4T24TqMLAsZKRN.mp4",
+		"group": "Vorlesungen",
+		"description": "Vorlesung 3 – Shanghai Conservatory of Music 2019",
+		"poster": "https://cdn.openmusic.academy/media-library/poster-riepel-siyaFeArN9ZeTy9J6LAxA4.jpg"
+	},
+	{
 		"url": "/vortraege/2024-oercamp/index.html",
+		"group": "Slides",
 		"description": "2024 Die Open Music Academy – Genese, Möglichkeiten und Probleme für OER im Bereich der Musik"
 	},
 	{
 		"url": "/vortraege/2023-lk5-rlp-film/index.html",
+		"group": "Slides",
 		"description": "2023 Landesmusikakademie Rheinland-Pfalz"
 	},
 	{
 		"url": "/vortraege/2023-gmth-panel/index.html",
+		"group": "Slides",
 		"description": "2023 Panel-Vortrag GMTH-Kongress"
 	},
 	{
 		"url": "/vortraege/2023-gmth/index.html",
+		"group": "Slides",
 		"description": "2023 GMTH-Kongress"
 	},
 	{
 		"url": "/vortraege/2023-epta/index.html",
+		"group": "Slides",
 		"description": "2023 European Piano Teachers Association"
 	},
 	{
 		"url": "/vortraege/2023-deutsche-unesco/index.html",
+		"group": "Slides",
 		"description": "2023 Deutsche UNESCO-Kommission"
 	}
 ]

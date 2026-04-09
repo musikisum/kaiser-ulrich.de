@@ -12,11 +12,11 @@ const options = {
 }
 
 const video = {
-  url: '/medien/kaiser-das-kinderhauslied.mp4',
-  posterUrl: '',
+  url: 'https://cdn.openmusic.academy/media-library/kaiser-das-kinderhauslied-LY9owLmDzW6TfLrJ79obAE.mp4',
+  posterUrl: 'https://cdn.openmusic.academy/media-library/vorschaubild-ELeBq75XXMeSzuo5UaF7ME.jpg',
   title: '',
   description: 'Kinderchor',
-  filter: 'projekte'
+  aspectRatio: '4/3'
 }
 
 import style from './choere.module.css';
