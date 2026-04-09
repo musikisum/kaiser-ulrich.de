@@ -6,7 +6,7 @@
     "location": "Kassel",
     "year": 2007,
     "image": "/images/buecher/kaiser_mozart.png",
-    "link": "https://mozartforschung.de/"
+    "link": "https://mozartforschung.de/notenbuecher-mozarts/"
   },
   {
     "title": "Lamentobass",
@@ -42,7 +42,7 @@
     "location": "Milano",
     "year": 2007,
     "image": "/images/buecher/kaiser_4Satz-it.png",
-    "link": ""
+    "link": "https://www.stretta-music.de/kaiser-il-corale-nr-1317235.html"
   },
   {
     "title": "Der vierstimmige Satz",
@@ -51,7 +51,7 @@
     "location": "Kassel",
     "year": 2002,
     "image": "/images/buecher/kaiser_4Satz-de.png",
-    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1478/"
+    "link": "https://www.baerenreiter.com/search/Der%20vierstimmige%20Satz.%20Kantionalsatz%20und%20Choralsatz"
   },
   {
     "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse",
@@ -60,7 +60,7 @@
     "location": "Kassel",
     "year": 1998,
     "image": "/images/buecher/kaiser_gehoerbildung-2.png",
-    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1160/"
+    "link": "https://www.baerenreiter.com/search/Kaiser%20Geh%C3%B6rbildung"
   },
   {
     "title": "Gehörbildung. Satzlehre, Improvisation, Höranalyse",
@@ -69,6 +69,6 @@
     "location": "Kassel",
     "year": 1998,
     "image": "/images/buecher/kaiser_gehoerbildung-1.png",
-    "link": "https://www.baerenreiter.com/shop/produkt/details/BVK1159/"
+    "link": "https://www.baerenreiter.com/search/Kaiser%20Geh%C3%B6rbildung"
   }
 ]

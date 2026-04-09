@@ -26,7 +26,7 @@ export default function Betreuungen() {
         Dissertationen
       </Heading>
       <Text className={style.mtDefault}>
-        An der <i>Hochschule für Musik und Theater München</i> ist es möglich, bei einem in Musikwissenschaft promovierten Musiktheoretiker über ein Thema mit musikanalytischem Schwerpunkt bzw. der historischen oder systematischen Musiktheorie zu promovieren. Am Ende des erfolgreich abgeschlossenen Promotionsverfahrens wird der Titel <i>Dr. phil</i> im Fach Musikwissenschaft verliehen. DArüber hinaus gibt es die Möglichkeit, sich von einem Team betreuen zu lassen. Aktuell betreue ich die folgenden Dissertationsprojekte:
+        An der <i>Hochschule für Musik und Theater München</i> ist es möglich, bei einem in Musikwissenschaft promovierten Musiktheoretiker über ein Thema mit musikanalytischem Schwerpunkt bzw. der historischen oder systematischen Musiktheorie zu promovieren. Am Ende des erfolgreich abgeschlossenen Promotionsverfahrens wird der Titel <i>Dr. phil</i> im Fach Musikwissenschaft verliehen. Darüber hinaus gibt es die Möglichkeit, sich von einem Team aus den Promotionsfächern betreuen zu lassen. Aktuell betreue ich die folgenden Dissertationsprojekte allein oder im Team:
       </Text>
       <UnorderedList className={style.mtDefault}>
         <ListItem className={style.mlDefault}><i>Musikunterricht und Digitalisierung an Bayerischen Gymnasien im Spannungsfeld zwischen Commons und Postdemokratie</i> (Dissertation)</ListItem>
@@ -38,7 +38,7 @@ export default function Betreuungen() {
         Zulassungsarbeiten
       </Heading>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Die Nutzung Digitaler Medien im Musikunterricht</i></ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Digitale Medien im Musikunterricht (Thema noch in der Entwicklung)</i></ListItem>
         <ListItem className={style.mlDefault}>Arbeitstitel: <i>Filmmusik (Thema noch in der Entwicklung)</i></ListItem>
       </UnorderedList>
       

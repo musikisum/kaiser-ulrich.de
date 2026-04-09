@@ -69,7 +69,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Meine Homepage, die Sie (anscheinend im Moment :) besuchen, ist die älteste der von mir erstellten Webseiten (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellte Web-App, über die ich viele Jahre lang meine Studierenden betreut habe (mit einem internen Lernmanagement-System). Durch das Auslagern der Studierendenbetreuung auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> war endlich ein Relaunch der Homepage möglich. Dafür habe ich Next.js und Chakra UI verwendet. Die Navigation und Content-Seiten (z.B. Publikationen, Vorträge usw.) werden automatisch über JSON-Files erstellt.
+              Meine Homepage, die Sie (anscheinend im Moment :) besuchen, ist die älteste der von mir erstellten Webseiten (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellte Web-App, über die ich viele Jahre lang meine Studierenden betreut habe (mit einem internen Lernmanagement-System). Durch das Auslagern der Studierendenbetreuung auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> war endlich ein Relaunch der Homepage möglich. Dafür habe ich Next.js und Chakra UI verwendet. Navigation und Content von Seiten mit dynamischen Inhalten (z.B. Publikationen, Vorträge usw.) werden automatisch über JSON-Files gesteuert.
             </Box>
           </Flex>                  
         </ListItem>
@@ -87,7 +87,7 @@ export default function WebDoc() {
             <Box flex='0.6' ml='10px'>
               Die Programmierung der Seite musikanalyse.net habe ich zusammen mit Andreas Helmberger begonnen, der sich dann jedoch aus beruflichen Gründen aus dem Projekt zurückgezogen hat. Auf dieser Seite stelle ich privat kostenlose Informationen zur musikalischen Analyse und Musiktheorie zur Verfügung. Das Angebot richtet sich in erster Linie an meine Studierende und darüber hinaus an alle, die etwas über die genannten Themen wissen möchten.<br/><br/>
               <i>Im Rahmen eines wissenschaftlichen Forschungsprojekts der TU Dortmund im Bereich Musiktheorie (um Prof. Dr. Mark Gotham) wurde festgestellt, dass musikanalyse.net »zu den meist verwendeten Lehrwerken im deutschsprachigen Raum (sowohl Print als auch digital) zählt«.</i><br/><br/>
-              Trotz dieser erfreulichen Nachricht und einer <a href='https://opacplus.bsb-muenchen.de/discovery/fulldisplay?docid=alma991076179389707356&context=L&vid=49BVB_BSB:VU1&lang=de&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,musikanalyse.net' className='underline'>Langzeitarchivierung</a> durch die <a href='https://www.bsb-muenchen.de/' className='underline'>Bayerische Staatsbibliothek</a> werde ich die Inhalte diese Seite vollständig auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> transferieren, wo die Inhalte aktualisiert, verändert und weiterentwickelt werden können.
+              Trotz dieser erfreulichen Nachricht und einer <a href='https://opacplus.bsb-muenchen.de/discovery/fulldisplay?docid=alma991076179389707356&context=L&vid=49BVB_BSB:VU1&lang=de&search_scope=MyInst_and_CI&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,musikanalyse.net' className='underline'>Langzeitarchivierung</a> durch die <a href='https://www.bsb-muenchen.de/' className='underline'>Bayerische Staatsbibliothek</a> werde ich die Inhalte diese Seite vollständig auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> transferieren, wo sie gemeinschaftlich, aktualisiert und weiterentwickelt werden können.
             </Box>
           </Flex>                  
         </ListItem>
@@ -103,7 +103,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Die Seite oer-musik.de ist aus der Seite openbooks-musik.de hervorgegangen, mit der ich 2011 begonnen hatte, meine Materialien für meine Lehramtsstudierenden sowie Musiklehrerinnen und -lehrer an allgemeinbildenden Schulen zur Verfügung zu stellen. Die Seite verwendet Gatsby, verzichtet auf den Einsatz von CSS-Frameworks und wird ebenfalls aufgelöst, sobald ich alle Inhalte auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> überführt und zur Nachbearbeitung freigegeben haben werde. Alle OpenBooks wurden übrigens mit der freien Desktop-Publishing-Software <a href='https://www.scribus.net/' className='underline'>Scribus</a> erstellt.
+              Die Seite oer-musik.de ist aus der Seite openbooks-musik.de hervorgegangen, mit der ich 2011 begonnen hatte, meine Materialien für meine Lehramtsstudierenden sowie Musiklehrerinnen und -lehrer an allgemeinbildenden Schulen zur Verfügung zu stellen. Die Seite verwendete zuerst Gatsby, verzichtet auf den Einsatz von CSS-Frameworks und wurde mithilfe von claude.ai zu einer statischen Website (mit Eleventy) umgewandelt. Diese Seite wird ebenfalls aufgelöst, sobald ich alle Inhalte auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> überführt haben werde. Alle OpenBooks wurden übrigens mit der freien Desktop-Publishing-Software <a href='https://www.scribus.net/' className='underline'>Scribus</a> erstellt und lassen sich daher auch ohne den Kauf von DTP-Programmen aktualisieren.
             </Box>
           </Flex>                  
         </ListItem>
@@ -119,7 +119,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Die erste Website, für die ich einen externen Programmierauftrag bekam, ist 2015 für die Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke entstanden. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch), ausgesprochen leichtgewichtig und sehr schnell.
+              Die erste Website, für die ich einen externen Programmierauftrag bekam, ist 2015 für die Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke entstanden. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch), ausgesprochen leichtgewichtig und immer noch sehr schnell.
             </Box>
           </Flex>                  
         </ListItem>
@@ -127,15 +127,15 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://www.tpmeder.de/'><img src={urlSnippet + 'ResponsiveDesign-meder-Seite001.png'} alt="tpmeder.de" /></a>
+                <img src={urlSnippet + 'ResponsiveDesign-meder-Seite001.png'} alt="tpmeder.de" />
                 <Container style={{ 'textAlign': 'center' }}>
                   <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
-                  <a href='https://www.tpmeder.de/'>tpmeder.de</a>
+                  <span>tpmeder.de</span>
                 </Container>                    
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              2017 erhielt ich einen Auftrag für eine einfache statische Seite von der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch für diese Seite wurde das CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>) verwendet und auch diese Seite ist mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und sehr schnell.
+              2017 erhielt ich einen Auftrag für eine einfache statische Seite von der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch für diese Seite wurde das CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>) verwendet und auch diese Seite war mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und schnell. Aktuell ist sie nicht mehr erreichbar. 
             </Box>
           </Flex>                  
         </ListItem>        
@@ -184,7 +184,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-               Kurz danach erhielt ich den Auftrag für eine Seite voller Leckereien und Köstlichkeiten der Konditormeisterin Gunhild Lakomczyk-Kaiser (meine Schwester). Diese Seite ist eine statische, mit Next.js umgesetzte Seite, wobei der Content über JSON-Files gepflegt und bereitgestellt wird. 
+               Kurz danach erhielt ich den Auftrag für eine Seite voller Leckereien und Köstlichkeiten der Konditormeisterin Gunhild Lakomczyk-Kaiser. Diese Seite ist eine statische, mit Next.js umgesetzte Seite, wobei der Content über JSON-Files gepflegt und bereitgestellt wird. 
             </Box>
           </Flex>                  
         </ListItem>           
@@ -210,6 +210,9 @@ export default function WebDoc() {
           })
         }        
       </Flex>
+      <Text m='40px 0'>
+        Weitere Covergestaltungen finden sie <Link className='underline' href="/publikationen/openbooks/">hier</Link> und <Link className='underline' href="/publikationen/musik/">hier</Link>. 
+      </Text>
     </>  
   )
 }
