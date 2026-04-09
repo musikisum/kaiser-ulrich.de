@@ -14,8 +14,8 @@ const options = {
 }
 
 const video = {
-  url: '/medien/elmu-video.mp4',
-  posterUrl: '/medien/elmu-poster.jpg',
+  url: 'https://kaiser-ulrich.de/medien/elmu-video.mp4',
+  posterUrl: 'https://kaiser-ulrich.de/medien/elmu-poster.jpg',
   title: 'Explainer-Video für ELMU / 2018',
   description: ''
 }
@@ -183,16 +183,16 @@ export default function Elmu() {
 
     <UnorderedList ml='40px'>
       <ListItem>
-        <Link href='/files/kaiser-antrag-castringius.pdf' className='underline'>Antrag an die Castringius Kinder & Jugend Stiftung München</Link>
+        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-antrag-castringius.pdf' className='underline'>Antrag an die Castringius Kinder & Jugend Stiftung München</Link>
       </ListItem>
       <ListItem>
-        <Link href='/files/kaiser-elmu-projektbeschreibung.pdf' className='underline'>Projektbeschreibung (kurz)</Link>
+        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-elmu-projektbeschreibung.pdf' className='underline'>Projektbeschreibung (kurz)</Link>
       </ListItem>
       <ListItem>
-        <Link href='/files/kaiser-elmu-vortrag-gmth.pdf' className='underline'>Vortrag zum Projekt auf dem GMTH-Kongress in Bremen 2018</Link>
+        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-elmu-vortrag-gmth.pdf' className='underline'>Vortrag zum Projekt auf dem GMTH-Kongress in Bremen 2018</Link>
       </ListItem>
       <ListItem>
-        <Link href='/files/kaiser-elmu.pdf' className='underline'>elmu – Eine Plattform für digitale musikalische Bildung</Link>
+        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-elmu.pdf' className='underline'>elmu – Eine Plattform für digitale musikalische Bildung</Link>
       </ListItem>
     </UnorderedList>
   </>

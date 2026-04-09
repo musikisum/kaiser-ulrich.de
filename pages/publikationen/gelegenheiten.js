@@ -172,7 +172,7 @@ export default function Gelegenheiten() {
               </h2>
               <AccordionPanel pb={4}>
                 <Stack spacing='3'>                   
-                  <audio controls src="/medien/OER083.mp3"></audio>
+                  <audio controls src="https://kaiser-ulrich.de/medien/OER083.mp3"></audio>
                   <Text>
                     Im Interview mit Susanne Grimm spricht Prof. Dr. Ulrich Kaiser, Leiter des Projekts Open Music Academy, an der Hochschule für Musik und Theater München, über OER als Medium zum Musiklernen und die Open Music Academy, die freie Lehr- und Lernplattform für Musik.
                   </Text>
@@ -208,7 +208,7 @@ export default function Gelegenheiten() {
                     Sounds: „Haunted House 80 bpm“ von ITheRealGooglekatClaire (https://freesound.org/).<br/>
                     Dieses Video steht unter der Lizenz <a href='https://creativecommons.org/licenses/by-sa/4.0/' className='underline'>CC BY-SA 4.0</a>.
                   </Text>
-                  <video controls src="/medien/spotlight_kaiser_web2.mp4"></video>
+                  <video controls src="https://kaiser-ulrich.de/medien/spotlight_kaiser_web2.mp4"></video>
                 </Stack>
               </AccordionPanel>
           </>
@@ -233,7 +233,7 @@ export default function Gelegenheiten() {
               </h2>
               <AccordionPanel pb={4}>
                 <Stack spacing='3'> 
-                  <audio style={{ 'marginTop': '6px'}} controls src="/medien/2022-br.mp3"></audio>
+                  <audio style={{ 'marginTop': '6px'}} controls src="https://kaiser-ulrich.de/medien/2022-br.mp3"></audio>
                   <Text>
                     Ungekürzte Schriftfassung:
                   </Text>
@@ -311,7 +311,7 @@ export default function Gelegenheiten() {
               </h2>
               <AccordionPanel pb={4}>
                 <Stack spacing='3'> 
-                  <audio style={{ 'marginTop': '6px'}} controls src="/medien/2022-fm4.mp3"></audio>
+                  <audio style={{ 'marginTop': '6px'}} controls src="https://kaiser-ulrich.de/medien/2022-fm4.mp3"></audio>
                   <Text>
                     Ungekürzte Schriftfassung:
                   </Text>
