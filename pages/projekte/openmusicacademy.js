@@ -15,7 +15,7 @@ const options = {
 
 const video = {
   url: 'https://cdn.openmusic.academy/media-library/oma-explainer-vs1-0-pDjYtJexVC91WfrtWnu6hh.mp4',
-  posterUrl: 'https://kaiser-ulrich.de/medien/oma-poster.jpg',
+  posterUrl: 'https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/oma-poster.jpg',
   title: 'Explainer-Video für die OMA / 2022',
   description: 'Eine Idee und Gemeinschaftsarbeit des OMA-Teams (2022) / Lizenz: CC0. Grafik und Video: Mani Vieregg; Sprecherin: Franziska Ball; Musik und FX-Sounds: Ulrich Kaiser (unter Mitarbeit von Johannes Brahms und Ludwig van Beethoven).',
   filter: 'projekte'

@@ -20,7 +20,9 @@
 
 # data
 /public/scores/
-/public/medien/
+/public/medien/*.mp4
+/public/medien/*.jpg
+/public/medien/*.png
 /public/vortraege/
 /public/vorlesungen-2019-shanghai/
 

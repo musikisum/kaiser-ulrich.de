@@ -14,8 +14,8 @@ const options = {
 }
 
 const video = {
-  url: 'https://kaiser-ulrich.de/medien/elmu-video.mp4',
-  posterUrl: 'https://kaiser-ulrich.de/medien/elmu-poster.jpg',
+  url: 'https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/elmu-video.mp4',
+  posterUrl: 'https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/elmu-poster.jpg',
   title: 'Explainer-Video für ELMU / 2018',
   description: ''
 }

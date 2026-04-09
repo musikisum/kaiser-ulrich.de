@@ -140,7 +140,7 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px' flexWrap='wrap'>
           <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-            <audio src='https://kaiser-ulrich.de/medien/kaiser-gesang_schubert.mp3' controls></audio>
+            <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-gesang_schubert.mp3' controls></audio>
           </Box>
           <Box flex='1' pt='10px'>
             <i>Der Atlas</i>, nach einem Text von Heinrich Heine, aus: »Schwanengesang« D 957, Nr. 8 von Franz Schubert
@@ -150,7 +150,7 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px' flexWrap='wrap'>
           <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-            <audio src='https://kaiser-ulrich.de/medien/kaiser-gesang-kleinZack.mp3' controls></audio>
+            <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-gesang-kleinZack.mp3' controls></audio>
           </Box>
           <Box flex='1' pt='10px'>
             <i>Arie ›Kleinzack‹ (Klein Zaches)</i>, aus: Jacques Offenbach, Hoffmanns Erzählungen, Vortragsabend Prof. Richard Gsell an der UdK-Berlin im Jahr der Aufnahmeprüfung Gesang/Musiktheater
@@ -160,7 +160,7 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px' flexWrap='wrap'>
           <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-            <audio src='https://kaiser-ulrich.de/medien/kaiser-gesang_bach.mp3' controls></audio>
+            <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-gesang_bach.mp3' controls></audio>
           </Box>
           <Box flex='1' pt='10px'>
             <i>»So geh ich mit beherzten Schritten«</i>, aus: Johann Sebastian Bach, Kanate BWV 111 »Was mein Gott will, dass gscheh allzeit«, Nr. 4, Duett Alt und Tenor 

@@ -53,7 +53,7 @@ export default function Choere() {
       <Text as='b'>Hörbeispiele:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/cmb-mozart.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/cmb-mozart.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Wolfgang Amadeus Mozart, <i>Requiem</i> KV 626 (Anfang)
@@ -61,7 +61,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/cmb-bach.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/cmb-bach.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Johann Sebastian Bach, Kantate <i>Gloria in excelsis Deo</i> BWV 191 (Ausschnitt)
@@ -69,7 +69,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/cmb-michael.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/cmb-michael.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Tobias Michael, Motette <i>Unser Trübsal</i>
@@ -98,7 +98,7 @@ export default function Choere() {
       <Text as='b'>Hörbeispiele:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/ev-brahms-op52-11.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/ev-brahms-op52-11.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Johannes Brahms, Liebesliederwalzer op. 52, Nr. 11, <i>Nein es ist nicht auszukommen mit den Leuten</i>
@@ -106,7 +106,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/ev-brahms-op104-5.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/ev-brahms-op104-5.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Johannes Brahms, weltliche Chorlieder op.104, Nr. 5, <i>Im Herbst</i>
@@ -114,7 +114,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/ev-schuetz-also.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/ev-schuetz-also.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Heinrich Schütz, Geistliche Chormusik 1648, <i>Also hat Gott die Welt geliebt</i> SWV 380
@@ -122,7 +122,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/ev-lechner-gott.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/ev-lechner-gott.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Leonhard Lechner, <i>Gott b'hüte dich</i>
@@ -134,7 +134,7 @@ export default function Choere() {
       <Text as='b'>Hörbeispiele eines Gemeinschaftskonzerts der Chöre Consortium Musicum Berlin und Ensemberlino Vocale:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/kaiser-choere-bruckner-osjusti.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-choere-bruckner-osjusti.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Anton Bruckner, <i>Os iusti</i>
@@ -142,7 +142,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/kaiser-choere-bruckner-avemaria.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-choere-bruckner-avemaria.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Anton Bruckner, <i>Ave Maria</i>
@@ -150,7 +150,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/kaiser-choere-bruckner-locusiste.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-choere-bruckner-locusiste.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Anton Bruckner, <i>Locus iste</i>
@@ -158,7 +158,7 @@ export default function Choere() {
       </Flex>  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/kaiser-choere-bruckner-vexillaregis.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-choere-bruckner-vexillaregis.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Anton Bruckner, <i>Vexilla regis</i>
@@ -188,7 +188,7 @@ export default function Choere() {
       <Text as='b'>Hörbeispiele:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/kaiser-das-kinderhauslied.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-das-kinderhauslied.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Ulrich Kaiser, <i>Das Kinderhauslied</i> (= OpenBook 10), Karlsfeld 2015. Mix/Master: Daniel Scholz, Lizenz: CC BY. 
@@ -212,7 +212,7 @@ export default function Choere() {
       <Text as='b'>Hörbeispiele:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/artecanto-schuetz-verleih-uns-frieden-prima-pars.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/artecanto-schuetz-verleih-uns-frieden-prima-pars.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Heinrich Schütz, <i>Verleih uns Frieden</i> (prima pars)«
@@ -220,7 +220,7 @@ export default function Choere() {
       </Flex>                  
       <Flex flexWrap='wrap'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://kaiser-ulrich.de/medien/artecanto-schein-da-jacob.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/artecanto-schein-da-jacob.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
           Johann Hermann Schein, <i>Da Jacob die Rede vollende hatte</i> (aus dem ›Israelisbrünnlein‹)
