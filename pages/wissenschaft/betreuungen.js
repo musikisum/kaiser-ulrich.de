@@ -29,8 +29,7 @@ export default function Betreuungen() {
         An der <i>Hochschule für Musik und Theater München</i> ist es möglich, bei einem in Musikwissenschaft promovierten Musiktheoretiker über ein Thema mit musikanalytischem Schwerpunkt bzw. der historischen oder systematischen Musiktheorie zu promovieren. Am Ende des erfolgreich abgeschlossenen Promotionsverfahrens wird der Titel <i>Dr. phil</i> im Fach Musikwissenschaft verliehen. DArüber hinaus gibt es die Möglichkeit, sich von einem Team betreuen zu lassen. Aktuell betreue ich die folgenden Dissertationsprojekte:
       </Text>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Musikunterricht und Digitalisierung an Bayerischen Gymnasien im Spannungsfeld zwischen Commons und Postdemokratie</i></ListItem>
-        <ListItem className={style.mlDefault}><i>Die Gitarristen der Band Deep Purple und deren Einfluss auf das musikalische Werk der Band</i></ListItem>
+        <ListItem className={style.mlDefault}><i>Musikunterricht und Digitalisierung an Bayerischen Gymnasien im Spannungsfeld zwischen Commons und Postdemokratie</i> (Dissertation)</ListItem>
       </UnorderedList>
 
       <Divider mt='20px' mb='20px' />
@@ -39,10 +38,8 @@ export default function Betreuungen() {
         Zulassungsarbeiten
       </Heading>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Übereinstimmungen und Differenzen in der Theorie der Sonatenform seit 1998</i></ListItem>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Motivische Arbeit im frühen Werk von G. Puccini</i></ListItem>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Filmmusikanalyse zu einem Film von Howard Shore </i></ListItem>
         <ListItem className={style.mlDefault}>Arbeitstitel: <i>Die Nutzung Digitaler Medien im Musikunterricht</i></ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Filmmusik (Thema noch in der Entwicklung)</i></ListItem>
       </UnorderedList>
       
       <Divider mt='60px' mb='60px' height='2px' bgColor='gray' />
@@ -51,6 +48,10 @@ export default function Betreuungen() {
         Betreute und/oder begutachtete Arbeiten (seit 2006)
       </Heading>
       <UnorderedList className={style.mtDefault}>
+        <ListItem className={style.mlDefault}><i>Leitmotivik in Giacomo Puccinis SUOR ANGELICA</i>, Zulassungsarbeit Lehramt am Gymnasium 2026</ListItem>
+        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Plattformgovernance und Nutzungsbedingungen als Rahmen musikalischer Lernprozesse</i>, Zulassungsarbeit Lehramt am Gymnasium 2026</ListItem>
+        <ListItem className={style.mlDefault}><i>Popmusik in deutschen Schulbüchern aus fachwissenschaftlicher und didaktischer Perspektive, Zulassungsarbeit Lehramt am Gymnasium 2026</i></ListItem>
+        <ListItem className={style.mlDefault}><i>Die Gitarristen der Band Deep Purple und deren Einfluss auf das musikalische Werk der Band, Dissertation (Betreuung und Erstgutachter) 2026</i></ListItem>
         <ListItem className={style.mlDefault}><i>Wolfgang Amadeus Mozart: Dramaturgie und Musik in den Opern der Wiener Zeit</i>, Dissertation (Betreuung und Erstgutachter) 2025</ListItem>
         <ListItem className={style.mlDefault}><i>Songwriting bei Beatrice Egli</i>, Zulassungsarbeit Lehramt am Gymnasium 2023</ListItem>
         <ListItem className={style.mlDefault}><i>Die Verteilung der Songformen und andere formale Untersuchungen der Popularmusik von Billy Joel</i>, Zulassungsarbeit Lehramt am Gymnasium 2022</ListItem>
