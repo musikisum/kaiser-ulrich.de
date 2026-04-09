@@ -95,9 +95,8 @@ export default function SlidesOnline() {
                   controls
                   className={style.video}
                 />
-              : <div className={style.iframeWrapper}>
+              : <div key={activeItem.url} className={style.iframeWrapper}>
                   <Iframe
-                    key={activeItem.url}
                     url={activeItem.url}
                     className={style.iframe}
                   />

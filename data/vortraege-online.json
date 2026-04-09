@@ -16,25 +16,33 @@
 	{
 		"url": "https://www.youtube-nocookie.com/embed/oAjKVM7JQCI",
 		"group": "Videos",
-		"description": "2021 Impulsvortrag HfM Trossingen"
+		"description": "2021 Impulsvortrag HfM Trossingen",
+		"details": "Symposium an der Hochschule für Musik Trossingen zur zukünftigen Ausrichtung des Fachgebietes Musiktheorie/Gehörbildung am Freitag, 19. Februar 2021, 10-17 Uhr.",
+		"abstract": "Die Kernfrage lautete: In welcher Weise sollte die Ausbildung im Fachgebiet Musiktheorie/Gehörbildung an einer Hochschule wie der HfM Trossingen in Zukunft ausgerichtet werden? Und die möglichen Einzelfragestellungen lauteten: 1. Musiktheorie/Gehörbildung innerhalb der Diversität der Studiengänge (Orchesterinstrumente, Klavier, Gesang u.ä. / Lehramt / Verbreiterungsfach Jazz-Pop / Musikdesign) und ob es ein differenziertes, studiengangsbezogenes Angebot in Musiktheorie geben sollte, 2. didaktische Fragen (z.B. ob Musiktheorie und Gehörbildung nebeneinander oder ineinander greifend unterrichtet werden sollte, ob Musiktheorie Musik-Praxis und digitale Lehre beinhaltet sowie Fragen nach Lern- und Prüfungsformen und 3. Grundsatzfragen wie die nach der Terminologie und Methoden."
 	},
 	{
 		"url": "https://cdn.openmusic.academy/media-library/vorlesung-1-MKECfMNMAAnJih49hFHY1E.mp4",
 		"group": "Vorlesungen",
 		"description": "Vorlesung 1 – Shanghai Conservatory of Music 2019",
-		"poster": "https://cdn.openmusic.academy/media-library/vorlesung-1-vorschau-TJkACjqzF2hj6GCy5qLXSX.jpg"
+		"poster": "https://cdn.openmusic.academy/media-library/vorlesung-1-vorschau-TJkACjqzF2hj6GCy5qLXSX.jpg",
+		"details": "Vorlesung (2019) für das Shanghai Conservatory in China mit dem Titel: Harmony and form in the late 18th century illustrated on compositions of W. A. Mozart.",
+		"abstract": "Inhalt: Hauptsatz und Überleitung, Mozarts Lernen an Menuetten, Entwicklung von Perioden anhand der Modelle I-IV-I-V-I, ›L'Aria di Fiorenza‹ und Kadenzen in der Formfunktion Hauptsatz, Gestaltungen anhand der Modelle IV-I-V-I und Kadenzen in der Formfunktion Überleitung und Generalisierung: das 4-1 (fa-ut) Modell und verschiedene Überleitungstypen in Werken Mozarts"
 	},
 	{
 		"url": "https://cdn.openmusic.academy/media-library/vorlesung-2-g19VuVCUzbVbadBQgfXunK.mp4",
 		"group": "Vorlesungen",
 		"description": "Vorlesung 2 – Shanghai Conservatory of Music 2019",
-		"poster": "https://cdn.openmusic.academy/media-library/vorlesung-2-vorschau-BLqtqmuLa4fuxxemoaBL3S.jpg"
+		"poster": "https://cdn.openmusic.academy/media-library/vorlesung-2-vorschau-BLqtqmuLa4fuxxemoaBL3S.jpg",
+		"details": "Vorlesung (2019) für das Shanghai Conservatory in China mit dem Titel: Harmony and form in the late 18th century illustrated on compositions of W. A. Mozart.",
+		"abstract": "Inhalt: Seitensatz, Schlussgruppe und Reprise, Perioden und periodenartige Gestaltungen in der Formfunktion Seitensatz, vergleichbare acht- und viertaktige Einheiten in der Formfunktion Seitensatz, Gestaltungen des mi-fa-sol-ut-Modell in der Formfunktion Schlussgruppe, Reprise der Formfunktionen Hauptsatz und Seitensatz sowie die ›Mannheimer Reprise‹"
 	},
 	{
 		"url": "https://cdn.openmusic.academy/media-library/vorlesung-3-8XLokrJZ4T24TqMLAsZKRN.mp4",
 		"group": "Vorlesungen",
 		"description": "Vorlesung 3 – Shanghai Conservatory of Music 2019",
-		"poster": "https://cdn.openmusic.academy/media-library/poster-riepel-siyaFeArN9ZeTy9J6LAxA4.jpg"
+		"poster": "https://cdn.openmusic.academy/media-library/poster-riepel-siyaFeArN9ZeTy9J6LAxA4.jpg",
+		"details": "Vorlesung (2019) für das Shanghai Conservatory in China mit dem Titel: Harmony and form in the late 18th century illustrated on compositions of W. A. Mozart.",
+		"abstract": "Inhalt: Durchführungen, Mozarts Lernen an Menuetten (Monte und Fonte), das Monte-Modell (Joseph Riepel) als Halbschluss, das Fonte-Modell (VI-ii-V-I + Hs) und das erweitere fonte-Modell (III-vi-II-V) in der Formfunktion Durchführung, die ›Ars combinatoria‹ und ein Modell in den Klaviersonaten Mozarts (V + VI-ii-III-vi + Quintfall + Hs) in der Formfunktion Durchführung und Lernen am Modell: J. Chr. Bach und J. S. Bach"
 	},
 	{
 		"url": "/vortraege/2024-oercamp/index.html",
