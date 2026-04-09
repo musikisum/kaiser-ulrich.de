@@ -1,0 +1,74 @@
+.twoCol {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/* Left list */
+.list {
+  width: 30%;
+  min-width: 180px;
+  flex-shrink: 0;
+}
+
+.groupLabel {
+  font-weight: bold;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6e91a1;
+  margin-bottom: 6px;
+}
+
+.listItem {
+  padding: 10px 14px;
+  margin-bottom: 6px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+
+.listItem:hover {
+  background-color: #F2F7F9 !important;
+}
+
+/* Right preview */
+.preview {
+  flex: 1;
+}
+
+/* 16:9 wrapper for slides */
+.iframeWrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.iframe {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: none;
+}
+
+/* Native video */
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: black;
+  border-radius: 4px;
+}
+
+@media (max-width: 700px) {
+  .twoCol {
+    flex-direction: column;
+  }
+  .list {
+    width: 100%;
+  }
+  .preview {
+    width: 100%;
+  }
+}

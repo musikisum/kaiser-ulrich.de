@@ -1,19 +1,21 @@
 [
 	{
-		"url": "/vortraege/2024-tkvb/index.html",
-		"description": "Vortrag beim Tonkünstlerverband Bayern"
+		"url": "/medien/video-kaiser-keynote.mp4",
+		"description": "Keynote GMTH-Kongress 2024: Musiktheorie in der Glaskugel",
+		"details": "Keynote-Vortrag auf dem 24. Jahreskongress der Gesellschaft für Musiktheorie an der Brandenburgischen Technischen Universität Cottbus-Senftenberg, Einführung in die Sektion II: »Post-pandemic era, Internationalisierung und Digitalisierung, Herausforderungen der Musiktheorie in aktueller Forschung und Lehre« am 4. Oktober 2024.",
+		"abstract": "Anhand eines Rückblicks auf ausgewählte digitale und bildungspolitische Ereignisse der letzten 40 Jahre werden Entwicklungen der letzten vier Jahre reflektiert. Welche Leistungen kann Musiktheorie in Lehre und Forschung angesichts der Krise im Lehramtsbereich, den Wandlungen des Musikmarktes sowie der erstaunlichen Ergebnisse von Deep-Learning-Projekten wie ChatGPT, Udio & Co. noch erbringen? Werden wir als Einzelpersonen und als Gesellschaft die ungewisse Zukunft mitgestalten können oder liefern wir lediglich das Wissen zum Füttern der Maschinen?"
+	},
+	{
+		"url": "/vortraege/2021-trossingen/Impulsvortrag.mp4",
+		"description": "2021 Impulsvortrag HfM Trossingen"
 	},
 	{
 		"url": "/vortraege/2024-oercamp/index.html",
-		"description": "Die Open Music Academy. Genese, Möglichkeiten und Probleme für OER im Bereich der Musik"
-	},
-	{
-		"url": "/vortraege/2024-fachleitungen-musik/index.html",
-		"description": "2023/2024 Vortrag Fachleitungen Musik (OMA)"
+		"description": "2024 Die Open Music Academy – Genese, Möglichkeiten und Probleme für OER im Bereich der Musik"
 	},
 	{
 		"url": "/vortraege/2023-lk5-rlp-film/index.html",
-		"description": "2023 Vortrag Landesmusikakademy Rheinland-Pfalz (Film)"
+		"description": "2023 Landesmusikakademie Rheinland-Pfalz"
 	},
 	{
 		"url": "/vortraege/2023-gmth-panel/index.html",
@@ -21,22 +23,14 @@
 	},
 	{
 		"url": "/vortraege/2023-gmth/index.html",
-		"description": "2023 Vortrag GMTH-Kongress"
+		"description": "2023 GMTH-Kongress"
 	},
 	{
 		"url": "/vortraege/2023-epta/index.html",
-		"description": "2023 Vortrag European Piano Teachers Association"
+		"description": "2023 European Piano Teachers Association"
 	},
 	{
 		"url": "/vortraege/2023-deutsche-unesco/index.html",
-		"description": "2023 Vortrag für die Deutsche UNESCO"
-	},
-	{
-		"url": "/vortraege/2021-trossingen/Impulsvortrag.mp4",
-		"description": "2021 Impulsvortrag HfM Trossingen"
-	},
-	{
-		"url": "/vortraege/2020-fau/index.html",
-		"description": "2020 Vortrag OER Barcamp ›Digital und teilbar‹"
-	}	
+		"description": "2023 Deutsche UNESCO-Kommission"
+	}
 ]

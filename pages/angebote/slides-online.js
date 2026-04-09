@@ -1,42 +1,30 @@
-import useSWR from 'swr';
 import Head from 'next/head';
 import Iframe from 'react-iframe'
 import Layout from '../components/layout';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import data from '../../data/vortraege-online.json';
-import VideoWrapper from '../components/videoWrapper';
-import { Button, Flex, Text, Card, CardBody, CardHeader, Heading, Box, Divider } from '@chakra-ui/react';
+import { Flex, Text, Box, Accordion, AccordionItem, AccordionButton, AccordionPanel } from '@chakra-ui/react';
+
+import style from './slides-online.module.css';
 
 const uid = new ShortUniqueId();
 
 const options = {
   title: 'Slides (online)',
-  description: '',
+  description: 'Hier finden Sie Videos und Online-Präsentationen meiner Vorträge.',
   filter: 'angebote',
   slug: '/angebote/slides-online'
 }
 
-const video = {
-  url: '/medien/video-kaiser-keynote.mp4',
-  posterUrl: '',
-  title: '',
-  description: 'Keynote-Vortrag zum GMTH-Kongress 2024'
-}
+const isVideo = (url) => url.endsWith('.mp4');
+const videos = data.filter(item => isVideo(item.url));
+const slides = data.filter(item => !isVideo(item.url));
 
 export default function SlidesOnline() {
 
-  const [url, setUrl] = useState()
-  const [currentUrl, setCurrentUrl] = useState();
-
-  const onValueChangeClick = (event) => {
-    setUrl(event.target.value);
-  }
-
-  useEffect(() => {
-    setCurrentUrl(url);
-  }, [url])
+  const [activeItem, setActiveItem] = useState(data[0]);
 
   return (
     <>
@@ -47,64 +35,87 @@ export default function SlidesOnline() {
         <link rel="icon" href="/images/icon.png" />
       </Head>
 
-      <PageHeader options={ options } />     
+      <PageHeader options={options} />
 
-      <Heading id="bewerbungsvideo" as='h3' className="headingH4">
-        Musiktheorie in der Glaskugel<br/>
-        Kontexte einer Musiktheorie im digitalen Wandel
-      </Heading>
-      <Text>
-        Keynote-Vortrag auf dem 24. Jahreskongress der <i>Gesellschaft für Musiktheorie</i> an der <i>Brandenburgischen Technischen Universität Cottbus-Senftenberg</i>, Einführung in die Sektion II: »Post-pandemic era, Internationalisierung und Digitalisierung, Herausforderungen der Musiktheorie in aktueller Forschung und Lehre« am 4. Oktober 2024.
-      </Text>
-      <Text>
-        <b>Abstract:</b> Anhand eines Rückblicks auf ausgewählte digitale und bildungspolitische Ereignisse der letzten 40 Jahre werden Entwicklungen der letzten vier Jahre reflektiert. Welche Leistungen kann Musiktheorie in Lehre und Forschung angesichts der Krise im Lehramtsbereich, den Wandlungen des Musikmarktes sowie der erstaunlichen Ergebnisse von Deep-Learning-Projekten wie ChatGPT, Udio & Co. noch erbringen? Werden wir als Einzelpersonen und als Gesellschaft die ungewisse Zukunft mitgestalten können oder liefern wir lediglich das Wissen zum Füttern der Maschinen? Ein Keynote zur Sektion II (Post-pandemic era, Internationalisierung und Digitalisierung. Herausforderungen der Musiktheorie in aktueller Forschung und Lehre) mit Fragen und Visionen ...
-      </Text> 
+      <Flex className={style.twoCol} gap='24px'>
 
-      <Divider mt='60px' mb='60px' h='1px' bg='gray' />
+        {/* Left: grouped list */}
+        <Box className={style.list}>
 
-      <VideoWrapper video={video}></VideoWrapper>
+          <Text className={style.groupLabel}>Videos</Text>
+          {videos.map(item => (
+            <Box
+              key={uid.seq()}
+              onClick={() => setActiveItem(item)}
+              className={style.listItem}
+              bg={activeItem.url === item.url ? '#E0F0F4' : 'white'}
+              borderColor={activeItem.url === item.url ? '#6e91a1' : 'gray.200'}
+            >
+              <Text fontSize='sm'>{item.description}</Text>
+            </Box>
+          ))}
 
-      <Card mb='60px'>
-        <CardHeader>
-          <Heading className='headingH3'>
-            Aktuell verfügbare Online-Vorträge (Folien) zum Anschauen:  
-          </Heading>
-        </CardHeader>
+          <Text className={style.groupLabel} mt='4'>Slides</Text>
+          {slides.map(item => (
+            <Box
+              key={uid.seq()}
+              onClick={() => setActiveItem(item)}
+              className={style.listItem}
+              bg={activeItem.url === item.url ? '#E0F0F4' : 'white'}
+              borderColor={activeItem.url === item.url ? '#6e91a1' : 'gray.200'}
+            >
+              <Text fontSize='sm'>{item.description}</Text>
+            </Box>
+          ))}
 
-        <CardBody>          
-          { data && <Flex flexWrap='wrap' spacing='4'>
-              {
-                data.map(item => {
-                return (
-                  <Box key={uid.seq()} flex='1' m='10px' style={{'maxWidth': '180px'}}> 
-                    <Button 
-                      onClick={onValueChangeClick} 
-                      value={item.url}
-                      bg='white'
-                      pl='10px'
-                      >
-                      Vortrag anzeigen ...
-                    </Button>
-                    <Text pl='10px'>
-                      {item.description}
-                    </Text>
-                  </Box>)
-                })
-              }            
-            </Flex>
-          }
-        </CardBody>
-      </Card>
+        </Box>
 
-      { data && <Iframe url={currentUrl}
-          position="relative"
-          width="100%"
-          id="myId"
-          height="648x"
-          styles={{backgroudColor: 'white'}}
-        />
-      }
-    </>  
+        {/* Right: preview */}
+        <Box className={style.preview}>
+          {activeItem && (
+            isVideo(activeItem.url)
+              ? <video
+                  key={activeItem.url}
+                  src={activeItem.url}
+                  controls
+                  className={style.video}
+                />
+              : <div className={style.iframeWrapper}>
+                  <Iframe
+                    key={activeItem.url}
+                    url={activeItem.url}
+                    className={style.iframe}
+                  />
+                </div>
+          )}
+          <Text fontSize='sm' color='gray.500' mt='2'>{activeItem?.description}</Text>
+
+          {activeItem?.details && (
+            <Accordion allowToggle mt='3'>
+              <AccordionItem border='1px solid' borderColor='gray.200' borderRadius='4px'>
+                {({ isExpanded }) => (
+                  <>
+                    <AccordionButton px='4' py='2' _hover={{ bg: '#F2F7F9' }}>
+                      <Box flex='1' textAlign='left' fontSize='sm' color='#6e91a1' fontWeight='bold'>
+                        {isExpanded ? 'Informationen ausblenden' : 'Informationen zum Vortrag'}
+                      </Box>
+                      <Box fontSize='lg'>{isExpanded ? '−' : '+'}</Box>
+                    </AccordionButton>
+                    <AccordionPanel px='4' py='3' fontSize='sm'>
+                      <Text mb='3'>{activeItem.details}</Text>
+                      {activeItem.abstract && (
+                        <Text><b>Abstract:</b> {activeItem.abstract}</Text>
+                      )}
+                    </AccordionPanel>
+                  </>
+                )}
+              </AccordionItem>
+            </Accordion>
+          )}
+        </Box>
+
+      </Flex>
+    </>
   )
 }
 
