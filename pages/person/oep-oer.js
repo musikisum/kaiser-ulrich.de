@@ -43,7 +43,7 @@ export default function OepOer() {
       Open Educational Practices
     </Heading>
     <Text>
-      Mein Leben ist dem dem Lernen und Lehren gewidmet, seit etwas mehr als 10 Jahren habe ich meine berufliche Lehrtätigkeit auf Open Educational Practices (OEP) und Open Educational Resources (OER) ausgerichtet. Bis 2009 verliefen mein Lernen und Lehren im Hinblick auf meinen Beruf konventionell. Das heißt: Ich habe viele Bücher gekauft, gelesen und für Verlage auch geschrieben.<sup id="01"><a href="#fn-01">1</a></sup>
+      Mein Leben ist dem Lernen und Lehren gewidmet, seit etwas mehr als 10 Jahren habe ich meine berufliche Lehrtätigkeit auf Open Educational Practices (OEP) und Open Educational Resources (OER) ausgerichtet. Bis 2009 verliefen mein Lernen und Lehren im Hinblick auf meinen Beruf konventionell. Das heißt: Ich habe viele Bücher gekauft, gelesen und für Verlage auch geschrieben.<sup id="01"><a href="#fn-01">1</a></sup>
     </Text>
     <Text className='mt20'>
       2002 hat mich ein ehemaliger Schüler mit der Idee der Free/Libre-Software-Programmierung bekannt gemacht. Auf der Grundlage dieser Idee begann ich damit, auf selbst programmierten Webseiten für meine Studierenden Tutorials kostenlos zur Verfügung zu stellen.<sup id="02"><a href="#fn-02">2</a></sup> Das digitale Angebot setze ich in der Lehre für Blended-Learning- und Flipped-Classroom-Szenarien ein. Chancen und Probleme dieser Praxis habe ich wissenschaftlich reflektiert,<sup id="03"><a href="#fn-03">3</a></sup> von den Studierenden wurde das Angebot von Anfang an begeistert aufgenommen.<sup id="04"><a href="#fn-04">4</a></sup>
@@ -63,7 +63,7 @@ export default function OepOer() {
       <a href='#03'>3.</a> <a className='underline' href='https://storage.gmth.de/proceedings/articles/270/pdf/gmth-proceedings-artikel-270.pdf'>Ulrich Kaiser, »Blended Learning im Musiktheorieunterricht«, GMTH Proceedings 2019.</a>
       </li>
       <li id="fn-04">
-      <a href='#04'>4.</a> <a className='underline' href='https://musikanalyse.net/feedback/'>s. Feedbach auf musikanalyse.net</a>
+      <a href='#04'>4.</a> <a className='underline' href='https://musikanalyse.net/feedback/'>s. Feedback auf musikanalyse.net</a>
       </li>
     </ol>
 
@@ -73,7 +73,7 @@ export default function OepOer() {
       Open Education Resources
     </Heading>
     <Text>
-      2009 begann ich nach dem Vorbild des Rheinberg-Verlags<sup id="05"><a href="#fn-05">1</a></sup> damit, OpenBooks zur Musik und für den Unterricht an allgemeinbildenden Schulen kostenlos zur Verfügung zu stellen.<sup id="06"><a href="#fn-06">2</a></sup> Die Rückmeldungen aus der Praxis waren zahlreich und überaus motivierend,<sup id="07"><a href="#fn-07">3</a></sup> in wenigen Jahren wurden über 1.000.000 OpenBooks heruntergeladen. Meine Angebote waren bis zu diesem Zeitpunkt kostenlos (›free beer‹), jedoch nicht wirklich frei (›free speech‹) und zudem an meine Person gebunden (nicht nachhaltig). Deswegen beschloss ich, freie Lizenzen zu verwenden. 2014 stellte ich mein erstes OpenBook unter freier Lizenz (CC BY-SA) auf GitHub zur Verfügung.<sup id="08"><a href="#fn-08">4</a></sup> Seit dieser Zeit verwende ich ausschließlich Creative-Commons-Lizenzen (früher CC BY-SA, aktuell CC BY) und zum Erstellen der Materialien Free/Libre-Software (z.B. MuseScore, Scribus, Gimp, Inkscape, Shotcut).
+      2009 begann ich nach dem Vorbild des Rheinwerk-Verlags<sup id="05"><a href="#fn-05">1</a></sup> damit, OpenBooks zur Musik und für den Unterricht an allgemeinbildenden Schulen kostenlos zur Verfügung zu stellen.<sup id="06"><a href="#fn-06">2</a></sup> Die Rückmeldungen aus der Praxis waren zahlreich und überaus motivierend,<sup id="07"><a href="#fn-07">3</a></sup> in wenigen Jahren wurden über 1.000.000 OpenBooks heruntergeladen. Meine Angebote waren bis zu diesem Zeitpunkt kostenlos (›free beer‹), jedoch nicht wirklich frei (›free speech‹) und zudem an meine Person gebunden (nicht nachhaltig). Deswegen beschloss ich, freie Lizenzen zu verwenden. 2014 stellte ich mein erstes OpenBook unter freier Lizenz (CC BY-SA) auf GitHub zur Verfügung.<sup id="08"><a href="#fn-08">4</a></sup> Seit dieser Zeit verwende ich ausschließlich Creative-Commons-Lizenzen (früher CC BY-SA, aktuell CC BY) und zum Erstellen der Materialien Free/Libre-Software (z.B. MuseScore, Scribus, Gimp, Inkscape, Shotcut).
     </Text>
     <Text className='mt20'>
       Für viele meiner Kolleg:innen und Studierenden war die Hürde für eine Nachnutzung meiner Open Educational Resources trotz (oder gerade wegen) der Verwendung von Open-Source-Software recht hoch. Oft fehlten Medienkompetenzen, um OER adaptieren oder erweitern zu können. Mit Wikipedia als Vorbild und überzeugt von der Kraft und Leistungsfähigkeit von Communities, gelang mir 2017 der Aufbau eines Musik-Wikis (ELMU | eLearning music).<sup id="09"><a href="#fn-09">5</a></sup> Ermöglicht wurde ELMU durch die Unterstützung der Hochschulleitung der HMTM sowie Spenden. Darüber hinaus gründete ich mit Kolleg:innen einen gemeinnützigen Verein, um das Vorhaben abzusichern.<sup id="10"><a href="#fn-10">6</a></sup> 2021 arbeitete ich zur Skalierung der Plattform für die HMTM einen Antrag für die Stiftung Innovation in der Hochschullehre (StIL) aus.<sup id="11"><a href="#fn-11">7</a></sup> Das Projekt wird seither gefördert und aus ELMU wurde OMA (Open Music Academy).<sup id="12"><a href="#fn-12">8</a></sup> Ziel der OMA ist es, allen Musiklehrenden und -lernenden ein Tool an die Hand zu geben, das leicht und intuitiv zu bedienen und ganz auf die Anforderungen des Musiklehrens und -lernens zugeschnitten ist. Allen Interessierten wird so die Mitarbeit an OER zur Musik ermöglicht.
@@ -90,7 +90,7 @@ export default function OepOer() {
     <Divider mt='20px' mb='20px' w='50%' h='1px' bg='gray' />
     <ol style={{margin: '20px', listStyleType: 'none'}}>
       <li id="fn-05">
-        <a href='#05'>1.</a> <a className='underline' href='https://www.rheinwerk-verlag.de/openbook/'>OpenBooks des Rheinberg-Verlags</a>
+        <a href='#05'>1.</a> <a className='underline' href='https://www.rheinwerk-verlag.de/openbook/'>OpenBooks des Rheinwerk-Verlags</a>
       </li>
       <li id="fn-06">
       <a href='#06'>2.</a> <a className='underline' href='https://oer-musik.de'>oer-musik.de</a>

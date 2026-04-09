@@ -3,7 +3,8 @@ import Layout from '../components/layout';
 import ModalImage from "react-modal-image";
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
-import { Heading, Text, Box, List, ListItem, Flex, HStack, Container, Divider, Spacer } from '@chakra-ui/react';
+import Link from 'next/link';
+import { Heading, Text, Box, List, ListItem, Flex, Container, Divider } from '@chakra-ui/react';
 
 import style from './index.module.css'; 
 
@@ -42,7 +43,8 @@ export default function WebDoc() {
         Kommerzielles Angebot
       </Heading>
       <Text>
-        Hier finden Sie eine kleine Übersicht über die für mich oder über externe Aufträge (kommerziell) erstellten Webseiten. Das Programmieren kleinerer Webseiten und Layout-Arbeiten empfinde ich als Hobby, das mir viel Freude bereitet. Falls Sie also Wünsche in dieser Richtung haben, ich es zeitlich einrichten kann und es meine Kompetenzen nicht übersteigt, schreiben Sie mir einfach eine Mail ...
+        Von 2003 bis 2020 habe ich neben meiner akademischen Arbeit regelmäßig Webseiten realisiert. Die Programmierung hat mich interessiert, weil sie klarer und logischer ist als viele Arbeiten im geisteswissenschaftlichen Bereich. Und da man beim Selber-Machen am meisten lernt, habe ich gerne eigene Projekte realisiert und externe Aufträge angenommen, bei denen mir das Lernen als Gegengewicht zur Wissenschaft stets viel Freude bereitet hat.<br />
+        Ab 2021 ließ mir dann das Projekt <Link href='/projekte/openmusicacademy' className='underline'>Open Music Academy</Link> schlicht keinen Raum mehr dafür (und wer sich die OMA einmal anschaut, wird verstehen, warum :). Seit 2026 habe ich angefangen, mit claude.ai als VS-Code-Plugin zu arbeiten und seither steht für mich fest: Claude ist nett zu mir, viel besser als ich es je sein könnte und immer geduldig, wenn ich als Hobbyprogrammierer mal wieder etwas vergessen habe. Diese Seite dokumentiert, was mir in den Jahren 2003–2020 möglich war. Wenn Sie sich mehr für meine Arbeiten in diesem Bereich interessieren, schauen Sie sich auf meinem <a className="underline" href='https://github.com/musikisum'>GitHub-Account</a> um.
       </Text>
       <Divider mt='60px' mb='60px' h='1px' bg='gray' />
 
@@ -57,15 +59,15 @@ export default function WebDoc() {
           <Flex mb='16px' className={style.websiteDirection}>
             <Box as='b' flex='0.4' color='#6e91a1' mb='20px'>
               <Container>
-                <a href='https://kaiser-ulrich.de'><img src={urlSnippet + 'ResponsiveDesign-uk-Seite001.png'} alt="kaiser-ulrich.de" /></a>
+                <Link href='/'><img src={urlSnippet + 'ResponsiveDesign-uk-Seite001.png'} alt="kaiser-ulrich.de" /></Link>
                 <Container style={{ 'textAlign': 'center' }}>
-                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />                 
-                  <a href='https://kaiser-ulrich.de'>kaiser-ulrich.de</a>
+                  <Divider mt='20px' mb='20px' h='1px' bg='#E0F0F4' />
+                  <Link href='/'>kaiser-ulrich.de</Link>
                 </Container>                    
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Meine Hompage, die Sie (anscheinen im Moment :) besuchen, ist die älteste der von mir erstellte Webseite (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellten Web-App, über die ich viele Jahre lang meine Studierenden betreut habe (mit einem internen Lernmanagmenet-System). Durch das Auslagern der Studierendenbetreuung auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> war endlich ein Relaunch der Homepage möglich. Dafür habe ich Next.js und Chakra UI verwendet. Die Navigation und Content-Seiten (z.B. Publikationen, Vorträge usw.) werden automatisch über JSON-Files erstellt.  
+              Meine Homepage, die Sie (anscheinend im Moment :) besuchen, ist die älteste der von mir erstellten Webseiten (online seit 2003). Zuerst war es nur eine einfache HTML-Seite, seit 2008 dann eine mit C# erstellte Web-App, über die ich viele Jahre lang meine Studierenden betreut habe (mit einem internen Lernmanagement-System). Durch das Auslagern der Studierendenbetreuung auf die <a href='https://openmusic.academy' className='underline'>Open Music Academy (OMA)</a> war endlich ein Relaunch der Homepage möglich. Dafür habe ich Next.js und Chakra UI verwendet. Die Navigation und Content-Seiten (z.B. Publikationen, Vorträge usw.) werden automatisch über JSON-Files erstellt.
             </Box>
           </Flex>                  
         </ListItem>
@@ -115,7 +117,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              Die erste Website, für die ich einen externen Programmierauftrag bekam, ist 2015 für die Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke entstanden. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch), ausgesprochen leichtgewichtig und sehr schnell.  
+              Die erste Website, für die ich einen externen Programmierauftrag bekam, ist 2015 für die Wirtschaftsprüfer Ulrich Glück, Holger Kock und Martin Mäschke entstanden. Die Seite verwendet ein sehr schlankes CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>), ist statisch, mehrsprachig (Deutsch, Englisch, Chinesisch), ausgesprochen leichtgewichtig und sehr schnell.
             </Box>
           </Flex>                  
         </ListItem>
@@ -131,7 +133,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-              2017 erhielt ich einen Auftrag für eine einfache statische Seite von der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch für diese Seite wurde dass CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>) verwendet und auch diese Seite ist mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und sehr schnell.  
+              2017 erhielt ich einen Auftrag für eine einfache statische Seite von der Steuerkanzlei TP Meder, die auf Beratung für Verrechnungspreise Transfer Pricing spezialisiert ist. Auch für diese Seite wurde das CSS-Framework (<a href='http://getskeleton.com/' className='underline'>Skeleton</a>) verwendet und auch diese Seite ist mehrsprachig (Deutsch, Englisch, Chinesisch), leichtgewichtig und sehr schnell.
             </Box>
           </Flex>                  
         </ListItem>        
@@ -147,7 +149,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-               2019 erhielt ich dann vom Mangement des Komponisten Ralph Symann den Auftrag für eine Website, ein Logo sowie weiteren Layoutmaterialen im Rahmen einer einheitlichen Corporate Identity. Für diese Seite habe ich den Task-Runner Gulp, den Static-Site-Generator Metalsmith und darüber hinaus kein CSS-Framework verwendet, um wieder eine leichtgewichtige und sehr schnelle statische Website anbieten zu können.   
+               2019 erhielt ich dann vom Management des Komponisten Ralph Symann den Auftrag für eine Website, ein Logo sowie weitere Layoutmaterialien im Rahmen einer einheitlichen Corporate Identity. Für diese Seite habe ich den Task-Runner Gulp, den Static-Site-Generator Metalsmith und darüber hinaus kein CSS-Framework verwendet, um wieder eine leichtgewichtige und sehr schnelle statische Website anbieten zu können.   
             </Box>
           </Flex>                  
         </ListItem>          
@@ -163,7 +165,7 @@ export default function WebDoc() {
               </Container>
             </Box>
             <Box flex='0.6' ml='10px'>
-               2021 beauftragte mich dann die <i>Internistische Hausarztpraxis Rahmerdorf</i> mit der Programmierung ihres Webauftritts. Auch für diese Seite habe ich Task-Runner Gulp sowie den Static-Site-Generator Metalsmith verwendet.
+               2021 beauftragte mich dann die <i>Internistische Hausarztpraxis Ramersdorf</i> mit der Programmierung ihres Webauftritts. Auch für diese Seite habe ich Task-Runner Gulp sowie den Static-Site-Generator Metalsmith verwendet.
             </Box>
           </Flex>                  
         </ListItem>
