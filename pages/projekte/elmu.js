@@ -183,16 +183,16 @@ export default function Elmu() {
 
     <UnorderedList ml='40px'>
       <ListItem>
-        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-antrag-castringius.pdf' className='underline'>Antrag an die Castringius Kinder & Jugend Stiftung München</Link>
+        <Link href='https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser-antrag-castringius.pdf' className='underline'>Antrag an die Castringius Kinder & Jugend Stiftung München</Link>
       </ListItem>
       <ListItem>
-        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-elmu-projektbeschreibung.pdf' className='underline'>Projektbeschreibung (kurz)</Link>
+        <Link href='https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser-elmu-projektbeschreibung.pdf' className='underline'>Projektbeschreibung (kurz)</Link>
       </ListItem>
       <ListItem>
-        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-elmu-vortrag-gmth.pdf' className='underline'>Vortrag zum Projekt auf dem GMTH-Kongress in Bremen 2018</Link>
+        <Link href='https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser-elmu-vortrag-gmth.pdf' className='underline'>Vortrag zum Projekt auf dem GMTH-Kongress in Bremen 2018</Link>
       </ListItem>
       <ListItem>
-        <Link href='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/files/kaiser-elmu.pdf' className='underline'>elmu – Eine Plattform für digitale musikalische Bildung</Link>
+        <Link href='https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser-elmu.pdf' className='underline'>elmu – Eine Plattform für digitale musikalische Bildung</Link>
       </ListItem>
     </UnorderedList>
   </>
