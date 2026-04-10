@@ -21,6 +21,7 @@
 # data
 /public/scores/
 /public/medien/*.mp4
+!/public/medien/elmu-video.mp4
 /public/medien/*.jpg
 /public/medien/*.png
 /public/vortraege/
