@@ -11,7 +11,7 @@ const options = {
 }
 
 const video = {
-  url: 'https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/video-kaiser-oer-aktivist-fullhd.mp4',
+  url: 'https://www.youtube-nocookie.com/embed/ZX9hlyF73w8',
   posterUrl: '',
   title: '',
   description: 'Video zu meinen OER-Publikationstätigkeiten / 2024'
