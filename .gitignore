@@ -23,6 +23,8 @@
 /public/medien/*.mp4
 !/public/medien/elmu-video.mp4
 /public/medien/*.jpg
+!/public/medien/oma-poster.jpg
+!/public/medien/elmu-poster.jpg
 /public/medien/*.png
 /public/vortraege/
 /public/vorlesungen-2019-shanghai/
