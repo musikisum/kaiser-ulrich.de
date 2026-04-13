@@ -18,6 +18,9 @@
 # production
 /build
 
+# assets (working files, not needed for website)
+/assets/
+
 # data
 /public/scores/
 /public/medien/*.mp4
