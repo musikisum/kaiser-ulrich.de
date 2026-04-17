@@ -45,32 +45,22 @@
 		"abstract": "Inhalt: Durchführungen, Mozarts Lernen an Menuetten (Monte und Fonte), das Monte-Modell (Joseph Riepel) als Halbschluss, das Fonte-Modell (VI-ii-V-I + Hs) und das erweitere fonte-Modell (III-vi-II-V) in der Formfunktion Durchführung, die ›Ars combinatoria‹ und ein Modell in den Klaviersonaten Mozarts (V + VI-ii-III-vi + Quintfall + Hs) in der Formfunktion Durchführung und Lernen am Modell: J. Chr. Bach und J. S. Bach"
 	},
 	{
-		"url": "https://kaiser-ulrich.de/vortraege/2024-oercamp/index.html",
+		"url": "/vortraege/2024-oercamp/index.html",
 		"group": "Slides",
 		"description": "2024 Die Open Music Academy – Genese, Möglichkeiten und Probleme für OER im Bereich der Musik"
 	},
 	{
-		"url": "https://kaiser-ulrich.de/vortraege/2023-lk5-rlp-film/index.html",
-		"group": "Slides",
-		"description": "2023 Landesmusikakademie Rheinland-Pfalz"
-	},
-	{
-		"url": "https://kaiser-ulrich.de/vortraege/2023-gmth-panel/index.html",
-		"group": "Slides",
-		"description": "2023 Panel-Vortrag GMTH-Kongress"
-	},
-	{
-		"url": "https://kaiser-ulrich.de/vortraege/2023-gmth/index.html",
+		"url": "/vortraege/2023-gmth/index.html",
 		"group": "Slides",
 		"description": "2023 GMTH-Kongress"
 	},
 	{
-		"url": "https://kaiser-ulrich.de/vortraege/2023-epta/index.html",
+		"url": "/vortraege/2023-epta/index.html",
 		"group": "Slides",
 		"description": "2023 European Piano Teachers Association"
 	},
 	{
-		"url": "https://kaiser-ulrich.de/vortraege/2023-deutsche-unesco/index.html",
+		"url": "/vortraege/2023-deutsche-unesco/index.html",
 		"group": "Slides",
 		"description": "2023 Deutsche UNESCO-Kommission"
 	}

@@ -5,7 +5,7 @@ import { useState } from 'react';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
 import data from '../../data/vortraege-online.json';
-import { Flex, Text, Box, Accordion, AccordionItem, AccordionButton, AccordionPanel } from '@chakra-ui/react';
+import { Flex, Text, Box, Accordion, AccordionItem, AccordionButton, AccordionPanel, Link } from '@chakra-ui/react';
 
 import style from './slides-online.module.css';
 
@@ -104,7 +104,7 @@ export default function SlidesOnline() {
           )}
           <Text fontSize='sm' color='gray.500' mt='2'>{activeItem?.description}</Text>
 
-          {activeItem?.details && (
+{activeItem?.details && (
             <Accordion allowToggle mt='3'>
               <AccordionItem border='1px solid' borderColor='gray.200' borderRadius='4px'>
                 {({ isExpanded }) => (

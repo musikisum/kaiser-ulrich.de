@@ -25,11 +25,22 @@
 /public/scores/
 /public/medien/*.mp4
 !/public/medien/elmu-video.mp4
+/public/medien/spotlight_kaiser_web2.mp4
 /public/medien/*.jpg
 !/public/medien/oma-poster.jpg
 !/public/medien/elmu-poster.jpg
 /public/medien/*.png
-/public/vortraege/
+/public/vortraege/2021-trossingen/
+/public/vortraege/2023-lk5-rlp-film/
+/public/vortraege/2023-lk5-rlp-oma/
+/public/vortraege/2023-gmth-panel/
+/public/vortraege/2023-schmaus-oma/
+/public/vortraege/2020-fau/
+/public/vortraege/einfuehrung-oma-kurz/
+/public/vortraege/2023-oma-vernetzung/
+/public/vortraege/2024-fachleitungen-musik/
+/public/vortraege/2024-dtkv-nrw/
+/public/vortraege/2023-fachleitungen-musik/
 /public/vorlesungen-2019-shanghai/
 
 # misc
