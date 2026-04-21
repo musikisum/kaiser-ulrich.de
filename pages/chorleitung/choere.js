@@ -180,7 +180,7 @@ export default function Choere() {
         <div className={style.chorItem}>
           <div className={style.chorText}>
             <Divider mt='16px' h='0' bg='white' color='white' />
-            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a> verbindet mich nur ein sehr kurzes Intermezzo (quasi als Gastdirigent). Da mein Sohn in diesem tollen Hort war, hatte ich für dieses Ensemble der Kleinsten ein <a href='https://oer-musik.de/oer-das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, einprägsam und wunderschön! 
+            Mit dem Kinderchor vom <a href='https://www.erzbistum-muenchen.de/pfarrei/pv-dachau-hl-kreuz-st-peter/KiTa-Verbund-Hl-Kreuz/Einrichtungen/kinderhaus-st-josef-karlsfeld' className='underline'>Kinderhaus Sankt Josef</a> verbindet mich nur ein sehr kurzes Intermezzo (quasi als Gastdirigent). Da mein Sohn in diesem tollen Hort war, hatte ich für dieses Ensemble der Kleinsten ein <a href='https://openmusic.academy/docs/iaSQFz196ND5CadjYekn7k/das-kinderhauslied' className='underline'>Kinderhauslied</a> komponiert. Die Zusammenarbeit mit den Kindern war kurz, einprägsam und wunderschön! 
           </div>
         </div>
       </div>
@@ -237,7 +237,7 @@ export default function Choere() {
 
       <div className={style.chorContainer}>
         <div className={style.chorItem}>
-          <Image src='/images/chor-des-jeb.jpg' width='100%' />
+          <Image src='/images/chor-des-jeb.jpg' width='100%' alt="Junges Ensemble Berlin (JEB)" />
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>
@@ -256,7 +256,7 @@ export default function Choere() {
 
       <div className={style.chorContainer}>
         <div className={style.chorItem}>
-          <Image src='/images/chor-wedding.jpg' width='100%' />
+          <Image src='/images/chor-wedding.jpg' width='100%' alt="Senioren Chöre Berlin" />
         </div>
         <div className={style.chorItem}>
           <div className={style.chorText}>

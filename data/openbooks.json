@@ -19,7 +19,7 @@
     "subtitle": "Eine praktische Anleitung für Musikerinnen und Musiker",
     "details": "(= OpenBook 12)",
     "image": "/images/openbooks/kaiser_openbookHarmonielehre.jpg",
-    "link": "https://oer-musik.de/oer-harmonielehre-reloaded-eine-praktische-anleitung-fuer-musikerinnen-und-musiker/",
+    "link": "https://github.com/musikisum/OpenBook-Harmonielehre-reloaded",
     "location": "Karlsfeld",
     "year": "2016"
   },{
@@ -27,7 +27,7 @@
     "subtitle": "Transponierende Instrumente",
     "details": "(= OpenBook 16)",
     "image": "/images/openbooks/kaiser_openbookTransponierende-instrumente2.jpg",
-    "link": "https://oer-musik.de/oer-orchesterinstrumente-transponierende-instrumente/",
+    "link": "https://github.com/musikisum/OpenBook-TransponierendeInstrumente",
     "location": "Karlsfeld",
     "year": "2016"
   },{
@@ -35,7 +35,7 @@
     "subtitle": "Übungen in Dur. Materialien für Band-Klassen des Klasse-im-Puls-Projekts",
     "details": "(= OpenBook 9)",
     "image": "/images/openbooks/kaiser_openBookBandImpulse-4.jpg",
-    "link": "https://oer-musik.de/oer-band-impulse-heft-4-gehoerbildung-und-musiklehre/",
+    "link": "https://openmusic.academy/docs/frJBW2WRny1AZnPvoatiYd/kollektion-einstieg-in-das-musikdiktat",
     "location": "Karlsfeld",
     "year": "2016"
   },{
@@ -59,7 +59,7 @@
     "subtitle": "",
     "details": "(= OpenBook 7), Arbeitsheft, inkl. Materialien, Software und Videos, 2. korr. Aufl. 2016",
     "image": "/images/openbooks/kaiser_openBookFreieSoftware.png",
-    "link": "https://oer-musik.de/oer-kostenlose-software-fuer-den-musikunterricht/",
+    "link": "https://github.com/musikisum/OpenBook-KostenloseSoftware",
     "location": "Karlsfeld",
     "year": "2014"
   },{
@@ -83,7 +83,7 @@
     "subtitle": "Grundlagen für den Musiktheorieunterricht",
     "details": "(= OpenBook 3)",
     "image": "/images/openbooks/kaiser_openbookIntervalleUndAkkorde.png",
-    "link": "https://oer-musik.de/oer-intervalle-und-akkorde/",
+    "link": "https://openmusic.academy/docs/6Epv48esetxkjfgXmcdZx4/kollektion-intervalle",
     "location": "Karlsfeld",
     "year": "2011"
   },{
@@ -99,7 +99,7 @@
     "subtitle": "Materialien für den Unterricht an allgemeinbildenden Schulen",
     "details": "(= OpenBook 1), Unterrichtsheft, Kommentarheft, Materialien und Medien (inkl. Software Wavepen von Andreas Helmberger)",
     "image": "/images/openbooks/kaiser_openbookSonate.png",
-    "link": "https://oer-musik.de/oer-sonate-und-sinfonie-ein-altes-thema-auf-neuen-wegen/",
+    "link": "https://openmusic.academy/docs/6LgrpdXuPYrGmhGCZU4EFK/sonate-sinfonie-und-die-sonatenhauptsatzform",
     "location": "Karlsfeld",
     "year": "2009"
   }
