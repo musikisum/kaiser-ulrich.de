@@ -29,7 +29,7 @@ export default function Artikel() {
       
       <PageHeader options={ options } />
 
-      { data && <Text mb='10' ml='4'>Hier finden Sie Publikationen, die seit 1992 in Zeitschriften und Broschüren veröffentlicht worden sind. Aktuell werden hier {data.length} Artikel bereitgestellt. Für Gelegenheiten (Interviews, Newsletter-Beiträge usw.) schauen Sie bitte auch bei den <Link href='/publikationen/gelegenheiten/' className='underline'>Gelegenheiten</Link> vorbei.</Text> }
+      { data && <Text mb='10' ml='4'>Hier finden Sie Publikationen, die seit 1992 in Zeitschriften und Broschüren veröffentlicht worden sind. Aktuell werden hier {data.length} Artikel bereitgestellt. Für Interviews schauen Sie bitte auch bei den <Link href='/publikationen/gelegenheiten/' className='underline'>Interviews</Link> vorbei.</Text> }
 
       <Divider mt='60px' mb='40px' h='1px' bg='gray' />
 

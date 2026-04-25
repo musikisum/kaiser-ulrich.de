@@ -6,28 +6,40 @@
     "issue": "Bd. 23 (2026)",
     "details": "S. 129–140",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_mozart-und-puccini.pdf"
-  }, {
+  },
+  {
+    "title": "Achtung OMA, Stufe! Vergangenheit, Gegenwart und Zukunft der Open Music Academy",
+    "parent": "Musikunterricht aktuell",
+    "additional": null,
+    "issue": "23/2026",
+    "details": "S. 28–29",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_achtung-oma-stufe.pdf"
+  },
+  {
     "title": "Die Open Music Academy. Ein Wiki und Lernmanagement-System für den Musikunterricht",
     "parent": "Zeitschrift der Gesellschaft für Musiktheorie",
     "additional": "(= ZGMTH)",
     "issue": "22/2 (2025)",
     "details": "",
     "link": "https://www.gmth.de/zeitschrift/artikel/1235.aspx"
-  }, {
+  },
+  {
     "title": "Helene Fischer, W. A. Mozart und die Subdominante im 5. Takt. Oder: Musikalische Analyse als Spiegel für Vorurteile in der Musikwissenschaft",
     "parent": "Tonsysteme und Stimmungen. 21. Jahreskongress der Gesellschaft für Musiktheorie Basel 2021",
     "additional": "",
     "issue": "(= GMTH Proceedings 2021)",
     "details": "S. 255‒294",
     "link": "https://www.gmth.de/proceedings/artikel/334.aspx"
-  }, {
+  },
+  {
     "title": "Der Seitensatz. Zur Karriere eines dogmatischen Begriffs",
     "parent": "Mozart Studien.",
     "additional": "Aktuelle Fragen der Mozart-Forschung. Bericht über den Prager Mozart-Kongress 2020, vorgelegt von Manfred Hermann Schmid und Milada Jonášová, Wien 2024",
     "issue": "Bd. 29 (2024)",
     "details": "S. 89–102",
     "link": ""
-  }, {
+  },
+  {
     "title": "Filmmusik produktorientiert unterrichten",
     "parent": "Kieler Beiträge zur Filmmusikforschung",
     "additional": "",
@@ -44,7 +56,7 @@
     "link": "https://storage.gmth.de/zgmth/pdf/1202"
   },
   {
-    "title": "Models for Mozart’s Transitions: A Transatlantic Exchange (A reply on a short essay by Nathan John Martin)",
+    "title": "Models for Mozart's Transitions: A Transatlantic Exchange (A reply on a short essay by Nathan John Martin)",
     "parent": "Music Theory Spectrum",
     "additional": "",
     "issue": "(mtad012 - no open access)",
@@ -60,6 +72,46 @@
     "link": "https://storage.gmth.de/proceedings/articles/270/pdf/gmth-proceedings-artikel-270.pdf"
   },
   {
+    "title": "Fragen an die Musik stellen und Antworten suchen. Joachim Junker im Gespräch mit dem Musiktheoretiker Ulrich Kaiser",
+    "parent": "Musikunterricht aktuell",
+    "additional": null,
+    "issue": "18/2023",
+    "details": "S. 40–42",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_bmu-newsletter-2023-oma.pdf"
+  },
+  {
+    "title": "E-Learning Music? OMA hilft!",
+    "parent": "Newsletter des BMU-LV Rheinland-Pfalz",
+    "additional": null,
+    "issue": "Sonderausgabe zum Bundeskongress Musikunterricht 2022",
+    "details": "S. 40–48",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_bmu-heft-2022-oma.pdf"
+  },
+  {
+    "title": "Wahnsinn!",
+    "parent": "Kombinatorik und Spiel. Wege musikalischen Denkens. Festschrift für Stefan Prey, hg. von Thomas Fesefeldt, Andreas Ickstadt, Ariane Jeßulat, Kilian Sprau, Katja Steinhäuser, Berthold Tuercke, Lilia Ushakova, Emmanouil Vlitakis, unter Mitarbeit von Ferdinand Kiesner und Gabriel Pech",
+    "additional": null,
+    "issue": null,
+    "details": "Berlin 2022",
+    "link": "https://opus4.kobv.de/opus4-udk/frontdoor/deliver/index/docId/1824/file/Kaiser_Ulrich_Wahnsinn.pdf"
+  },
+  {
+    "title": "OER und Musik",
+    "parent": "Forum Neue Medien in der Lehre Austria",
+    "additional": "(= fnma) Magazin",
+    "issue": "2/2022",
+    "details": "",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_fnma-magazin_2022-2_oer-und-musik.pdf"
+  },
+  {
+    "title": "Auf dem Weg in eine digitale Hochschulgemeinschaft",
+    "parent": "Auftakt",
+    "additional": null,
+    "issue": "28/2021",
+    "details": "",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_2021-auftakt.pdf"
+  },
+  {
     "title": "Von der Sequenz zur Kadenz. Zur Entstehungsgeschichte der Interpunktion von Sonatenmusik",
     "parent": "Gegliederte Zeit. 15. Jahreskongress der Gesellschaft für Musiktheorie Berlin 2015, hrsg. von Marcus Aydintan, Florian Edler, Roger Graybill und Laura Krämer",
     "additional": null,
@@ -68,12 +120,52 @@
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/proceedings_kaiser_2020-10-06.pdf"
   },
   {
+    "title": "ELMU. E-Learning Music",
+    "parent": "BMU Bundesverband Musikunterricht e.V. LV Rheinland-Pfalz",
+    "additional": null,
+    "issue": "11/2020",
+    "details": "S. 38–39",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser_bmu-heft-2020-elmu.pdf"
+  },
+  {
+    "title": "Elmu. Eine Plattform für digitale musikalische Bildung",
+    "parent": "Auftakt. Zeitschrift der Hochschule für Musik und Theater München",
+    "additional": null,
+    "issue": "Ausg. 21 (3/2019)",
+    "details": "S. 10−11",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser-elmu.pdf"
+  },
+  {
+    "title": "Digitale Innovation in der Lehre",
+    "parent": "Online-Publikation",
+    "additional": null,
+    "issue": "(2019)",
+    "details": "",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/Kaiser_Digitale-Innovation-in-der-Lehre.pdf"
+  },
+  {
     "title": "Formfunktionen der Sonatenform. Ein Beitrag zur Sonatentheorie auf der Grundlage einer Kritik an William E. Caplins Verständnis von Formfunktionen",
     "parent": "Zeitschrift der Gesellschaft für Musiktheorie",
     "additional": "(= ZGMTH)",
     "issue": "15/1 (2018)",
     "details": "S. 29–79",
     "link": "https://storage.gmth.de/zgmth/pdf/956"
+  },
+  {
+    "title": "Von einem, der auszog, das Fürchten zu lernen",
+    "parent": "Wikimedia Deutschland",
+    "additional": null,
+    "issue": "(2018)",
+    "details": "Blockbeitrag zur Einführung sogenannter Upload-Filter im Rahmen der EU-Urheberrechtsreform",
+    "link": "/publikationen/online/wikimedia"
+  },
+  {
+    "title": "Freiheit der Lehre und das Urheberrecht",
+    "parent": "Online-Publikation",
+    "additional": null,
+    "issue": null,
+    "details": "",
+    "link": "/publikationen/online/freiheitlehreurheberrecht"
   },
   {
     "title": "Vom Satzmodell zum Modell",
@@ -194,6 +286,14 @@
     "issue": null,
     "details": "München 2008, S. 12–19",
     "link": ""
+  },
+  {
+    "title": "Manche halten Musiktheorie für reine Zeitverschwendung",
+    "parent": "Impressionen. Mitteilungen des Freundeskreises der Anne-Sophie Mutter Stiftung e.V.",
+    "additional": null,
+    "issue": "12/2008",
+    "details": "",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/kaiser-mutter-2008.pdf"
   },
   {
     "title": "Einführung",

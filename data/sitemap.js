@@ -34,7 +34,7 @@ export const sitemapDictionary = {
   "/publikationen/openbooks": "OpenBooks",
   "/publikationen/musik": "Musik",
   "/publikationen/tutorials": "Tutorials",
-  "/publikationen/gelegenheiten": "Gelegenheiten",
+  "/publikationen/gelegenheiten": "Interviews",
   "/unterricht": "Unterricht",
   "/unterricht/hmtm": "Auszeichnungen",
   "/unterricht/evaluation": "Evaluationen",
