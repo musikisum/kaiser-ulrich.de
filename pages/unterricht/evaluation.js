@@ -14,7 +14,7 @@ const options = {
 }
 
 export default function Evaluation() {
-  
+
   const uid = new ShortUniqueId();
 
   return (
@@ -24,9 +24,9 @@ export default function Evaluation() {
         <meta name="description" content="Evaluation | Ulrich Kaiser" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <PageHeader options={ options } />
+      <PageHeader options={options} />
       <Heading as='h3' className='headingH3' mb='40px'>
-        Evaluationsergebnisse meiner Lehre an der HMTM
+        Evaluationsergebnisse zu meiner Lehre an der HMTM sowie zu Fortbildungsveranstaltungen.
       </Heading>
       {
         data && data.map(evaluation => {
@@ -40,7 +40,7 @@ export default function Evaluation() {
                 })
               }
             </ul>
-            { evaluation.annotation && <Text>{evaluation.annotation}</Text> }
+            {evaluation.annotation && <Text>{evaluation.annotation}</Text>}
             <Link className='importantLink' href={evaluation.link}>Evaluationsergebnisse</Link>
             <Divider mt='20px' mb='20px' h='1px' bg='gray' w='50%' />
           </Box>
