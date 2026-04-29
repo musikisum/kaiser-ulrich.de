@@ -1,13 +1,21 @@
 [
   {
-  "semester": "Wintersemester 2024/2025",
-  "courses": [
-    "Hs Wissenschaftliches Arbeiten",
-    "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
-    "IM 1 – Projekt 1"
-  ],
-  "annotation": "In meinem über die genannten Veranstaltungen hinausgehenden Deputat werde ich seit dem WS 2021 für die Dauer des Projekts Open Music Academy vertreten (Vertretung: Stefan Fuchs).",
-  "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/kaiser_dozentenprofil_24-25.pdf"
+    "semester": "Fortbildung 2026 am Pädagogischen Institut (PI) München",
+    "courses": [
+      "Workshop zur openmusic.academy - Materialien für den Unterricht"
+    ],
+    "annotation": "",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/2026-03-24-evaluation-pi.pdf"
+  },
+  {
+    "semester": "Wintersemester 2024/2025",
+    "courses": [
+      "Hs Wissenschaftliches Arbeiten",
+      "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
+      "IM 1 – Projekt 1"
+    ],
+    "annotation": "In meinem über die genannten Veranstaltungen hinausgehenden Deputat werde ich seit dem WS 2021 für die Dauer des Projekts Open Music Academy vertreten (Vertretung: Stefan Fuchs).",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/kaiser_dozentenprofil_24-25.pdf"
   },
   {
     "semester": "Wintersemester 2021/2022",
@@ -23,14 +31,14 @@
   {
     "semester": "Wintersemester 2020/2021",
     "courses": [
-      "Hs Musik zwischen 1500 und 1650", 
-      "Hs Wissenschaftliches Arbeiten", 
-      "Hs Fuge, Sonate, Kunstlied", 
-      "Pop - Musiktheorie für die Schule?", 
-      "S Arrangieren", 
-      "Ps Kadenz und Kadenzharmonik", 
-      "Ps Popmusik-Arrangement (GMR)", 
-      "Ps Was versteht man unter Kontrapunkt?", 
+      "Hs Musik zwischen 1500 und 1650",
+      "Hs Wissenschaftliches Arbeiten",
+      "Hs Fuge, Sonate, Kunstlied",
+      "Pop - Musiktheorie für die Schule?",
+      "S Arrangieren",
+      "Ps Kadenz und Kadenzharmonik",
+      "Ps Popmusik-Arrangement (GMR)",
+      "Ps Was versteht man unter Kontrapunkt?",
       "Ps Form und Formenlehre",
       "Multimedia (Betreuung einer Mappe)"
     ],
@@ -40,16 +48,16 @@
   {
     "semester": "Wintersemester 2019/2020",
     "courses": [
-      "Hs Passacaglia und Musik des Generalbasszeitalters", 
-      "Hs Wissenschaftliches Arbeiten", 
-      "Hs Musik zwischen 1500 und 1650", 
-      "S Projekt (IM I)", 
-      "Ps Grundlagen der Musiktheorie", 
-      "Ps Formenlehre", 
+      "Hs Passacaglia und Musik des Generalbasszeitalters",
+      "Hs Wissenschaftliches Arbeiten",
+      "Hs Musik zwischen 1500 und 1650",
+      "S Projekt (IM I)",
+      "Ps Grundlagen der Musiktheorie",
+      "Ps Formenlehre",
       "Ps Harmonielehre lernen",
       "Multimedia (Betreuung einer Mappe)"
     ],
-    "annotation": "",    
+    "annotation": "",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/kaiser_dozentenprofil_19-20.pdf"
   },
   {
@@ -57,15 +65,15 @@
     "courses": [
       "Lehrplan konkret: Sinfonie und Sonate - Modelle und Didaktik"
     ],
-    "annotation": "",    
+    "annotation": "",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/2020-11-24-evaluation-lfb.pdf"
   },
   {
-    "semester": "Fortbildung 2015 am Pädagoischen Institut (PI) München",
+    "semester": "Fortbildung 2015 am Pädagogischen Institut (PI) München",
     "courses": [
       "Kostenlose Software und Materialien - Musikunterricht"
     ],
-    "annotation": "",    
+    "annotation": "",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/2015-02-25-evaluation-pi.pdf"
   },
   {
@@ -73,7 +81,7 @@
     "courses": [
       "Freeware-Programme für den Schulalltag"
     ],
-    "annotation": "",    
+    "annotation": "",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/2013-06-14-evaluation-freeware.pdf"
   },
   {
@@ -81,7 +89,7 @@
     "courses": [
       "Freeware-Programme für den Schulalltag"
     ],
-    "annotation": "",    
+    "annotation": "",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/2012-11-23-evaluation-freeware.pdf"
   },
   {
@@ -89,7 +97,7 @@
     "courses": [
       "Neue Wege der Gehörbildung"
     ],
-    "annotation": "(Feedback per Mail)",    
+    "annotation": "(Feedback per Mail)",
     "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/2008-10-22-feetback-tirol.pdf"
   }
 ]
