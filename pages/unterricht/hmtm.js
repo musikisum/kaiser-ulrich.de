@@ -46,7 +46,7 @@ export default function Hmtm() {
     </Heading>
     <Flex mb='0'>      
       <Box w='48%' mb='5' direction={'row'}>
-        <a href='https://www.bmu-musik.de/projekte/medienpreis/preistraeger-2022/'>
+        <a href='https://www.stmwk.bayern.de/allgemein/meldung/7233/gute-lehre-von-heute-schafft-die-exzellenz-von-morgen-blume-zeichnet-20-dozentinnen-und-dozenten-an-bayerns-hochschulen-mit-preis-fuer-gute-lehre-aus.html'>
           <Image src='/images/kaiser-urkunde.jpg' alt='Urkunde' mb='2' style={{border: '1px solid gray'}} />
         </a>
         <Text style={{ color: 'gray', fontSize: '0.8em', lineHeight: '1' }}>
