@@ -10,7 +10,6 @@ import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
 import style from './index.module.css';
 
 const uid = new ShortUniqueId();
-const url = 'https://musikanalyse.net';
 
 const options = {
   title: 'Tutorials',
@@ -40,8 +39,8 @@ export default function Tutorials() {
                 <div className={style.listItemEntry}>
                   { <Link href={tutorial.link} isExternal><ListIcon as={CheckCircleIcon} color='green.500' /></Link> }
                   <div>
-                    <Link href={url + tutorial.link} isExternal><i>{tutorial.title}</i> <ExternalLinkIcon /></Link>, <span>{tutorial.abstract}<br /> 
-                    Quelle: <a href={url}>musikanalyse.net</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
+                    <Link href={tutorial.link} isExternal><i>{tutorial.title}</i> <ExternalLinkIcon /></Link>, <span>{tutorial.abstract}<br />
+                    Quelle: <a href='https://openmusic.academy'>openmusic.academy</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
                   </div>
                 </div>
               </ListItem>)
