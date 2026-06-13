@@ -1,5 +1,90 @@
 [
-  {
+    {
+    "name": "Wintersemester 2026/2027",
+    "annotations": "",
+    "unterricht": [
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "12:15",
+        "Duration": "1:30",
+        "Category": "Hauptseminar",
+        "Title": "Wissenschaftliches Arbeiten",
+        "Description": "Was ist Wissenschaft? Was heißt es heute, wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen liegt ein Schwerpunkt in diesem Seminar auf dem Recherchieren und Bewerten von Informationen. Dazu werden Datenbanken (OPAC, DBIS, EZB, Subito) und die Operatorensuche vorgestellt (auf Wikipedia, in Suchmaschinen und Webseiten wie z.B. JSTOR) sowie das ›prompten‹ mit KI-Tools geübt (Elicit, Research Rabbit, ChatGPT u.a.). Darüber hinaus wird Raum gegeben, den Inhalt wissenschaftlicher Texte verschiedener Wissenschaftsspielarten zu erfassen und zu diskutieren (Hermeneutik, Konstruktivismus, Systemtheorie). Damit stehen jene Fähigkeiten im Fokus, die in den sog. W-Seminaren in Gymnasien aktuell vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt geht es um Fähigkeiten, die für das inhaltliche und technische Erstellen einer Zulassungs- oder Diplomarbeit essentiell sind. Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "S",
+        "Start": "14:15",
+        "Duration": "1:30",
+        "Category": "Seminar",
+        "Title": "IM 1 – Projekt 1",
+        "Description": "In diesem Seminar werden Techniken der Orchesterbearbeitung vorgestellt und der Umgang mit der Open-Source-Software MuseScore erlernt. Ziel des Seminars ist es, eine Filmmusik für Orchester zu einem kurzen Film bzw. Filmausschnitt der Blender Foundation auszuarbeiten und das dafür notwendige Aufführungsmaterial zu erstellen (z.B. mit MuseScore, Sibelius etc.). In einer Blockveranstaltung gegen Ende des Wintersemesters werden die Filmmusiken in einem kurzen Einstudierungsversuch live zum Film aufgeführt.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Hs",
+        "Start": "16:15",
+        "Duration": "2:15",
+        "Category": "Projektseminar",
+        "Title": "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
+        "Description": "Seit die UNESCO im Jahr 2002 den Begriff ›Open Educational Resources‹ (OER) geprägt hat, erhielt die dahinterliegende Idee auf internationaler Ebene Auftrieb. Ursache hierfür dürfte die wachsende Bedeutung digitaler Medien für das Lehren und Lernen gewesen sein. In Deutschland hielt man dagegen noch im Jahr 2011 das Thema OER für wenig zukunftsträchtig und den Mangel an digital verfügbaren Unterrichtsmaterialien für unproblematisch. Eine eklatante Fehleinschätzung, die spätestens 2020 durch die weltweite Ausbreitung des Virus SARS-CoV-2 (Corona-Pandemie) offensichtlich geworden ist und deren Revision seit 2021 nun auch in Deutschland zu einer verstärkten Förderung freier Bildungsmaterialien geführt hat. Dieses Seminar bietet eine Annäherung an die Themen ›Open Educational Practices‹ (OEP) und OER. Ziel ist es, ausgewählte Kontexte wie das Urheberrecht und Creative-Commons-Lizenzen zu besprechen, gängige Missverständnisse, Aspekte der Medienethik und der Medienkompetenz zu diskutieren und die Frage nach der sozial-gesellschaftlichen Relevanz von OEP zu stellen. Darüber hinaus soll es auch um die praktische Arbeit an OER gehen, also um das Besprechen und Realisieren einer eigenen Projektidee und nach Möglichkeit um die Veröffentlichung von Projektergebnissen auf der Open Music Academy.",
+        "DayOfWeek": "Dienstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "HS",
+        "Start": "12:15",
+        "Duration": "1:30",
+        "Category": "Hauptseminar",
+        "Title": "Musik der Romantik",
+        "Description": "Dieses Seminar fokussiert Musik der Romantik (Schubert, Mendelssohn, Brahms, Bruckner usw.). Dabei geht es zum einen um analytische Zugänge (Umgang mit Musik und Text, komplexen Partituren usw.) sowie um Aspekte der Stilübung. In der ersten Sitzung erfolgen Vorschläge für Seminarinhalte, die nach Wünschen der Teilnehmenden modifiziert werden können. Im Hinblick auf satztechnische Kompetenzen können im Rahmen einer Flipped-Classroom-Konzeption die folgenden Tonsatzaufgaben des Staatsexamens integriert werden: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop." ,
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "bd052089-aca1-4584-a38a-8e5277bcba1c",
+        "CourseType": "Ps",
+        "Start": "14:15",
+        "Duration": "0:45",
+        "Category": "Musik und Form",
+        "Title": "Form und Formenlehre",
+        "Description": "In diesem Seminar wird ein Überblick über musikalische Formen gegeben und anhand zahlreicher Beispiele die Bedeutung von Modellen für die Formenanalyse veranschaulicht. Darüber hinaus kann der Frage Raum gegeben werden, welche Rolle Formenlehre für den Musikunterricht an allgemeinbildenden Schulen spielt bzw. spielen könnte und wie sich Formenlehre im Musikunterricht vermitteln lässt.",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "c8797cf4-3d6e-40d5-be91-82d65c26c477",
+        "CourseType": "Ps",
+        "Start": "15:15",
+        "Duration": "0:45",
+        "Category": "Musiktheorien und ihre Methoden",
+        "Title": "Musiktheorie und ihre Methoden",
+        "Description": "In diesem Proseminar werden verschiedene Methoden zur Beschreibung von Musik vorgestellt und deren Anwendung anhand geeigneter Musik geübt. Ziel ist die Vermittlung eines Überblicks über das handwerkliche Rüstzeug, das im aktuellen Diskurs der Musiktheorie Anwendung findet. Darüber hinaus ist es Ziel des Seminars, ein Bewusstsein für das Zusammenspiel von Methoden und musiktheoretischen Aussagen (z.B. Theorien zu Musikstilen) zu stärken.",
+        "DayOfWeek": "Mittwoch"
+      },
+      {
+        "Id": "",
+        "CourseType": "HS",
+        "Start": "16:15",
+        "Duration": "1:30",
+        "Category": "Seminar",
+        "Title": "Arrangieren & Produzieren",
+        "Description": "In diesem Seminar geht es darum, Musik für im Seminar vorhandene instrumentale (oder vokale) Besetzungen zu arrangieren. Die Arrangements werden digital notiert, analog aufgeführt, können gefilmt und aufgenommen sowie die Materialien anschließend digital bearbeitet werden. Für Aufnahme und Bearbeitungen lassen sich kostenlose Open-Source-Programme einsetzen. In den ersten beiden Sitzungen werden die konkreten Inhalte des Seminars unter Berücksichtigung vorhandener Instrumente besprochen und festgelegt.",
+        "DayOfWeek": "Donnerstag"
+      },
+      {
+        "Id": "",
+        "CourseType": "Other",
+        "Start": "14:00",
+        "Duration": "3:0",
+        "Category": "Anderes",
+        "Title": "Sprechstunden",
+        "Description": "Gebäude C, Videostudio, Raum 001–003",
+        "DayOfWeek": "Freitag"
+      }
+    ]
+  },{
     "name": "Sommersemester 2026",
     "annotations": "",
     "unterricht": [
