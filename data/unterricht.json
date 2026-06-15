@@ -1,5 +1,5 @@
 [
-    {
+  {
     "name": "Wintersemester 2026/2027",
     "annotations": "",
     "unterricht": [
@@ -40,7 +40,7 @@
         "Duration": "1:30",
         "Category": "Hauptseminar",
         "Title": "Musik der Romantik",
-        "Description": "Dieses Seminar fokussiert Musik der Romantik (Schubert, Mendelssohn, Brahms, Bruckner usw.). Dabei geht es zum einen um analytische Zugänge (Umgang mit Musik und Text, komplexen Partituren usw.) sowie um Aspekte der Stilübung. In der ersten Sitzung erfolgen Vorschläge für Seminarinhalte, die nach Wünschen der Teilnehmenden modifiziert werden können. Im Hinblick auf satztechnische Kompetenzen können im Rahmen einer Flipped-Classroom-Konzeption die folgenden Tonsatzaufgaben des Staatsexamens integriert werden: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop." ,
+        "Description": "Dieses Seminar fokussiert Musik der Romantik (Schubert, Mendelssohn, Brahms, Bruckner usw.). Dabei geht es zum einen um analytische Zugänge (Umgang mit Musik und Text, komplexen Partituren usw.) sowie um Aspekte der Stilübung. In der ersten Sitzung erfolgen Vorschläge für Seminarinhalte, die nach Wünschen der Teilnehmenden modifiziert werden können. Im Hinblick auf satztechnische Kompetenzen können im Rahmen einer Flipped-Classroom-Konzeption die folgenden Tonsatzaufgaben des Staatsexamens integriert werden: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop.",
         "DayOfWeek": "Donnerstag"
       },
       {
@@ -61,7 +61,7 @@
         "Category": "Musiktheorien und ihre Methoden",
         "Title": "Musiktheorie und ihre Methoden",
         "Description": "In diesem Proseminar werden verschiedene Methoden zur Beschreibung von Musik vorgestellt und deren Anwendung anhand geeigneter Musik geübt. Ziel ist die Vermittlung eines Überblicks über das handwerkliche Rüstzeug, das im aktuellen Diskurs der Musiktheorie Anwendung findet. Darüber hinaus ist es Ziel des Seminars, ein Bewusstsein für das Zusammenspiel von Methoden und musiktheoretischen Aussagen (z.B. Theorien zu Musikstilen) zu stärken.",
-        "DayOfWeek": "Mittwoch"
+        "DayOfWeek": "Donnerstag"
       },
       {
         "Id": "",
@@ -84,7 +84,8 @@
         "DayOfWeek": "Freitag"
       }
     ]
-  },{
+  },
+  {
     "name": "Sommersemester 2026",
     "annotations": "",
     "unterricht": [
@@ -2808,7 +2809,7 @@
       }
     ]
   },
-  {    
+  {
     "name": "Wintersemester 2012/2013",
     "annotations": "",
     "unterricht": [
