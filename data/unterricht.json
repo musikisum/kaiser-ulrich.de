@@ -10,7 +10,7 @@
         "Duration": "1:30",
         "Category": "Hauptseminar",
         "Title": "Wissenschaftliches Arbeiten",
-        "Description": "Was ist Wissenschaft? Was heißt es heute, wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen liegt ein Schwerpunkt in diesem Seminar auf dem Recherchieren und Bewerten von Informationen. Dazu werden Datenbanken (OPAC, DBIS, EZB, Subito) und die Operatorensuche vorgestellt (auf Wikipedia, in Suchmaschinen und Webseiten wie z.B. JSTOR) sowie das ›prompten‹ mit KI-Tools geübt (Elicit, Research Rabbit, ChatGPT u.a.). Darüber hinaus wird Raum gegeben, den Inhalt wissenschaftlicher Texte verschiedener Wissenschaftsspielarten zu erfassen und zu diskutieren (Hermeneutik, Konstruktivismus, Systemtheorie). Damit stehen jene Fähigkeiten im Fokus, die in den sog. W-Seminaren in Gymnasien aktuell vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt geht es um Fähigkeiten, die für das inhaltliche und technische Erstellen einer Zulassungs- oder Diplomarbeit essentiell sind. Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.",
+        "Description": "Was ist Wissenschaft? Was heißt es in der heutigen Zeit, wissenschaftlich zu arbeiten? Neben einer Klärung dieser grundlegenden Fragen liegt ein Schwerpunkt in diesem Seminar auf dem Recherchieren und Bewerten von Informationen. Dazu werden Datenbanken (OPAC, DBIS, EZB, Subito) und die Operatorensuche vorgestellt (auf Wikipedia, in Suchmaschinen und Webseiten wie z.B. JSTOR) sowie das prompten mit KI-Tools geübt (ChatGPT, Claude, Google AI u.a.). Darüber hinaus wird Raum gegeben, den Inhalt wissenschaftlicher Texte verschiedener Wissenschaftsspielarten zu erfassen und zu diskutieren (Hermeneutik, Konstruktivismus, Systemtheorie). Damit stehen jene Fähigkeiten im Fokus, die in den sog. W-Seminaren in Gymnasien aktuell vermittelt werden sollen (Anwendungs- und Medienkompetenz, Reflexionskompetenz und Urteilskompetenz). Nicht zuletzt geht es um Fähigkeiten, die für das inhaltliche und technische Erstellen einer Zulassungs- oder Diplomarbeit essentiell sind. Das Seminar ist zur Vorbereitung des schriftlichen Staatsexamens (Analyse) geeignet, für Studierende des Studiengangs BA Musiktheorie ist es verpflichtend.",
         "DayOfWeek": "Dienstag"
       },
       {
@@ -40,7 +40,7 @@
         "Duration": "1:30",
         "Category": "Hauptseminar",
         "Title": "Musik der Romantik",
-        "Description": "Dieses Seminar fokussiert Musik der Romantik (Schubert, Mendelssohn, Brahms, Bruckner usw.). Dabei geht es zum einen um analytische Zugänge (Umgang mit Musik und Text, komplexen Partituren usw.) sowie um Aspekte der Stilübung. In der ersten Sitzung erfolgen Vorschläge für Seminarinhalte, die nach Wünschen der Teilnehmenden modifiziert werden können. Im Hinblick auf satztechnische Kompetenzen können im Rahmen einer Flipped-Classroom-Konzeption die folgenden Tonsatzaufgaben des Staatsexamens integriert werden: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop." ,
+        "Description": "Dieses Seminar fokussiert Musik der Romantik (Schubert, Mendelssohn, Brahms, Bruckner usw.). Dabei geht es zum einen um analytische Zugänge (Umgang mit Musik und Text, komplexe Partituren usw.) sowie um Aspekte der Stilübung. In der ersten Sitzung erfolgen Vorschläge für Seminarinhalte, die nach Wünschen der Teilnehmenden modifiziert werden können. Im Hinblick auf satztechnische Kompetenzen können im Rahmen einer Flipped-Classroom-Konzeption die folgenden Tonsatzaufgaben des Staatsexamens integriert werden: Alte Musik, Passacaglia, Fuge, Sonate, Romantik und Pop." ,
         "DayOfWeek": "Donnerstag"
       },
       {
@@ -70,7 +70,7 @@
         "Duration": "1:30",
         "Category": "Seminar",
         "Title": "Arrangieren & Produzieren",
-        "Description": "In diesem Seminar geht es darum, Musik für im Seminar vorhandene instrumentale (oder vokale) Besetzungen zu arrangieren. Die Arrangements werden digital notiert, analog aufgeführt, können gefilmt und aufgenommen sowie die Materialien anschließend digital bearbeitet werden. Für Aufnahme und Bearbeitungen lassen sich kostenlose Open-Source-Programme einsetzen. In den ersten beiden Sitzungen werden die konkreten Inhalte des Seminars unter Berücksichtigung vorhandener Instrumente besprochen und festgelegt.",
+        "Description": "In diesem Seminar geht es darum, Musik für im Seminar vorhandene instrumentale (oder vokale) Besetzungen zu arrangieren. Die Arrangements werden digital notiert, analog aufgeführt, können aufgenommen und gefilmt sowie die entstandenen Materialien digital bearbeitet werden. Für Aufnahme und Bearbeitungen können kostenlose Open-Source-Programme oder Freeware eingesetzt werden. In den ersten beiden Sitzungen werden die konkreten Inhalte des Seminars unter Berücksichtigung vorhandener Instrumente besprochen und festgelegt.",
         "DayOfWeek": "Donnerstag"
       },
       {
