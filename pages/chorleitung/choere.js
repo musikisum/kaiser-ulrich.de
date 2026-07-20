@@ -56,7 +56,8 @@ export default function Choere() {
           <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/cmb-mozart-requiem-chorsaetze.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
-          Wolfgang Amadeus Mozart, <i>Requiem</i> KV 626 (nur Chorsätze)
+          Wolfgang Amadeus Mozart, <i>Requiem</i> KV 626 (nur Chorsätze),<br/>
+          gemeinsam mit einigen Sänerinnen und Sängern des Ensemberlino Vocale (s.u.)
         </Box>
       </Flex>                  
       <Flex flexWrap='wrap'>
@@ -101,7 +102,8 @@ export default function Choere() {
           <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/ev-brahms-op52-11.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
-          Johannes Brahms, Liebesliederwalzer op. 52, Nr. 11, <i>Nein es ist nicht auszukommen mit den Leuten</i>
+          Johannes Brahms, Liebesliederwalzer op. 52, Nr. 11, <i>Nein es ist nicht auszukommen mit den Leuten</i><br/>
+          Alle Aufnahmen: <a href='https://openmusic.academy/docs/82vtvP4Bp17N8j6JjZ8WR8/' className='underline'>Liebesliederwalzer Op. 52</a>
         </Box>
       </Flex>                  
       <Flex flexWrap='wrap'>
@@ -109,7 +111,8 @@ export default function Choere() {
           <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/ev-brahms-op104-5.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
-          Johannes Brahms, weltliche Chorlieder op.104, Nr. 5, <i>Im Herbst</i>
+          Johannes Brahms, weltliche Chorlieder op.104, Nr. 5, <i>Im Herbst</i><br/>
+          Alle Aufnahmen: <a href='https://openmusic.academy/docs/3UCN2Z5g8Frtcz7HB1yaKL/' className='underline'>Op. 42, Op. 93a und Op. 104</a>
         </Box>
       </Flex>                  
       <Flex flexWrap='wrap'>
