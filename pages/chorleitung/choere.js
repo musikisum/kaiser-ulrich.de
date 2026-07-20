@@ -53,10 +53,10 @@ export default function Choere() {
       <Text as='b'>Hörbeispiele:</Text>
       <Flex flexWrap='wrap' mt='20px'>
         <Box as='b' color='#6e91a1' pr='40px' mt='10px'>
-          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/cmb-mozart.mp3' controls></audio>
+          <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/cmb-mozart-requiem-chorsaetze.mp3' controls></audio>
         </Box>
         <Box flex='1' pt='24px'>
-          Wolfgang Amadeus Mozart, <i>Requiem</i> KV 626 (Anfang)
+          Wolfgang Amadeus Mozart, <i>Requiem</i> KV 626 (nur Chorsätze)
         </Box>
       </Flex>                  
       <Flex flexWrap='wrap'>
