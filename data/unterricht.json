@@ -65,16 +65,6 @@
       },
       {
         "Id": "",
-        "CourseType": "HS",
-        "Start": "16:15",
-        "Duration": "1:30",
-        "Category": "Seminar",
-        "Title": "Arrangieren & Produzieren",
-        "Description": "In diesem Seminar geht es darum, Musik für im Seminar vorhandene instrumentale (oder vokale) Besetzungen zu arrangieren. Die Arrangements werden digital notiert, analog aufgeführt, können aufgenommen und gefilmt sowie die entstandenen Materialien digital bearbeitet werden. Für Aufnahme und Bearbeitungen können kostenlose Open-Source-Programme oder Freeware an einem Rechner der HMTM im Gebäude C (C001) oder unter Verwendung eines eigenen Laptops eingesetzt werden. In den ersten beiden Sitzungen werden die konkreten Inhalte des Seminars unter Berücksichtigung vorhandener Instrumente besprochen und festgelegt.",
-        "DayOfWeek": "Donnerstag"
-      },
-      {
-        "Id": "",
         "CourseType": "Other",
         "Start": "14:00",
         "Duration": "3:0",
