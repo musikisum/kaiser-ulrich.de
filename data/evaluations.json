@@ -1,5 +1,18 @@
 [
   {
+    "semester": "Sommersemester 2026",
+    "courses": [
+      "Hs Wissenschaftliches Arbeiten",
+      "Mehr runter als rauf! Musiktheorie heute (inkl. Examensrepetitorium)",
+      "Sonatenmusik (inkl. Examensrepetitorium)",
+      "IM 1 – Projekt 1 und 2",
+      "Open Educational Practices im Kontext der Digitalisierung / Projekt (IM 2)",
+      "Musiktechnologien in der Vermittlung"
+    ],
+    "annotation": "",
+    "link": "https://github.com/musikisum/kaiser-ulrich.de/blob/main/public/files/evaluations/kaiser_dozentenprofil_25-26.pdf"
+  },
+  {
     "semester": "Fortbildung 2026 am Pädagogischen Institut (PI) München",
     "courses": [
       "Workshop zur openmusic.academy - Materialien für den Unterricht"
@@ -11,7 +24,7 @@
     "semester": "Wintersemester 2024/2025",
     "courses": [
       "Hs Wissenschaftliches Arbeiten",
-      "Open Educational Practises im Kontext der Digitalisierung / Projekt (IM 2)",
+      "Open Educational Practices im Kontext der Digitalisierung / Projekt (IM 2)",
       "IM 1 – Projekt 1"
     ],
     "annotation": "In meinem über die genannten Veranstaltungen hinausgehenden Deputat werde ich seit dem WS 2021 für die Dauer des Projekts Open Music Academy vertreten (Vertretung: Stefan Fuchs).",
