@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import data from '../../data/verlage.json';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import LinkedText from '../components/linkedText';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer } from '@chakra-ui/react'
 
 import style from "./index.module.css";
@@ -54,7 +55,7 @@ export default function Verlage() {
                         {book.title}
                         {book.subtitle ? '. ' + book.subtitle : ''}                   
                       </i>
-                      {book.details ? ' ' + book.details + ', ' : ', '}
+                      {book.details ? <> <LinkedText text={book.details} />, </> : ', '}
                       {book.location + ' ' + book.year + '.'}
                     </div>
                   </Td>

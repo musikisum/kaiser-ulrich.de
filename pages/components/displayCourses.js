@@ -1,5 +1,6 @@
 import ShortUniqueId from 'short-unique-id';
 import CustomError from '../components/customError';
+import LinkedText from '../components/linkedText';
 import { Heading, Divider, Text, Center } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
@@ -40,7 +41,7 @@ const displayItem = (id, item) => {
                 convertTime(item.Duration, item.Title) 
               }
             </div>        
-            <div>{item.Description}</div>
+            <div><LinkedText text={item.Description} /></div>
           </div>
 }
 

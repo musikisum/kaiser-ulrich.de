@@ -3,6 +3,7 @@ import data from '../../data/musik.json';
 import Layout from "../components/layout";
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import LinkedText from '../components/linkedText';
 import { Table, Thead, Tbody, Tr, Th, Td, TableCaption, TableContainer, Link, Text, Heading } from '@chakra-ui/react'
 
 const uid = new ShortUniqueId()
@@ -50,7 +51,7 @@ export default function Musik() {
                       {musik.title}
                       {musik.subtitle ? '. ' + musik.subtitle : ''}
                     </i>
-                      {musik.details ? ' ' + musik.details + ', ' : ', '}
+                      {musik.details ? <> <LinkedText text={musik.details} />, </> : ', '}
                       {musik.location + ' ' + musik.year + '.'}
                   </Td>
                 </Tr>

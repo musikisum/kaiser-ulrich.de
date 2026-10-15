@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import data from '../../data/articles.json';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import LinkedText from '../components/linkedText';
 import { List, ListItem, ListIcon, Link, Text, Divider } from '@chakra-ui/react';
 import { CheckCircleIcon, NotAllowedIcon } from '@chakra-ui/icons';
 
@@ -46,9 +47,9 @@ export default function Artikel() {
                   <div>
                     {article.link ? <Link href={article.link}>&raquo;{article.title}&laquo;</Link> : <span>&raquo;{article.title}&laquo;</span>}
                     <span>, in:</span> <i>{article.parent}</i>
-                    {article.additional ? ' ' + article.additional : ''}
-                    {article.issue ? ' ' + article.issue + '' : ''}
-                    {article.details ? ', ' + article.details : ''}
+                    {article.additional ? <> <LinkedText text={article.additional} /></> : ''}
+                    {article.issue ? <> <LinkedText text={article.issue} /></> : ''}
+                    {article.details ? <>, <LinkedText text={article.details} /></> : ''}
                     {'.'}
                   </div>
                 </div>

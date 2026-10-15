@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import ShortUniqueId from 'short-unique-id';
 import data from '../../data/evaluations.json';
 import PageHeader from '../components/pagehaeder';
+import LinkedText from '../components/linkedText';
 import { Heading, Text, Divider, Box } from '@chakra-ui/react';
 
 const options = {
@@ -36,11 +37,11 @@ export default function Evaluation() {
             <ul className='list2040'>
               {
                 evaluation.courses.map(course => {
-                  return <li key={uid.seq()}>{course}</li>
+                  return <li key={uid.seq()}><LinkedText text={course} /></li>
                 })
               }
             </ul>
-            {evaluation.annotation && <Text>{evaluation.annotation}</Text>}
+            {evaluation.annotation && <Text><LinkedText text={evaluation.annotation} /></Text>}
             <Link className='importantLink' href={evaluation.link}>Evaluationsergebnisse</Link>
             <Divider mt='20px' mb='20px' h='1px' bg='gray' w='50%' />
           </Box>

@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import data from '../../data/summary.json';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import LinkedText from '../components/linkedText';
 import { CheckCircleIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import { List, ListItem, ListIcon, Text, Link } from '@chakra-ui/react';
 
@@ -39,7 +40,7 @@ export default function Tutorials() {
                 <div className={style.listItemEntry}>
                   { <Link href={tutorial.link} isExternal><ListIcon as={CheckCircleIcon} color='green.500' /></Link> }
                   <div>
-                    <Link href={tutorial.link} isExternal><i>{tutorial.title}</i> <ExternalLinkIcon /></Link>, <span>{tutorial.abstract}<br />
+                    <Link href={tutorial.link} isExternal><i>{tutorial.title}</i> <ExternalLinkIcon /></Link>, <span><LinkedText text={tutorial.abstract} /><br />
                     Quelle: <a href='https://openmusic.academy'>openmusic.academy</a></span>, letzte Aktualisierung: <span>{dateFormat(Date.parse(tutorial.modified), 'hh.mm.yyyy')}</span>
                   </div>
                 </div>

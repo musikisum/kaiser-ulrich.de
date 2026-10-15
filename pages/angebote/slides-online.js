@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import { useState } from 'react';
 import ShortUniqueId from 'short-unique-id';
 import PageHeader from '../components/pagehaeder';
+import LinkedText from '../components/linkedText';
 import data from '../../data/vortraege-online.json';
 import { Flex, Text, Box, Accordion, AccordionItem, AccordionButton, AccordionPanel, Link } from '@chakra-ui/react';
 
@@ -116,9 +117,9 @@ export default function SlidesOnline() {
                       <Box fontSize='lg'>{isExpanded ? '−' : '+'}</Box>
                     </AccordionButton>
                     <AccordionPanel px='4' py='3' fontSize='sm'>
-                      <Text mb='3'>{activeItem.details}</Text>
+                      <Text mb='3'><LinkedText text={activeItem.details} /></Text>
                       {activeItem.abstract && (
-                        <Text><b>Abstract:</b> {activeItem.abstract}</Text>
+                        <Text><b>Abstract:</b> <LinkedText text={activeItem.abstract} /></Text>
                       )}
                     </AccordionPanel>
                   </>
