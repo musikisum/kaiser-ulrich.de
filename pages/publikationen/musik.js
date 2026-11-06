@@ -77,12 +77,12 @@ export default function Musik() {
           <Tbody>
           <Tr>
               <Td style={{ 'verticalAlign': 'top' }}>
-              <Link href='' isExternal><img src='/images/musik/brahms-cd-kaiser-sm.jpg' /></Link>
+              <Link href='https://openmusic.academy/docs/3UCN2Z5g8Frtcz7HB1yaKL/' isExternal><img src='/images/musik/brahms-cd-kaiser-sm.jpg' /></Link>
               </Td>
               <Td>
                 <Text mb='6'>Johannes Brahms. Liebesliederwalzer und andere Werke. Ensemberlino Vocale, Ltg: Ulrich Kaiser (1992−1994). Lizenz: CC BY-SA.</Text>
                 <Text>                  
-                <b>Liebesliederwalzer op. 52</b><br/>
+                <Link href='https://openmusic.academy/docs/82vtvP4Bp17N8j6JjZ8WR8/' isExternal className='underline'><b>Liebesliederwalzer op. 52</b></Link><br/>
                   Rede, Mädchen, allzu liebes<br/>
                   Am Gesteine rauscht die Flut<br/>
                   O die Frauen<br/>
@@ -101,18 +101,18 @@ export default function Musik() {
                   Ein dunkler Schacht ist Liebe<br/>
                   Nicht wandle, mein Licht<br/>
                   Es bebet das Gesträuche<br/><br/>
-                  <b>Drei Gesänge op. 42</b><br/>
+                  <Link href='https://openmusic.academy/docs/3UCN2Z5g8Frtcz7HB1yaKL/johannes-brahms-chorlieder-op-42-93a-104#drei-gesaenge-op-42' isExternal className='underline'><b>Drei Gesänge op. 42</b></Link><br/>
                   Abendständchen<br/>
                   Vineta<br/>
                   Darthulas Grabgesang<br/><br/>
-                  <b>Lieder und Romanzen op. 93a</b><br/>
+                  <Link href='https://openmusic.academy/docs/3UCN2Z5g8Frtcz7HB1yaKL/johannes-brahms-chorlieder-op-42-93a-104#sechs-lieder-und-romanzen-op-93a' isExternal className='underline'><b>Lieder und Romanzen op. 93a</b></Link><br/>
                   Der bucklichte Fiedler<br/>
                   Das Mädchen<br/>
                   O süßer Mai<br/>
                   Fahr wohl<br/>
                   Der Falke<br/>
                   Beherzigung<br/><br/>
-                  <b>Fünf Gesänge op. 104</b><br/>
+                  <Link href='https://openmusic.academy/docs/3UCN2Z5g8Frtcz7HB1yaKL/johannes-brahms-chorlieder-op-42-93a-104#fuenf-gesaenge-op-104' isExternal className='underline'><b>Fünf Gesänge op. 104</b></Link><br/>
                   Nachtwache I<br/>
                   Nachtwache II<br/>
                   Letztes Glück<br/>
