@@ -8,7 +8,7 @@ const linkPattern = /\[([^\]]+)\]\(((?:[^()\s]|\([^()\s]*\))+)\)/g;
 const opensInNewTab = (href) => /^https?:\/\//.test(href) || /\.pdf$/i.test(href);
 
 export default function LinkedText({ text }) {
-  if (!text) return null;
+  if (typeof text !== 'string' || !text) return null;
   const parts = [];
   let lastIndex = 0;
   for (const match of text.matchAll(linkPattern)) {
