@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import data from '../../data/unterricht.json';
 import PageHeader from '../components/pagehaeder';
 import DisplayCourses from '../components/displayCourses';
+import WeekCalendar from '../components/weekCalendar';
 import { Select, Box, Flex, Spacer, Divider, Text } from '@chakra-ui/react';
 
 const uid = new ShortUniqueId();
@@ -71,8 +72,9 @@ export default function Unterricht() {
           </Select>}
         </Box>
       </Flex>
-      { displayCourse && 
-        <DisplayCourses 
+      { displayCourse && <WeekCalendar semester={displayCourse} /> }
+      { displayCourse &&
+        <DisplayCourses
           semester={displayCourse || []} 
           name={displayCourse.name || 'Keine  Daten vorhanden'} 
         /> }
