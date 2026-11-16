@@ -35,7 +35,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>GeZuMu</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zur Projekt <i>Generation Zukunft Musik</i> (GeZuMu), das bisher leider noch nicht realisiert werden konnte. Doch die Projektidee lebt weiter ... 
+            Auf dieser Seite finden Sie Informationen zum Projekt <i>Generation Zukunft Musik</i> (GeZuMu), das bisher leider noch nicht realisiert werden konnte. Doch die Projektidee lebt weiter ... 
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/gezumu'>
@@ -85,7 +85,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>ELMU</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zum ELMU-Projekt. Das ELMU-Projekt ist bereits abgeschlossen und wurde in die Open Musik Academy (OMA) überführt.
+            Auf dieser Seite finden Sie Informationen zum ELMU-Projekt. Das ELMU-Projekt ist bereits abgeschlossen und wurde in die Open Music Academy (OMA) überführt.
           </Text>
           <CardFooter pl='0'>
             <Link href='/projekte/elmu'>

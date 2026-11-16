@@ -84,13 +84,13 @@ export default function Gesang() {
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px'>
           <Box as='b' w='150px' color='#6e91a1'>1985–1987</Box>
-          <Box flex='1'>Gesangsunterricht (im Rahmen des Lehramtstudiums) bei Herbert Grzymek</Box>
+          <Box flex='1'>Gesangsunterricht (im Rahmen des Lehramtsstudiums) bei Herbert Grzymek</Box>
         </Flex>                  
       </ListItem>
       <ListItem style={{'borderBottom': '1px solid gray'}}>
         <Flex mb='16px'>
           <Box as='b' w='150px' color='#6e91a1'>1985–1987</Box>
-          <Box flex='1'>Gesangsunterricht (im Rahmen des Lehramtstudiums) bei Prof. Anke Eggers</Box>
+          <Box flex='1'>Gesangsunterricht (im Rahmen des Lehramtsstudiums) bei Prof. Anke Eggers</Box>
         </Flex>                  
       </ListItem>
       <ListItem style={{'borderBottom': '1px solid gray'}}>
@@ -163,7 +163,7 @@ export default function Gesang() {
             <audio src='https://raw.githubusercontent.com/musikisum/kaiser-ulrich.de/main/public/medien/kaiser-gesang_bach.mp3' controls></audio>
           </Box>
           <Box flex='1' pt='10px'>
-            <i>»So geh ich mit beherzten Schritten«</i>, aus: Johann Sebastian Bach, Kanate BWV 111 »Was mein Gott will, dass gscheh allzeit«, Nr. 4, Duett Alt und Tenor 
+            <i>»So geh ich mit beherzten Schritten«</i>, aus: Johann Sebastian Bach, Kantate BWV 111 »Was mein Gott will, dass gscheh allzeit«, Nr. 4, Duett Alt und Tenor 
           </Box>
         </Flex>                  
       </ListItem>

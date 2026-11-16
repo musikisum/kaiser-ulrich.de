@@ -136,7 +136,7 @@ export default function Index() {
           <Stack>
             <Heading fontSize='xl'>Musik</Heading>
             <Text fontSize='l'>
-              Auf dieser Seite finden Sie Informationen zu Kompositionen, Arraangements und Aufnahmen, die ich seit 1994 veröffentlicht habe.
+              Auf dieser Seite finden Sie Informationen zu Kompositionen, Arrangements und Aufnahmen, die ich seit 1994 veröffentlicht habe.
             </Text>
             <CardFooter pl='0'>
               <Link href='/publikationen/musik/'>

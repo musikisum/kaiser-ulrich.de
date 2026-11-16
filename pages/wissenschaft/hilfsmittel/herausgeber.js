@@ -7,7 +7,7 @@ import style from '../index.module.css'
 
 const options = {
   title: 'Anmerkungen zum Herausgeber',
-  description: 'Häufig werde ich gefragt, warum in in den von mir bevorzugten Zitationsstilen auf die Angabe einer Herausgeberin oder eine Herausgebers verzichte. Die Begründung dafür finden Sie hier.',
+  description: 'Häufig werde ich gefragt, warum in den von mir bevorzugten Zitationsstilen auf die Angabe einer Herausgeberin oder eines Herausgebers verzichte. Die Begründung dafür finden Sie hier.',
   filter: 'wissenschaft/hilfsmittel',
   slug: '/wissenschaft/hilfsmittel/herausgeber'
 }

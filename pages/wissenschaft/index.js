@@ -85,7 +85,7 @@ export default function Wissenschaft() {
         <Stack>
           <Heading fontSize='xl'>Hilfsmittel</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zu den Hilfsmittel, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.
+            Auf dieser Seite finden Sie Informationen zu den Hilfsmitteln, die den Einstieg in das wissenschaftliche Arbeiten erleichtern sollen.
           </Text>
           <CardFooter pl='0'>
             <Link href='/wissenschaft/hilfsmittel'>

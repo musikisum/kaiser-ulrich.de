@@ -35,7 +35,7 @@ export default function Angebote() {
         <Stack>
           <Heading fontSize='xl'>Fortbildungen</Heading>
           <Text fontSize='l'>
-            Auf dieser Seite finden Sie Informationen zu meinem Fortbildunsgangeboten.
+            Auf dieser Seite finden Sie Informationen zu meinen Fortbildunsgangeboten.
           </Text>
           <CardFooter pl='0'>
             <Link href='/angebote/fortbildungen'>

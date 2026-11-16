@@ -30,7 +30,7 @@ export default function Kommunikation() {
       </Heading>
 
       <Text mb='20px'>       
-        Diese Frage nach einer Definition wissenschaftlicher Kommunikation mag Furcht einflößen, Diskussionen heraufbeschwören und zur Vorsicht gemahnen. Im Folgenden möchte ich deshalb versuchen, mein Wissenschaftsverständnis über eine Metapher zu skizzieren. Die Veranschaulichung könnte unernst erscheinen, ist jedoch vollkommen ernst gemeint und basiert auf einem konstruktivistischen Verständnis, dass an Niklas Luhmanns Überlegungen zur Wissenschaft orientiert ist.        
+        Diese Frage nach einer Definition wissenschaftlicher Kommunikation mag Furcht einflößen, Diskussionen heraufbeschwören und zur Vorsicht gemahnen. Im Folgenden möchte ich deshalb versuchen, mein Wissenschaftsverständnis über eine Metapher zu skizzieren. Die Veranschaulichung könnte unernst erscheinen, ist jedoch vollkommen ernst gemeint und basiert auf einem konstruktivistischen Verständnis, das an Niklas Luhmanns Überlegungen zur Wissenschaft orientiert ist.        
       </Text>
 
       <Flex flexWrap='wrap' mb='1'>
@@ -53,7 +53,7 @@ export default function Kommunikation() {
         </Box>
         <Box className={style.greenCell}>
           <Text>
-            Wissenschaft ist wie  eine Spielhalle und wissenschaftliches Arbeiten wie ein Spiel. Ziel des Wissenschaftsspiel ist es, überprüfbares Wissen zu generieren. In der Spielhalle spielen Fachwissenschaften an verschiedenen Tischen Varianten des Wissenschaftsspiels. An allen Tischen der Spielhalle gelten die allgemeinen Geschäftsbedingungen des Wissenschaftsspiels, von Spieltisch zu Spieltisch jedoch können sich die Spielregeln der individuellen Spielarten unterscheiden.
+            Wissenschaft ist wie  eine Spielhalle und wissenschaftliches Arbeiten wie ein Spiel. Ziel des Wissenschaftsspiels ist es, überprüfbares Wissen zu generieren. In der Spielhalle spielen Fachwissenschaften an verschiedenen Tischen Varianten des Wissenschaftsspiels. An allen Tischen der Spielhalle gelten die allgemeinen Geschäftsbedingungen des Wissenschaftsspiels, von Spieltisch zu Spieltisch jedoch können sich die Spielregeln der individuellen Spielarten unterscheiden.
           </Text>
         </Box>
       </Flex>
@@ -65,7 +65,7 @@ export default function Kommunikation() {
         </Box>
         <Box className={style.greenCell}>
           <Text>
-            Jeder Mensch kann am Wissenschaftsspiel teilnehmen, doch niemand muss es. Ganz nach persönlichem Geschmack kann man sich auch für ein anderes Gesellschaftsspiel entscheiden (z.B. als Lehrer im Erziehungssystem, als Richterin im Rechtsystem, als Banker im Wirtschaftssystem oder als Politikerin im Politiksystem usw.). Die Spielerinnen und Spieler des Wissenschaftsspiels nennt man Wissenschaftlerinnen und Wissenschaftler.
+            Jeder Mensch kann am Wissenschaftsspiel teilnehmen, doch niemand muss es. Ganz nach persönlichem Geschmack kann man sich auch für ein anderes Gesellschaftsspiel entscheiden (z.B. als Lehrer im Erziehungssystem, als Richterin im Rechtssystem, als Banker im Wirtschaftssystem oder als Politikerin im Politiksystem usw.). Die Spielerinnen und Spieler des Wissenschaftsspiels nennt man Wissenschaftlerinnen und Wissenschaftler.
           </Text>
         </Box>
       </Flex>
@@ -89,7 +89,7 @@ export default function Kommunikation() {
         </Box>
         <Box className={style.greenCell}>
           <Text>
-            In der Spielhalle ist ein Wechsel von Spieltisch zu Spieltisch generell möglich, üblicher Weise aber nicht innerhalb eines Spiels (= Forschungsvorhabens).
+            In der Spielhalle ist ein Wechsel von Spieltisch zu Spieltisch generell möglich, üblicherweise aber nicht innerhalb eines Spiels (= Forschungsvorhabens).
           </Text>
         </Box>
       </Flex>
@@ -109,7 +109,7 @@ export default function Kommunikation() {
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color='green.500' />
-          Zu jedem Wissenschaftsspiel gehören außerdem Methoden, das heißt: mithilfe einer methodischer Überprüfung werden theoretische Sätze als wahr oder unwahr qualifiziert.
+          Zu jedem Wissenschaftsspiel gehören außerdem Methoden, das heißt: mithilfe einer methodischen Überprüfung werden theoretische Sätze als wahr oder unwahr qualifiziert.
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color='green.500' />

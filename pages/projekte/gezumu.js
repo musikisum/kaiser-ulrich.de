@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 import PageHeader from '../components/pagehaeder';
-import { Link, Text, Box, Image, Center, Heading, Divider, Img } from '@chakra-ui/react';
+import { Link, Text, Box, Center, Heading, Divider, Img } from '@chakra-ui/react';
 
 const options = {
   title: 'Generation Zukunft Musik (GeZuMu)',

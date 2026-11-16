@@ -40,7 +40,7 @@ export default function Hilfsmittel() {
             <CardFooter pl='0'>
               <Link href='/wissenschaft/hilfsmittel/kommunikation'>
                 <Button variant='solid' className={style.cardButtonSize}>
-                  Zum Wissenschaftskommunikation ...
+                  Zur Wissenschaftskommunikation ...
                 </Button>
               </Link>
             </CardFooter>

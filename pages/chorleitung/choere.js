@@ -57,7 +57,7 @@ export default function Choere() {
         </Box>
         <Box flex='1' pt='24px'>
           Wolfgang Amadeus Mozart, <i>Requiem</i> KV 626 (nur Chorsätze),<br/>
-          gemeinsam mit einigen Sänerinnen und Sängern des Ensemberlino Vocale (s.u.)
+          gemeinsam mit einigen Sängerinnen und Sängern des Ensemberlino Vocale (s.u.)
         </Box>
       </Flex>                  
       <Flex flexWrap='wrap'>
