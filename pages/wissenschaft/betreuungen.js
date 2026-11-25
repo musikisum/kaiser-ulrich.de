@@ -38,8 +38,7 @@ export default function Betreuungen() {
         Zulassungsarbeiten
       </Heading>
       <UnorderedList className={style.mtDefault}>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Digitale Medien im Musikunterricht (Thema noch in der Entwicklung)</i></ListItem>
-        <ListItem className={style.mlDefault}>Arbeitstitel: <i>Filmmusik (Thema noch in der Entwicklung)</i></ListItem>
+        <ListItem className={style.mlDefault}>Aktuell sind verschiedene Themen in der Entwicklung.</ListItem>
       </UnorderedList>
       
       <Divider mt='60px' mb='60px' height='2px' bgColor='gray' />
@@ -48,6 +47,8 @@ export default function Betreuungen() {
         Betreute und/oder begutachtete Arbeiten (seit 2006)
       </Heading>
       <UnorderedList className={style.mtDefault}>
+        <ListItem className={style.mlDefault}><i>Leitmotive und Narration in der Filmmusik Eine Analyse von James Horners Score zu Star Trek II: The Wrath of Khan</i>, Zulassungsarbeit Lehramt am Gymnasium 2026</ListItem>
+        <ListItem className={style.mlDefault}><i>Leitmotivische und instrumentatorische Gestaltung zentraler Ortsmotive in Howard Shores The Lord of the Rings-Trilogie</i>, Zulassungsarbeit Lehramt am Gymnasium 2026</ListItem>
         <ListItem className={style.mlDefault}><i>Leitmotivik in Giacomo Puccinis SUOR ANGELICA</i>, Zulassungsarbeit Lehramt am Gymnasium 2026</ListItem>
         <ListItem className={style.mlDefault}>Arbeitstitel: <i>Plattformgovernance und Nutzungsbedingungen als Rahmen musikalischer Lernprozesse</i>, Zulassungsarbeit Lehramt am Gymnasium 2026</ListItem>
         <ListItem className={style.mlDefault}><i>Popmusik in deutschen Schulbüchern aus fachwissenschaftlicher und didaktischer Perspektive, Zulassungsarbeit Lehramt am Gymnasium 2026</i></ListItem>
